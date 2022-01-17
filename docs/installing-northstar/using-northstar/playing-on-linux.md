@@ -55,7 +55,7 @@ Once in-game, LatencyFleX can be toggled off and on using the `"r_latencyflex"` 
 While playing with LatencyFleX, **VSync and Adaptive Super Sampling must be disabled**. If you wish to prevent tearing while using LatencyFleX, the following may be added to `dxgi.conf` in the root of your Titanfall 2 install:
 
 > dxgi.syncInterval = 0  
-dxgi.maxFrameRate = 144
+dxgi.maxFrameRate = *Your maximum refresh rate*
 
 
 ## Troubleshooting
