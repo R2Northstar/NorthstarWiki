@@ -1,5 +1,8 @@
 # Hosting a Basic Listen Server
 
+A listen server only runs while the user is in the match, and acts like a 'public' private match/lobby\
+The only difference between a listen and dedicated server is that a listen can only run while the host is in the match, while a dedi will run without the user or TF|2 open.
+
 ## Instructions
 
 To host a listen server on Northstar, go to the lobby and press the `Private Match` button to begin a private match. While this does allow you to host a server, other people won't be able to join it, so you'll need to port forward 2 ports to allow other people to join.\
@@ -10,10 +13,12 @@ The ports you'll need to forward are `37015` UDP, and `8081` TCP by default, if 
 
 Whether you're running a listen or dedicated server, you'll generally want to mess with the configuration at least a bit. While I do think the default configuration settings are pretty ok, being able to change your server's name or password, or increasing your server's tickrate is often something you'll want to do. Server configuration can be modified in the file `R2Northstar/mods/Northstar.CustomServers/mod/cfg/autoexec_ns_server.cfg`, which will be executed on server startup.\
 
-Additionally dedicated server settings and configs can be used on a listen server.\
-Dedicated server startup arguments can be placed into `Titanfall2/ns_startup_args.txt`\
-Dedicated convars can be placed into `R2Northstar/mods/Northstar.CustomServers/mod/cfg/autoexec_ns_server.cfg`
-The only difference between a listen and dedicated server is that a listen can only run while the host is in the match. 
+Additionally most dedicated server settings and configs can be used on a listen server.\
+Dedicated server startup arguments can't seem to be used, as the private match lobby overrides them. However most these settings can all be changed in the lobby prior to game start, rendering it a moot point. \
+The only arg that is not able to be replicated (I think) via the lobby screen is `max_players` You'd need a dedicated server if you want to change that.\
+Dedicated convars can be placed into `R2Northstar/mods/Northstar.CustomServers/mod/cfg/autoexec_ns_server.cfg`\
+
+
 
 Below are a series of variables and commands you can use for server configuration:
 
