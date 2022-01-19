@@ -185,3 +185,11 @@ A way to blacklist maps with autorotation do not exists.
 | `mp_lf_uma`            | UMA                |
 | `mp_coliseum`          | The Coliseum       |
 | `mp_coliseum_column`   | Pillars            |
+
+## Mod Installation
+
+Mods can be installed onto dedi and listen servers. \
+A current list of mods can be found in the [Northstar discord](https://discord.com/invite/northstar), usually under a tab named `northstar-mods`.\
+To install server side mods extract the mod folder to `R2Northstar\mods`\
+Some mods may come with Convar requirements. Make sure you read the mods docs before install.\
+I would reccomend installing the TeamAutoBalance mod with `autobal_threshold 3` to ensure fair(ish) matches. 
