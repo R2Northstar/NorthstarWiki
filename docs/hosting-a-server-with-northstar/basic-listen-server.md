@@ -1,7 +1,7 @@
 # Hosting a Basic Listen Server
 
 A listen server only runs while the user is in the match, and acts like a 'public' private match/lobby\
-The only difference between a listen and dedicated server is that a listen can only run while the host is in the match, while a dedi will run without the user or TF|2 open.
+The only difference between a listen and dedicated server is that a listen can only run while the host is in the match or in the lobby screen, while a dedi will run without the user or TF|2 open.
 
 ## Instructions
 
