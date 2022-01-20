@@ -10,17 +10,19 @@ and will not move to the next lines, causing crashes or freezes.
 
 How do i use `thread`?
 -------------
-using thread is fairly simple, if we have a function called `delayannouncement` that chooses one player as "it" after spawning we cannot use this function on its own, instead calling it with a thread by simply calling
+Using thread is fairly simple, if we have a function called `delayannouncement` that chooses one player as "it" after spawning we cannot use this function on its own, instead calling it with a thread by simply calling
 
 `thread delayitems()`
  
- the same applies to a `while(true)` function, for example `almostover` a function that checks every 5 seconds to see if the game has 2 or less minutes left and announces it if so.
+The same applies to a `while(true)` function, for example `almostover` a function that checks every 5 seconds to see if the game has 2 or less minutes left and announces it if so.
  
  `thread almostover()`
  
  Example Script
  -----------
  lets try implement both of our scripts from the previous 2 sections, as well as a callback to trigger the script.
+ 
+ First, lets add our callback to the gamemodes core function. 
  
  ```
  global function GamemodeTag_Init
@@ -30,14 +32,14 @@ using thread is fairly simple, if we have a function called `delayannouncement` 
   AddCallback_GameStateEnter( eGameState.Playing, MatchStart )
   }
  ```
- First, lets add our callback to the gamemodes core function. 
+Then lets define the function matchstart and have it simply thread our two important functions.
  ```
  void Matchstart{
   thread delayannouncement()
   thread almostover()
  }
  ```
- then lets define the function matchstart and have it simply thread our two important functions
+This script waits 10 seconds, picks a player and announces that player as "it" however being `it` currently does nothing, we will define that later.
  ```
  void delayannouncement(){
   wait 10.0 
@@ -47,7 +49,7 @@ using thread is fairly simple, if we have a function called `delayannouncement` 
 	  SendHudMessage( player, message, -1, 0.4, 255, 0, 0, 0, 0, 3, 0.15 )
 }
 ```
-This script waits 10 seconds, picks a player and announces that player as "it" however being `it` currently does nothing, we will define that later.
+This function will now repeat endlessly, waiting 5 seconds before each repeat. make sure to add a `return` or `break` statement to prevent the message looping every 5 seconds after, unless you want that
 ```
  void almostover(){
   while(true){
@@ -60,4 +62,4 @@ This script waits 10 seconds, picks a player and announces that player as "it" h
    }
  }
  ```
- This function will now repeat endlessly, waiting 5 seconds before each repeat. make sure to add a `return` or `break` statement to prevent the message looping every 5 seconds after, unless you want that
+You have now created and threaded both functions.
