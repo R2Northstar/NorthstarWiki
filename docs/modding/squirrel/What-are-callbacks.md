@@ -23,6 +23,9 @@ This callback triggers the function "Connected" whenever a player joins and pass
 
 List of callbacks
 ----------
+This is an **incomplete** list of callbacks, a better list can be found in the list of all functions: 
+https://github.com/ScureX/Titanfall2-ModdingDocumentation/blob/main/AllMethodsClean.md
+
 AddCallback_EntitiesDidLoad()
 
 AddCallback_GameStateEnter(gamestate, function to trigger)
