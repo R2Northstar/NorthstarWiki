@@ -33,4 +33,4 @@ The scirpt above defines both what functions to run, when to run them and WHERE 
 	]
 }
 ```
-this defines the path to the localisation file
+this defines the path to the language file
