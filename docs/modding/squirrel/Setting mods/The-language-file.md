@@ -12,3 +12,6 @@ This follows a fairly simple template, the only thing of note is that you often 
 		"SIMPLERANDOMISER" "Randomise"
 	}
 }
+```
+
+Name this file simplerandomiser_localisation_english.txt
