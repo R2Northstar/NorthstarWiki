@@ -14,4 +14,4 @@ This follows a fairly simple template, the only thing of note is that you often 
 }
 ```
 
-Name this file simplerandomiser_localisation_english.txt and place it in the yourmodsname/mod/resources/ folder
+Name this file simplerandomiser_localisation_english.txt and place it in the `yourmodsname/mod/resources/` folder
