@@ -24,23 +24,23 @@ The same applies to a `while(true)` function, for example `almostover` a functio
  
  First, lets add our callback to the gamemodes core function. 
  
- ```
+ ```cpp
  global function GamemodeTag_Init
  
 
  void function GamemodeTag_Init(){
   AddCallback_GameStateEnter( eGameState.Playing, MatchStart )
-  }
+ }
  ```
 Then lets define the function matchstart and have it simply thread our two important functions.
- ```
+ ```cpp
  void Matchstart{
   thread delayannouncement()
   thread almostover()
  }
  ```
 This script waits 10 seconds, picks a player and announces that player as "it" however being `it` currently does nothing, we will define that later.
- ```
+ ```cpp
  void delayannouncement(){
   wait 10.0 
   string chosenplayer = GetPlayerArray()[RandomInt(GetPlayerArray().len())]
@@ -50,7 +50,7 @@ This script waits 10 seconds, picks a player and announces that player as "it" h
 }
 ```
 This function will now repeat endlessly, waiting 5 seconds before each repeat. make sure to add a `return` or `break` statement to prevent the message looping every 5 seconds after, unless you want that
-```
+```cpp
  void almostover(){
   while(true){
     if(GameTime_TimeLeftSeconds() < 120){
