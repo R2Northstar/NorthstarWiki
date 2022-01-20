@@ -13,15 +13,29 @@ Squirrel as a typed language
 ========
 All variables and functions in squirrel must have a type defined on declaration
 
-```function dosomething()```
+```cpp
+function dosomething()
+```
 
 is not acceptable and should instead be
 
-```void function dosomething()```
+```cpp
+void function dosomething()
+```
+Similarly when declaring a variable
+```cpp
+funnynumber = 69
+```
+will not work, instead use:
+```cpp
+int funnynumber = 69
+```
+
 
 Variable types
+-------------
 
-```void```: can be used to define functions that do not return a value, but still do things. most of your functions will be void
+`void`: can be used to define functions that do not return a value, but still do things. most of your functions will be void
 
 ```interger```: a whole number
 
