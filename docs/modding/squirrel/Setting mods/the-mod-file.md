@@ -91,4 +91,4 @@ void function GiveRandomGun(entity player){
 }
 ```
 
-Alas **we arent done yet**
+Alas **we arent done yet** We still need the **mod.json** and the **language file**
