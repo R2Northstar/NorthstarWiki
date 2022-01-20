@@ -92,3 +92,5 @@ void function GiveRandomGun(entity player){
 ```
 
 Alas **we arent done yet** We still need the **mod.json** and the **language file**
+
+Name this sh_SimpleRandomiser.gnut and place it in the `yourmodsname/mod/scripts/vscripts/` folder
