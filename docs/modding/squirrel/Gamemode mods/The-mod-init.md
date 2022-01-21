@@ -69,6 +69,7 @@ Now it time to start writing our callbacks
 void function PlayerJoined(entity player){
     if (file.HasStarted){
         InfectPlayer( player, player)
+        RespawnInfected( player )
     }
     else{
         SetTeam( player, 0)
@@ -98,4 +99,36 @@ void function StartGame(){
 ```
 This function changes the file.HasStarted value to true and randomly selects a player from the player array as a target for the infectplayer function. 
 
-Next l
+Next lets create the function that provides the zombies the correct equipment
+```cpp
+void function RespawnInfected( entity player ){
+    if (player.GetTeam() != 1){//this makes sure players dont accidentally get given zombie weapons when first spawning as a survivor
+        return
+    }
+    //lets give them stim, followed by increased air accel
+    StimPlayer( player, 9999)
+    player.kv.airAcceleration = 2000
+    //lets give them less health than normal
+    payer.SetMaxHealth(20)
+    //lets set their loadout
+	foreach ( entity weapon in player.GetMainWeapons() )
+		player.TakeWeaponNow( weapon.GetWeaponClassName() )
+
+	foreach ( entity weapon in player.GetOffhandWeapons() )
+		player.TakeWeaponNow( weapon.GetWeaponClassName() )
+
+    player.GiveOffhandWeapon( "melee_pilot_emptyhanded", OFFHAND_MELEE )
+    //unfortunately the game requires that you have a weapon of some kind in order to use secondaries, so lets give zombies an MGL
+    player.GiveWeapon( "mp_weapon_mgl" )
+}
+```
+Finally lets define what occurs when the match ends
+```cpp
+void function DecideWinners(){
+    SetRespawnsEnabled( false )
+    SetKillcamsEnabled( false )
+    return 0
+}
+```
+Now we can save this file as _gamemode_simpleinf.gnut and place it in
+`"ourmodsname"/mod/scripts/vscripts/gamemodes`
