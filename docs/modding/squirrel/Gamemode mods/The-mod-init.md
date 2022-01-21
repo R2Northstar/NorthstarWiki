@@ -96,3 +96,6 @@ void function StartGame(){
     file.HasStarted = true
 }
 ```
+This function changes the file.HasStarted value to true and randomly selects a player from the player array as a target for the infectplayer function. 
+
+Next l
