@@ -64,6 +64,8 @@ be modified by a function in squirrel, wheras a struct like this one can.
 
 to access a variable in a struct you must format it using the name of the stuct followed by the variable itself, in this case `file.HasStarted`
 
+Main functions
+---------
 Now it time to start writing our callbacks
 ```cpp
 void function PlayerJoined(entity player){
