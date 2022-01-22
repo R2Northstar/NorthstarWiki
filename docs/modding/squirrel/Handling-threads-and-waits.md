@@ -10,9 +10,9 @@ and will not move to the next lines, causing crashes or freezes.
 
 How do i use `thread`?
 -------------
-Using thread is fairly simple, if we have a function called `delayannouncement` that chooses one player as "it" after spawning we cannot use this function on its own, instead calling it with a thread by simply calling
+Using thread is fairly simple, if we have a function called `delayannouncement` that chooses one player as "it" 10 seconds after spawning we cannot use this function on its own, instead calling it with a thread by simply calling
 
-`thread delayitems()`
+`thread delayannouncement()`
  
 The same applies to a `while(true)` function, for example `almostover` a function that checks every 5 seconds to see if the game has 2 or less minutes left and announces it if so.
  
