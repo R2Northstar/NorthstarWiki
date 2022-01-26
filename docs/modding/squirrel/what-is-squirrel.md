@@ -53,7 +53,4 @@ Variable types
 
 ```struct```: a series of attributes assigned to a structure and accessed through with structname.variablename
 
-```var```: i hate these, they can be an output however they cannot be used as an input for any functions.
-
-
-
+```var```: Var typically refers to variables that lack any stated type, this will cause issues with many functions unless you use the `untyped` identifier at the start of your file, or if you use `expect type(variable)` when passing the variable to that function
