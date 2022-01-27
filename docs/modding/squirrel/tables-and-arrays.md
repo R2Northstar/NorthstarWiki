@@ -45,13 +45,14 @@ Tables are similar to arrays but with one primary difference, rather than use a 
   
 Creation of a table is done in a similar way to arrays, however may have 2 types declared for the type of the index and the type of the content, much like arrays this will default to `var` if ignored
 ```cpp
-table<entity, int> playerkills = {"jmm889901": 5}
+table<string, int> numberofletters = {"hello": 5}
 ```
 unlike arrays however adding values to tables cannot be done using `.append` or similar means, as the index must also be declared, adding to tables is done using the `<-` operator like so.
 
 ```cpp
 table<entity, int> playerkills = {}
-playerkills["jmm889901"] <- 5
+foreach(entity player in GetPlayerArray())
+  playerkills[player] <- 5
 ```
 
 2D arrays and Tables of Arrays
