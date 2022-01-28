@@ -9,9 +9,17 @@ Also note that some solutions described below can also apply to the base game, l
 ![LSX Authentication Challenge failed](https://user-images.githubusercontent.com/97235072/148391447-300e1b47-6148-43f7-8854-b0882e150d12.png)
 
 If the usual workaround of restarting Origin/rebooting or running the vanilla game first and then Northstar don’t work, try the following:
+- first and foremost, double check that you are _LOGGED IN_ in the Origin Launcher. Titanfall will _not_
+run if you are not connected to EA servers first (and neither will Titanfall + Northstar).
 - add `-northstar` to your command line arguments/launch options field in Origin/Steam game options
 - run the game with Origin/Steam instead of starting NorthstarLauncher.exe (important)
 - error should be no more 
+
+## "Failed to load the tier0.dll at \<file location\>. The specified module could not be found."
+
+![Failed to load the tier0.dll](https://raw.githubusercontent.com/R2Northstar/NorthstarWiki/main/docs/images/northstar-launcher-error-wrong-location.png)
+
+This error is usually caused by running the `NorthstarLauncher.exe` in the wrong location, such as extracting the zip it came with directly in your Downloads folder and running it there.
 
 ## "Engine Error: File corruption detected. Please repair or re-install the game."
 
