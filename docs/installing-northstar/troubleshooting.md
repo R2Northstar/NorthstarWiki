@@ -2,6 +2,8 @@
 
 Generally try to first launch the vanilla game (i.e. not Northstar) if you encounter any issue and see if it also occurs there as well. Some problems can occur when the vanilla game was never launched before using Northstar. 
 
+A lot of problems around the game failing to communicate with Origin can also be prevented by launching Origin before Northstar should you encounter any issues in that regard.
+
 Also note that some solutions described below can also apply to the base game, like issues caused by 10th+ gen Intel CPUs.
 
 ## "Failed to initialize Origin: Origin Core seems to be running, but the LSX Authentication Challenge failed. No communication with Core is possible."
@@ -64,6 +66,8 @@ If you are seeing this in the main menu of TF|2 and have a 10th or 11th generati
 
 In the Windows Start menu on the bottom left search for "Edit the system environment variables" and open the program. In the "advanced" tab click on "Environment Variables..." near the bottom.\
 In System Variables (not user variables) click "New..." and add a new system variable where the variable name is `OPENSSL_ia32cap` and the value is `~0x200000200000000`. Make sure to click OK to apply the changes. Finally restart your device and you should be good to go.
+
+If you're on Linux, you can set the appropriate environment variable via `env OPENSSL_ia32cap=~0x20000000 %command%`.
 
 **Note:** This issue is not exclusive to Northstar client but also affects the vanilla version, so if you only get it on Northstar there might be a different problem at hand as well. In fact it's not even unique to Titanfall 2 either.
 

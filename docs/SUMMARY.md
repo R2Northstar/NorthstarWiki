@@ -27,7 +27,7 @@
 * [Hosting a Dedicated Server](hosting-a-server-with-northstar/dedicated-server/README.md)
   * [Best practices](hosting-a-server-with-northstar/dedicated-server/best-practices.md)
   * [Hosting on Linux](hosting-a-server-with-northstar/dedicated-server/hosting-on-linux.md)
-  * [Troubleshoot](hosting-a-server-with-northstar/dedicated-server/troubleshoot.md)
+* [Troubleshooting](hosting-a-server-with-northstar/troubleshooting.md)
 * [Guides](hosting-a-server-with-northstar/hosting-guides.md)
 
 ## Modding and Development
@@ -50,6 +50,7 @@
        * [The mod file](modding/squirrel/setting-mods/the-mod-file.md)
   * [Setup Syntax Highlighting](modding/squirrel/setup-syntax-highlighting.md)
   * [Localisation](modding/localisation\_files.md)
+  * [Finishing touches](modding/finishing-touches.md)
 * [Development](development.md)
 
 ## Other
