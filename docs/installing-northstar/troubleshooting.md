@@ -140,5 +140,5 @@ Campaign is not supported in 1.4, but you could do one of these **"_fixes_"**
 
 1. Doing `ns_auth_allow_insecure 1` in the console
     - [If you can't open the console](#i-cant-open-the-console)
-2. Adding -vanilla to your launch options
+2. Adding `-vanilla` to your launch options
     - [How to add launch options](#adding-launch-options)
