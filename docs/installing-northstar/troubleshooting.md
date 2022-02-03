@@ -21,7 +21,7 @@ run if you are not connected to EA servers first (and neither will Titanfall + N
 
 ## "Failed to load the tier0.dll at \<file location>. The specified module could not be found."
 
-![Failed to load the tier0.dll](https://raw.githubusercontent.com/R2Northstar/NorthstarWiki/main/docs/images/northstar-launcher-error-wrong-location.png)
+![Failed to load the tier0.dll](/docs/images/northstar-launcher-error-wrong-location.png)
 
 This error is usually caused by running the `NorthstarLauncher.exe` in the wrong location, such as extracting the zip it came with directly in your Downloads folder and running it there.
 
@@ -29,12 +29,11 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 - Default Origin Location: `%ProgramFiles(x86)%\Origin Games\Titanfall2\`
 
 **If it still appears after trying the fix above**
-
 It's possible that you may have **corrupted or missing** game files
 
 - First check \bin\x64_retail\ and check if you have these files
 
-![bin-folder](https://raw.githubusercontent.com/R2Northstar/NorthstarWiki/main/docs/images/bin-folder.png)
+![bin-folder](/docs/images/bin-folder.png)
 
 - If you dont have them verify your game on steam/origin/ea
 
