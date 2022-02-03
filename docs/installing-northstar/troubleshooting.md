@@ -118,9 +118,9 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 
 ## The Main Menu is blank
 
-- **remove conflicting mods** such as better.serverbrowser and **reinstall northstar core mods** (those that start with `Northstar.` _included in the release zip_)
-- **try deleting enabledmods.json** as well,
-- otherwise **pay attention in console for your errors** if you know what you're doing
+- Please remove conflicting mods such as `better.serverbrowser` and reinstall _Northstar core mods_ (those that start with `Northstar.` / are in the [NorthstarMods repository](https://github.com/R2Northstar/NorthstarMods) / included in the release zip).\
+- Try deleting `enabledmods.json` inside the R2Northstar folder as well.
+- Otherwise pay attention in console for your errors if you know what you're doing.
 
 ## Adding Launch Options
 
