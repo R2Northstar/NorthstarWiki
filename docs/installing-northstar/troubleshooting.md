@@ -28,7 +28,7 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 - Default Steam Location: `%ProgramFiles(x86)%\Steam\steamapps\common\Titanfall2\`
 - Default Origin Location: `%ProgramFiles(x86)%\Origin Games\Titanfall2\`
 
-### If it still appears after trying the fix above
+**If it still appears after trying the fix above**
 
 It's possible that you may have **corrupted or missing** game files
 
