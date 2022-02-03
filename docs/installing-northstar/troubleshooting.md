@@ -123,8 +123,8 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 
 ## Adding Launch Options
 
-Adding -northstar will start Northstar when launching from your launcher\
-Adding -vanilla will start the normal game when you have Northstar installed
+Adding `-northstar` will start Northstar when launching from your launcher\
+Adding `-vanilla` will start the normal game when you have Northstar installed
 
 - For Steam `Your library -> Right click TF|2 -> Properties -> Launch Options -> -northstar or -vanilla`
 - For Origin `Your library -> Right click TF|2 -> Game Properties -> Advanced Launch Options -> Command Line Arguments -> northstar or vanilla`
@@ -140,5 +140,5 @@ Campaign is not supported in 1.4, but you could do one of these **"_fixes_"**
 
 1. Doing `ns_auth_allow_insecure 1` in the console
     - [If you can't open the console](#i-cant-open-the-console)
-2. Adding -vanilla to your launch options
+2. Adding `-vanilla` to your launch options
     - [How to add launch options](#adding-launch-options)
