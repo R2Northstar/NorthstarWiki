@@ -8,7 +8,7 @@ description: >-
 
 ## Repositories
 
-Northstar is split over multiple git repositories that fulfil different functions.
+Northstar is split over multiple git repositories that fulfill different functions.
 
 * [Northstar](development.md#repositories):\
   Contains compiled and packaged releases
