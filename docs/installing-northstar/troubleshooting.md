@@ -33,7 +33,7 @@ It's possible that you may have **corrupted or missing** game files
 
 - First check \bin\x64_retail\ and check if you have these files
 
-![bin-folder](/docs/images/bin-folder.png)
+![bin folder](/docs/images/bin-folder.png)
 
 - If you dont have them verify your game on steam/origin/ea
 
