@@ -12,8 +12,8 @@ If you'd like a more lengthy set of tutorials covering many topics. Look at:
 
 You can check out all the tools for modding Titanfall 2 here:
 
-{% content-ref url="/docs/modding/tutorials/tools.md" %}
-[tools.md](/docs/modding/tutorials/tools.md)
+{% content-ref url="/docs/modding/tools.md" %}
+[tools.md](/docs/modding/tools.md)
 {% endcontent-ref %}
 
 ## Quick start
