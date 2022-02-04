@@ -13,7 +13,7 @@
 * taskinoz RSPNVPK - [Download](https://github.com/taskinoz/RSPNVPK)
 * Provoxin RSPNVPK - [Download](https://github.com/Provoxin/RSPNVPK-GUI)
 
-{% content-ref url="Using RPSNVPKs" %}
+{% content-ref url="https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction/modding-tools/how-to-use-rspnvpk" %}
 [using-rspnvpks](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction/modding-tools/how-to-use-rspnvpk)
 {% endcontent-ref %}
 
