@@ -19,8 +19,7 @@ NoSkill: How to use RSPNVPKs
 
 ### VTF & VMT
 
-* [VTFEdit](this-content-is-no-longer-available.md)
-  * [VTFVer](http://cra0kalo.com/public/VTFVer.zip) _not needed anymore, VTFEdit support v7.5_
+* [VTFEdit](https://developer.valvesoftware.com/wiki/VTFEdit)
 * [VTF Shell Extensions](https://www.wunderboy.org/valve-hl2source-sdk-tools/#vtf\_shell) - [Info](https://developer.valvesoftware.com/wiki/VTF\_Shell\_Extensions)
 
 ## Other utilities
