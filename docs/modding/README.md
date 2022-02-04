@@ -2,6 +2,7 @@
 
 Usefull resources created by the community to help you start modding:
 
+* [Tools for modding](/docs/modding/tools.md)
 * [NoSkill modding guide](https://noskill.gitbook.io/titanfall2/)
 * [All the Squirrel Constants](https://gist.github.com/laundmo/825c4708663a179b23e144402b09244f)
 * [Modding Documentation](https://github.com/ScureX/Titanfall2-ModdingDocumentation#readme)
