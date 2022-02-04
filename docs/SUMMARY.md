@@ -33,8 +33,8 @@
 ## Modding and Development
 
 * [Modding](modding/README.md)
-  * [Modding Tools](modding/tools.md)
   * [Getting Started](modding/getting-started.md)
+  * [Modding Tools](modding/tools.md)
   * [Tutorials](modding/tutorials/modding-tutorials.md)
   * [Cheatsheet](modding/cheatsheet.md)
   * [Squirrel](modding/squirrel/what-is-squirrel.md)
