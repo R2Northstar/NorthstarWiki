@@ -5,8 +5,17 @@
 ### Titanfall
 
 * Titanfall VPK Tool - [Download](http://cra0kalo.com/public/Titanfall_VPKTool3.4_Portable.zip)
-* VPK renamer / move - [Info here](../how-to-backup-extract-and-repack.md#vpk-rename-move-batch-script)
 * Legion - [Info and Download](https://wiki.modme.co/wiki/apps/Legion.html)
+
+### RPSNVPK's
+
+* squidgyberries RSPNVPK - [Download](https://github.com/squidgyberries/RSPNVPK)
+* taskinoz RSPNVPK - [Download](https://github.com/taskinoz/RSPNVPK)
+* Provoxin RSPNVPK - [Download](https://github.com/Provoxin/RSPNVPK-GUI)
+
+{% content-ref url="https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction/modding-tools/how-to-use-rspnvpk" %}
+[using-rspnvpks](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction/modding-tools/how-to-use-rspnvpk)
+{% endcontent-ref %}
 
 ### VTF & VMT
 
