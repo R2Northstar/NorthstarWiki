@@ -50,7 +50,6 @@ NoSkill: How to use RSPNVPKs
 ### Archives
 
 * [7zip](https://www.7-zip.org)
-* [WinRAR](https://www.win-rar.com/download.html?L=10)
 
 ### Driver editors
 
