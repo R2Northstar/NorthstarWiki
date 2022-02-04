@@ -66,4 +66,4 @@ NoSkill: How to use RSPNVPKs
 * [Crowbar](http://steamcommunity.com/groups/CrowbarTool)
 * [Ninja Ripper v1.7.1](https://gamebanana.com/tools/5638)
 
-Highly recommended to check the [NoSkill gitbook](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction/modding-tools) for more tools
+Highly recommended to check the [NoSkill Gitbook modding section](https://noskill.gitbook.io/titanfall2/how-to-start-modding/modding-introduction/modding-tools) for more tools.
