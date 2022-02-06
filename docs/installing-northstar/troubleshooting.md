@@ -145,7 +145,7 @@ Campaign is not supported in 1.4, but you could do one of these **"_fixes_"**
 
 ## Authentication Failed when clicking Launch Northstar
 
-Before trying this check out [this](#failed-to-initialize-origin-origin-core-seems-to-be-running-but-the-lsx-authentication-challenge-failed-no-communication-with-core-is-possible)\
+Before trying this check out [this](#failed-to-initialize-origin-origin-core-seems-to-be-running-but-the-lsx-authentication-challenge-fai)\
 If that didn't work DM me on discord (Petar#0389) and tell me if it did or didn't work.\
 Alternative to that fix:
 
