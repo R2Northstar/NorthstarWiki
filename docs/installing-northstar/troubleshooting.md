@@ -69,7 +69,7 @@ You are probably using EA Desktop app and it sets up game installations with no 
 * **Solution 2**: If you know how, just copy the mentioned file manually, remembering you need to change its filename (just use some temp dir and rename there).
 * **Solution 3**: If you know how, just change the folder permissions in Properties->Security tab of your Titanfall2 install dir to let your user write.
 
-## Can't Join Servers <a href="#intel" id="intel"></a>
+## Can't Join Servers (Issues with 10th+ gen Intel CPUs)<a href="#intel" id="intel"></a>
 
 ![Newer Intel CPU error: Data Center: Searching...](https://user-images.githubusercontent.com/18601697/148625000-882bf1db-b9b2-4e9e-88db-6d608e58a35b.png)
 
