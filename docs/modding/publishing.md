@@ -24,7 +24,7 @@ README.md
 
 - `icon.png`: 256x256px icon for your mod.
 - `README.md`: the description page for your mod
-- `manifest.json` outlined here: https://northstar.thunderstore.io/package/create/docs/
+- `manifest.json` outlined [here](https://northstar.thunderstore.io/package/create/docs/)
 
 You can put multiple mods in the `mods/` folder, but only do this if neccessary.
 
