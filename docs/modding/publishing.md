@@ -34,6 +34,6 @@ manifest.json checker: [https://northstar.thunderstore.io/tools/manifest-v1-vali
 
 After you have set up the folder structure, head to [https://northstar.thunderstore.io](https://northstar.thunderstore.io) and log in with either Discord or Github. Then you can use the _Upload_ button at the top of the page to upload your zip.
 
-When uploading, it will verify your package structure and you can publish after its successfully checked.
+When uploading, it will verify your package structure and you can publish after it's successfully checked.
 
 To update a mod, change the version in mod.json and manifest.json, and upload again. If the mod name is the same, it will update the previous version.
