@@ -28,7 +28,7 @@ README.md
 
 You can put multiple mods in the `mods/` folder, but only do this if neccessary.
 
-manifest.json checker: https://northstar.thunderstore.io/tools/manifest-v1-validator/
+manifest.json checker: [https://northstar.thunderstore.io/tools/manifest-v1-validator/](https://northstar.thunderstore.io/tools/manifest-v1-validator/)
 
 ## Uploading
 
