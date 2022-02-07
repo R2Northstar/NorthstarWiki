@@ -32,7 +32,7 @@ manifest.json checker: [https://northstar.thunderstore.io/tools/manifest-v1-vali
 
 ## Uploading
 
-After you have set up the folder structure, head to https://northstar.thunderstore.io and log in with either Discord or Github. Then you can use the Upload button at the top to upload your zip.
+After you have set up the folder structure, head to [https://northstar.thunderstore.io](https://northstar.thunderstore.io) and log in with either Discord or Github. Then you can use the _Upload_ button at the top of the page to upload your zip.
 
 When uploading, it will verify your package structure and you can publish after its successfully checked.
 
