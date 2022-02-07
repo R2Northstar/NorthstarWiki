@@ -4,7 +4,7 @@ Generally try to first launch the vanilla game (i.e. not Northstar) if you encou
 
 A lot of problems around the game failing to communicate with Origin can also be prevented by launching Origin before Northstar should you encounter any issues in that regard.
 
-Also note that some solutions described below can also apply to the base game, like issues caused by [10th+ gen Intel CPUs](troubleshooting.md#cant-join-servers).
+Also note that some solutions described below can also apply to the base game, like issues caused by [10th+ gen Intel CPUs](#intel).
 
 ## LSX Authentication Failed <a href="#lsx" id="lsx"></a>
 
@@ -13,7 +13,7 @@ Also note that some solutions described below can also apply to the base game, l
 If the usual workaround of restarting Origin/rebooting or running the vanilla game first and then Northstar don’t work, try the following:
 
 * First and foremost, double check that you are _logged in_ on Origin. Titanfall will _not_ run if you are not connected to EA servers first (and neither will Titanfall + Northstar).
-* [Add the northstar commandline option in your launcher](troubleshooting.md#adding-launch-options)
+* [Add the northstar commandline option in your launcher](#launch-opts)
 * Run the game with Origin/Steam instead of starting NorthstarLauncher.exe (important)
 * Sign out and exit Origin, then start Northstar. It will prompt you for a login, _hopefully_ fixing it if nothing else worked
 * Start normal Titanfall 2 and then Northstar (_ONLY WORKS SOMETIMES_)
@@ -137,13 +137,13 @@ The real error is most likely slightly higher. Please post that in issues or the
 Campaign is not supported in 1.4, but you could do one of these **"**_**fixes**_**"**
 
 1. Doing `ns_auth_allow_insecure 1` in the console
-   * [If you can't open the console](troubleshooting.md#i-cant-open-the-console)
+   * [If you can't open the console](#console)
 2. Adding `-vanilla` to your launch options
-   * [How to add launch options](troubleshooting.md#adding-launch-options)
+   * [How to add launch options](#launch-opts)
 
 ## Authentication Failed when clicking Launch Northstar <a href="#lsx2" id="lsx2"></a>
 
-Before trying this check out [this section](troubleshooting.md#lsx-authentication-failed).\
+Before trying this check out [this section](#lsx).\
 If that didn't work DM `Petar#0389` on Discord and tell him if it did or did not work.\
 Alternative to that fix:
 
@@ -151,5 +151,5 @@ Alternative to that fix:
 2. Open task manager
 3. End Origin (everything origin related)
 4. Launch Origin as admin
-5. Start the game through Origin with `-northstar` in [launch options](troubleshooting.md#adding-launch-options)
+5. Start the game through Origin with `-northstar` in [launch options](#launch-opts)
 6. See if that fixed it
