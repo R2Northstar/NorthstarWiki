@@ -11,3 +11,4 @@ Here's a list of new command line arguments that Northstar introduces, they shou
 | `-waitfordebugger` | Waits for debugger to connect before launching game                                                |                                  |
 | `-language`        | Forces loading of client localisation                                                              | language string ex: `portuguese` |
 | \`LFX              | Enables the use of [LatencyFleX](../../using-northstar/playing-on-linux/#latencyflex) (Linux-only) | `0` or `1`                       |
+| `-profile=`        | Sets Northstar to use a different mod folder (Default: R2Northstar)                                |                                  |
