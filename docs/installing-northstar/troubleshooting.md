@@ -151,7 +151,7 @@ The real error is most likely slightly higher. Please post that in issues or the
 
 ## I can't play the Campaign <a href="#campaign" id="campaign"></a>
 
-Campaign is not supported in Northstar, but you could do one of these "**_fixes_**"
+Campaign is not supported in Northstar yet, but you could do one of these "**_fixes_**"
 
 1. Doing `ns_auth_allow_insecure 1` in the console
    * [If you can't open the console](#console)
