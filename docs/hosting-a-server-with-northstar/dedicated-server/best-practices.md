@@ -32,5 +32,4 @@ The current minimum requirements are as follows:
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | `net_compresspackets 1`         | Enable compress packets                                                                                                        |
 | `net_compresspackets_minsize 1` | Decrease usage from ~12-16 mbps to ~6-8 mbps on 20 player PVP server and ~9-12mbps to ~5-7 mbps on 12 player gun game server   |
-| `net_encryptpackets 0`          |                                                                                                                                |
 | `sv_maxrate 127000`             |                                                                                                                                |
