@@ -1,6 +1,6 @@
 # Prerequisites
 
-**TL;DR:** Port forward `37015` (UDP) and `8081` (TCP)
+Port forward `37015` (UDP) and `8081` (TCP)
 
 Make sure you already installed Northstar [as described here](../installing-northstar/basic-setup.md).
 
@@ -37,6 +37,15 @@ Access your router via it's web interface and port forward
 * `8081` (TCP) for Northstar auth so your server shows up in server browser
 
 to your PC that you're running Northstar on.
+
+## Firewall
+
+Open windows firewall and allow the application and port
+
+* Click add rule and choose port. Then add `37015` (UDP) and `8081` (TCP)
+* Click add rule and choose application. Then add NorthstarLauncher.exe and Titanfall2.exe
+
+`If you are using Northstar version <= 1.3, add "Titanfall2-unpacked.exe" instead of "Titanfall2.exe"`
 
 ## Final checks
 
