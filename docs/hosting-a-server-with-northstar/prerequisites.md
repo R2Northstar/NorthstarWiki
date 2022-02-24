@@ -1,6 +1,6 @@
 # Prerequisites
 
-Port forward `37015` (UDP) and `8081` (TCP)
+**TL;DR:** Port forward `37015` (UDP) and `8081` (TCP)
 
 Make sure you already installed Northstar [as described here](../installing-northstar/basic-setup.md).
 
