@@ -31,12 +31,13 @@ See [troubleshoot](troubleshoot.md)
 
 Startup arguments can be added in the `ns_startup_args_dedi.txt` file.
 
-| Arguments                  | Accepted Values                                | Description                                         |
-| -------------------------- | ---------------------------------------------- | --------------------------------------------------- |
-| `+setplaylist`             | `private_match`                                | Currently needed to make servers work               |
-| `+setplaylistvaroverrides` | see [PlaylistOverrides](./#playlist-overrides) | Edits the behaviour of the server                   |
-| `-port`                    | int beteween `1-65535`                         | Determines which UDP port the server will listen to |
-| `+mp_gamemode`             | see [Gamemodes](./#gamemodes)                  | Forces the gamemode of the server                   |
+| Arguments                  | Accepted Values                                                 | Description                                                               |
+| -------------------------- | --------------------------------------------------------------  | ------------------------------------------------------------------------- |
+| `+setplaylist`             | see [Gamemodes](./#gamemodes) (Should be same as `mp_gamemode`) | Set the server type (If it is not `private_match`, make sure you have also included `+map` and NOT `mp_lobby` or else you can't search your server in the game) |
+| `+setplaylistvaroverrides` | see [PlaylistOverrides](./#playlist-overrides)                  | Edits the behaviour of the server                                         |
+| `-port`                    | int beteween `1-65535`                                          | Determines which UDP port the server will listen to                       |
+| `+mp_gamemode`             | see [Gamemodes](./#gamemodes)                                   | Forces the gamemode of the server                                         |
+| `+map`                     | see [Maps](./#maps)                                             | Forces the map of the server                                              |
 
 | Flags                 | Description                                                                    |
 | --------------------- | ------------------------------------------------------------------------------ |
