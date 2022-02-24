@@ -25,3 +25,12 @@ The current minimum requirements are as follows:
 - 15 Mbps network upload, but 10 is workable, 25 if you want to avoid players getting disconnected when going back to the lobby after a match
 
 **Note:** It is recommended to surpass the listed requirements. Currently the number of available servers covers the daily playerbase more than enough. If you're planning to host public servers for the community it is therefore recommended to either fill a niche (like a gamemode that is so popular that all existing servers are full) or provide a better service than existing hosts (less lag, more stable, etc.).
+
+## Optimization Commands
+
+| Command                         | Description                                                                                                                    |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `net_compresspackets 1`         | Enable compress packets                                                                                                        |
+| `net_compresspackets_minsize 1` | Decrease usage from ~12-16 mbps to ~6-8 mbps on 20 player PVP server and ~9-12mbps to ~5-7 mbps on 12 player gun game server   |
+| `net_encryptpackets 0`          |                                                                                                                                |
+| `sv_maxrate 127000`             |                                                                                                                                |
