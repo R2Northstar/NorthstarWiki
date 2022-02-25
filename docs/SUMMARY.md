@@ -7,6 +7,7 @@
 
 * [Basic Setup](installing-northstar/basic-setup.md)
 * [Troubleshooting](installing-northstar/troubleshooting.md)
+* [Northstar Installers](installing-northstar/northstar-installers.md)
 
 ***
 
@@ -34,6 +35,7 @@
 
 * [Modding](modding/README.md)
   * [Getting Started](modding/getting-started.md)
+
 ## Other
 
 * [Credits](credits.md)

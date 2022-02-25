@@ -36,7 +36,7 @@ Startup arguments can be added in the `ns_startup_args_dedi.txt` file.
 | `+setplaylist`             | `private_match`                                | Currently needed to make servers work               |
 | `+setplaylistvaroverrides` | see [PlaylistOverrides](./#playlist-overrides) | Edits the behaviour of the server                   |
 | `-port`                    | int beteween `1-65535`                         | Determines which UDP port the server will listen to |
-| `+mpgamemode`              | see [Gamemodes](./#gamemodes)                  | Forces the gamemode of the server                   |
+| `+mp_gamemode`             | see [Gamemodes](./#gamemodes)                  | Forces the gamemode of the server                   |
 
 | Flags                 | Description                                                                    |
 | --------------------- | ------------------------------------------------------------------------------ |
@@ -55,7 +55,7 @@ The list of playlist overrides needs to be quoted and separated by spaces (examp
 | `pilot_health_multiplier`                    |                 |               |                                                                                                |
 | `run_epilogue`                               | `0-1`           | `1`           | Enables escape dropship                                                                        |
 | `respawn_delay`                              |                 |               | Delay before respawn                                                                            |
-| `boosts_enabled`                             | `0-1`           | `1`           | Enable boosts. Doesn't disables Titanmeter.                                                    |
+| `boosts_enabled`                             | `0-1`           | `0`           | Disable boosts. Doesn't disable Titanmeter. Note that unlike the name suggests `1` disables boosts |
 | `earn_meter_pilot_overdrive`                 | `0-1`           |               |                                                                                                |
 | `earn_meter_pilot_multiplier`                |                 |               |                                                                                                |
 | `earn_meter_titan_multiplier`                |                 |               |                                                                                                |
@@ -128,30 +128,64 @@ Gamemodes can be forced by the server using the [`+mp_gamemode`](./#Startup\_arg
 
 If ran on a server with the [`ns_should_return_to_lobby 0`](./#Convars-returntolobby) convar, one should also set gamemodes in [`ns_private_match_last_mode`](./#Convars-lastmode) convar
 
-| Value           | Description                  |
-| --------------- | ---------------------------- |
-| `private_match` | Private Match                |
-| `ps`            | Pilots vs Pilots             |
-| `gg`            | Gungame                      |
-| `sns`           | Sticks & Stones              |
-| `tt`            | Titan Tag                    |
-| `inf`           | Infected                     |
-| `fastball`      | Fastball                     |
-| `ctf_comp`      | Competitive Capture the Flag |
-| `hs`            | Hide and Seek                |
-| `cp`            | Hardpoint                    |
-| `lts`           | Last Titan Standing          |
-| `ctf`           | Capture the Flag             |
-| `ttdm`          | Titan Brawl                  |
-| `turbo_ttdm`    | Turbo Titan Brawl            |
-| `attdm`         | Aegis Titan Brawl            |
-| `ffa`           | Free for all                 |
-| `tffa`          | Titan Free for All           |
-| `fra`           | Free Agents                  |
-| `coliseum`      | Coliseum                     |
-| `lf`            | Live Fire                    |
-| `rocket_lf`     | Rocket Arena                 |
-| `mfd`           | Marked for Death             |
+### Vanilla
+
+| Playlist | Title |
+| --- | --- |
+| private_match | Private Match |
+| ~~aitdm~~ | Attrition |
+| ~~at~~ | Bounty Hunt |
+| coliseum | Coliseum |
+| cp | Amped Hardpoint |
+| ctf | Capture the Flag |
+| ~~fd_easy~~ | Frontier Defense (Easy) |
+| ~~fd_hard~~ | Frontier Defense (Hard) |
+| ~~fd_insane~~ | Frontier Defense (Insane) |
+| ~~fd_master~~ | Frontier Defense (Master) |
+| ~~fd_normal~~ | Frontier Defense (Regular) |
+| lf | Live Fire |
+| lts | Last Titan Standing |
+| mfd | Marked For Death |
+| ps | Pilots vs. Pilots |
+| solo | Campaign |
+| tdm | Skirmish |
+| ttdm | Titan Brawl |
+
+### Vanilla (Featured)
+
+| Playlist | Title |
+| --- | --- |
+| alts | Aegis Last Titan Standing |
+| attdm | Aegis Titan Brawl |
+| ffa | Free For All |
+| fra | Free Agents |
+| holopilot_lf | The Great Bamboozle |
+| rocket_lf | Rocket Arena |
+| turbo_lts | Turbo Last Titan Standing |
+| turbo_ttdm | Turbo Titan Brawl |
+
+### Northstar.Custom
+
+| Playlist | Title |
+| --- | --- |
+| chamber | One in the Chamber |
+| ctf_comp | Competitive CTF |
+| fastball | Fastball |
+| gg | Gun Game |
+| hidden | The Hidden |
+| hs | Hide and Seek |
+| inf | Infection |
+| kr | Amped Killrace |
+| sbox | Sandbox |
+| sns | Sticks and Stones |
+| tffa | Titan FFA |
+| tt | Titan Tag |
+
+### Northstar.Coop
+
+| Playlist | Title |
+| --- | --- |
+| sp_coop | Singleplayer Coop |
 
 ## Weapons
 
@@ -196,29 +230,50 @@ First map of autorotation can be set using [`ns_private_match_last_map`](./#Conv
 
 A way to blacklist maps with autorotation do not exists.
 
-| Value                  | Description        |
-| ---------------------- | ------------------ |
-| `mp_angel_city`        | Angel City         |
-| `mp_black_water_canal` | Black Water Canal  |
-| `mp_grave`             | Boomtown           |
-| `mp_colony02`          | Colony             |
-| `mp_complex3`          | Complex            |
-| `mp_crashsite3`        | Crashsite          |
-| `mp_drydock`           | DryDock            |
-| `mp_eden`              | Eden               |
-| `mp_thaw`              | Exoplanet          |
-| `mp_forwardbase_kodai` | Forward Base Kodai |
-| `mp_glitch`            | Glitch             |
-| `mp_homestead`         | Homestead          |
-| `mp_relic02`           | Relic              |
-| `mp_rise`              | Rise               |
-| `mp_wargames`          | Wargames           |
-| `mp_lobby`             | Lobby              |
-| `mp_lf_deck`           | Deck               |
-| `mp_lf_meadow`         | Meadow             |
-| `mp_lf_stacks`         | Stacks             |
-| `mp_lf_township`       | Township           |
-| `mp_lf_traffic`        | Traffic            |
-| `mp_lf_uma`            | UMA                |
-| `mp_coliseum`          | The Coliseum       |
-| `mp_coliseum_column`   | Pillars            |
+### Vanilla (mp)
+
+| Map | Title |
+| --- | --- |
+| mp_angel_city | Angel City |
+| mp_black_water_canal | Black Water Canal |
+| mp_box | Box |
+| mp_coliseum | Coliseum |
+| mp_coliseum_column | Pillars |
+| mp_colony02 | Colony |
+| mp_complex3 | Complex |
+| mp_crashsite3 | Crash Site |
+| mp_drydock | Drydock |
+| mp_eden | Eden |
+| mp_forwardbase_kodai | Forwardbase Kodai |
+| mp_glitch | Glitch |
+| mp_grave | Boomtown |
+| mp_homestead | Homestead |
+| mp_lf_deck | Deck |
+| mp_lf_meadow | Meadow |
+| mp_lf_stacks | Stacks |
+| mp_lf_township | Township |
+| mp_lf_traffic | Traffic |
+| mp_lf_uma | UMA |
+| mp_lobby | Lobby |
+| mp_relic02 | Relic |
+| mp_rise | Rise |
+| mp_thaw | Exoplanet |
+| mp_wargames | War Games |
+
+### Vanilla (sp)
+
+| Map | Title |
+| --- | --- |
+| sp_training | The Pilot's Gauntlet |
+| sp_crashsite | BT-7274 |
+| sp_sewers1 | Blood and Rust |
+| sp_boomtown_start | Into the Abyss - Part 1 |
+| sp_boomtown | Into the Abyss - Part 2 |
+| sp_boomtown_end | Into the Abyss - Part 2 |
+| sp_hub_timeshift | Effect and Cause - Part 1 or 3 |
+| sp_hub_timeshift_spoke02 | Effect and Cause - Part 2 |
+| sp_beacon | The Beacon - Part 1 or 3 |
+| sp_beacon_spoke0 | The Beacon - Part 2 |
+| sp_tday | Trial by Fire |
+| sp_s2s | The Ark |
+| sp_skyway_v1 | The Fold Weapon |
