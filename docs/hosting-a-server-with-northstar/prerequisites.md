@@ -40,12 +40,16 @@ to your PC that you're running Northstar on.
 
 ## Firewall
 
-Open windows firewall and allow the application and port
+You need to allow the `NorthstarLauncher.exe` in the firewall so that it can connect to the internet. By default, when you launch the server, it should pop up the Windows security alert and let you decide if the application able to connect to the network.
 
-* Click add rule and choose port. Then add `37015` (UDP) and `8081` (TCP)
-* Click add rule and choose application. Then add NorthstarLauncher.exe and Titanfall2.exe
+If you accidentally click the deny button, then follow the step to allow it.
 
-`If you are using Northstar version <= 1.3, add "Titanfall2-unpacked.exe" instead of "Titanfall2.exe"`
+* Open windows firewall
+* Select "Allow an app or feature through Windows Defender Firewall
+* Click allow other applications
+* Click browse
+* Locate the NorthstarLauncher.exe and select it
+* Click add
 
 ## Final checks
 
