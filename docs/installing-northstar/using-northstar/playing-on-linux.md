@@ -35,9 +35,38 @@ Now just launch the game through Lutris and you should be greeted with a Northst
 
 > **Note:** Origin might prompt you to log in and "set an installation folder for future downloads" on first launch. Just do those, close Origin, then launch the game again.
 >
-> You might feel the game is stuttering a lot in the first hour of playing. This is normal, it's just DXVK is compiling shaders. The more you play, the less you will stutter in the future. Someone on discord wrote [an in-depth guide](https://i.imgur.com/xzop1lQ.png) on good settings to help the shader cache **and a general performance boost by stopping Origin from writing unnecessary files**.\
-> [Link to cache](https://github.com/Cervoxx/DXVKCACHE/raw/master/Titanfall2-cache.tar.xz)\
-> [Link to Origin being slow discussion](https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231)
+> You might feel the game is stuttering a lot in the first hour of playing. This is normal, it's just DXVK is compiling shaders. The more you play, the less you will stutter in the future.
+> 
+
+### Reducing stuttering (Wine and Proton)
+>
+_Pre-compiled DXVK cache_: https://github.com/begin-theadventure/dxvk-caches/raw/main/Titanfall%202/Titanfall2.dxvk-cache.tar.xz
+>
+Proton: extract and put in path/steamapps/shadercache/1237970/DXVK_state_cache
+>
+Wine: extract and put it next to game's .exe. Also remember to rename it if the .exe has a different name)
+>
+_DXVK-async_:
+>
+Wine: https://github.com/Sporif/dxvk-async/releases (put it in ~/.local/share/lutris/runtime/dxvk extract and type name in "DXVK version" of the folder, to enable set the environment variable _DXVK_ASYNC 1_)
+>
+Proton: can be used with **Proton-GE**. Type _DXVK_ASYNC 1_ under LAUNCH OPTIONS.
+>
+_Origin_: https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231
+**_Warning_**: can break some things.
+>
+Path: x/drive_c/users/**User**/AppData/Roaming/Origin (**User** Proton: _steamuser_ Wine:  your username)
+>
+Access can be restricted using a file manager or terminal:
+>
+_chmod -R 555_  ->access only
+> 
+_chmod -R 755_  ->access + save
+>
+It's also possible to make aliases to type something short like tfoff/tfon.
+
+## Crackling sound
+Can be fixed by adding _tsched=0_ to /etc/pulse/default.pa
 
 ## LatencyFleX
 
