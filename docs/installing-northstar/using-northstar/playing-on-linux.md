@@ -34,9 +34,6 @@ Now Steam will automatically launch Northstar when you hit play. Just launch the
 Now just launch the game through Lutris and you should be greeted with a Northstar welcome message upon entering the main menu.
 
 > **Note:** Origin might prompt you to log in and "set an installation folder for future downloads" on first launch. Just do those, close Origin, then launch the game again.
->
-> You might feel the game is stuttering a lot in the first hour of playing. This is normal, it's just DXVK is compiling shaders. The more you play, the less you will stutter in the future.
-> 
 
 ### Reducing stuttering (Wine and Proton)
 >
@@ -52,10 +49,13 @@ Wine: https://github.com/Sporif/dxvk-async/releases (put it in ~/.local/share/lu
 >
 Proton: can be used with **Proton-GE**. Type _DXVK_ASYNC 1_ under LAUNCH OPTIONS.
 >
-_Origin_: https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231
-**_Warning_**: can break some things.
+_Prevent Origin from writing certain files_: https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231
 >
-Path: x/drive_c/users/**User**/AppData/Roaming/Origin (**User** Proton: _steamuser_ Wine:  your username)
+Path:
+>
+Proton: x/steamapps/compatdata/1237970/pfx/drive_c/users/steamuser/Application Data/Origin
+>
+Wine: x/drive_c/users/yourusername/AppData/Roaming/Origin
 >
 Access can be restricted using a file manager or terminal:
 >
