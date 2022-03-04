@@ -35,39 +35,6 @@ Now just launch the game through Lutris and you should be greeted with a Northst
 
 > **Note:** Origin might prompt you to log in and "set an installation folder for future downloads" on first launch. Just do those, close Origin, then launch the game again.
 
-### Reducing stuttering (Wine and Proton)
->
-_Pre-compiled DXVK cache_: https://github.com/begin-theadventure/dxvk-caches/raw/main/Titanfall%202/Titanfall2.dxvk-cache.tar.xz
->
-Proton: extract and put in path/steamapps/shadercache/1237970/DXVK_state_cache
->
-Wine: extract and put it next to game's .exe. Also remember to rename it if the .exe has a different name)
->
-_DXVK-async_:
->
-Wine: https://github.com/Sporif/dxvk-async/releases (put it in ~/.local/share/lutris/runtime/dxvk extract and type name in "DXVK version" of the folder, to enable set the environment variable _DXVK_ASYNC 1_)
->
-Proton: can be used with **Proton-GE**. Type _DXVK_ASYNC 1_ under LAUNCH OPTIONS.
->
-_Prevent Origin from writing certain files_: https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231
->
-Path:
->
-Proton: x/steamapps/compatdata/1237970/pfx/drive_c/users/steamuser/Application Data/Origin
->
-Wine: x/drive_c/users/yourusername/AppData/Roaming/Origin
->
-Access can be restricted using a file manager or terminal:
->
-_chmod -R 555_  ->access only
-> 
-_chmod -R 755_  ->access + save
->
-It's also possible to make aliases to type something short like tfoff/tfon.
-
-## Crackling sound
-Can be fixed by adding _tsched=0_ to /etc/pulse/default.pa
-
 ## LatencyFleX
 
 LatencyFleX is a Linux-only input latency reduction alternative to Nvidia Reflex that is supported by Northstar. Currently, LatencyFleX requires manual installation. A full install guide and current releases [can be found on their GitHub](https://github.com/ishitatsuyuki/LatencyFleX).
@@ -100,6 +67,9 @@ This problem is caused due to missing fonts on your Titanfall 2 wine prefix, you
 4. Click OK and wait for everything to install, if done correctly winetricks will popup again.
 5. You can now close it and launch the game.
 
+### Crackling sound
+Can be fixed by adding _tsched=0_ to /etc/pulse/default.pa
+
 ### Fullscreen issues
 
 Running the game on fullscreen through Linux might lead to a black screen preventing you from launching the game. Edit your `ns_startup_args.txt` to include `-noborder -window` or edit `"setting.fullscreen"` and `"setting.nowindowborder"` at `<wineprefix>/drive_c/users/<username>/Documents/Respawn/Titanfall2/local/videoconfig.txt` to solve this.
@@ -113,3 +83,33 @@ Some users have reported issues with enabling LatencyFleX. If you see `"Unable t
 ### Game crashes on launch with Cause: Access Violation Data Execution Prevention (DEP) at: 0x00000000
 
 try running with [ProtonGE](https://github.com/GloriousEggroll/proton-ge-custom/).
+
+### Reducing stuttering (Wine and Proton)
+>
+_Pre-compiled DXVK cache_: https://github.com/begin-theadventure/dxvk-caches/raw/main/Titanfall%202/Titanfall2.dxvk-cache.tar.xz
+>
+Proton: extract and put in path/steamapps/shadercache/1237970/DXVK_state_cache
+>
+Wine: extract and put it next to game's .exe. Also remember to rename it if the .exe has a different name)
+>
+_DXVK-async_:
+>
+Wine: https://github.com/Sporif/dxvk-async/releases (put it in ~/.local/share/lutris/runtime/dxvk extract and type name in "DXVK version" of the folder, to enable set the environment variable _DXVK_ASYNC 1_)
+>
+Proton: can be used with **Proton-GE**. Type _DXVK_ASYNC 1_ under LAUNCH OPTIONS.
+>
+_Prevent Origin from writing certain files_: https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231
+>
+Path:
+>
+Proton: x/steamapps/compatdata/1237970/pfx/drive_c/users/steamuser/Application Data/Origin
+>
+Wine: x/drive_c/users/yourusername/AppData/Roaming/Origin
+>
+Access can be restricted using a file manager or terminal:
+>
+_chmod -R 555_  ->access only
+> 
+_chmod -R 755_  ->access + save
+>
+It's also possible to make aliases to type something short like tfoff/tfon.
