@@ -98,7 +98,7 @@ _DXVK-async_:
 
 Wine: https://github.com/Sporif/dxvk-async/releases extract and put it in ~/.local/share/lutris/runtime/dxvk then type the name in `▲` ->  `Configure` -> `Runner Options` -> `DXVK version` of the folder, to enable add `DXVK_ASYNC 1` to `System Options` -> `Environment variables`
 
-Proton: can be used with **Proton-GE**. Type `DXVK_ASYNC 1` under `Properties..` -> `LAUNCH OPTIONS`
+Proton: can be used with [**Proton-GE**](https://github.com/GloriousEggroll/proton-ge-custom). Type `DXVK_ASYNC 1` under `Properties..` -> `LAUNCH OPTIONS`
 
 _Prevent Origin from writing certain files_: https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231
 
