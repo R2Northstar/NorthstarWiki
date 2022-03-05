@@ -88,7 +88,7 @@ Try running with [ProtonGE](https://github.com/GloriousEggroll/proton-ge-custom/
 
 _Pre-compiled DXVK cache_: https://github.com/begin-theadventure/dxvk-caches/raw/main/Titanfall%202/Titanfall2.dxvk-cache.tar.xz
 
-Proton: extract and put it in `/path/to/steamapps/shadercache/1237970/DXVK_state_cache` default is `~/.local/share/..`
+Proton: extract and put it in `/path/to/steamapps/shadercache/1237970/DXVK_state_cache` default is `~/.local/share/..` or next to .exe if shader pre-caching is turned off.
 
 Wine: extract and put it next to game's .exe. Also remember to rename it if the .exe has a different name.
 
