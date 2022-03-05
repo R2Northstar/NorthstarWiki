@@ -96,7 +96,7 @@ Wine: extract and put it next to game's .exe. Also remember to rename it if the 
 
 _DXVK-async_:
 
-Wine: https://github.com/Sporif/dxvk-async/releases extract and put it in ~/.local/share/lutris/runtime/dxvk then type the name in `▲` ->  `Configure` -> `Runner Options` -> `DXVK version` of the folder, to enable add `DXVK_ASYNC 1` to `▲` -> `Configure` -> `System Options` -> `Environment variables`
+Wine: https://github.com/Sporif/dxvk-async/releases extract and put it in ~/.local/share/lutris/runtime/dxvk then type the name in `▲` ->  `Configure` -> `Runner Options` -> `DXVK version` of the folder, to enable add `DXVK_ASYNC 1` to `System Options` -> `Environment variables`
 
 Proton: can be used with **Proton-GE**. Type `DXVK_ASYNC 1` under `Properties..` -> `LAUNCH OPTIONS`
 
