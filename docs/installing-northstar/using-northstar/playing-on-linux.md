@@ -82,34 +82,34 @@ Some users have reported issues with enabling LatencyFleX. If you see `"Unable t
 
 ### Game crashes on launch with Cause: Access Violation Data Execution Prevention (DEP) at: 0x00000000
 
-try running with [ProtonGE](https://github.com/GloriousEggroll/proton-ge-custom/).
+Try running with [ProtonGE](https://github.com/GloriousEggroll/proton-ge-custom/).
 
-### Reducing stuttering (Wine and Proton)
+### Reducing stuttering (Steam/Proton and Lutris/Wine)
 
 _Pre-compiled DXVK cache_: https://github.com/begin-theadventure/dxvk-caches/raw/main/Titanfall%202/Titanfall2.dxvk-cache.tar.xz
 
-Proton: extract and put in path/steamapps/shadercache/1237970/DXVK_state_cache
+Proton: extract and put it in `/path/to/steamapps/shadercache/1237970/DXVK_state_cache` default is `~/.local/share/..`
 
-Wine: extract and put it next to game's .exe. Also remember to rename it if the .exe has a different name)
+Wine: extract and put it next to game's .exe. Also remember to rename it if the .exe has a different name.
 
 _DXVK-async_:
 
-Wine: https://github.com/Sporif/dxvk-async/releases (put it in ~/.local/share/lutris/runtime/dxvk extract and type name in "DXVK version" of the folder, to enable set the environment variable `DXVK_ASYNC 1`)
+Wine: https://github.com/Sporif/dxvk-async/releases extract and put it in ~/.local/share/lutris/runtime/dxvk extract and type the name in `▲` ->  `Configure` -> `Runner Options` -> `DXVK version` of the folder, to enable add `DXVK_ASYNC 1` to `▲` -> `Configure` -> `System Options` `Environment variables`
 
-Proton: can be used with **Proton-GE**. Type `DXVK_ASYNC 1` under `LAUNCH OPTIONS`.
+Proton: can be used with **Proton-GE**. Type `DXVK_ASYNC 1` under `Properties..` -> `LAUNCH OPTIONS`
 
 _Prevent Origin from writing certain files_: https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231
 
 Path:
 
-Proton: `x/steamapps/compatdata/1237970/pfx/drive_c/users/steamuser/Application Data/Origin`
+Proton: `/path/to/steamapps/compatdata/1237970/pfx/drive_c/users/steamuser/Application Data/Origin` default is `~/.local/share/..`
 
-Wine: `x/drive_c/users/<username>/AppData/Roaming/Origin`
+Wine: `/path/to/drive_c/users/<username>/AppData/Roaming/Origin`
 
 Access can be restricted using a file manager or terminal:
 
-`chmod -R 555` ->access only
+`chmod -R 555` -> access only
 
-`chmod -R 755`  ->access + save
+`chmod -R 755`  -> access + save
 
 It's also possible to make command aliases to type something short like tfoff/tfon.
