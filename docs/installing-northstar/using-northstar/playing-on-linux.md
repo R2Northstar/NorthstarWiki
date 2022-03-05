@@ -86,6 +86,8 @@ Try running with [ProtonGE](https://github.com/GloriousEggroll/proton-ge-custom/
 
 ### Reducing stuttering (Steam/Proton and Lutris/Wine)
 
+If you feel the game is stuttering you might want to try this list of optimizations.
+
 _Pre-compiled DXVK cache_: https://github.com/begin-theadventure/dxvk-caches/raw/main/Titanfall%202/Titanfall2.dxvk-cache.tar.xz
 
 Proton: extract and put it in `/path/to/steamapps/shadercache/1237970/DXVK_state_cache` default is `~/.local/share/..` or next to .exe if shader pre-caching is turned off.
