@@ -94,22 +94,22 @@ Wine: extract and put it next to game's .exe. Also remember to rename it if the 
 
 _DXVK-async_:
 
-Wine: https://github.com/Sporif/dxvk-async/releases (put it in ~/.local/share/lutris/runtime/dxvk extract and type name in "DXVK version" of the folder, to enable set the environment variable _DXVK_ASYNC 1_)
+Wine: https://github.com/Sporif/dxvk-async/releases (put it in ~/.local/share/lutris/runtime/dxvk extract and type name in "DXVK version" of the folder, to enable set the environment variable `DXVK_ASYNC 1`)
 
-Proton: can be used with **Proton-GE**. Type _DXVK_ASYNC 1_ under LAUNCH OPTIONS.
+Proton: can be used with **Proton-GE**. Type `DXVK_ASYNC 1` under `LAUNCH OPTIONS`.
 
 _Prevent Origin from writing certain files_: https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231
 
 Path:
 
-Proton: x/steamapps/compatdata/1237970/pfx/drive_c/users/steamuser/Application Data/Origin
+Proton: `x/steamapps/compatdata/1237970/pfx/drive_c/users/steamuser/Application Data/Origin`
 
-Wine: x/drive_c/users/yourusername/AppData/Roaming/Origin
+Wine: `x/drive_c/users/<username>/AppData/Roaming/Origin`
 
 Access can be restricted using a file manager or terminal:
 
-_chmod -R 555_  ->access only
+`chmod -R 555` ->access only
 
-_chmod -R 755_  ->access + save
+`chmod -R 755`  ->access + save
 
-It's also possible to make aliases to type something short like tfoff/tfon.
+It's also possible to make command aliases to type something short like tfoff/tfon.
