@@ -85,31 +85,31 @@ Some users have reported issues with enabling LatencyFleX. If you see `"Unable t
 try running with [ProtonGE](https://github.com/GloriousEggroll/proton-ge-custom/).
 
 ### Reducing stuttering (Wine and Proton)
->
+
 _Pre-compiled DXVK cache_: https://github.com/begin-theadventure/dxvk-caches/raw/main/Titanfall%202/Titanfall2.dxvk-cache.tar.xz
->
+
 Proton: extract and put in path/steamapps/shadercache/1237970/DXVK_state_cache
->
+
 Wine: extract and put it next to game's .exe. Also remember to rename it if the .exe has a different name)
->
+
 _DXVK-async_:
->
+
 Wine: https://github.com/Sporif/dxvk-async/releases (put it in ~/.local/share/lutris/runtime/dxvk extract and type name in "DXVK version" of the folder, to enable set the environment variable _DXVK_ASYNC 1_)
->
+
 Proton: can be used with **Proton-GE**. Type _DXVK_ASYNC 1_ under LAUNCH OPTIONS.
->
+
 _Prevent Origin from writing certain files_: https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231
->
+
 Path:
->
+
 Proton: x/steamapps/compatdata/1237970/pfx/drive_c/users/steamuser/Application Data/Origin
->
+
 Wine: x/drive_c/users/yourusername/AppData/Roaming/Origin
->
+
 Access can be restricted using a file manager or terminal:
->
+
 _chmod -R 555_  ->access only
-> 
+
 _chmod -R 755_  ->access + save
->
+
 It's also possible to make aliases to type something short like tfoff/tfon.
