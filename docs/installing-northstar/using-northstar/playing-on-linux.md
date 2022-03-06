@@ -68,7 +68,7 @@ This problem is caused due to missing fonts on your Titanfall 2 wine prefix, you
 5. You can now close it and launch the game.
 
 ### Crackling sound
-Can be fixed by adding `tsched=0` to `/etc/pulse/default.pa`
+Can be fixed by adding [`tsched=0`](https://wiki.archlinux.org/title/PulseAudio/Troubleshooting#Glitches.2C_skips_or_crackling) to `/etc/pulse/default.pa`
 
 ### Fullscreen issues
 
