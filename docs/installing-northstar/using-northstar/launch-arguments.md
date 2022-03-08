@@ -9,12 +9,16 @@ Here's a list of new command line arguments that Northstar introduces, they shou
 | `-northstar`       | Enables Northstar loading                                                                          |                                  |
 | `-dedicated`       | Starts a dedicated server without video output                                                     |                                  |
 | `-waitfordebugger` | Waits for debugger to connect before launching game                                                |                                  |
-| `-novid`           | Disables startup videos                                                                            |                                  |
-| `-nosound`         | Disables all game sounds                                                                           |                                  |
 | `-language`        | Forces loading of client localisation                                                              | language string ex: `portuguese` |
 | `-profile=`        | Enabled specifying a different profile directory. Default: R2Northstar                             | Example: `-profile="dev mods"`   |
 | `-enablechathooks` | Enables the use of chathooks for use by mods                                                       |                                  |
 
+Here's a list of command line arguments from the base game.
+
+| Argument           | Description                                                                                        | Value                            |
+| ------------------ | -------------------------------------------------------------------------------------------------- | -------------------------------- |
+| `-novid`           | Disables startup videos                                                                            |                                  |
+| `-nosound`         | Disables all game sounds                                                                           |                                  |
 
 # Environment Variables
 | Variable name      | Description                                                                                        | Value                            |
