@@ -14,7 +14,6 @@ Here's a list of new command line arguments that Northstar introduces, they shou
 | `-language`        | Forces loading of client localisation                                                              | language string ex: `portuguese` |
 | `-profile=`        | Enabled specifying a different profile directory. Default: R2Northstar                             | Example: `-profile="dev mods"`   |
 | `-enablechathooks` | Enables the use of chathooks for use by mods                                                       |                                  |
-| `-noplugins`       | Disables the plugin system                                                                         |                                  |
 
 
 # Environment Variables
