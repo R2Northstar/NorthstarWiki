@@ -86,10 +86,9 @@ Try running with [ProtonGE](https://github.com/GloriousEggroll/proton-ge-custom/
 
 ### Reducing stuttering (Steam/Proton and Lutris/Wine)
 
-You might feel the game is stuttering a lot in the first hour of 
-playing. This is normal, it's just DXVK compiling shaders.
+You may feel that the game stutters frequently during the first hour of play. This is normal, it's just DXVK having to compile shaders at draw time due not having a ready state cache. The more you play, the less stuttering there will be in the future.
 
-However if you don't want to wait you might want try precompiled DXVK-[_cache_](https://github.com/doitsujin/dxvk#state-cache): [**Titanfall2.dxvk-cache**](https://github.com/begin-theadventure/dxvk-caches/blob/main/dxvk-caches/Titanfall/Titanfall%202/Titanfall2.dxvk-cache.md)
+However if you don't want to wait you can try precompiled DXVK [_state cache_](https://github.com/doitsujin/dxvk#state-cache): [**Titanfall2.dxvk-cache**](https://github.com/begin-theadventure/dxvk-caches/blob/main/dxvk-caches/Titanfall/Titanfall%202/Titanfall2.dxvk-cache.md)
 
 Proton: extract and put it in `/path/to/steamapps/shadercache/1237970/DXVK_state_cache` default is `~/.local/share/..` or next to .exe if shader pre-caching is turned off.
 
