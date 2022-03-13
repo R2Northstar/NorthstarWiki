@@ -98,7 +98,7 @@ There are also other (not necessary) tweaks as:
 
 _DXVK-_[_async_](https://github.com/Sporif/dxvk-async#improvements):
 
-Wine: download [**dxvk-async**](https://github.com/Sporif/dxvk-async/releases), extract and put it in `~/.local/share/lutris/runtime/dxvk` then type the name in `▲` ->  `Configure` -> `Runner Options` -> `DXVK version` of the folder, to enable add `DXVK_ASYNC 1` to `System Options` -> `Environment variables`
+Wine: download [**dxvk-async**](https://github.com/Sporif/dxvk-async/releases), extract and put it in `~/.local/share/lutris/runtime/dxvk` then type the name of the folder in `▲` ->  `Configure` -> `Runner Options` -> `DXVK version`, to enable add `DXVK_ASYNC 1` to `System Options` -> `Environment variables`
 
 Proton: can be used with [**Proton-GE**](https://github.com/GloriousEggroll/proton-ge-custom). Type `DXVK_ASYNC 1 %command%` under `Properties..` -> `LAUNCH OPTIONS`
 
