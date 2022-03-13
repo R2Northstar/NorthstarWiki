@@ -86,21 +86,24 @@ Try running with [ProtonGE](https://github.com/GloriousEggroll/proton-ge-custom/
 
 ### Reducing stuttering (Steam/Proton and Lutris/Wine)
 
-If you feel the game is stuttering you might want to try this list of optimizations.
+You might feel the game is stuttering a lot in the first hour of 
+playing. This is normal, it's just DXVK compiling shaders.
 
-_Pre-compiled DXVK_-[_cache_](https://github.com/doitsujin/dxvk#state-cache): [**Titanfall2.dxvk-cache.tar.xz**](https://github.com/begin-theadventure/dxvk-caches/raw/main/dxvk-caches/Titanfall/Titanfall%202/Titanfall2.dxvk-cache.tar.xz)
+However if you don't want to wait you might want try precompiled DXVK-[_cache_](https://github.com/doitsujin/dxvk#state-cache): [**Titanfall2.dxvk-cache**](https://github.com/begin-theadventure/dxvk-caches/blob/main/dxvk-caches/Titanfall/Titanfall%202/Titanfall2.dxvk-cache.md)
 
 Proton: extract and put it in `/path/to/steamapps/shadercache/1237970/DXVK_state_cache` default is `~/.local/share/..` or next to .exe if shader pre-caching is turned off.
 
 Wine: extract and put it next to game's .exe. Also remember to rename it if the .exe has a different name.
 
+There are also other (not necessary) tweaks as:
+
 _DXVK-_[_async_](https://github.com/Sporif/dxvk-async#improvements):
 
 Wine: download [**dxvk-async**](https://github.com/Sporif/dxvk-async/releases), extract and put it in `~/.local/share/lutris/runtime/dxvk` then type the name in `▲` ->  `Configure` -> `Runner Options` -> `DXVK version` of the folder, to enable add `DXVK_ASYNC 1` to `System Options` -> `Environment variables`
 
-Proton: can be used with [**Proton-GE**](https://github.com/GloriousEggroll/proton-ge-custom). Type `DXVK_ASYNC 1` under `Properties..` -> `LAUNCH OPTIONS`
+Proton: can be used with [**Proton-GE**](https://github.com/GloriousEggroll/proton-ge-custom). Type `DXVK_ASYNC 1 %command%` under `Properties..` -> `LAUNCH OPTIONS`
 
-[_Prevent_](https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231) _Origin from writing certain files_:
+[_Preventing_](https://github.com/ValveSoftware/Proton/issues/4001#issuecomment-647014231) _Origin from writing certain files_:
 
 Path:
 
