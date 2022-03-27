@@ -34,7 +34,6 @@
 ## Modding and Development
 
 * [Modding](modding/README.md)
-  * [Getting Started](modding/getting-started.md)
 
 ## Other
 
