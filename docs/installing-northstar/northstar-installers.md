@@ -4,6 +4,12 @@ Since the public release of Northstar, the wider community has created tools to 
 
 Note that none of these tools are officially supported and as such any issues with them should be reported to the respective authors.
 
+## **ebkr:** r2modman
+
+{% embed url="https://northstar.thunderstore.io/package/ebkr/r2modman/" %}
+
+{% embed url="https://github.com/ebkr/r2modmanPlus" %}
+
 ## **0neGal:** Viper
 
 {% embed url="https://github.com/0neGal/viper" %}
