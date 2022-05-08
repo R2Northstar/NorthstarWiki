@@ -17,6 +17,10 @@ Source code:
 
 {% embed url="https://github.com/ebkr/r2modmanPlus" %}
 
+Wiki and documentation:
+
+{% embed url="https://github.com/ebkr/r2modmanPlus/wiki/" %}
+
 ## **0neGal:** Viper
 
 Simple and easy to use Northstar installer and auto-updater. Allows launching both Northstar and vanilla Titanfall 2. Features mod-manager and built-in mod browser for Thunderstore.\
