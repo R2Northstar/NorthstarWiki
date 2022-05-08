@@ -9,10 +9,12 @@ Note that none of these tools directly part of the Northstar project and as such
 General mod-manager for multiple games including Titanfall|2+Northstar. Allows for separate profiles to keep your game install folder clean. Features mod-manager and built-in mod browser for Thunderstore.\
 Supports Windows and Linux.
 
-Download from (select _"Manual Download"_):\
+Download from (select _"Manual Download"_):
+
 {% embed url="https://northstar.thunderstore.io/package/ebkr/r2modman/" %}
 
-Source code:\
+Source code:
+
 {% embed url="https://github.com/ebkr/r2modmanPlus" %}
 
 ## **0neGal:** Viper
@@ -20,12 +22,14 @@ Source code:\
 Simple and easy to use Northstar installer and auto-updater. Allows launching both Northstar and vanilla Titanfall 2. Features mod-manager and built-in mod browser for Thunderstore.\
 Supports Windows and Linux.
 
-Download and source code:\
+Download and source code:
+
 {% embed url="https://github.com/0neGal/viper" %}
 
 ## **BigSpice:** VTOL
 
 Easy to use and extensive Northstar installer and mod-manager. Supports installing from Thunderstore as well as from outside sources like GitHub/GitLab repositories. Has support for installing custom weapon/pilot skins. Features manager for setting up dedicated servers.
 
-Download and source code:\
+Download and source code:
+
 {% embed url="https://github.com/BigSpice/VTOL" %}
