@@ -25,7 +25,7 @@ Once that is done, you will need to download the Titanfall2 game files, this can
 pg9182's script is easiest, so that will be used in the guide. Run this command to download and execute the file:\
 `sudo apt install jq wget ca-certificates -y && mkdir ~/tf2 && cd ~/tf2 && sh -c "$(curl -fsSL https://gist.githubusercontent.com/pg9182/9a962adbfc27e93237cd14e4523c9da8/raw/eccffd400326dd423ccaeb027a65d59168a00b7c/nsfetch.sh)" && cd ..`
 
-After the script has finished, create a file called `docker-compose.yml`, run nano `docker-compose.yml` (or your favourite text editor) and add the following into it.
+After the script has finished, create a file called `docker-compose.yml`, run `nano docker-compose.yml` (or your favourite text editor) and add the following into it.
 
 ```
 version: "3.7"  
