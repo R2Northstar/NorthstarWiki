@@ -7,7 +7,9 @@ Generally **try to first** launch the vanilla game (i.e. not Northstar) if you e
 Also note that some solutions described below can also apply to the base game, like issues caused by [10th+ gen Intel CPUs](#intel).
 
 <details>
+
 <summary>LSX Authentication Failed</summary>
+
 ![LSX Authentication Challenge failed](https://user-images.githubusercontent.com/97235072/148391447-300e1b47-6148-43f7-8854-b0882e150d12.png)
 
 If the usual workaround of restarting Origin/rebooting or running the vanilla game first and then Northstar don’t work, try the following:
@@ -20,6 +22,7 @@ If the usual workaround of restarting Origin/rebooting or running the vanilla ga
 </details>
 
 <details>
+
 <summary>Tier0.dll Not found</summary>
 
 ![Failed to load the tier0.dll](../images/northstar-launcher-error-wrong-location.png)
@@ -39,6 +42,7 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 </details>
 
 <details>
+
 <summary>File Corruption Detected</summary>
 
 {% hint style="info" %}
