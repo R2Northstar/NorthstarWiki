@@ -1,5 +1,7 @@
-# Modding
+# [Titanfall 2 and Northstar Modding](https://r2northstar.readthedocs.io/)
+### Documentation for Northstar and Titanfall 2 Modding has moved over to: https://r2northstar.readthedocs.io/.
 
-The documentation for modding has been moved over to [r2northstar.readthedocs.io](https://r2northstar.readthedocs.io)
+# [Custom Skin Modding](https://retrywiki.gitbook.io/tf2/)
+### RETRY Titanfall 2 Custom Skin & Textures Wiki & Guides Gitbook is at: https://retrywiki.gitbook.io/tf2/.
 
-For skin creation, see [https://titanfall-skin-group.gitbook.io/titanfall-2-skin-creation/](https://titanfall-skin-group.gitbook.io/titanfall-2-skin-creation/)
+Happy Modding!

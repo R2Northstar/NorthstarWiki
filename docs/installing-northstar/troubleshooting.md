@@ -1,13 +1,13 @@
 # Troubleshooting
 
-Generally try to first launch the vanilla game (i.e. not Northstar) if you encounter any issue and see if it also occurs there as well. Some problems can occur when the vanilla game was never launched before using Northstar.
+Generally **try to first** launch the vanilla game (i.e. not Northstar) if you encounter any issue and see if it also occurs there as well. Some problems can occur when the vanilla game was never launched before using Northstar.
 
-A lot of problems around the game failing to communicate with Origin can also be prevented by launching Origin before Northstar should you encounter any issues in that regard.
+**A lot of problems** around the game failing to communicate with Origin can also be prevented by launching Origin before Northstar should you encounter any issues in that regard.
 
 Also note that some solutions described below can also apply to the base game, like issues caused by [10th+ gen Intel CPUs](#intel).
 
-## LSX Authentication Failed <a href="#lsx" id="lsx"></a>
-
+<details>
+<summary>LSX Authentication Failed</summary>
 ![LSX Authentication Challenge failed](https://user-images.githubusercontent.com/97235072/148391447-300e1b47-6148-43f7-8854-b0882e150d12.png)
 
 If the usual workaround of restarting Origin/rebooting or running the vanilla game first and then Northstar don’t work, try the following:
@@ -17,8 +17,10 @@ If the usual workaround of restarting Origin/rebooting or running the vanilla ga
 * Run the game with Origin/Steam instead of starting NorthstarLauncher.exe (important)
 * Sign out and exit Origin, then start Northstar. It will prompt you for a login, _hopefully_ fixing it if nothing else worked
 * Start normal Titanfall 2 and then Northstar (_ONLY WORKS SOMETIMES_)
+</details>
 
-## Tier0.dll Not found <a href="#tier0" id="tier0"></a>
+<details>
+<summary>Tier0.dll Not found</summary>
 
 ![Failed to load the tier0.dll](../images/northstar-launcher-error-wrong-location.png)
 
@@ -34,8 +36,10 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 ![bin folder](../images/bin-folder.png)
 
 * If you dont have them verify your game on steam/origin/ea
+</details>
 
-## File Corruption Detected <a href="#file-corruption" id="file-corruption"></a>
+<details>
+<summary>File Corruption Detected</summary>
 
 {% hint style="info" %}
 Make sure you updated [Northstar to version v1.4.0 or higher](https://github.com/R2Northstar/Northstar/releases/) as this version features changes that address this problem.
@@ -60,6 +64,7 @@ Don't panic! This warning seems to be caused by Origin and none of your files ar
 
 If you followed all these steps and even launching the vanilla version of the game doesn't work, your final option is to fully remove the game and reinstall it.\
 Then checking if vanilla works before reinstalling Northstar.
+</details>
 
 ## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
