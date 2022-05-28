@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Generally **try to first** launch the vanilla game (i.e. not Northstar) if you encounter any issue and see if it also occurs there as well. Some problems can occur when the vanilla game was never launched before using Northstar.
+Generally **try to first launch the vanilla game** (i.e. not Northstar) if you encounter any issue and see if it also occurs there as well. Some problems can occur when the vanilla game was never launched before using Northstar.
 
 **A lot of problems** around the game failing to communicate with Origin can also be prevented by launching Origin before Northstar should you encounter any issues in that regard.
 
