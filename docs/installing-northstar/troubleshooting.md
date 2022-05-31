@@ -93,7 +93,10 @@ Do NOT make any changes in `system32`, just copy the file.
 2. Right click it and go `Properties > Security`
 3. Give yourself write permissions
 
-## Can't Join Servers (Issues with 10th+ gen Intel CPUs)<a href="#intel" id="intel"></a>
+
+<details>
+
+<summary>Can't Join Servers (Issues with 10th+ gen Intel CPUs)</summary>
 
 ![Newer Intel CPU error: Data Center: Searching...](https://user-images.githubusercontent.com/18601697/148625000-882bf1db-b9b2-4e9e-88db-6d608e58a35b.png)
 
@@ -111,6 +114,7 @@ If you're on Linux, you can set the appropriate environment variable via `env OP
 **Note:** This issue is not exclusive to Northstar client but also affects the vanilla version, so if you only get it on Northstar there might be a different problem at hand as well. In fact it's not even unique to Titanfall 2 either.
 
 See also [this thread on Steam](https://steamcommunity.com/app/1237970/discussions/0/3081016749018656768/)
+</details>
 
 ## I disabled all mods and now I cannot re-enable them <a href="#disabled-mods" id="disabled-mods"></a>
 
