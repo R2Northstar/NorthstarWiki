@@ -1,14 +1,12 @@
 # Troubleshooting
 
-Generally **try to first launch the vanilla game** (i.e. not Northstar) if you encounter any issue and see if it also occurs there as well. Some problems can occur when the vanilla game was never launched before using Northstar.
+Generally try to first launch the vanilla game (i.e. not Northstar) if you encounter any issue and see if it also occurs there as well. Some problems can occur when the vanilla game was never launched before using Northstar.
 
-**A lot of problems** around the game failing to communicate with Origin can also be prevented by launching Origin before Northstar should you encounter any issues in that regard.
+A lot of problems around the game failing to communicate with Origin can also be prevented by launching Origin before Northstar should you encounter any issues in that regard.
 
 Also note that some solutions described below can also apply to the base game, like issues caused by [10th+ gen Intel CPUs](#intel).
 
-<details>
-
-<summary>LSX Authentication Failed</summary>
+## LSX Authentication Failed <a href="#lsx" id="lsx"></a>
 
 ![LSX Authentication Challenge failed](https://user-images.githubusercontent.com/97235072/148391447-300e1b47-6148-43f7-8854-b0882e150d12.png)
 
@@ -19,11 +17,8 @@ If the usual workaround of restarting Origin/rebooting or running the vanilla ga
 * Run the game with Origin/Steam instead of starting NorthstarLauncher.exe (important)
 * Sign out and exit Origin, then start Northstar. It will prompt you for a login, _hopefully_ fixing it if nothing else worked
 * Start normal Titanfall 2 and then Northstar (_ONLY WORKS SOMETIMES_)
-</details>
 
-<details>
-
-<summary>Tier0.dll Not found</summary>
+## Tier0.dll Not found <a href="#tier0" id="tier0"></a>
 
 ![Failed to load the tier0.dll](../images/northstar-launcher-error-wrong-location.png)
 
@@ -39,11 +34,8 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 ![bin folder](../images/bin-folder.png)
 
 * If you dont have them verify your game on steam/origin/ea
-</details>
 
-<details>
-
-<summary>File Corruption Detected</summary>
+## File Corruption Detected <a href="#file-corruption" id="file-corruption"></a>
 
 {% hint style="info" %}
 Make sure you updated [Northstar to version v1.4.0 or higher](https://github.com/R2Northstar/Northstar/releases/) as this version features changes that address this problem.
@@ -68,12 +60,8 @@ Don't panic! This warning seems to be caused by Origin and none of your files ar
 
 If you followed all these steps and even launching the vanilla version of the game doesn't work, your final option is to fully remove the game and reinstall it.\
 Then checking if vanilla works before reinstalling Northstar.
-</details>
 
-<details>
-
-<summary>Failed copying wsock32.dll</summary>
-<a href="#wsock" id="wsock"></a>
+## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
 You are probably using EA Desktop app and it sets up game installations with no write permissions contrary to Origin.
 
@@ -95,11 +83,8 @@ Do NOT make any changes in `system32`, just copy the file.
 1. Locate your `Titanfall2` folder
 2. Right click it and go `Properties > Security`
 3. Give yourself write permissions
-</details>
 
-<details>
-
-<summary>Can't Join Servers (Issues with 10th+ gen Intel CPUs)</summary>
+## Can't Join Servers (Issues with 10th+ gen Intel CPUs)<a href="#intel" id="intel"></a>
 
 ![Newer Intel CPU error: Data Center: Searching...](https://user-images.githubusercontent.com/18601697/148625000-882bf1db-b9b2-4e9e-88db-6d608e58a35b.png)
 
@@ -117,62 +102,39 @@ If you're on Linux, you can set the appropriate environment variable via `env OP
 **Note:** This issue is not exclusive to Northstar client but also affects the vanilla version, so if you only get it on Northstar there might be a different problem at hand as well. In fact it's not even unique to Titanfall 2 either.
 
 See also [this thread on Steam](https://steamcommunity.com/app/1237970/discussions/0/3081016749018656768/)
-</details>
 
-<details>
-
-<summary>I disabled all mods and now I cannot re-enable them</summary>
+## I disabled all mods and now I cannot re-enable them <a href="#disabled-mods" id="disabled-mods"></a>
 
 Go to your `Titanfall2` directory. From there go to the `R2Northstar` and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
-</details>
 
-<details>
-
-<summary>VCRUNTIME140 Not found</summary>
+## VCRUNTIME140 Not found <a href="#vcruntime" id="vcruntime"></a>
 
 If you get this error you can fix it by [installing vcredist 2015-2022](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170). If it does not work install the 2013 version
-</details>
 
-<details>
+## Server ALWAYS Full <a href="#servers-full" id="servers-full"></a>
 
-<summary>Server ALWAYS Full</summary>
 * Double click on the server name in rapid succession.
 * Alternatively, click on the server you want to join, and click "join".
   * Clicking on no server but clicking "join" will attempt to connect you to the very first server, which is usually full
-</details>
 
-<details>
-
-<summary>Launch Northstar Locked</summary>
-<a href="#locked-northstar" id="locked-northstar"></a>
+## Launch Northstar Locked <a href="#locked-northstar" id="locked-northstar"></a>
 
 Go to Mods at the bottom of your screen on the main menu, then click Authentication Agreement and accept
-</details>
 
-<details>
-
-<summary>I can't open the console</summary>
-<a href="#console" id="console"></a>
+## I can't open the console <a href="#console" id="console"></a>
 
 * Navigate to your Titanfall2 directory then open
 * Open `R2Northstar\mods\Northstar.Client\mod\cfg\autoexec_ns_client.cfg`
   * And change the \` to one of the F keys (for example `F1` / `F2`) (Note: _Only \~ or F1-12 work_) - This _should_ fix it
     * _Restart game!_
-</details>
 
-<details>
-
-<summary>The Main Menu is blank</summary>
+## The Main Menu is blank <a href="#blank-menu" id="blank-menu"></a>
 
 * Please remove conflicting mods such as `better.serverbrowser` and reinstall _Northstar core mods_ (those that start with `Northstar.` / are in the [NorthstarMods repository](https://github.com/R2Northstar/NorthstarMods) / included in the release zip).\\
 * Try deleting `enabledmods.json` inside the R2Northstar folder as well.
 * Otherwise pay attention in console for your errors if you know what you're doing.
-</details>
 
-<details>
-
-<summary>Adding Launch Options</summary>
-<a href="#launch-opts" id="launch-opts"></a>
+## Adding Launch Options <a href="#launch-opts" id="launch-opts"></a>
 
 Adding `-northstar` will start Northstar when launching from your launcher\
 Adding `-vanilla` will start the normal game when you have Northstar installed
@@ -181,20 +143,13 @@ Adding `-vanilla` will start the normal game when you have Northstar installed
   * `Your library > Right click TF|2 > Properties > Launch Options > -northstar or -vanilla`
 * For Origin
   * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -vanilla`
-</details>
 
-<details>
-
-<summary>Access Violation</summary>
+## Access Violation
 
 If your error says `Access Violation | Attempted to read from 0x00000000` specifically DO NOT post just THAT.\
 The real error is most likely slightly higher. Please post that in issues or the discord
-</details>
 
-<details>
-
-<summary>I can't play the Campaign</summary>
-<a href="#campaign" id="campaign"></a>
+## I can't play the Campaign <a href="#campaign" id="campaign"></a>
 
 Campaign is not supported in Northstar yet, but you could do one of these "**_fixes_**"
 
@@ -202,12 +157,8 @@ Campaign is not supported in Northstar yet, but you could do one of these "**_fi
    * [If you can't open the console](#console)
 2. Adding `-vanilla` to your launch options
    * [How to add launch options](#launch-opts)
-</details>
 
-<details>
-
-<summary>Authentication Failed when clicking Launch Northstar</summary>
-<a href="#lsx2" id="lsx2"></a>
+## Authentication Failed when clicking Launch Northstar <a href="#lsx2" id="lsx2"></a>
 
 Before trying this check out [this section](#lsx).\
 Alternative to that fix:
@@ -218,12 +169,8 @@ Alternative to that fix:
 4. Launch Origin as admin
 5. Start the game through Origin with `-northstar` in [launch options](#launch-opts)
 6. See if that fixed it
-</details>
 
-<details>
-
-<summary>Could't Initialize Sound / DEVICE_IN_USE</summary>
-<a href="#initsound" id="initsound"></a>
+## Could't Initialize Sound / DEVICE_IN_USE <a href="#initsound" id="initsound"></a>
 
 ![Engine Error: Could't Initialize Sound](https://user-images.githubusercontent.com/2706225/153178714-2a50ac25-59fa-44d6-a47a-910058ec9888.png)
 
@@ -236,4 +183,3 @@ If message contains: `AUDCLNT_E_DEVICE_IN_USE`
 4. Restart your computer.
 
 This issue could also be caused if you use some sort of audio wrapper to control volume and stuff like Voicemeter Banana. The above fix was tested with Voicemeter Banana.
-</details>
