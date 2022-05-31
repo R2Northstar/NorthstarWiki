@@ -70,7 +70,10 @@ If you followed all these steps and even launching the vanilla version of the ga
 Then checking if vanilla works before reinstalling Northstar.
 </details>
 
-## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
+<details>
+
+<summary>Failed copying wsock32.dll</summary>
+<a href="#wsock" id="wsock"></a>
 
 You are probably using EA Desktop app and it sets up game installations with no write permissions contrary to Origin.
 
@@ -92,7 +95,7 @@ Do NOT make any changes in `system32`, just copy the file.
 1. Locate your `Titanfall2` folder
 2. Right click it and go `Properties > Security`
 3. Give yourself write permissions
-
+</details>
 
 <details>
 
@@ -116,38 +119,60 @@ If you're on Linux, you can set the appropriate environment variable via `env OP
 See also [this thread on Steam](https://steamcommunity.com/app/1237970/discussions/0/3081016749018656768/)
 </details>
 
-## I disabled all mods and now I cannot re-enable them <a href="#disabled-mods" id="disabled-mods"></a>
+<details>
+
+<summary>I disabled all mods and now I cannot re-enable them</summary>
 
 Go to your `Titanfall2` directory. From there go to the `R2Northstar` and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
+</details>
 
-## VCRUNTIME140 Not found <a href="#vcruntime" id="vcruntime"></a>
+<details>
+
+<summary>VCRUNTIME140 Not found</summary>
 
 If you get this error you can fix it by [installing vcredist 2015-2022](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170). If it does not work install the 2013 version
+</details>
 
-## Server ALWAYS Full <a href="#servers-full" id="servers-full"></a>
+<details>
 
+<summary>Server ALWAYS Full</summary>
 * Double click on the server name in rapid succession.
 * Alternatively, click on the server you want to join, and click "join".
   * Clicking on no server but clicking "join" will attempt to connect you to the very first server, which is usually full
+</details>
 
-## Launch Northstar Locked <a href="#locked-northstar" id="locked-northstar"></a>
+<details>
+
+<summary>Launch Northstar Locked</summary>
+<a href="#locked-northstar" id="locked-northstar"></a>
 
 Go to Mods at the bottom of your screen on the main menu, then click Authentication Agreement and accept
+</details>
 
-## I can't open the console <a href="#console" id="console"></a>
+<details>
+
+<summary>I can't open the console</summary>
+<a href="#console" id="console"></a>
 
 * Navigate to your Titanfall2 directory then open
 * Open `R2Northstar\mods\Northstar.Client\mod\cfg\autoexec_ns_client.cfg`
   * And change the \` to one of the F keys (for example `F1` / `F2`) (Note: _Only \~ or F1-12 work_) - This _should_ fix it
     * _Restart game!_
+</details>
 
-## The Main Menu is blank <a href="#blank-menu" id="blank-menu"></a>
+<details>
+
+<summary>The Main Menu is blank</summary>
 
 * Please remove conflicting mods such as `better.serverbrowser` and reinstall _Northstar core mods_ (those that start with `Northstar.` / are in the [NorthstarMods repository](https://github.com/R2Northstar/NorthstarMods) / included in the release zip).\\
 * Try deleting `enabledmods.json` inside the R2Northstar folder as well.
 * Otherwise pay attention in console for your errors if you know what you're doing.
+</details>
 
-## Adding Launch Options <a href="#launch-opts" id="launch-opts"></a>
+<details>
+
+<summary>Adding Launch Options</summary>
+<a href="#launch-opts" id="launch-opts"></a>
 
 Adding `-northstar` will start Northstar when launching from your launcher\
 Adding `-vanilla` will start the normal game when you have Northstar installed
@@ -156,13 +181,20 @@ Adding `-vanilla` will start the normal game when you have Northstar installed
   * `Your library > Right click TF|2 > Properties > Launch Options > -northstar or -vanilla`
 * For Origin
   * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -vanilla`
+</details>
 
-## Access Violation
+<details>
+
+<summary>Access Violation</summary>
 
 If your error says `Access Violation | Attempted to read from 0x00000000` specifically DO NOT post just THAT.\
 The real error is most likely slightly higher. Please post that in issues or the discord
+</details>
 
-## I can't play the Campaign <a href="#campaign" id="campaign"></a>
+<details>
+
+<summary>I can't play the Campaign</summary>
+<a href="#campaign" id="campaign"></a>
 
 Campaign is not supported in Northstar yet, but you could do one of these "**_fixes_**"
 
@@ -170,8 +202,12 @@ Campaign is not supported in Northstar yet, but you could do one of these "**_fi
    * [If you can't open the console](#console)
 2. Adding `-vanilla` to your launch options
    * [How to add launch options](#launch-opts)
+</details>
 
-## Authentication Failed when clicking Launch Northstar <a href="#lsx2" id="lsx2"></a>
+<details>
+
+<summary>Authentication Failed when clicking Launch Northstar</summary>
+<a href="#lsx2" id="lsx2"></a>
 
 Before trying this check out [this section](#lsx).\
 Alternative to that fix:
@@ -182,8 +218,12 @@ Alternative to that fix:
 4. Launch Origin as admin
 5. Start the game through Origin with `-northstar` in [launch options](#launch-opts)
 6. See if that fixed it
+</details>
 
-## Could't Initialize Sound / DEVICE_IN_USE <a href="#initsound" id="initsound"></a>
+<details>
+
+<summary>Could't Initialize Sound / DEVICE_IN_USE</summary>
+<a href="#initsound" id="initsound"></a>
 
 ![Engine Error: Could't Initialize Sound](https://user-images.githubusercontent.com/2706225/153178714-2a50ac25-59fa-44d6-a47a-910058ec9888.png)
 
@@ -196,3 +236,4 @@ If message contains: `AUDCLNT_E_DEVICE_IN_USE`
 4. Restart your computer.
 
 This issue could also be caused if you use some sort of audio wrapper to control volume and stuff like Voicemeter Banana. The above fix was tested with Voicemeter Banana.
+</details>
