@@ -6,6 +6,18 @@ description: Frequently asked questions
 
 ## **If you have any issues please go to [the troubleshooting page.](installing-northstar/troubleshooting.md)**
 
+### Q: Where and how do i download mods?
+
+A: You can find mods on the [Thunderstore](https://northstar.thunderstore.io/), or in #Northstar-client-mods in the [official Northstar discord](https://discord.gg/WEYNYZhAT2). To install mods, do 1 of 2 things.
+
+#### If the mod is from Thunderstore.
+Once you have downloaded the `.zip` of the mod, extract it anywhere. It should look somewhat like this:
+![Thunderstore](../images/Thunderstore-mods.png)
+Then open the `mods` folder, and take the folder in there and move into `<InstallLocation>\R2Northstar\mods`
+
+#### If the mod is from the discord.
+It should just be a `.zip` file. Extract it and move the folder it creates into `<InstallLocation>\R2Northstar\mods`.
+
 ### Q: Where are all my levels and saved loadouts?
 
 A: Northstar runs separate from official servers and progress does not carry over.
