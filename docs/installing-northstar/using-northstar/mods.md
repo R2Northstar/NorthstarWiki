@@ -21,4 +21,4 @@ They can be found in the following channels:
 ### Thunderstore
 
 Northstar also has a [Thunderstore](https://northstar.thunderstore.io/) page! You can find lots of mods here too! These mods are packaged slightly differently, and therefore have a different install proccess.
-In each `.zip` you download from Thunderstore, there will, at minimum be 2 files, `icon.png` and `manifest.json`. You can ignore or delete those. There will also be a folder called `mods` and in said folder the mod itself. Move the mods folder into `R2Northstar\mods` and you should be good!
+In each `.zip` you download from Thunderstore, there will, at minimum be 2 files, `icon.png` and `manifest.json`. You can ignore or delete those. There will also be a folder called `mods` and in said folder the mod itself. Move the contents of the mods folder into `R2Northstar\mods` and you should be good!
