@@ -14,6 +14,12 @@ Your master server is now running, to connect to it you need to change some conf
 
 Northstar default masterserver is https://northstar.tf, to point to a new location you need to modify this URL in the `autoexec_ns_server.cfg` and `autoexec_ns_client.cfg` config files.
 
+### Enabling Main Menu Promos
+
+![mainMenuPromos](../../../images/mainMenuPromos.png)
+
+To enable the main menu promos (like the red circle in the above photo), you need to duplicate and rename the file `mainmenupromodata.template.json` to `mainmenupromodata.json` in directory `client`. And change the content that you want to promos in the file to be shown correctly to the client.
+
 ### Enabling HTTPS
 
 HTTPS should be used if you plan for other people to use your master server. It can be enabled pretty easy with [Caddy](https://caddyserver.com/). Download a Caddy binary and create a `Caddyfile` with the following content:
