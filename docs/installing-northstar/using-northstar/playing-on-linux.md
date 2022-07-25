@@ -69,7 +69,7 @@ While playing with LatencyFleX, **VSync and Adaptive Super Sampling must be disa
 
 This issue has been resolved as of [Northstar 1.9.2 and newer.](https://github.com/R2Northstar/Northstar/releases/latest)
 
-For older builds of Northstar, please update or see the [legacy guide](installing-northstar/using-northstar/playing-on-linux-legacy-guide.md#blank-console) if the use of an older build is desired.
+For older builds of Northstar, please update or see the [legacy guide](playing-on-linux-legacy-guide.md#blank-console) if the use of an older build is desired.
 
 ### Crackling sound
 
