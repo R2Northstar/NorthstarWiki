@@ -70,6 +70,6 @@ Download and source code:
 
 ## **AnActualEmerald:** Papa
 
-cli mod manager and Northstar installer written in Rust. Available for Linux as .deb and .msi windows installer. Or build from source. Can install, uninstall, and update mods from Thunderstore
+Command-line only mod manager and Northstar installer written in Rust. Available for Linux as `.deb` and `.msi` Windows installer. Or build from source. Can install, uninstall, and update mods from Thunderstore.
 
 {% embed url="https://github.com/AnActualEmerald/papa" %}
