@@ -67,3 +67,9 @@ Easy to use and extensive Northstar installer and mod-manager. Supports installi
 Download and source code:
 
 {% embed url="https://github.com/BigSpice/VTOL" %}
+
+## **AnActualEmerald:** Papa
+
+cli mod manager and Northstar installer written in Rust. Available for Linux as .deb and .msi windows installer. Or build from source. Can install, uninstall, and update mods from Thunderstore
+
+{% embed url="https://github.com/AnActualEmerald/papa" %}
