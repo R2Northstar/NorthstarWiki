@@ -72,4 +72,5 @@ If you want to use Northstar you'll have to purchase Titanfall 2 either from Ste
 
 ### Q: Where is Frontier Defense?
 
-A: Frontier Defense is currently in development and will be available in a release when it's finished.
+A: Frontier Defense is currently in development and will be available in a release when it's finished.\
+However there are servers hosting a WIP version of Frontier Defense which is available to try out!
