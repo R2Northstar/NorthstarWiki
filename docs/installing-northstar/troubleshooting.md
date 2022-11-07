@@ -183,3 +183,17 @@ If message contains: `AUDCLNT_E_DEVICE_IN_USE`
 4. Restart your computer.
 
 This issue could also be caused if you use some sort of audio wrapper to control volume and stuff like Voicemeter Banana. The above fix was tested with Voicemeter Banana.
+
+## Windows 11 AutoHDR disabled while using Northstar
+
+You need to launch Northstar via Titanfall2 with `-northstar` passed as argument. To do this, go go to Steam/Origin (depending on where you bought the game), navigate to the settings where you can set launch arguments for Titanfall2. Add `-northstar` so that it launches Northstar instead. Launch the game via Steam/Origin.
+
+Relevant issue on GitHub: [https://github.com/R2Northstar/Northstar/issues/284](https://github.com/R2Northstar/Northstar/issues/284)
+
+## I used a command to set my player/gun XP level and I set it too high so now my game crashes when trying to join multiplayer
+
+{% hint style="warning" %}
+The following command will reset all your loadouts and levels!
+{% endhint %}
+
+Open console in-game in main menu, type in `ns_resetpersistence` and press enter. Close console again and click on "Launch Northstar". All your stuff should now be reset.

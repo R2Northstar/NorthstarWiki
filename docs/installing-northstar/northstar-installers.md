@@ -1,6 +1,25 @@
-# Northstar installers
+# Northstar Installers
 
 Since the public release of Northstar, the wider community has created tools to automate mod installation, as well as adding additional features such as auto-updating the current Northstar install and mod management.
+
+Each of these installers covers a different use case. Use the table below to find out which one suits you best:
+
+| Features                        | r2mm | Viper | VTOL | Papa |
+| ------------------------------- | ---- | ----- | ---- |------|
+| Install Northstar               | ✔️   | ✔️    | ✔️   | ✔️ |
+| Update Northstar                | ✔️   | ✔️    | ✔️   | ✔️ |
+| Launch Northstar                | ✔️   | ✔️    | ✔️   | ❌ |
+| Launch Vanilla                  | ✔️   | ✔️    | ✔️   | ❌ |
+| Install Mods from Thunderstore  | ✔️   | ✔️    | ✔️   | ✔️ |
+| Update Mods                     | ✔️   | ✔️    | ✔️   | ✔️ |
+|                                 |      |       |      |    |
+| Set launch arguments            | ❓    | ✔️    | ✔️   | ❌ |
+| Installing mods for other games | ✔️   | ❌     | ❌    | ❌ |
+| Install skins                   | ❓    | ❌     | ✔️   | ❌ |
+| Linux support                   | ❓    | ✔️    | ❌    | ✔️ |
+| Install Mods from GitHub/GitLab | ❌    | ❌     | ✔️   | ❌ |
+| Server config creator           | ❌    | ❌     | ✔️   | ❌ |
+| Package mods for Thunderstore   | ❌    | ❌     | ✔️   | ❌ |
 
 Note that none of these tools are directly part of the Northstar project and as such any issues with them should be reported to the respective authors instead.
 
@@ -28,7 +47,6 @@ There's also an alternative version of r2mm called _Thunderstore Mod Manager_ TM
 
 {% embed url="https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager" %}
 
-
 ## **0neGal:** Viper
 
 ![viper](../images/viper-main-window.png)
@@ -40,6 +58,8 @@ Download and source code:
 
 {% embed url="https://github.com/0neGal/viper" %}
 
+{% embed url="https://www.youtube.com/watch?v=Aes7V5YOSNY" %}
+
 ## **BigSpice:** VTOL
 
 ![vtol](../images/vtol-main-window.png)
@@ -49,3 +69,9 @@ Easy to use and extensive Northstar installer and mod-manager. Supports installi
 Download and source code:
 
 {% embed url="https://github.com/BigSpice/VTOL" %}
+
+## **AnActualEmerald:** Papa
+
+Command-line only mod manager and Northstar installer written in Rust. Available for Linux as `.deb` and `.msi` Windows installer. Or build from source. Can install, uninstall, and update mods from Thunderstore.
+
+{% embed url="https://github.com/AnActualEmerald/papa" %}

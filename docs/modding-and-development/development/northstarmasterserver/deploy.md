@@ -1,4 +1,4 @@
-# Deploying Master Server
+# Deploy
 
 ## Development
 
