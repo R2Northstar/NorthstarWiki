@@ -2,6 +2,22 @@
 
 > Read Lutris troubleshooting of [common issues with Origin](https://github.com/lutris/docs/blob/master/Origin.md) first.
 
+## EA App blank window
+
+If you have already logged in to EA App with Proton Experimental, the blank EA App should not prevent you from playing Northstar. However, if you find that it does or if you simply wish to use the EA App, the following should resolve these issues.
+
+### Steam & SteamDeck
+
+1. Make sure that you have protontricks installed
+
+2. Install `d3dcompiler_43` and `d3dcompiler_47` into your Titanfall 2 Proton compatdata.
+    1. **For SteamDeck (and Protontricks Flatpak)**, run `flatpak run com.github.Matoking.protontricks 1237970 d3dcompiler_43 d3dcompiler_47` in a terminal session (Konsole on SteamDeck).
+    2. **Otherwise**, run `protontricks 1237970 d3dcompiler_43 d3dcompiler_47` in a terminal session.
+
+### Lutris
+
+Install both `d3dcompiler_43` and `d3dcompiler_47` through Winetricks.
+
 ## Blank console
 
 This issue has been resolved as of [Northstar 1.9.2 and newer.](https://github.com/R2Northstar/Northstar/releases/latest)
