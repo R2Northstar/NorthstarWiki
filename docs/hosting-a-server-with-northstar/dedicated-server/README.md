@@ -249,7 +249,7 @@ Maps can be set on autorotation using [`ns_should_return_to_lobby 0`](./#Convars
 
 First map of autorotation can be set using [`ns_private_match_last_map`](./#Convars-lastmap)
 
-A way to blacklist maps with autorotation do not exists.
+A way to blacklist maps with autorotation does not exist.
 
 ### Vanilla (mp)
 
