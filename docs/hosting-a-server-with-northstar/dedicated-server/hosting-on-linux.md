@@ -11,7 +11,7 @@ If you do not have a DirectX 11 capable GPU in your system (for example if you a
 
 ## Using Docker
 
-The aim of this guide is to show the steps to build a docker-compose container that starts on boot and to show basic configuration. Docker image can be found in this GitHub repo: [https://github.com/pg9182/northstar-dedicated](https://github.com/pg9182/northstar-dedicated)
+The Docker image for the latest version of Northstar can be found in this GitHub repo: [https://github.com/pg9182/northstar-dedicated](https://github.com/pg9182/northstar-dedicated)
 
 ### Prerequisites
 
@@ -22,9 +22,20 @@ The aim of this guide is to show the steps to build a docker-compose container t
 | RAM         | 2GB (Typically peaks at 1.6GB)                          |
 | Disk        | 5GB                                                     |
 | Network     | Recommended at least 7-20Mbps up                        |
-| Docker      | Have Docker and Docker-compose installed on the machine |
+| Docker      | Have Docker and Docker-Compose installed on the machine |
 
 ### Installation
+
+#### Install Docker and Docker-Compose
+
+If you don't already have docker & docker-compose installed, you can install them by running these commands in a terminal. 
+**These install directions come directly from https://docs.docker.com/engine/install/**
+##### Ubuntu
+```  ```
+
+##### Fedora
+
+
 
 #### Prep Titanfall Server files
 
