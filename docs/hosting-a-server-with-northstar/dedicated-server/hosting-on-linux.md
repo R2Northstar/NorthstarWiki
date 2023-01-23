@@ -71,8 +71,8 @@ services:
      - 'NS_SERVER_NAME=Enter Server Name here'
      - 'NS_SERVER_DESC=Enter your description here'
      - NS_EXTRA_ARGUMENTS=
-       +setplaylist aitdm #attrition
-       +mp_gamemode aitdm #attrition
+       +setplaylist aitdm # Attrition
+       +mp_gamemode aitdm # Attrition
        +map mp_angel_city
        +ns_private_match_countdown_length 0
        +ns_should_return_to_lobby 0
