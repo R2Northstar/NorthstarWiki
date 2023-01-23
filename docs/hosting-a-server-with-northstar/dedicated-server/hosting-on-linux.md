@@ -32,7 +32,8 @@ If you don't already have docker & docker-compose installed, you can install the
 **These install directions come directly from https://docs.docker.com/engine/install/**
 #### Ubuntu
 1. Update `apt` package index and install packages to allow `apt` to use a repo over HTTPS
-```sudo apt-get update
+```
+sudo apt-get update
 
  sudo apt-get install \
     ca-certificates \
@@ -41,16 +42,19 @@ If you don't already have docker & docker-compose installed, you can install the
     lsb-release
 ```
 2. Add Docker's official GPG key
-```sudo mkdir -p /etc/apt/keyrings
+```
+sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
 3. Use the following commmand to set up the repository
-```echo \
+```
+echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 4. Update `apt` index with `sudo apt-get update` and then install docker engine, containerd, and docker compose.
-```sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin```
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin```
 5. Verify docker engine is installed by running this
 ```sudo docker run hello-world```
 #### Fedora
