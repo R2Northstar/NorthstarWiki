@@ -135,7 +135,7 @@ Easiest way to do this is to copy the entire Titanfall2 folder to the server and
 
 #### Copy Titanfall Folder over to the Linux Machine
 
-1. Access the files on your Linux machine using tools like [WinSCP](https://winscp.net/eng/download.php)
+1. Access the files on your Linux machine using tools like [WinSCP](https://winscp.net/eng/download.php) or any tool that allows for SSH file transfer, or transfer files via USB drive if you can physically access your server.
 2. Navigate to the folder where you want to store the files. You can put them into `~/Titanfall2` for example.
 3. Copy the newly pruned Titanfall folder to the server.
 
@@ -159,7 +159,7 @@ Example `docker-compose.yml`
 ```yaml
 version: '3'
 services:
- northstar-skirmish: 
+ northstar-attrition: 
    image: ghcr.io/pg9182/northstar-dedicated:1-tf2.0.11.0 
    pull_policy: always 
    environment:
@@ -168,8 +168,8 @@ services:
      - 'NS_SERVER_NAME=Enter Server Name here'
      - 'NS_SERVER_DESC=Enter your description here'
      - NS_EXTRA_ARGUMENTS=
-       +setplaylist aitdm //skirmish
-       +mp_gamemode aitdm //skirmish
+       +setplaylist aitdm #attrition
+       +mp_gamemode aitdm #attrition
        +map mp_angel_city
        +ns_private_match_countdown_length 0
        +ns_should_return_to_lobby 0
@@ -178,8 +178,8 @@ services:
        +spewlog_enable 0
        +sv_maxrate 127000
    volumes:
-     - /home/user/Titanfall2:/mnt/titanfall:ro
-     - /home/user/Titanfall2/mods:/mnt/mods:ro
+     - /home/YOUR_USERNAME_HERE/Titanfall2:/mnt/titanfall:ro
+     - /home/YOUR_USERNAME_HERE/Titanfall2/mods:/mnt/mods:ro
    ports:
      - '37015:37015/udp'
      - '8081:8081/tcp'
