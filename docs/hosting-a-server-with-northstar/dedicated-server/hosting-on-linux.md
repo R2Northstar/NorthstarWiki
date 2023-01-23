@@ -30,14 +30,35 @@ The Docker image for the latest version of Northstar can be found in this GitHub
 
 If you don't already have docker & docker-compose installed, you can install them by running these commands in a terminal. 
 **These install directions come directly from https://docs.docker.com/engine/install/**
-##### Ubuntu
-```  ```
+#### Ubuntu
+1. Update `apt` package index and install packages to allow `apt` to use a repo over HTTPS
+```sudo apt-get update
 
-##### Fedora
+ sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+```
+2. Add Docker's official GPG key
+```sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+```
+3. Use the following commmand to set up the repository
+```echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+4. Update `apt` index with `sudo apt-get update` and then install docker engine, containerd, and docker compose.
+```sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin```
+5. Verify docker engine is installed by running this
+```sudo docker run hello-world```
+#### Fedora
 
 
 
-#### Prep Titanfall Server files
+
+### Prep Titanfall Server files
 
 You will need obtain Titanfall's game files, typically by copying over your Titanfall installation folder and placing it on the Linux machine. Most of these files are for SP and therefore we can delete from the installation folder and prune the file size down to \~5GB.
 
