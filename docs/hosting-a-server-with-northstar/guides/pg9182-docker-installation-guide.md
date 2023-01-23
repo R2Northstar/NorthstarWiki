@@ -26,7 +26,7 @@ The aim of this guide is to show the steps to build a docker-compose container t
 
 You will need to copy over your Titanfall installation folder and place it on the Linux machine. Most of these files are for SP and therefore we can delete from the installation folder and prune the file size down to \~5GB.
 
-Easiest way to do this is copy the entire Titanfall2 folder to your desktop and delete the [following files](https://github.com/pg9182/northstar-dedicated#reducing-the-size-).
+Easiest way to do this is download and run [this sh script](https://gist.github.com/pg9182/9a962adbfc27e93237cd14e4523c9da8) made by pg9182, or alternatively copy the entire Titanfall2 folder to your server and delete the [following files](https://github.com/pg9182/northstar-dedicated#reducing-the-size-).
 
 #### Copy Titanfall Folder over to the Linux Machine
 
