@@ -57,7 +57,8 @@ We are going to be using Docker-Compose to set up our container, this gives us m
 nano docker-compose.yml
 ```
 
-Example `docker-compose.yml`
+Example `docker-compose.yml` \
+(Note that you will have to adjust some lines to make it work on your machine)
 
 ```yaml
 version: '3'
