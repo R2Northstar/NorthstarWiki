@@ -51,7 +51,7 @@ If you have configured some mods,these can be placed at a similar location, like
 
 #### Create docker-compose file
 
-We are going to be using Docker-Compose to set up our container, this gives us much more flexibility and allows us to make changes to the start up arguments much cleaner. This example will let you start your servers without needing to have your compose in the same folder and directory as Titanfall 2 and your mods folder. Create a compose file in your home directory, or wherever is most convenient.
+We are going to be using Docker-Compose to set up our container. This gives us much more flexibility and allows us to make changes to the start up arguments much cleaner. This example will let you start your servers without needing to have your compose in the same folder and directory as Titanfall 2 and your mods folder. Create a compose file in your home directory, or wherever is most convenient.
 
 ```
 nano docker-compose.yml
