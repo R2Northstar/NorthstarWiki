@@ -28,7 +28,7 @@ The Docker image for the latest version of Northstar can be found in this GitHub
 
 #### Install Docker and Docker-Compose
 
-If you don't already have Docker and Docker-Compose installed, you can learn how to install them [here](https://docs.docker.com/engine/install/) for your distro. If you do have them installed, you can move on to the next section.
+If you don't already have Docker and Docker-Compose installed, you can learn how to install them [here](https://docs.docker.com/engine/install/) for your distro. Once you have them installed, you can move on to the next section.
 
 ### Prep Titanfall Server files
 
