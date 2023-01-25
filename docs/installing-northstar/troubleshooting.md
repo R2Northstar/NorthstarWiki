@@ -39,7 +39,7 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 
 ![Engine Error: File corruption detected. Please repair or re-install the game.](https://user-images.githubusercontent.com/39478251/147338706-74797220-7d7f-4c81-9ba0-d88e29a2a1e2.png)
 
-Don't panic! This warning seems to be caused by Origin and none of your files are actually corrupted. If you get this warning after launching the game try updating your Northstar install to the [Newest Release](https://github.com/R2Northstar/Northstar/releases), as this error was resolved in version 1.4.0.
+Don't panic! This warning seems to be caused by Origin and none of your files are actually corrupted. If you get this warning after launching the game try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was resolved in version `v1.4.0`.
 
 ## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
@@ -131,11 +131,7 @@ The real error is most likely slightly higher. Please post that in issues or the
 
 ## I can't play the Campaign <a href="#campaign" id="campaign"></a>
 
-If having trouble playing the campaign, try the following fixes
-
-1. Update your Northstar install to the [Newest Release](https://github.com/R2Northstar/Northstar/releases)
-2. Add `-vanilla` to your launch options and play vanilla Titanfall
-   * [How to add launch options](troubleshooting.md#launch-opts)
+If having trouble playing the campaign, update your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases)
 
 ## Authentication Failed when clicking Launch Northstar <a href="#lsx2" id="lsx2"></a>
 
