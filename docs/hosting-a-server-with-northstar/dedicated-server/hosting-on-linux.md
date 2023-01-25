@@ -11,7 +11,7 @@ If you do not have a DirectX 11 capable GPU in your system (for example if you a
 
 ## Using Docker
 
-The Docker image for the latest version of Northstar can be found in this GitHub repo: [https://github.com/pg9182/northstar-dedicated](https://github.com/pg9182/northstar-dedicated)
+The preferred method for running a Northstar server in Docker is using pg9182's image which can be found in this GitHub repo: [https://github.com/pg9182/northstar-dedicated](https://github.com/pg9182/northstar-dedicated)
 
 ### Prerequisites
 
