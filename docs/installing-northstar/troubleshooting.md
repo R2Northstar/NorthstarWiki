@@ -37,29 +37,9 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 
 ## File Corruption Detected <a href="#file-corruption" id="file-corruption"></a>
 
-{% hint style="info" %}
-Make sure you updated [Northstar to version v1.4.0 or higher](https://github.com/R2Northstar/Northstar/releases/) as this version features changes that address this problem.
-{% endhint %}
-
 ![Engine Error: File corruption detected. Please repair or re-install the game.](https://user-images.githubusercontent.com/39478251/147338706-74797220-7d7f-4c81-9ba0-d88e29a2a1e2.png)
 
-Don't panic! This warning seems to be caused by Origin and none of your files are actually corrupted. If you get this warning after launching the game try the following steps, closing the game before and launching it again after:
-
-* Make sure you got the newest version of Northstar. In particular, [v1.4.0 or higher](https://github.com/R2Northstar/Northstar/releases/) have this problem fixed.
-* Restart Origin\
-  Also check task manager that all Origin processes are gone before restarting it\
-  (even if you have the Steam version)
-* Restart your PC
-* Start Northstar with Origin already open
-* Start Northstar with Origin fully closed.
-* Start vanilla game and see if this works.\
-  If vanilla doesn't work either, check [this thread on EA forums](https://answers.ea.com/t5/Titanfall-2/Titanfall-2-Wont-Laumch-DLL-file-issue/td-p/5660909)
-* Check [this issue thread](https://github.com/R2Northstar/Northstar/issues/6) to see whether any of the solutions proposed there work for you.
-* Verify game files via Steam/Origin (depending on where you own the game)
-* Check Github issues if anyone else is experiencing this problem. Maybe current release has a bug.
-
-If you followed all these steps and even launching the vanilla version of the game doesn't work, your final option is to fully remove the game and reinstall it.\
-Then checking if vanilla works before reinstalling Northstar.
+Don't panic! This warning seems to be caused by Origin and none of your files are actually corrupted. If you get this warning after launching the game try updating your Northstar install to the [Newest Release](https://github.com/R2Northstar/Northstar/releases), as this error was resolved in version 1.4.0.
 
 ## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
@@ -151,11 +131,10 @@ The real error is most likely slightly higher. Please post that in issues or the
 
 ## I can't play the Campaign <a href="#campaign" id="campaign"></a>
 
-Campaign is not supported in Northstar yet, but you could do one of these "_**fixes**_"
+If having trouble playing the campaign, try the following fixes
 
-1. Doing `ns_auth_allow_insecure 1` in the console
-   * [If you can't open the console](troubleshooting.md#console)
-2. Adding `-vanilla` to your launch options
+1. Update your Northstar install to the [Newest Release](https://github.com/R2Northstar/Northstar/releases)
+2. Add `-vanilla` to your launch options and play vanilla Titanfall
    * [How to add launch options](troubleshooting.md#launch-opts)
 
 ## Authentication Failed when clicking Launch Northstar <a href="#lsx2" id="lsx2"></a>
