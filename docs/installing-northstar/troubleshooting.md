@@ -41,7 +41,7 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 
 Don't panic! This warning isn't as serious as it seems. If you get this warning after launching the game, try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was mostly resolved in version `v1.4.0`.
 
-If that doesn't work, you should verify your Titanfall 2 files. If you're confused on how to verify files, [this article](https://www.makeuseof.com/how-to-verify-game-file-integrity-different-launchers/) covers all of the apps you can own Titanfall 2 on, though you will have to scroll a bit for Origin.
+If that doesn't work, you should verify your Titanfall 2 files. If you're confused on how to verify files, follow [this](troubleshooting.md#verify-files) guide.
 
 ## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
@@ -125,6 +125,17 @@ Adding `-vanilla` will start the normal game when you have Northstar installed
   * `Your library > Right click TF|2 > Properties > Launch Options > -northstar or -vanilla`
 * For Origin
   * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -vanilla`
+
+## Verifying Game Files <a href="#verify-files" id="verify-files"></a>
+
+This is a small guide to help you understand how to verify the files of your game
+
+* For steam
+ * `Your library > Right click TF|2 > Properties > Local Files > Verify integrity of game files...`
+* For EA app
+ * `My collection > Click the three dots on TF|2 > Repair`
+* For Origin
+ * `My Game Library > Click on TF|2 > Click the gear icon > Repair`
 
 ## Access Violation
 
