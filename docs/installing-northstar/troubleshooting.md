@@ -131,11 +131,11 @@ Adding `-vanilla` will start the normal game when you have Northstar installed
 This is a small guide to help you understand how to verify the files of your game
 
 * For steam
- * `Your library > Right click TF|2 > Properties > Local Files > Verify integrity of game files...`
+  * `Your library > Right click TF|2 > Properties > Local Files > Verify integrity of game files...`
 * For EA app
- * `My collection > Click the three dots on TF|2 > Repair`
+  * `My collection > Click the three dots on TF|2 > Repair`
 * For Origin
- * `My Game Library > Click on TF|2 > Click the gear icon > Repair`
+  * `My Game Library > Click on TF|2 > Click the gear icon > Repair`
 
 ## Access Violation
 
