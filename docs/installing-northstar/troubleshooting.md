@@ -39,7 +39,9 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 
 ![Engine Error: File corruption detected. Please repair or re-install the game.](https://user-images.githubusercontent.com/39478251/147338706-74797220-7d7f-4c81-9ba0-d88e29a2a1e2.png)
 
-Don't panic! This warning seems to be caused by Origin and none of your files are actually corrupted. If you get this warning after launching the game try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was resolved in version `v1.4.0`.
+Don't panic! This warning isn't as serious as it seems. If you get this warning after launching the game, try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was mostly resolved in version `v1.4.0`.
+
+If that doesn't work, you should verify your Titanfall 2 files. If you're confused on how to verify files, [this article](https://www.makeuseof.com/how-to-verify-game-file-integrity-different-launchers/) covers all of the apps you can own Titanfall 2 on, though you will have to scroll a bit for Origin.
 
 ## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
