@@ -28,7 +28,7 @@ The preferred method for running a Northstar server in Docker is using pg9182's 
 
 #### Install Docker and Docker-Compose
 
-If you don't already have Docker and Docker-Compose installed, you can learn how to install them [here](https://docs.docker.com/engine/install/) for your distro. Once you have them installed, you can move on to the next section.
+If you don't already have Docker and Docker-Compose installed, you can learn how to install them for your distro [from this guide](https://docs.docker.com/engine/install/). Once you have them installed, you can move on to the next section.
 
 ### Prep Titanfall Server files
 
