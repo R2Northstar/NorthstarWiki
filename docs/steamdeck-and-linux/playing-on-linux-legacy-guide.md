@@ -34,6 +34,7 @@ Now Steam will automatically launch Northstar when you hit play. Just launch the
 > **Note:** There is a current bug where the game would sometimes launch vanilla Titanfall 2 instead of Northstar. There is no universal fix for this, but people have reported changing Proton versions to _Proton 5.13_ or _Proton Experimental_ and deleting the Proton prefix folder (`Steam/steamapps/compatdata/1237970/`) could help resolve this issue. Using [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom) has also been reported to resolve the issue.
 >
 > If you are still suffering from this bug, try running the game through Lutris. The bug doesn't seem to happen there
+
 ### Lutris (Wine)
 
 1. If you don't already have the game downloaded, install the game [from here.](https://lutris.net/games/titanfall-2/)
@@ -43,9 +44,11 @@ Now Steam will automatically launch Northstar when you hit play. Just launch the
 5. **Otherwise:** click the `+` button in the top left > set the name to whatever and _Runner_ to _Wine_ > click on _Game options_ > set _Executable path_ to _NorthstarLauncher.exe_ then save.
 
 > **If you're migrating from Steam:** Set _Wine prefix_ to `(your Steam directory)/steamapps/compatdata/1237970/pfx/`. This will save you the hassle of having to re-download Origin.
+
 Now just launch the game through Lutris and you should be greeted with a Northstar welcome message upon entering the main menu.
 
 > **Note:** Origin might prompt you to log in and "set an installation folder for future downloads" on first launch. Just do those, close Origin, then launch the game again.
+
 ### SteamDeck
 
 {% hint style="info" %}
@@ -121,14 +124,17 @@ Once installed, LatencyFleX can be enabled by doing either of the following:
 * **Lutris:** Right click on Titanfall 2, click 'Configure', navigate to 'System Preferences' / 'System Options' / 'Environmental Variables', and use the following:
 
 > Key: LFX Value: 1
+
 Once in-game, LatencyFleX can be toggled off and on using the `"r_latencyflex"` console variable.
 
 While playing with LatencyFleX, **VSync and Adaptive Super Sampling must be disabled**. If you wish to prevent tearing while using LatencyFleX, the following may be added to the end of `ns_startup_args.txt` in the root of your Titanfall 2 install:
 
 > \+fps\_max\_use\_refresh 1
+
 ## Troubleshooting
 
 > Read Lutris troubleshooting of [common issues with Origin](https://github.com/lutris/docs/blob/master/Origin.md) first.
+
 ### Blank console
 
 This problem is caused due to missing fonts on your Titanfall 2 wine prefix, you will need [winetricks](https://github.com/Winetricks/winetricks) or [protontricks](https://github.com/Matoking/protontricks) depending on your installation. Follow these steps to install:
