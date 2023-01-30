@@ -41,7 +41,7 @@ Alternatively download and run [this shell script](https://gist.github.com/pg918
 
 1. Access the files on your Linux machine using tools like [WinSCP](https://winscp.net/eng/download.php) or any tool that allows for SSH file transfer, or transfer files via USB drive if you can physically access your server.
 2. Navigate to the folder where you want to store the files. You can put them into `home/YOUR-USERNAME/Titanfall2` for example.
-3. Copy the newly pruned Titanfall folder to the server.
+3. Copy the newly pruned Titanfall2 folder to the server.
 
 #### Copy mods to server
 
