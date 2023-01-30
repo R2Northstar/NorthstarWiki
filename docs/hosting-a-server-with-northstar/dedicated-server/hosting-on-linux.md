@@ -51,7 +51,7 @@ Note that Northstar itself is already installed in the Docker image. Therefore u
 
 #### Create docker-compose file
 
-We are going to be using Docker-Compose to set up our container. This gives us much more flexibility and allows us to make changes to the start up arguments much cleaner. This example will let you start your servers without needing to have your compose file in the same folder and directory as Titanfall 2 and your mods folder. Create a compose file in your home directory, or wherever is most convenient.
+We are going to be using Docker-Compose to set up our container. This gives us much more flexibility and allows us to make changes to the start up arguments much cleaner. This example will let you start your servers without needing to have your compose file in the same folder and directory as Titanfall2 and your mods folder. Create a compose file in your home directory, or wherever is most convenient.
 
 ```
 nano docker-compose.yml
