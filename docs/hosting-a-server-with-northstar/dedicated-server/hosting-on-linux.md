@@ -30,7 +30,7 @@ The preferred method for running a Northstar server in Docker is using pg9182's 
 
 If you don't already have Docker and Docker-Compose installed, you can learn how to install them for your distro [from this guide](https://docs.docker.com/engine/install/). Once you have them installed, you can move on to the next section.
 
-### Prep Titanfall Server files
+### Prepare Titanfall2 Server files
 
 You will need obtain Titanfall2's game files, typically by copying over your Titanfall2 installation folder and placing it on the Linux machine. Most of these files are for single player and therefore we can delete them from the installation folder and prune the file size down to \~5GB.
 
