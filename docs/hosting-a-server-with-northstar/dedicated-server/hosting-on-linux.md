@@ -37,7 +37,7 @@ You will need obtain Titanfall2's game files, typically by copying over your Tit
 Easiest way to do this is to copy the entire Titanfall2 folder to the server and delete the [following files](https://github.com/pg9182/northstar-dedicated#reducing-the-size-) \
 Alternatively download and run [this shell script](https://gist.github.com/pg9182/9a962adbfc27e93237cd14e4523c9da8) to download only the files necessary to run a server.
 
-#### Copy Titanfall Folder over to the Linux Machine
+#### Copy Titanfall2 folder over to the Linux machine
 
 1. Access the files on your Linux machine using tools like [WinSCP](https://winscp.net/eng/download.php) or any tool that allows for SSH file transfer, or transfer files via USB drive if you can physically access your server.
 2. Navigate to the folder where you want to store the files. You can put them into `home/YOUR-USERNAME/Titanfall2` for example.
