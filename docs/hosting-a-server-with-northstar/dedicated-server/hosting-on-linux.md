@@ -40,15 +40,12 @@ Alternatively download and run [this shell script](https://gist.github.com/pg918
 #### Copy Titanfall Folder over to the Linux Machine
 
 1. Access the files on your Linux machine using tools like [WinSCP](https://winscp.net/eng/download.php) or any tool that allows for SSH file transfer, or transfer files via USB drive if you can physically access your server.
-2. Navigate to the folder where you want to store the files. You can put them into `~/Titanfall2` for example.
+2. Navigate to the folder where you want to store the files. You can put them into `home/YOUR-USERNAME/Titanfall2` for example.
 3. Copy the newly pruned Titanfall folder to the server.
-
-![Game files copied to `/mnt/Titanfall` as an example](https://i.postimg.cc/15HbbzFr/image.png)
 
 #### Copy mods to server
 
-If you have configured some mods,these can be placed at a similar location, like `~/mods` for example
-![Mods placed inside /mnt/mods](https://i.postimg.cc/tRD5jnrJ/image.png)
+If you have configured some mods, these can be placed at a similar location, like `home/YOUR-USERNAME/mods` for example
 
 #### Create docker-compose file
 
