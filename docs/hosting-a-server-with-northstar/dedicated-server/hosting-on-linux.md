@@ -45,7 +45,9 @@ Alternatively download and run [this shell script](https://gist.github.com/pg918
 
 #### Copy mods to server
 
-If you have configured some mods, these can be placed at a similar location, like `home/YOUR-USERNAME/mods` for example
+If you have configured some mods, these can be placed at a similar location, like `home/YOUR-USERNAME/mods` for example.
+
+Note that Northstar itself is already installed in the Docker image. Therefore unless you are testing a development version you should NOT copy over the `Northstar.XYZ` mods.
 
 #### Create docker-compose file
 
