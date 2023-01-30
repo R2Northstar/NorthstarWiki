@@ -107,9 +107,13 @@ See also [this thread on Steam](https://steamcommunity.com/app/1237970/discussio
 
 Go to your `Titanfall2` directory. From there go to the `R2Northstar` and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
 
+## MSVCR120.dll / MSVCP120.dll Not found <a href="#msvcr" id="msvcr"></a>
+
+If you get this error you can fix it by [installing vcredist 2013](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2013-vc-120).
+
 ## VCRUNTIME140 Not found <a href="#vcruntime" id="vcruntime"></a>
 
-If you get this error you can fix it by [installing vcredist 2015-2022](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170). If it does not work install the 2013 version
+If you get this error you can fix it by [installing vcredist 2015-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). If it does not work install the 2013 version
 
 ## Server ALWAYS Full <a href="#servers-full" id="servers-full"></a>
 
