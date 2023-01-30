@@ -6,7 +6,7 @@
 EA App currently displays a blank screen when using NorthstarProton, however Northstar will still launch assuming you have logged in to EA App at least once.
 {% endhint %}
 
-> **Check your GLIBC version.** NorthstarProton currently only supports version 2.33 and higher. Verify your installed version with `ldd --version`. **Ubuntu 20.04 LTS**, **Debian 11**, and **Void Linux** are known to have outdated GLIBC packages. This check does not need to be completed on Steam Deck or Steam OS.
+> **Check your GLIBC version.** NorthstarProton currently only supports version 2.33 and higher. Verify your installed version with `ldd --version`. **Ubuntu 20.04 LTS**, **Debian 11**, and **Void Linux** are known to have outdated GLIBC packages, meaning you cannot use NorthstarProton on these distros and will have to use Lutris. This check does not need to be completed on Steam Deck or Steam OS.
 
 On Steam Deck, complete the following in desktop mode. You may return to game mode once completed _(A mouse + keyboard plugged into the Deck are recommended for easier navigation of menus)_
 
