@@ -105,7 +105,9 @@ To run this container go to the folder you saved the `docker-compose.yml` in and
 docker-compose up
 ```
 
-Your server should be up and running now. Check the in-game server browser or the [online server list](https://northstar-stats.frontier.tf/d/R1hKFea7k/northstar-tf-server-overview?orgId=1&refresh=30s) to see if it's online. Should your server not show up or should you encounter any other issues, check the [server troubleshooting section](https://r2northstar.gitbook.io/r2northstar-wiki/hosting-a-server-with-northstar/troubleshooting) of the wiki.
+Your server should be up and running now. Check the in-game server browser or the [online server list](https://northstar.tf/servers) to see if it's online.
+
+Should your server not show up or should you encounter any other issues, check the [server troubleshooting section](https://r2northstar.gitbook.io/r2northstar-wiki/hosting-a-server-with-northstar/troubleshooting) of the wiki.
 
 ## Without using Docker
 
