@@ -34,7 +34,8 @@ If you don't already have Docker and Docker-Compose installed, you can learn how
 
 You will need obtain Titanfall2's game files, typically by copying over your Titanfall2 installation folder and placing it on the Linux machine. Most of these files are for single player and therefore we can delete them from the installation folder and prune the file size down to \~5GB.
 
-Easiest way to do this is to copy the entire Titanfall2 folder to the server and delete the [following files](https://github.com/pg9182/northstar-dedicated#reducing-the-size-), or alternatively download and run [this shell script](https://gist.github.com/pg9182/9a962adbfc27e93237cd14e4523c9da8) to download only the files necessary to run a server.
+Easiest way to do this is to copy the entire Titanfall2 folder to the server and delete the [following files](https://github.com/pg9182/northstar-dedicated#reducing-the-size-) \
+Alternatively download and run [this shell script](https://gist.github.com/pg9182/9a962adbfc27e93237cd14e4523c9da8) to download only the files necessary to run a server.
 
 #### Copy Titanfall Folder over to the Linux Machine
 
