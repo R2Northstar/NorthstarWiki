@@ -115,12 +115,6 @@ If you get this error you can fix it by [installing vcredist 2013](https://learn
 
 If you get this error you can fix it by [installing vcredist 2015-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). If it does not work install the 2013 version
 
-## Server ALWAYS Full <a href="#servers-full" id="servers-full"></a>
-
-* Double click on the server name in rapid succession.
-* Alternatively, click on the server you want to join, and click "join".
-  * Clicking on no server but clicking "join" will attempt to connect you to the very first server, which is usually full
-
 ## Launch Northstar Locked <a href="#locked-northstar" id="locked-northstar"></a>
 
 Go to Mods at the bottom of your screen on the main menu, then click Authentication Agreement and accept
