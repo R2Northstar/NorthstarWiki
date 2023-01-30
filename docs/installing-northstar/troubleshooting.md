@@ -39,9 +39,9 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 
 ![Engine Error: File corruption detected. Please repair or re-install the game.](https://user-images.githubusercontent.com/39478251/147338706-74797220-7d7f-4c81-9ba0-d88e29a2a1e2.png)
 
-Don't panic! This warning isn't as serious as it seems. If you get this warning after launching the game, try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was mostly resolved in version `v1.4.0`.
+Don't panic! This warning isn't as serious as it seems. It's simply an incorrect error message caused by Origin/EA App. If you get this warning after launching the game, try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was mostly resolved in version `v1.4.0`.
 
-If that doesn't work, you should verify your Titanfall 2 files. If you're confused on how to verify files, follow [this](troubleshooting.md#verify-files) guide.
+If that doesn't work, you should verify your Titanfall2 files. If you're confused on how to verify files, follow [this](troubleshooting.md#verify-files) guide.
 
 ## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
@@ -130,7 +130,7 @@ Adding `-vanilla` will start the normal game when you have Northstar installed
 
 This is a small guide to help you understand how to verify the files of your game
 
-* For steam
+* For Steam
   * `Your library > Right click TF|2 > Properties > Local Files > Verify integrity of game files...`
 * For EA app
   * `My collection > Click the three dots on TF|2 > Repair`
@@ -144,7 +144,7 @@ The real error is most likely slightly higher. Please post that in issues or the
 
 ## I can't play the Campaign <a href="#campaign" id="campaign"></a>
 
-If having trouble playing the campaign, update your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases)
+If you're having trouble playing the campaign, update your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases) as this issue was resolved in `v1.11.2` of Northstar.
 
 ## Authentication Failed when clicking Launch Northstar <a href="#lsx2" id="lsx2"></a>
 
