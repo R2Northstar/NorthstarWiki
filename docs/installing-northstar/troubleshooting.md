@@ -199,6 +199,6 @@ Open console in-game in main menu, type in `ns_resetpersistence` and press enter
 
 The default install location for EA App `C:\Program Files\EA Games\Titanfall2` is not writeable by non-admin processes. This messes with Northstar trying to write log files as well as mod-managers trying to install mods.
 
-Therefore the recommended solution is to move the install to another location (can even be on the same drive). This prevents the non-admin issue and as such should solve the issue of Northstar being unable to write logs and failing. 
+Therefore the recommended solution is to move the install to another location (can even be on the same drive). This prevents the non-admin issue and as such should solve the issue of Northstar being unable to write logs and failing.
 
 The recommended solution can be done by moving the Titanfall 2 folder from the default location to something like `C:\Program Files (x86)\Games\Titanfall2`, and then you will need to open EA App, go to Settings, go to Downloads and change the install directory in the settings. Click Edit next to Install Location and navigate to your new directory that you put Titanfall 2 into. Restart EA App after doing this, and the issue should be resolved. If not, hitting Install on Titanfall 2 should prompt EA App to look for the files, or ask you to set the game's directory.
