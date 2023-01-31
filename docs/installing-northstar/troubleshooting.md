@@ -109,7 +109,7 @@ Go to your `Titanfall2` directory. From there go to the `R2Northstar` and delete
 
 ## MSVCR120.dll / MSVCP120.dll Not found <a href="#msvcr" id="msvcr"></a>
 
-If you get this error you can fix it by [installing vcredist 2013](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2013-vc-120).
+If you get this error you can fix it by [installing vcredist 2013 (vcredist_x64)](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2013-vc-120).
 
 ## Server ALWAYS Full <a href="#servers-full" id="servers-full"></a>
 
@@ -207,4 +207,7 @@ The default install location for EA App `C:\Program Files\EA Games\Titanfall2` i
 
 Therefore the recommended solution is to move the install to another location (can even be on the same drive). This prevents the non-admin issue and as such should solve the issue of Northstar being unable to write logs and failing.
 
-The recommended solution can be done by moving the Titanfall 2 folder from the default location to something like `C:\Program Files (x86)\Games\Titanfall2`, and then you will need to open EA App, go to Settings, go to Downloads and change the install directory in the settings. Click Edit next to Install Location and navigate to your new directory that you put Titanfall 2 into. Restart EA App after doing this, and the issue should be resolved. If not, hitting Install on Titanfall 2 should prompt EA App to look for the files, or ask you to set the game's directory.
+The recommended solution can be done by moving the Titanfall 2 folder from the default location to something like `C:\Program Files (x86)\Games\Titanfall2`. After doing this, you will need to open the EA App, go to Settings, go to Downloads and change the install directory in the settings. Click Edit next to Install Location and navigate to your new directory that you put Titanfall 2 into.
+
+
+Restart EA App after doing this, and the issue should be resolved. If not, hitting Install on Titanfall 2 should prompt EA App to look for the files, or ask you to set the game's directory.
