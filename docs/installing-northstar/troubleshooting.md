@@ -111,6 +111,12 @@ Go to your `Titanfall2` directory. From there go to the `R2Northstar` and delete
 
 If you get this error you can fix it by [installing vcredist 2013](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2013-vc-120).
 
+## Server ALWAYS Full <a href="#servers-full" id="servers-full"></a>
+
+* Double click on the server name in rapid succession.
+* Alternatively, click on the server you want to join, and click "join".
+  * Clicking on no server but clicking "join" will attempt to connect you to the very first server, which is usually full
+
 ## VCRUNTIME140 Not found <a href="#vcruntime" id="vcruntime"></a>
 
 If you get this error you can fix it by [installing vcredist 2015-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). If it does not work install the 2013 version
