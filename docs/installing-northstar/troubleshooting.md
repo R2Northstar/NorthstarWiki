@@ -22,10 +22,7 @@ If the usual workaround of restarting Origin/rebooting or running the vanilla ga
 
 ![Failed to load the tier0.dll](../images/northstar-launcher-error-wrong-location.png)
 
-This error is usually caused by running the `NorthstarLauncher.exe` in the wrong location, such as extracting the zip it came with directly in your Downloads folder and running it there.
-
-* Default Steam Location: `%ProgramFiles(x86)%\Steam\steamapps\common\Titanfall2\`
-* Default Origin Location: `%ProgramFiles(x86)%\Origin Games\Titanfall2\`
+This error is usually caused by running the `NorthstarLauncher.exe` in the wrong location, such as extracting the zip it came with directly in your Downloads folder and running it there. The correct location is inside of the [`Titanfall2 directory`](troubleshooting.md#game-location)
 
 **If it still appears after trying the fix above:** It's possible that you may have **corrupted or missing** game files
 
@@ -33,7 +30,7 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 
 ![bin folder](../images/bin-folder.png)
 
-* If you dont have them verify your game on steam/origin/ea
+* If you dont have them, [verify your game files](troubleshooting.md#verify-files)
 
 ## File Corruption Detected <a href="#file-corruption" id="file-corruption"></a>
 
@@ -62,7 +59,7 @@ Do NOT make any changes in `system32`, just copy the file.
 
 ### Solution 3
 
-1. Locate your `Titanfall2` folder
+1. Locate your [`Titanfall2` folder](troubleshooting.md#game-location)
 2. Right click it and go `Properties > Security`
 3. Give yourself write permissions
 
@@ -87,7 +84,7 @@ See also [this thread on Steam](https://steamcommunity.com/app/1237970/discussio
 
 ## I disabled all mods and now I cannot re-enable them <a href="#disabled-mods" id="disabled-mods"></a>
 
-Go to your `Titanfall2` directory. From there go to the `R2Northstar` and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
+Go to your [`Titanfall2` directory.](troubleshooting.md#game-location) From there go to the `R2Northstar` and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
 
 ## VCRUNTIME140 Not found <a href="#vcruntime" id="vcruntime"></a>
 
@@ -105,24 +102,32 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 
 ## I can't open the console <a href="#console" id="console"></a>
 
-* Navigate to your Titanfall2 directory then open
+* Navigate to your [Titanfall2 directory](troubleshooting.md#game-location)
 * Open `R2Northstar\mods\Northstar.Client\mod\cfg\autoexec_ns_client.cfg`
   * And change the \` to one of the F keys (for example `F1` / `F2`) (Note: _Only \~ or F1-12 work_) - This _should_ fix it
     * _Restart game!_
 
 ## The Main Menu is blank <a href="#blank-menu" id="blank-menu"></a>
 
-* Please remove conflicting mods such as `better.serverbrowser` and reinstall _Northstar core mods_ (those that start with `Northstar.` / are in the [NorthstarMods repository](https://github.com/R2Northstar/NorthstarMods) / included in the release zip).\\
+* Please remove conflicting mods such as `better.serverbrowser` and reinstall _Northstar core mods_ (those that start with `Northstar.` / are in the [NorthstarMods repository](https://github.com/R2Northstar/NorthstarMods) / included in the release zip).\
 * Try deleting `enabledmods.json` inside the R2Northstar folder as well.
 * Otherwise pay attention in console for your errors if you know what you're doing.
 
+## Default Game Locations <a href="#game-location" id="game-location"></a>
+
+* Default Steam Location: `%ProgramFiles(x86)%\Steam\steamapps\common\Titanfall2\`
+* Default EA Location: '%ProgrameFiles(x86)%\FILL WITH EA DIRECTORY WHEN I GET HOME LOL'
+* Default Origin Location: `%ProgramFiles(x86)%\Origin Games\Titanfall2\`
+
 ## Adding Launch Options <a href="#launch-opts" id="launch-opts"></a>
 
-Adding `-northstar` will start Northstar when launching from your launcher\
-Adding `-vanilla` will start the normal game when you have Northstar installed
+Adding `-northstar` will start Northstar when launching from your library\
+Adding `-vanilla` or removing the `-northstar` will start the normal game when you have Northstar installed
 
 * For Steam
-  * `Your library > Right click TF|2 > Properties > Launch Options > -northstar or -vanilla`
+  * `Your library > Right click TF|2 > Properties > General > Launch Options > -northstar or -vanilla`
+* For EA app
+  * 'My collection > Click the three dots on TF|2 > Properties > ADD WHATEVER TAB LAUNCH ARGS IS IN WHEN I GET HOME> -northstar or -vanilla'
 * For Origin
   * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -vanilla`
 
@@ -135,7 +140,7 @@ This is a small guide to help you understand how to verify the files of your gam
 * For EA app
   * `My collection > Click the three dots on TF|2 > Repair`
 * For Origin
-  * `My Game Library > Click on TF|2 > Click the gear icon > Repair`
+  * `Your library > Click on TF|2 > Click the gear icon > Repair`
 
 ## Access Violation
 
@@ -173,7 +178,7 @@ This issue could also be caused if you use some sort of audio wrapper to control
 
 ## Windows 11 AutoHDR disabled while using Northstar
 
-You need to launch Northstar via Titanfall2 with `-northstar` passed as argument. To do this, go go to Steam/Origin (depending on where you bought the game), navigate to the settings where you can set launch arguments for Titanfall2. Add `-northstar` so that it launches Northstar instead. Launch the game via Steam/Origin.
+You need to launch Northstar via Titanfall2 by setting up [launch options](troubleshooting.md#launch-opts) and launching the game from your library.
 
 Relevant issue on GitHub: [https://github.com/R2Northstar/Northstar/issues/284](https://github.com/R2Northstar/Northstar/issues/284)
 
