@@ -22,7 +22,7 @@ If the usual workaround of restarting Origin/rebooting or running the vanilla ga
 
 ![Failed to load the tier0.dll](../images/northstar-launcher-error-wrong-location.png)
 
-This error is usually caused by running the `NorthstarLauncher.exe` in the wrong location, such as extracting the zip it came with directly in your Downloads folder and running it there. The correct location is inside of the [`Titanfall2 directory`](troubleshooting.md#game-location)
+This error is usually caused by running the `NorthstarLauncher.exe` in the wrong location, such as extracting the zip it came with directly in your Downloads folder and running it there. The correct location is inside of the [`Titanfall2` directory](troubleshooting.md#game-location)
 
 **If it still appears after trying the fix above:** It's possible that you may have **corrupted or missing** game files
 
@@ -84,7 +84,7 @@ See also [this thread on Steam](https://steamcommunity.com/app/1237970/discussio
 
 ## I disabled all mods and now I cannot re-enable them <a href="#disabled-mods" id="disabled-mods"></a>
 
-Go to your [`Titanfall2` directory.](troubleshooting.md#game-location) From there go to the `R2Northstar` and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
+Go to your [`Titanfall2` directory.](troubleshooting.md#game-location) From there go to the `R2Northstar` folder and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
 
 ## VCRUNTIME140 Not found <a href="#vcruntime" id="vcruntime"></a>
 
@@ -116,7 +116,7 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 ## Default Game Locations <a href="#game-location" id="game-location"></a>
 
 * Default Steam Location: `%ProgramFiles(x86)%\Steam\steamapps\common\Titanfall2\`
-* Default EA Location: '%ProgrameFiles(x86)%\FILL WITH EA DIRECTORY WHEN I GET HOME LOL'
+* Default EA Location: `%ProgrameFiles(x86)%\FILL WITH EA DIRECTORY WHEN I GET HOME LOL`
 * Default Origin Location: `%ProgramFiles(x86)%\Origin Games\Titanfall2\`
 
 ## Adding Launch Options <a href="#launch-opts" id="launch-opts"></a>
@@ -127,7 +127,7 @@ Adding `-vanilla` or removing the `-northstar` will start the normal game when y
 * For Steam
   * `Your library > Right click TF|2 > Properties > General > Launch Options > -northstar or -vanilla`
 * For EA app
-  * 'My collection > Click the three dots on TF|2 > Properties > ADD WHATEVER TAB LAUNCH ARGS IS IN WHEN I GET HOME> -northstar or -vanilla'
+  * `My collection > Click the three dots on TF|2 > Properties > ADD WHATEVER TAB LAUNCH ARGS IS IN WHEN I GET HOME> -northstar or -vanilla`
 * For Origin
   * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -vanilla`
 
@@ -178,7 +178,7 @@ This issue could also be caused if you use some sort of audio wrapper to control
 
 ## Windows 11 AutoHDR disabled while using Northstar
 
-You need to launch Northstar via Titanfall2 by setting up [launch options](troubleshooting.md#launch-opts) and launching the game from your library.
+You need to launch Northstar via Titanfall 2 by setting up [launch options](troubleshooting.md#launch-opts) and launching the game from your library.
 
 Relevant issue on GitHub: [https://github.com/R2Northstar/Northstar/issues/284](https://github.com/R2Northstar/Northstar/issues/284)
 
