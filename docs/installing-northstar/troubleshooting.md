@@ -111,6 +111,8 @@ Go to your `Titanfall2` directory. From there go to the `R2Northstar` and delete
 
 If you get this error you can fix it by [installing vcredist 2013 (vcredist_x64)](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2013-vc-120).
 
+![MSVCR120.dll Error](../images/msvcr.png)
+
 ## Server ALWAYS Full <a href="#servers-full" id="servers-full"></a>
 
 * Double click on the server name in rapid succession.
