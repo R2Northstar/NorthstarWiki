@@ -11,7 +11,6 @@
 * [SteamDeck and Linux](steamdeck-and-linux/README.md)
   * [Installing on SteamDeck and Linux](steamdeck-and-linux/installing-on-steamdeck-and-linux.md)
   * [Troubleshooting](steamdeck-and-linux/linux-troubleshooting.md)
-  * [Legacy Linux Guide for 1.9.1 and older](steamdeck-and-linux/playing-on-linux-legacy-guide.md)
 * [Troubleshooting](installing-northstar/troubleshooting.md)
 
 ***
@@ -35,7 +34,6 @@
   * [RCON](hosting-a-server-with-northstar/dedicated-server/rcon.md)
 * [Troubleshooting](hosting-a-server-with-northstar/troubleshooting.md)
 * [Guides](hosting-a-server-with-northstar/guides/README.md)
-  * [Docker Install](hosting-a-server-with-northstar/guides/pg9182-docker-installation-guide.md)
 
 ## Modding and Development
 
