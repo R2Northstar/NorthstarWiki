@@ -91,15 +91,13 @@ Go to your `Titanfall2` directory. From there go to the `R2Northstar` and delete
 
 ## MSVCR120.dll / MSVCP120.dll Not found <a href="#msvcr" id="msvcr"></a>
 
-If you get this error you can fix it by [installing vcredist 2013 (vcredist_x64)](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2013-vc-120).
+If you get this error you can fix it by [downloading and installing vcredist 2013 (`vcredist_x64.exe`)](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2013-vc-120).
 
 ![MSVCR120.dll Error](../images/msvcr.png)
 
 ## VCRUNTIME140 Not found <a href="#vcruntime" id="vcruntime"></a>
 
 If you get this error you can fix it by [installing vcredist 2015-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). If it does not work install the 2013 version
-
-main
 ## Launch Northstar Locked <a href="#locked-northstar" id="locked-northstar"></a>
 
 Go to Mods at the bottom of your screen on the main menu, then click Authentication Agreement and accept
@@ -192,7 +190,8 @@ The default install location for EA App `C:\Program Files\EA Games\Titanfall2` i
 
 Therefore the recommended solution is to move the install to another location (can even be on the same drive). This prevents the non-admin issue and as such should solve the issue of Northstar being unable to write logs and failing.
 
-The recommended solution can be done by moving the Titanfall 2 folder from the default location to something like `C:\Program Files (x86)\Games\Titanfall2`. After doing this, you will need to open the EA App, go to Settings, go to Downloads and change the install directory in the settings. Click Edit next to Install Location and navigate to your new directory that you put Titanfall 2 into.
+The recommended solution can be done by moving the Titanfall 2 folder from the default location to something like `C:\Program Files (x86)\Games\Titanfall2`. After doing this, you will need to open the EA App, go to Settings, go to Downloads and change the install directory in the settings. Click _"Edit"_ next to _"Install Location"_ and navigate to your new directory that you put Titanfall 2 into.
+
 ![EA App Settings](../images/ea-app.png)
 
-Restart EA App after doing this, and the issue should be resolved. If not, hitting Install on Titanfall 2 should prompt EA App to look for the files, or ask you to set the game's directory.
+Restart EA App after doing this, and the issue should be resolved. If not, hitting _Install_ on Titanfall 2 should prompt EA App to look for the files, or ask you to set the game's directory.
