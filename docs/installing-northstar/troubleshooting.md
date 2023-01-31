@@ -98,6 +98,7 @@ If you get this error you can fix it by [downloading and installing vcredist 201
 ## VCRUNTIME140 Not found <a href="#vcruntime" id="vcruntime"></a>
 
 If you get this error you can fix it by [installing vcredist 2015-2022 (`vcredist_x64.exe`)](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). If it does not work install the 2013 version
+
 ## Launch Northstar Locked <a href="#locked-northstar" id="locked-northstar"></a>
 
 Go to Mods at the bottom of your screen on the main menu, then click Authentication Agreement and accept
