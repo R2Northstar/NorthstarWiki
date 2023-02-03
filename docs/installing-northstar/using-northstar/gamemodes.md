@@ -56,7 +56,7 @@ Everyone's kit is changed to Phase Shift.
 
 ## Spicy
 
-Replaces all ordinance/grenades with ticks.
+Replaces all ordnance/grenades with ticks.
 
 ## Tactikill
 
