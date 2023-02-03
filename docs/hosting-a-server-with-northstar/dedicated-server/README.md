@@ -73,7 +73,7 @@ Example: `+setplaylistvaroverrides "run_epilogue 0 featured_mode_amped_tacticals
 | `oob_timer_enabled`                          | `0-1`           |               | Out of bounds timer enable                                                                      |
 | `roundtimelimit`                             |                 |               |                                                                                                |
 | `classic_rodeo`                              | `0-1`           |               |                                                                                                |
-| `classic_mp`                                 | `0-1`           | `1`           | Enables intro dropship                                                                          |
+| `classic_mp`                                 | `0-1`           | `1`           | Enables intro dropship                                                                         |
 | `fp_embark_enabled`                          |                 |               | First person embark and terminations                                                            |
 | `promode_enable`                             | `0-1`           | `0`           |                                                                                                |
 | `riff_floorislava`                           | `0-1`           | `0`           | Covers the whole map with deadly electric smoke                                                |
