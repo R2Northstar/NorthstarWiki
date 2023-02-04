@@ -2,7 +2,7 @@
 
 Generally try to first launch the vanilla game (i.e. not Northstar) if you encounter any issue and see if it also occurs there as well. Some problems can occur when the vanilla game was never launched before using Northstar.
 
-A lot of problems around the game failing to communicate with Origin can also be prevented by launching Origin before Northstar should you encounter any issues in that regard.
+A lot of problems around the game failing to communicate with EA/Origin can also be prevented by launching EA/Origin before Northstar should you encounter any issues in that regard.
 
 Also note that some solutions described below can also apply to the base game, like issues caused by [10th+ gen Intel CPUs](troubleshooting.md#intel).
 
@@ -12,17 +12,16 @@ Also note that some solutions described below can also apply to the base game, l
 
 If the usual workaround of restarting Origin/rebooting or running the vanilla game first and then Northstar don’t work, try the following:
 
-* First and foremost, double check that you are _logged in_ on Origin. Titanfall will _not_ run if you are not connected to EA servers first (and neither will Titanfall + Northstar).
-* [Add the northstar commandline option in your launcher](troubleshooting.md#launch-opts)
-* Run the game with Origin/Steam instead of starting NorthstarLauncher.exe (important)
-* Sign out and exit Origin, then start Northstar. It will prompt you for a login, _hopefully_ fixing it if nothing else worked
+* First and foremost, double check that you are _logged in_ on EA/Origin. Titanfall will _not_ run if you are not connected to EA servers first (and neither will Titanfall + Northstar).
+* Run the game with EA/Origin/Steam by adding [launch options](troubleshooting.md#launch-opts) instead of starting NorthstarLauncher.exe (important)
+* Sign out and exit EA/Origin, then start Northstar. It will prompt you for a login, _hopefully_ fixing it if nothing else worked
 * Start normal Titanfall 2 and then Northstar (_ONLY WORKS SOMETIMES_)
 
 ## Tier0.dll Not found <a href="#tier0" id="tier0"></a>
 
 ![Failed to load the tier0.dll](../images/northstar-launcher-error-wrong-location.png)
 
-This error is usually caused by running the `NorthstarLauncher.exe` in the wrong location, such as extracting the zip it came with directly in your Downloads folder and running it there. The correct location is inside of the [`Titanfall2` directory](troubleshooting.md#game-location)
+This error is usually caused by running the `NorthstarLauncher.exe` in the wrong location, such as extracting the zip it came with directly in your Downloads folder and running it there. The correct location is inside of the [Titanfall2 directory](troubleshooting.md#game-location)
 
 **If it still appears after trying the fix above:** It's possible that you may have **corrupted or missing** game files
 
@@ -38,7 +37,7 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 
 Don't panic! This warning isn't as serious as it seems. It's simply an incorrect error message caused by Origin/EA App. If you get this warning after launching the game, try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was mostly resolved in version `v1.4.0`.
 
-If that doesn't work, you should verify your Titanfall2 files. If you're confused on how to verify files, follow [this](troubleshooting.md#verify-files) guide.
+If that doesn't work, you should verify your titanfall2 files. If you're confused on how to verify files, follow [this](troubleshooting.md#verify-files) guide.
 
 ## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
@@ -59,7 +58,7 @@ Do NOT make any changes in `system32`, just copy the file.
 
 ### Solution 3
 
-1. Locate your [`Titanfall2` folder](troubleshooting.md#game-location)
+1. Locate your [titanfall2 folder](troubleshooting.md#game-location)
 2. Right click it and go `Properties > Security`
 3. Give yourself write permissions
 
@@ -88,7 +87,7 @@ Go to your [`Titanfall2` directory.](troubleshooting.md#game-location) From ther
 
 ## VCRUNTIME140 Not found <a href="#vcruntime" id="vcruntime"></a>
 
-If you get this error you can fix it by [installing vcredist 2015-2022](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170). If it does not work install the 2013 version
+If you get this error you can fix it by [installing vcredist 2015-2022](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170). If it does not work install, the 2013 version
 
 ## Server ALWAYS Full <a href="#servers-full" id="servers-full"></a>
 
@@ -116,7 +115,7 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 ## Default Game Locations <a href="#game-location" id="game-location"></a>
 
 * Default Steam Location: `%ProgramFiles(x86)%\Steam\steamapps\common\Titanfall2\`
-* Default EA Location: `%ProgrameFiles(x86)%\FILL WITH EA DIRECTORY WHEN I GET HOME LOL`
+* Default EA Location: `%ProgramFiles%\EA Games\Titanfall2`
 * Default Origin Location: `%ProgramFiles(x86)%\Origin Games\Titanfall2\`
 
 ## Adding Launch Options <a href="#launch-opts" id="launch-opts"></a>
@@ -127,7 +126,7 @@ Adding `-vanilla` or removing the `-northstar` will start the normal game when y
 * For Steam
   * `Your library > Right click TF|2 > Properties > General > Launch Options > -northstar or -vanilla`
 * For EA app
-  * `My collection > Click the three dots on TF|2 > Properties > ADD WHATEVER TAB LAUNCH ARGS IS IN WHEN I GET HOME> -northstar or -vanilla`
+  * `My collection > Click the three dots on TF|2 > Properties > Advanced launch options > -northstar or -vanilla`
 * For Origin
   * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -vanilla`
 
@@ -141,6 +140,11 @@ This is a small guide to help you understand how to verify the files of your gam
   * `My collection > Click the three dots on TF|2 > Repair`
 * For Origin
   * `Your library > Click on TF|2 > Click the gear icon > Repair`
+
+## Controller Not Working <a href="#controller" id="controller"></a>
+
+If you're having issues with your controller working on Northstar, you can add Northstar to Steam to make it use Steam's controller settings.\ 
+To do this, go to Steam, then in the bottom left corner, hit `ADD A GAME` > `Add a Non-Steam Game...` > `BROWSE...` > Find `NorthstarLauncher` in your [titanfall2 directory](troubleshooting.md#game-location)
 
 ## Access Violation
 
