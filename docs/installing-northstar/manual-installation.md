@@ -1,9 +1,6 @@
 # Manual installation
 
 ## Installing Northstar:
-
-If you are on Linux, please use the [guide here instead](../steamdeck-and-linux/installing-on-steamdeck-and-linux.md)
-
 {% embed url="https://www.youtube.com/watch?v=bK4pV-AHOHM" %}
 
 Firstly, note that the Northstar client is only available on PC and requires you to **both own the game and have it installed**.
