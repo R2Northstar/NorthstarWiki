@@ -21,7 +21,7 @@ If the usual workaround of restarting Origin/rebooting or running the vanilla ga
 
 ![Failed to load the tier0.dll](../images/northstar-launcher-error-wrong-location.png)
 
-This error is usually caused by running the `NorthstarLauncher.exe` in the wrong location, such as extracting the zip it came with directly in your Downloads folder and running it there. The correct location is inside of the [Titanfall2 directory](troubleshooting.md#game-location)
+This error is usually caused by running the `NorthstarLauncher.exe` in the wrong location, such as extracting the zip it came with directly in your Downloads folder and running it there. The correct location is inside of the [titanfall2 directory](troubleshooting.md#game-location)
 
 **If it still appears after trying the fix above:** It's possible that you may have **corrupted or missing** game files
 
@@ -83,7 +83,7 @@ See also [this thread on Steam](https://steamcommunity.com/app/1237970/discussio
 
 ## I disabled all mods and now I cannot re-enable them <a href="#disabled-mods" id="disabled-mods"></a>
 
-Go to your [`Titanfall2` directory.](troubleshooting.md#game-location) From there go to the `R2Northstar` folder and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
+Go to your [titanfall2 directory.](troubleshooting.md#game-location) From there go to the `R2Northstar` folder and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
 
 ## VCRUNTIME140 Not found <a href="#vcruntime" id="vcruntime"></a>
 
@@ -101,7 +101,7 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 
 ## I can't open the console <a href="#console" id="console"></a>
 
-* Navigate to your [Titanfall2 directory](troubleshooting.md#game-location)
+* Navigate to your [titanfall2 directory](troubleshooting.md#game-location)
 * Open `R2Northstar\mods\Northstar.Client\mod\cfg\autoexec_ns_client.cfg`
   * And change the \` to one of the F keys (for example `F1` / `F2`) (Note: _Only \~ or F1-12 work_) - This _should_ fix it
     * _Restart game!_
