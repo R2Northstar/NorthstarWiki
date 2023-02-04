@@ -37,7 +37,7 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 
 Don't panic! This warning isn't as serious as it seems. It's simply an incorrect error message caused by Origin/EA App. If you get this warning after launching the game, try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was mostly resolved in version `v1.4.0`.
 
-If that doesn't work, you should verify your titanfall2 files. If you're confused on how to verify files, follow [this](troubleshooting.md#verify-files) guide.
+If that doesn't work, you should verify your Titanfall2 files. If you're confused on how to verify files, follow [this](troubleshooting.md#verify-files) guide.
 
 ## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
@@ -58,7 +58,7 @@ Do NOT make any changes in `system32`, just copy the file.
 
 ### Solution 3
 
-1. Locate your [titanfall2 folder](troubleshooting.md#game-location)
+1. Locate your [Titanfall2 folder](troubleshooting.md#game-location)
 2. Right click it and go `Properties > Security`
 3. Give yourself write permissions
 
@@ -83,7 +83,7 @@ See also [this thread on Steam](https://steamcommunity.com/app/1237970/discussio
 
 ## I disabled all mods and now I cannot re-enable them <a href="#disabled-mods" id="disabled-mods"></a>
 
-Go to your [titanfall2 directory.](troubleshooting.md#game-location) From there go to the `R2Northstar` folder and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
+Go to your [Titanfall2 directory.](troubleshooting.md#game-location) From there go to the `R2Northstar` folder and delete `enabledmods.json`. This file stores information about which mods are enabled and disabled. By deleting this file Northstar will fall back to the default (all mods enabled) and re-create the file appropriately.
 
 ## MSVCR120.dll / MSVCP120.dll Not found <a href="#msvcr" id="msvcr"></a>
 
@@ -101,14 +101,14 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 
 ## I can't open the console <a href="#console" id="console"></a>
 
-* Navigate to your [titanfall2 directory](troubleshooting.md#game-location)
+* Navigate to your [Titanfall2 directory](troubleshooting.md#game-location)
 * Open `R2Northstar\mods\Northstar.Client\mod\cfg\autoexec_ns_client.cfg`
   * And change the \` to one of the F keys (for example `F1` / `F2`) (Note: _Only \~ or F1-12 work_) - This _should_ fix it
     * _Restart game!_
 
 ## The Main Menu is blank <a href="#blank-menu" id="blank-menu"></a>
 
-* Please remove conflicting mods such as `better.serverbrowser` and reinstall _Northstar core mods_ (those that start with `Northstar.` / are in the [NorthstarMods repository](https://github.com/R2Northstar/NorthstarMods) / included in the release zip).\
+* Please remove conflicting mods such as `better.serverbrowser` and reinstall _Northstar core mods_ (those that start with `Northstar.` / are in the [NorthstarMods repository](https://github.com/R2Northstar/NorthstarMods) / included in the release zip).
 * Try deleting `enabledmods.json` inside the R2Northstar folder as well.
 * Otherwise pay attention in console for your errors if you know what you're doing.
 
