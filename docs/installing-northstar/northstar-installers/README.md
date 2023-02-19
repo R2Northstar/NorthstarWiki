@@ -67,7 +67,9 @@ Download and source code:
 Easy to use and extensive Northstar installer and mod-manager. Supports installing from Thunderstore as well as from outside sources like GitHub/GitLab repositories. Has support for installing custom weapon/pilot skins. Features manager for setting up dedicated servers.
 
 You can find a complete guide to VTOL below.\
-{% content-ref url="https://github.com/CooldudePUGS/NorthstarWiki/blob/main/docs/installing-northstar/northstar-installers/VTOL-guide.md" %} VTOL-guide.md {% endcontent-ref %}
+{% content-ref url="VTOL-guide.md" %}
+[VTOL-guide.md](VTOL-guide.md)
+{% endcontent-ref %}
 
 Download and source code:
 
