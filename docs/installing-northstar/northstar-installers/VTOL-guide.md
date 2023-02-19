@@ -98,4 +98,4 @@ The fourth screen lists a lot of commonly used tools by modders to help create m
 The last section of the VTOL client is the 6th tab of VTOL, the "About" section. This screen shows you what VTOL can do, as well as a button to configure updates, and a button to check for updates for the VTOL client.
 
 # Credits 
-[Juicy](https://github.com/BigSpice) for creating and upkeeping the VTOL Manager, as well as helping explain some things that I hadn't seen before
+[Juicy](https://github.com/BigSpice) for creating and upkeeping the VTOL Manager, as well as helping explain some things to complete the guide
