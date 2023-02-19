@@ -25,7 +25,7 @@ Note that none of these tools are directly part of the Northstar project and as 
 
 ## **ebkr:** r2modman
 
-![r2modman](../images/r2modman-main-window.png)
+![r2modman](../docs/images/r2modman-main-window.png)
 
 General mod-manager for multiple games including Titanfall|2+Northstar. Allows for separate profiles to keep your game install folder clean. Features mod-manager and built-in mod browser for Thunderstore.\
 Supports Windows and Linux.
