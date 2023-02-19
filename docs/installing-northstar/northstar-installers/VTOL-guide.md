@@ -23,7 +23,7 @@ The final parts of the Main Menu are at the bottom, showing your game's director
 # Installation Via VTOL
 VTOL handles most things automatically, but it still may require minimal setup for some users.\
 ![northstar-installation-info-locate](https://user-images.githubusercontent.com/70904206/219880765-0fce4934-33e0-4aef-900b-c18edfb9bc1e.jpg)
-Something you might have to do manually is locate your Titanfall 2 Install. You can do this by pressing the button of the same name on VTOL, and navigating to your Titanfall 2 directory (If you're unsure of what your game path is, check out the Northstar wiki's [Default Directories](troubleshooting.md#game-location) section)
+Something you might have to do manually is locate your Titanfall 2 Install. You can do this by pressing the button of the same name on VTOL, and navigating to your Titanfall 2 directory (If you're unsure of what your game path is, check out the Northstar wiki's [Default Directories](../troubleshooting.md#game-location) section)
 
 After doing this, Northsar should automatically install. If not, the button at the bottom will read "Install Northstar". Let VTOL install Northstar, and you should be good to go. Once installed, this button will turn into the "Update +Northstar" shown in the screenshot earlier, which you can use to update without having to reinstall.
 
