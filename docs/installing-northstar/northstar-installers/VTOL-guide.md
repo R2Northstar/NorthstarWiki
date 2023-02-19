@@ -68,7 +68,7 @@ The third settings tab on VTOL is the "Skins" tab. VTOL has support for skins fo
 ## Server
 ![vtol-server](https://user-images.githubusercontent.com/70904206/219881530-baa4c77d-8f04-4ffc-bada-9fbb7c478847.png)
 
-The fourth tab on VTOL is the "Server" tab. This section allows you to add Launch Arguments to your client or dedicated server. Note that this adds Launch Arguments to change what Northstar does when it launches, not to launch Northstar itself. A way you can do this is by adding [launch arguments](troubleshooting.md#launch-opts) via the store you own the game on and launching through there.
+The fourth tab on VTOL is the "Server" tab. This section allows you to add Launch Arguments to your client or dedicated server. Note that this adds Launch Arguments to change what Northstar does when it launches, not to launch Northstar itself. A way you can do this is by adding [launch arguments](../troubleshooting.md#launch-opts) via the store you own the game on and launching through there.
 
 For the dedicated server option, you can scroll through this tab to set many different options for a server which can be found on the Northstar Wiki's [Server Hosting Guide](https://r2northstar.gitbook.io/r2northstar-wiki/hosting-a-server-with-northstar/basic-listen-server)
 
