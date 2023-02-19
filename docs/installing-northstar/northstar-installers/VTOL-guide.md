@@ -23,7 +23,7 @@ The final parts of the Main Menu are at the bottom, showing your game's director
 # Installation Via VTOL
 VTOL handles most things automatically, but it still may require minimal setup for some users.\
 ![northstar-installation-info-locate](https://user-images.githubusercontent.com/70904206/219880765-0fce4934-33e0-4aef-900b-c18edfb9bc1e.jpg)
-Something you might have to do manually is locate your Titanfall 2 Install. You can do this by pressing the button of the same name on VTOL, and navigating to your Titanfall 2 directory (If you're unsure of what your game path is, check out the Northstar wiki's [Default Directories](../troubleshooting.md#game-location) section)
+Something you might have to do manually is locate your Titanfall 2 Install. You can do this by pressing the button of the same name on VTOL, and navigating to your Titanfall 2 directory (If you're unsure of what your game path is, check out the [default directories](../troubleshooting.md#game-location) section)
 
 After doing this, Northsar should automatically install. If not, the button at the bottom will read "Install Northstar". Let VTOL install Northstar, and you should be good to go. Once installed, this button will turn into the "Update +Northstar" shown in the screenshot earlier, which you can use to update without having to reinstall.
 
@@ -70,7 +70,7 @@ The third settings tab on VTOL is the "Skins" tab. VTOL has support for skins fo
 
 The fourth tab on VTOL is the "Server" tab. This section allows you to add Launch Arguments to your client or dedicated server. Note that this adds Launch Arguments to change what Northstar does when it launches, not to launch Northstar itself. A way you can do this is by adding [launch arguments](../troubleshooting.md#launch-opts) via the store you own the game on and launching through there.
 
-For the dedicated server option, you can scroll through this tab to set many different options for a server which can be found on the [Server Hosting Guide](../../hosting-a-server-with-northstar/basic-listen-server)
+For the dedicated server option, you can scroll through this tab to set many different options for a server which can be found on the [server hosting guide](../../hosting-a-server-with-northstar/dedicated-server.md) (Note that this is a guide for a dedicated server, like VTOL would launch for you, and not a [listen server](../../hosting-a-server-with-northstar/basic-listen.md) that you would launch by pressing "private match" in game).
 
 # Tools
 ![vtol-tools](https://user-images.githubusercontent.com/70904206/219882500-79bb66bb-1de1-4f91-ac0c-a5ed40d63ab3.png)
