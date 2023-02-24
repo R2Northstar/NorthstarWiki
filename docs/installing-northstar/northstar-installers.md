@@ -22,6 +22,19 @@ Each of these installers covers a different use case. Use the table below to fin
 
 Note that none of these tools are directly part of the Northstar project and as such any issues with them should be reported to the respective authors instead.
 
+## **GeckoEidechse:** FlightCore
+
+![FlightCore Main Window](../images/flightcore-main-window.png)
+![FlightCore Mod browser](../images/flightcore-mod-browser-window.png)
+
+Fast and easy to use Northstar installer, updater, launcher, and mod-manager. Features built-in mod browser and allows for easy installation of pre-release versions of Northstar.\
+Supports Windows and Linux. 
+
+
+Download and source code:
+
+{% embed url="https://github.com/R2NorthstarTools/FlightCore" %}
+
 ## **ebkr:** r2modman
 
 ![r2modman](../images/r2modman-main-window.png)
