@@ -57,7 +57,7 @@ In your final comment make sure to mention what you did, e.g. which aspects of t
 After leaving your comment, select the type of feedback.
 
 * **Comment**: General remarks, use if neither of the later two applies.
-* **Approve**: You found no issues when looking at the code or during testing.
+* **Approve**: You found no issues when looking at the code or during testing. **Only approve a PR if you'd be willing to maintain the code change in question. Merging a pull request is essentiall handing off responsibility of the changed code from the PR contributor to the codebase maintainer!**
 * **Request changes**: Either something in the code doesn't look right or you found bugs during testing.
 
 {% hint style="warning" %}
