@@ -32,6 +32,9 @@ Type in your comment and click on _"Start a review"_.
 Note that this will **NOT** post your comment immediately! Add any remaining comments to other lines of code, then head to the _Finishing up_ section of this wiki page to see how to post your code review.
 
 
+{% hint style="info" %}
+Feel free to point out anything you notice as a potential issue in a PR. Even things like too many changes that would better be split up into separate PRs are a valid points to comment on.
+{% endhint %}
 
 #### Testing
 
