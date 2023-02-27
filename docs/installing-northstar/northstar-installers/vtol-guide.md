@@ -22,14 +22,14 @@ If you are unsure if you have EA or Origin, you have EA.
 
 ## Northstar Installation/Locate Titanfall 2 Install
 
-The final parts of the Main Menu are at the bottom, showing your game's directory with a button to Locate Titanfall 2 Install, a small button next to this, and a button reading "Update +Northstar"
+The final parts of the Main Menu are at the bottom, showing your game's directory with a button to Locate Titanfall 2 install, a small button next to this, and a button reading "Update +Northstar"
 ![vtol-northstar-installation-info](../../images/vtol-northstar-installation-info.png)
 
 ## Installation Via VTOL
 
 VTOL handles most things automatically, but it may still require minimal setup for some users.\
 ![vtol-locate](../../images/vtol-locate.png)
-Something you might have to do manually is locate your Titanfall 2 Install. You can do this by pressing the button of the same name on VTOL, and navigating to your Titanfall 2 directory (If you're unsure of what your game path is, check out the [Default Directories](../troubleshooting.md#game-location) section)
+Something you might have to do manually is locate your Titanfall 2 install. You can do this by pressing the button of the same name on VTOL, and navigating to your Titanfall 2 directory (If you're unsure of what your game path is, check out the [Default Directories](../troubleshooting.md#game-location) section)
 
 After doing this, Northstar should automatically install. If not, the button at the bottom will read "Install Northstar". Let VTOL install Northstar, and you should be good to go. Once installed, this button will turn into the "Update +Northstar" shown in the screenshot earlier, which you can use to update without having to reinstall.
 
@@ -63,7 +63,7 @@ You can also right click on a specific mod to get the option to either delete it
 
 VTOL has a built in-browser for searching [Northstar's Thunderstore page](https://northstar.thunderstore.io/) (the website where most Northstar mods get uploaded to), located at the second tab "Browse" on the tab list. You will see the newest uploaded mods here by default, which you can change by applying filters (Note: The sorting is by default Low-High for filters. You can change this by pressing the button with an arrow next to the filters button, making it High-Low)
 
-VTOL also has support where all you need to do is drag and drop a mod downloaded from the Thunderstore page onto the Mods tab (the second tab on the left side) to automatically install the mod
+VTOL also has support where all you need to do is drag and drop a mod downloaded from the Thunderstore page onto the Mods tab (the second tab on the left side) to automatically install the mod.
 
 ## Settings
 
