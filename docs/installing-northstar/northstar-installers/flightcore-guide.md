@@ -4,10 +4,6 @@ FlightCore is a mod manager for installing and managing mods for the Northstar c
 
 Something to note is that FlightCore works on both Windows and Linux. The setup process is similar for both, except for the installation folder, and how you install FlightCore. 
 
-## Installation 
-
-You can find links to install it FlightCore on the [Northstar website](https://northstar.tf) (downloads the Windows setup file), or on [Flightcore's GitHub page](https://github.com/R2NorthstarTools/FlightCore).
-
 ## Windows Installation
 
 ![The Windows download button on FlightCore's GitHub page](../../images/flightcore-windows-download)
