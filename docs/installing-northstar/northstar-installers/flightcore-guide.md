@@ -51,5 +51,3 @@ The *Mods* tab of Flightcore can display either mods installed locally, or a bro
 ![FlightCore's Settings tab](../../images/flightcore-settings.png)
 
 The *Settings* tab is the fourth and final tab of FlightCore. This tab allows you to view and choose your Titanfall2 directory (default directories can be found in the [Default Directories](../troubleshooting.md#game-location) section), select how many mods you want to see on in one page on the online browser in FlightCore, the version of FlightCore you're running, as well as a toggle to enable testing release channels.
-
-Note that your settings tab will most likely look different, as this screenshot is taken from a Linux machine, and also doesn't include owning Titanfall 2 on EA. Your installation folder should be wherever the default directory is, or wherever you moved the game to.
