@@ -1,6 +1,6 @@
 # VTOL Guide
 
-VTOL is a mod manager for installing and managing mods for the Northstar client made for Titanfall 2. You can find links to install it on the [Northstar Website](https://northstar.tf), or on [VTOL's GitHub page](https://github.com/R2NorthstarTools/VTOL).
+VTOL is a mod manager for installing and managing mods for the Northstar client made for Titanfall 2. You can find links to install it on the [Northstar website](https://northstar.tf), or on [VTOL's GitHub page](https://github.com/R2NorthstarTools/VTOL).
 
 ## Main Menu
 
@@ -61,7 +61,7 @@ You can also right click on a specific mod to get the option to either delete it
 
 ![vtol-mods-browser](../../images/vtol-mods-browser.png)
 
-VTOL has a built in browser for searching [Northstar's Thunderstore page](https://northstar.thunderstore.io/) (the website where most Northstar mods get uploaded to), located at the second tab "Browse" on the tab list. You will see the newest uploaded mods here by default, which you can change by applying filters (Note: The sorting is by default Low-High for filters. You can change this by pressing the button with an arrow next to the filters button, making it High-Low)
+VTOL has a built in-browser for searching [Northstar's Thunderstore page](https://northstar.thunderstore.io/) (the website where most Northstar mods get uploaded to), located at the second tab "Browse" on the tab list. You will see the newest uploaded mods here by default, which you can change by applying filters (Note: The sorting is by default Low-High for filters. You can change this by pressing the button with an arrow next to the filters button, making it High-Low)
 
 VTOL also has support where all you need to do is drag and drop a mod downloaded from the Thunderstore page onto the Mods tab (the second tab on the left side) to automatically install the mod
 
