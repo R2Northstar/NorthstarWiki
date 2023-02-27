@@ -24,7 +24,7 @@ On Steam Deck, complete the following in desktop mode. You may return to game mo
 5. Add `%command% -northstar` as a [launch option](../installing-northstar/troubleshooting.md#launch-opts) to Titanfall2
 6. Launch Titanfall2, it should now launch Northstar
 
-Note that removing the `%commad% -northstar` will cause Steam to launch the vanilla game again.
+Note that removing the `%command% -northstar` will cause Steam to launch the vanilla game again.
 
 ## Lutris (Wine)
 
