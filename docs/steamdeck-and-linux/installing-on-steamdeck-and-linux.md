@@ -26,8 +26,8 @@ On Steam Deck, complete the following in desktop mode. You may return to game mo
 
 Note that removing the `%command% -northstar` will cause Steam to launch the vanilla game again.
 
-> **Note:** this guide assumes you're *up to date with Northstar Proton*, as the method used to launch Northstar changed in Northstar Proton v8.1-1.\
-If you're using an older version of Norhtstar Proton, replace the information about launch options with a text file called `run_northstar.txt`, the only text in the file being a 1.
+> **Note:** this guide assumes you're *up to date with NorthstarProton*, as the method used to launch Northstar changed in NorthstarProton-8.1-1.\
+If you're using an older version of NorhtstarProton, replace the information about launch options with a text file called `run_northstar.txt`, the only text in the file being a 1.
 
 ## Lutris (Wine)
 
