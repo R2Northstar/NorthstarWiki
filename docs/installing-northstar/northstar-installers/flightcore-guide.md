@@ -1,6 +1,6 @@
 # FlightCore Guide
 
-FlightCore is a mod manager for installing and managing mods for the Northstar client made for Titanfall 2.
+FlightCore is a Northstar installer and mod manager which allows for installing, updating, and managing mods for the Northstar client made for Titanfall 2.
 
 Something to note is that FlightCore works on both Windows and Linux. The setup process is similar for both, except for the installation folder, and how you install FlightCore. 
 
