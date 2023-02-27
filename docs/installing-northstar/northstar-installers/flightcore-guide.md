@@ -6,7 +6,7 @@ Something to note is that FlightCore works on both Windows and Linux. The setup 
 
 ## Windows Installation
 
-![The Windows download button on FlightCore's GitHub page](../../images/flightcore-windows-download)
+![The Windows download button on FlightCore's GitHub page](../../images/flightcore-windows-download.png)
 
 Install the FlightCore file directly from the [Northstar website](https://northstar.tf), from [FlightCore's GitHub releases page](https://github.com/R2NorthstarTools/FlightCore/releases) (You want to download `FlightCore_X.Y.Z_x64_en-US.msi`, X Y Z being the version numbers of FlightCore), or by clicking the Windows download button on [FlightCore's GitHub page](https://github.com/R2NorthstarTools/FlightCore)
 
@@ -49,3 +49,5 @@ The *Mods* tab of Flightcore can display either mods installed locally, or a bro
 ![FlightCore's Settings tab](../../images/flightcore-settings.png)
 
 The *Settings* tab is the fourth and final tab of FlightCore. This tab allows you to view and choose your Titanfall2 directory (default directories can be found in the [Default Directories](../troubleshooting.md#game-location) section), select how many mods you want to see on in one page on the online browser in FlightCore, the version of FlightCore you're running, as well as a toggle to enable testing release channels.
+
+Note that your settings tab will most likely look different, as this screenshot is taken from a Linux machine, and also doesn't include owning Titanfall 2 on EA. Your installation folder should be wherever the default directory is, or wherever you moved the game to.
