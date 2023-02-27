@@ -12,7 +12,6 @@ Each of these installers covers a different use case. Use the table below to fin
 | Launch Vanilla                  | ✔️   | ✔️    | ✔️   | ❌    |
 | Install Mods from Thunderstore  | ✔️   | ✔️    | ✔️   | ✔️   |
 | Update Mods                     | ✔️   | ✔️    | ✔️   | ✔️   |
-|                                 |      |       |      |      |
 | Set launch arguments            | ❓    | ✔️    | ✔️   | ❌    |
 | Installing mods for other games | ✔️   | ❌     | ❌    | ❌    |
 | Linux support                   | ❓    | ✔️    | ❌    | ✔️   |
