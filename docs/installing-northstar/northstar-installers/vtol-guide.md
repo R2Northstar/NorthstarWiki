@@ -29,7 +29,7 @@ The final parts of the Main Menu are at the bottom, showing your game's director
 
 VTOL handles most things automatically, but it may still require minimal setup for some users.\
 ![vtol-locate](../../images/vtol-locate.png)
-Something you might have to do manually is locate your Titanfall 2 Install. You can do this by pressing the button of the same name on VTOL, and navigating to your Titanfall 2 directory (If you're unsure of what your game path is, check out the [Default Directories](../troubleshooting#game-location) section)
+Something you might have to do manually is locate your Titanfall 2 Install. You can do this by pressing the button of the same name on VTOL, and navigating to your Titanfall 2 directory (If you're unsure of what your game path is, check out the [Default Directories](../troubleshooting.md#game-location) section)
 
 After doing this, Northstar should automatically install. If not, the button at the bottom will read "Install Northstar". Let VTOL install Northstar, and you should be good to go. Once installed, this button will turn into the "Update +Northstar" shown in the screenshot earlier, which you can use to update without having to reinstall.
 
@@ -83,7 +83,7 @@ The third settings tab on VTOL is the "Skins" tab. VTOL has support for skins fo
 
 The fourth tab on VTOL is the "Server" tab. This section allows you to add Launch Arguments to your client or dedicated server. Note that this adds Launch Arguments to change what Northstar does when it launches, not to launch Northstar itself. A way you can do this is by adding [Launch Arguments](../troubleshooting#launch-opts) via the store you own the game on and launching through there.
 
-For the dedicated server option, you can scroll through this tab to set many different options for a server which can be found on the Northstar Wiki's [Server Hosting Guide](../../hosting-a-server-with-northstar/basic-listen-server)
+For the dedicated server option, you can scroll through this tab to set many different options for a server which can be found on the Northstar Wiki's [Server Hosting Guide](../../hosting-a-server-with-northstar/basic-listen-server.md)
 
 ## Tools
 
