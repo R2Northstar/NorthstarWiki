@@ -16,7 +16,7 @@ Then, run the `.msi` file this downloads, and it will automatically install Flig
 
 For Linux, you want to download `flight-core_X.Y.Z_amd64.AppImage` (X Y Z being the version numbers of FlightCore) from [FlightCore's GitHub releases page](https://github.com/R2NorthstarTools/FlightCore/releases), put it in a place you prefer, then make sure to right click on it, click on properties, and tick `Executable as Program` (as shown below), then you can just double click it to open FlightCore.
 
-![Make sure to tick this setting to be ON](../../images/flightcore-exectuable-as-program)
+![Make sure to tick this setting to be ON](../../images/flightcore-exectuable-as-program.png)
 
 ## Main Menu
 
