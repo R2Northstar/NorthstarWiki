@@ -26,8 +26,10 @@ On Steam Deck, complete the following in desktop mode. You may return to game mo
 
 Note that removing the `%command% -northstar` will cause Steam to launch the vanilla game again.
 
-> **Note:** this guide assumes you're *up to date with NorthstarProton*, as the method used to launch Northstar changed in NorthstarProton-8.1-1.\
-If you're using an older version of NorthstarProton, replace the information about launch options with a text file called `run_northstar.txt` in your Titanfall2 directory, making the text file only have a 1 inside of it.
+{% hint style="info" %}
+This guide assumes you're *up to date with NorthstarProton*, as the method used to launch Northstar changed in NorthstarProton-8.1-1 which was released on 2023-02-22.\
+If you're using an older version of NorthstarProton, replace the information about launch options with a text file called `run_northstar.txt` in your Titanfall2 directory. This text file should have a single character `1` inside.
+{% endhint %}
 
 ## Lutris (Wine)
 
