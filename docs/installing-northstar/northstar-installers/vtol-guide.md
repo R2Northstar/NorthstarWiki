@@ -6,7 +6,7 @@ VTOL is a mod manager for installing and managing mods for the Northstar client 
 
 ![VTOL Main Window](../../images/vtol-main-window.png)
 
-**The _Main Menu_ of VTOL is where you'll probably spend most of your time.**
+__The _Main Menu_ of VTOL is where you'll probably spend most of your time.__
 
 This menu has a lot of useful information, such as the _"version of VTOL"_ you have, the _"version of Northstar"_ you have, if the Master Server is online, _"whether EA App/Origin are currently open"_, and a _"place to set your game path"_. 
 
@@ -56,7 +56,7 @@ To expand the smaller version of the tab list, press the button with 3 bars as s
 
 ![3 Bars](../../images/vtol-settings-expand.png)
 
-**NOTE: This guide will not be including the _"Home"_ button as a tab when describing this list. When it says the first tab, it means the first tab underneath the home button**
+__NOTE: This guide will not be including the _"Home"_ button as a tab when describing this list. When it says the first tab, it means the first tab underneath the home button__
 ## Installed Mods List
 
 ![Mods page](../../images/vtol-mods.png)
