@@ -6,7 +6,7 @@ VTOL is a mod manager for installing and managing mods for the Northstar client 
 
 ![VTOL Main Window](../../images/vtol-main-window.png)
 
-__The _Main Menu_ of VTOL is where you'll probably spend most of your time.__
+**The _Main Menu_ of VTOL is where you'll probably spend most of your time.**
 
 This menu has a lot of useful information, such as the _"version of VTOL"_ you have, the _"version of Northstar"_ you have, if the Master Server is online, _"whether EA App/Origin are currently open"_, and a _"place to set your game path"_. 
 
@@ -43,7 +43,7 @@ After doing this, Northstar should automatically install. If not, the button at 
 
 ![Launching Northstar](../../images/vtol-launching-northstar.png)
 
-Assuming you've followed everything up to this point, you should be set to hit _"Launch Titanfall 2 Northstar"_ and play on Northstar's servers. If you encounter an error like a crash, Northstar will create a log file in the `titanfall2/r2northstar/logs` directory. You can look at this log yourself, or send it on the [Northstar Discord server](https://discord.com/invite/northstar) and someone can try to look at it and help you.
+Assuming you've followed everything up to this point, you should be set to hit _"Launch Titanfall 2 Northstar"_ and play on Northstar's servers. If you encounter an error like a crash, Northstar will create a log file in the `Titanfall2/R2Northstar/logs` directory. You can look at this log yourself, or send it on the [Northstar Discord server](https://discord.com/invite/northstar) and someone can try to look at it and help you.
 
 ## Additional Mods/Settings
 
@@ -56,7 +56,7 @@ To expand the smaller version of the tab list, press the button with 3 bars as s
 
 ![3 Bars](../../images/vtol-settings-expand.png)
 
-__NOTE: This guide will not be including the _"Home"_ button as a tab when describing this list. When it says the first tab, it means the first tab underneath the home button__
+**NOTE: This guide will not be including the _"Home"_ button as a tab when describing this list. When it says the first tab, it means the first tab underneath the home button**
 ## Installed Mods List
 
 ![Mods page](../../images/vtol-mods.png)
