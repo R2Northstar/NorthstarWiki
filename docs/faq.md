@@ -78,6 +78,6 @@ If you want to use Northstar you'll have to purchase Titanfall 2 either from Ste
 
 A: Frontier Defense is currently in development and will be available in a release when it's finished.
 
-### Q: I get an error message saying something about SSL 
+### Q: I get an error message saying something along the lines of "SSL connect error" 
 
 A: There is currently no solution to this sadly, and we aren't sure what causes it. If you get this error, please create a ticket about it in the Northstar Discord server.
