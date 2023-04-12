@@ -78,10 +78,6 @@ If you want to use Northstar you'll have to purchase Titanfall 2 either from Ste
 
 A: Frontier Defense is currently in development and will be available in a release when it's finished.
 
-
-
-
-
 ### Q: Why is my game running so bad?
 
 A: This usually lies behind your computer's specs not being high enough in order to run the game, but can also be affected by EA App's overlay. You can disable this by going to the EA App, clicking on your profile, clicking on the drop down arrow by your username, going to settings, going to `Application`, and scrolling down to "In Game Overlay", and changing it to be off.
