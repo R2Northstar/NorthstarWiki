@@ -1,5 +1,9 @@
 # Advanced Options
 
+{% hint style="warning" %}
+This is a section detailing the more advanced parts of using Northstar, with some of them having a chance to potentially break your install if done improperly. 
+% endhint %}
+
 ## Setting up Mod profiles <a href="#profiles" id="profiles"></a>
 
 Profiles are a way to launch a version of Northstar with specific mods enabled, differing per profile. This is especially useful if you want to [play vanilla using Northstar](advanced.md#vanilla-on-northstar).
@@ -18,7 +22,7 @@ You'll want to rename the `R2Northstar` folder to whatever you prefer it to be c
 
 In order to create the `.bat` to launch this profile, you'll need to first create a `.bat` file, an name it whatever you would like. Inside of this `.bat` file, you'll want to put in `NorthstarLauncher.exe -profile=PROFILE FOLDER NAME HERE`, replacing all of `PROFILE FOLDER NAME HERE` with the name that you gave the folder you installed your mods to. Double clicking or right clicking on the `.bat`file then hitting `open` will launch Northstar with the assigned profile.
 
-You can set up profiles even more advanced by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one. This is also covered [here](its somewhere in basic setup i think)
+You can set up profiles even more advanced by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one. This is also covered [here](installing-northstar/basic-setup.mdbasic-setup#adding-alternate-launch-option-for-steam). You can set this up for profiles by simply adding the `-Profile=` to the arguments of the new option for NorthstarLauncher, as seen below
 
 ## Playing Vanilla via NorthstarLauncher <a href="#vanilla-on-northstar" id="vanilla-on-northstar"></a>
 
