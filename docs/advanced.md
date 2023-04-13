@@ -22,7 +22,9 @@ You'll want to rename the `R2Northstar` folder to whatever you prefer it to be c
 
 In order to create the `.bat` to launch this profile, you'll need to first create a `.bat` file inside of your titanfall2 direcotry, and name it whatever you would like. Inside of this `.bat` file, you'll want to put in `NorthstarLauncher.exe -profile=PROFILE FOLDER NAME HERE`, replacing all of `PROFILE FOLDER NAME HERE` with the name that you gave the folder you installed your mods to. Double clicking or right clicking on the `.bat` file then hitting `open` will launch Northstar with the assigned profile.
 
-You can set up profiles even more advanced by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one. This is also covered [here](installing-northstar/basic-setup.mdbasic-setup#adding-alternate-launch-option-for-steam). You can set this up for profiles by simply adding the `-Profile=PROFILE FOLDER NAME HERE` to the arguments of the new option for NorthstarLauncher, as seen below
+You can set up profiles even more advanced by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one. This is also covered [here](installing-northstar/basic-setup.mdbasic-setup#adding-alternate-launch-option-for-steam), and can be set up for profiles by simply adding the `-profile=PROFILE FOLDER NAME HERE` to the arguments of the new option for NorthstarLauncher, as seen below
+
+![SteamEdit using Northstar Profiles](images/steamedit-profiles.png)
 
 ## Playing Vanilla via NorthstarLauncher <a href="#vanilla-on-northstar" id="vanilla-on-northstar"></a>
 
@@ -42,7 +44,7 @@ This method assumes you're launching Northstar via Titanfall 2 on EA/Steam/Origi
 **TO PLAY ON NORTHSTAR AGAIN**
 
 1. Go to your [titanfall2 directory](installing-northstar/troubleshooting.md#game-location)
-2. Go into your `R2Northstar` folder
+2. Open your `R2Northstar` folder
 3. Delete `enabledmods.json`
 4. Launch Northstar
 
