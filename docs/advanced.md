@@ -26,6 +26,14 @@ You can set up profiles even more advanced by setting up a way to use Steam to l
 
 ![SteamEdit using Northstar Profiles](images/steamedit-profiles.png)
 
+## Setting levels using console commands <a href="#set-level" id="set-level"></a>
+
+With everything unlocked, there is no need to set your level to a higher level, but some users may stil want to do so. In order to this, you'll need to open the console and type in the relevant commands. Both of these require `sv_cheats 1` to be enabled on the server you're playing on, easily done by using `sv_cheats 1` in the console in a private match. Avoid setting your xp number to higher than 472, as doing so may cause a crash or mess up your Northstar save data.
+
+`script GetPlayerArray()[0].SetPersistentVar("gen", insertGenCount)` this command sets the Generation level of the player. You want to replace `insertGenCount` with the number you want.
+
+`script GetPlayerArray()[0].SetPersistentVar("xp", insertXpCount)` this command sets the xp count of the player (change this wording pls). You want to replace `insertXpCount` with the number you want.
+
 ## Playing Vanilla via NorthstarLauncher <a href="#vanilla-on-northstar" id="vanilla-on-northstar"></a>
 
 It is recommended that you [set up a vanilla profile](advanced.md#profiles) instead of disabling all of your mods and using `-norestrictservercommands` as a launch option, however if you wish to only play vanilla using this method and would rather not set up a profile, you can do the following.
