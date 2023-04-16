@@ -210,7 +210,8 @@ This error can also appear if you are pirating the game, which we neither condon
 
 ## Disable EA App overlay <a href="#ea-overlay" id="ea-overlay"></a>
 
-The purpose of disabling the EA App overlay is to increase performance, as it can be very taxing even on high end hardware. You can disable it by clicking on your profile in the top right of the EA App, clicking on the drop down arrow, going to settings, going to `Application`, then scrolling down and disabling the EA App overlay. This will disable invites, however [Northstar does not use these](../faq.md#q-im-trying-to-invite-a-friend-via-steam-origin-but-they-cannot-join-me)
+The purpose of disabling the EA App overlay is to increase performance, as it can be very taxing even on high end hardware. You can disable it by clicking on your profile in the top right of the EA App, clicking on the drop down arrow, going to settings, going to `Application`, then scrolling down and disabling the EA App overlay.
+This will also disable invites, however [Northstar does not use these](../faq.md#q-im-trying-to-invite-a-friend-via-steam-origin-but-they-cannot-join-me)
 
 ![Applications settings](../images/ea-application-settings.png)
 ![Toggling EA Overlay to OFF](../images/ea-overlay-disable.png)

@@ -84,4 +84,4 @@ A: We are unsure of what causes this, and are trying to figure out a solution fo
 
 ### Q: Why is my game running so bad?
 
-A: This usually lies behind your computer's specs not being high enough in order to run the game, but can also be affected by EA App's overlay. You can disable this by going to and following the [disable ea overlay](installing-northstar/troubleshooting.md#ea-overlay) section.
+A: This usually lies behind your computer's specs not being high enough in order to run the game, but can also be affected by EA App's overlay. You can disable this by going to and following the [disable EA overlay section](installing-northstar/troubleshooting.md#ea-overlay).
