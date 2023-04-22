@@ -74,7 +74,7 @@ Get-ChildItem $tf2 -Filter "*.starpak" -Recurse |
 
 Method 2:
 
-Method 2 saves ~(bruh i gotta test this on my own machine with 2mb/s download fml)GB, however _does__not___ allow you to verify the games files. 
+Method 2 saves ~(bruh i gotta test this on my own machine with 2mb/s download fml)GB, however _does____not___ allow you to verify the games files. 
 
 To use this method, you need to go do [this GitHub repo](https://github.com/pg9182/tf2vpk#examples), go to the `Releases` section on the side, download the click on and download the `zip` option, then extract the `zip` folder to your preffered place, downloads will work just fine.
 
