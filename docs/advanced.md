@@ -63,11 +63,11 @@ There are multiple methods which you can use to reduce Titanfall 2's size on you
 Method 1:
 
 In your operating system's terminal, you will need to copy and paste the following command:\
-```#Requires -RunAsAdministrator
+``#Requires -RunAsAdministrator
 $tf2 = (Get-ItemProperty -Path "HKLM:\SOFTWARE\Respawn\Titanfall2")."Install Dir"
 Get-ChildItem $tf2 -Filter "*.starpak" -Recurse |
     Where-Object Length -GT 1mb |
     ForEach-Object FullName |
-    ForEach-Object { & compact /EXE:XPRESS16K /C /F "$_" | Select-String -SimpleMatch "[OK]" }```
+    ForEach-Object { & compact /EXE:XPRESS16K /C /F "$_" | Select-String -SimpleMatch "[OK]" }``
 
 When using this command, you need to edit the `"Install Dir"` to match the path to your [titanfall2 directoy](installing-northstar/troubleshooting.md#game-location)
