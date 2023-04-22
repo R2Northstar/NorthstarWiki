@@ -58,11 +58,11 @@ This method assumes you're launching Northstar via Titanfall 2 on EA/Steam/Origi
 
 ## Shrinking Titanfall 2's size
 
-There are multiple methods which you can use to reduce Titanfall 2's size on your disk. The first method saves ~14.5 GB, and still allows you to verify your game files should something go wrong. The second method will not allow you to verify your game files.
-
 Method 1:
 
-In your operating system's terminal, you will need to copy and paste the following command:\
+Method 1 saves ~14.5GB, and allows you to verify your game files.
+
+Open up Powershell and run it as administrator, then copy and paste the following command. When using this command, you need to edit the `Install Dir` to match the path to your [titanfall2 directoy](installing-northstar/troubleshooting.md#game-location). You want to keep the quotation marks around it in place.\
 ```
 #Requires -RunAsAdministrator
 $tf2 = (Get-ItemProperty -Path "HKLM:\SOFTWARE\Respawn\Titanfall2")."Install Dir"
@@ -72,4 +72,12 @@ Get-ChildItem $tf2 -Filter "*.starpak" -Recurse |
     ForEach-Object { & compact /EXE:XPRESS16K /C /F "$_" | Select-String -SimpleMatch "[OK]" }
 ```
 
-When using this command, you need to edit the `"Install Dir"` to match the path to your [titanfall2 directoy](installing-northstar/troubleshooting.md#game-location)
+Method 2:
+
+Method 2 saves ~(bruh i gotta test this on my own machine with 2mb/s download fml)GB, however _does__not___ allow you to verify the games files. 
+
+To use this method, you need to go do [this GitHub repo](https://github.com/pg9182/tf2vpk#examples), go to the `Releases` section on the side, download the click on and download the `zip` option, then extract the `zip` folder to your preffered place, downloads will work just fine.
+
+From here, open up a terminal and follow the directions on the GitHub page as to what you should enter to reduce the storage space. The first option is what most users will want to use, while the second option is only for server hosters so they only have to use the required files for a Northstar server, further reducing space.
+
+For this, you want to replace `/path/to/Titanfall2/vpk` with the path to your titanfall2 directory, targeting the vpk directory (just type in your titanfall2 folder, then add `/vpk` after it)
