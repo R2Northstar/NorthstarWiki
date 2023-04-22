@@ -31,7 +31,6 @@ This guide assumes you're *up to date with NorthstarProton*, as the method used 
 If you're using an older version of NorthstarProton, replace the information about launch options with a text file called `run_northstar.txt` in your Titanfall2 directory. This text file should have a single character `1` inside.
 {% endhint %}
 
-
 ### Ubuntu / Debian
 This workaround employs the use of [Distrobox](https://github.com/89luca89/distrobox/tree/main) to create a Fedora instance and install Steam to it. Your Fedora instance created through this method will share the same Steam files that the native package uses, so you won't have to re-download Titanfall 2.
 
