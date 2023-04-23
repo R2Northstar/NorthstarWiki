@@ -69,7 +69,7 @@ A: Add `+net_usesocketsforloopback 1` in your `ns_startup_args.txt` and `ns_star
 `r2` refers to the internal development name of Titanfall 2 given to it by Respawn. Titanfall 1 for example is `r1`, Apex Legends is `r5`, etc.\
 The reason this wiki for example is called `r2northstar.gitbook.io` is due to the fact that "_Northstar_" is a rather common name and as such often already reserved by other organisations and people. "_R2Northstar_" is both uncommon and therefore still available and ties "_Northstar_" with Titanfall 2, due to the `r2` part of the name.
 
-### Q: Can I use a pirated/cracked copy Titanfall 2 to run Northstar? <a href="#faq-pirated" id="faq-pirated"></a>
+### Q: Can I use a pirated/cracked copy Titanfall 2 to run Northstar? <a href="#faq-piracy" id="faq-piracy"></a>
 
 A: The answer is obvious, No! Northstar does not support piracy of any kind.\
 If you want to use Northstar you'll have to purchase Titanfall 2 either from Steam/Origin/EA Desktop App or use a subscription service like Gamepass PC and EA Play.
