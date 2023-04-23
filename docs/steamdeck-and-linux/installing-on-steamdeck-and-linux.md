@@ -32,9 +32,9 @@ If you're using an older version of NorthstarProton, replace the information abo
 {% endhint %}
 
 ### Ubuntu / Debian
-This workaround employs the use of [Distrobox](https://github.com/89luca89/distrobox/tree/main) to create a Fedora instance and install Steam to it. Your Fedora instance created through this method will share the same Steam files that the native package uses, so you won't have to re-download Titanfall 2.
+This workaround employs the use of [Distrobox](https://github.com/89luca89/distrobox) to create a Fedora instance and install Steam to it. Your Fedora instance created through this method will share the same Steam files that the native package uses, so you won't have to re-download Titanfall 2.
 
-1. Open a terminal and install Distrobox with `sudo apt-get install distrobox`
+1. Open a terminal and install Distrobox with `sudo apt install distrobox`
 2. Run `distrobox-create --image fedora:latest --name Fedora`
 3. Enter your newly created instance with `distrobox-enter Fedora`
 4. Enable `rpm-fusion` by running `sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm`
