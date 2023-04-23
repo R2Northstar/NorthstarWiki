@@ -43,6 +43,10 @@ This workaround employs the use of [Distrobox](https://github.com/89luca89/distr
 7. Search for `Steam (Runtime) (on Fedora)` in your Applications, and optionally pin it to your taskbar.
 8. If you haven't already, follow the steps above to install NorthstarProton.
 
+{% hint style="info" %}
+We recommend keeping your Fedora instance up to date, which can be done by running `sudo dnf update` inside of your Fedora instance.
+{% endhint %}
+
 ## Lutris (Wine)
 
 1. If you don't already have the game downloaded, install the game [from here.](https://lutris.net/games/titanfall-2/)
