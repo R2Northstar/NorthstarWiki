@@ -4,15 +4,17 @@
 This is a section detailing the more advanced parts of using Northstar, with some of them having a chance to potentially break your install if done improperly. 
 {% endhint %}
 
-## Setting up Mod profiles <a href="#profiles" id="profiles"></a>
+## Mod profiles <a href="#profiles" id="profiles"></a>
 
 Profiles are a way to launch a version of Northstar with specific mods enabled, differing per profile. This is especially useful if you want to [play vanilla using Northstar](advanced.md#vanilla-on-northstar).
+
+## Vanilla Profile
 
 A simple "vanilla" profile can be created using a `.bat` file, without needing to fully make an additional mods folder. You can do this simply by creating a `.bat` file inside of your titanfall2 directory (you can name it however you want), and putting in `NorthstarLauncher.exe -norestrictservercommands -profile=R2Vanilla`. This tells the NorthstarLauncher to not restrict server commands, which is what normally disables the Vanilla multiplayer servers on Northstar to lower confusion, and tells it to use the `R2Vanilla` profile, which, as it doesn't normally exist, will launch Northstar with no core mods enabled, allowing you to easily play on Vanilla using Northstar's security fixes.
 
 Double clicking the `.bat` or right clicking on it and hitting `open` will launch the vanilla profile.
 
-
+## Regular Profile
 
 Setting up a profile with a second set of mods has a similar process with the `.bat` creation, but requires more setup.
 
@@ -55,29 +57,3 @@ This method assumes you're launching Northstar via Titanfall 2 on EA/Steam/Origi
 2. Open your `R2Northstar` folder
 3. Delete `enabledmods.json`
 4. Launch Northstar
-
-## Shrinking Titanfall 2's size
-
-Method 1:
-
-Method 1 saves ~14.5GB, and allows you to verify your game files.
-
-Open up Powershell and run it as administrator, then copy and paste the following command. When using this command, you need to edit the `Install Dir` to match the path to your [titanfall2 directoy](installing-northstar/troubleshooting.md#game-location). You want to keep the quotation marks around it in place.\
-```
-#Requires -RunAsAdministrator
-$tf2 = (Get-ItemProperty -Path "HKLM:\SOFTWARE\Respawn\Titanfall2")."Install Dir"
-Get-ChildItem $tf2 -Filter "*.starpak" -Recurse |
-    Where-Object Length -GT 1mb |
-    ForEach-Object FullName |
-    ForEach-Object { & compact /EXE:XPRESS16K /C /F "$_" | Select-String -SimpleMatch "[OK]" }
-```
-
-Method 2:
-
-Method 2 saves ~(bruh i gotta test this on my own machine with 2mb/s download fml)GB, however _does_ ___not___ allow you to verify the games files. 
-
-To use this method, you need to go do [this GitHub repo](https://github.com/pg9182/tf2vpk#examples), go to the `Releases` section on the side, download the click on and download the `zip` option, then extract the `zip` folder to your preffered place, downloads will work just fine.
-
-From here, open up a terminal and follow the directions on the GitHub page as to what you should enter to reduce the storage space. The first option is what most users will want to use, while the second option is only for server hosters so they only have to use the required files for a Northstar server, further reducing space.
-
-For this, you want to replace `/path/to/Titanfall2/vpk` with the path to your titanfall2 directory, targeting the vpk directory (just type in your titanfall2 folder, then add `/vpk` after it)
