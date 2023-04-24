@@ -6,7 +6,7 @@
 EA App currently displays a blank screen when using NorthstarProton, however Northstar will still launch assuming you have logged in to EA App at least once.
 {% endhint %}
 
-> **Northstar does not work on Ubuntu and Debian distros.** The workaround to this is using Distrobox, which will be explained further down, or using a known supported distro like Fedora or Arch. You will still need to follow the instructions to install Northstar with the Native Package path.
+> **Northstar does not work on Ubuntu and Debian distros.** The workaround to this is using Distrobox, which will be explained further down, or using a known supported distro like Fedora or Arch. You will still need to follow the instructions below to install Northstar with the Steam (Native Package) path.
 
 If you are using a Steam Deck, complete the following in desktop mode. You may return to game mode once completed _(A mouse + keyboard plugged into the Deck are recommended for easier navigation of menus)_
 
