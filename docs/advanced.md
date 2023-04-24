@@ -1,7 +1,7 @@
 # Advanced Options
 
 {% hint style="warning" %}
-This is a section detailing the more advanced parts of using Northstar, with some of them having a chance to potentially break your install if done improperly. 
+This is a section detailing the more advanced parts of using Northstar, with some of them having a chance to potentially mess with your game. Setting your level too high, for example, will cause you to need to reset your level back to 1.
 {% endhint %}
 
 ## Mod profiles <a href="#profiles" id="profiles"></a>
@@ -30,11 +30,13 @@ You can set up profiles even more advanced by setting up a way to use Steam to l
 
 ## Setting levels using console commands <a href="#set-level" id="set-level"></a>
 
-With everything unlocked, there is no need to set your level to a higher level, but some users may stil want to do so. In order to this, you'll need to open the console and type in the relevant commands. Both of these require `sv_cheats 1` to be enabled on the server you're playing on, easily done by using `sv_cheats 1` in the console in a private match. Avoid setting your xp number to higher than 472, as doing so may cause a crash or mess up your Northstar save data.
+With everything unlocked, there is no need to set your level to a higher level, but some users may stil want to do so. In order to this, you'll need to open the console and type in the relevant commands. Both of these require `sv_cheats 1` to be enabled on the server you're playing on, easily done by using `sv_cheats 1` in the console in a private match. 
 
 `script GetPlayerArray()[0].SetPersistentVar("gen", insertGenCount)` this command sets the Generation level of the player. You want to replace `insertGenCount` with the number you want.
 
-`script GetPlayerArray()[0].SetPersistentVar("xp", insertXpCount)` this command sets the xp count of the player (change this wording pls). You want to replace `insertXpCount` with the number you want.
+`script GetPlayerArray()[0].SetPersistentVar("xp", insertXpCount)` this command sets the xp count of the player (meaning, the amount of kills required per level in order to level up. Avoid setting this to higher than 472 as to not encounter crashes). You want to replace `insertXpCount` with the number you want.
+
+If you experience strange issues after using these, you probably set something too high, and should follow the [resetting levels wiki section.](installing-northstar/troubleshooting.md#i-used-a-command-to-set-my-playergun-xp-level-and-i-set-it-too-high-so-now-my-game-crashes-when-trying-to-join-multiplayer)
 
 ## Playing Vanilla via NorthstarLauncher <a href="#vanilla-on-northstar" id="vanilla-on-northstar"></a>
 
