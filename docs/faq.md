@@ -18,7 +18,7 @@ These two errors can commonly be fixed for the average user by following the gui
 
 ### Q: I get an error message saying "Failed creating log file! Make sure the profile directory is writable." <a href="#faq-failed-log" id="faq-failed-log"></a>
 
-Most of the time, this is due to the fact that EA App's default install location is read only, which does not allow for Northstar to write logs in that location. You can fix it by following the [default EA location section](installing-northstar/troubleshooting.md#cannot-write-log-file-when-using-northstar-on-ea-app)
+Most of the time, this is due to the fact that EA App's default install location is read-only, which does not allow for Northstar to write logs in that location. You can fix it by following the [default EA location section](installing-northstar/troubleshooting.md#cannot-write-log-file-when-using-northstar-on-ea-app)
 
 ### Q: How do I open the console? <a href="#faq-devconsole" id="faq-devconsole"></a>
 
