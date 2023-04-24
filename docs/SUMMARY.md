@@ -26,6 +26,9 @@
   * [Launch arguments](installing-northstar/using-northstar/launch-arguments.md)
 * [FAQ](faq.md)
 
+***
+  * [Advanced](advanced.md)
+
 ## Hosting a server with Northstar
 
 * [Prerequisites](hosting-a-server-with-northstar/prerequisites.md)
