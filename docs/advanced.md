@@ -34,7 +34,7 @@ With everything unlocked, there is no need to set your level to a higher level, 
 
 `script GetPlayerArray()[0].SetPersistentVar("gen", insertGenCount)` this command sets the Generation level of the player. You want to replace `insertGenCount` with the number you want.
 
-`script GetPlayerArray()[0].SetPersistentVar("xp", insertXpCount)` this command sets the xp count of the player (meaning, the amount of kills required per level in order to level up. Avoid setting this to higher than 472 as to not encounter issues). You want to replace `insertXpCount` with the number you want.
+`script GetPlayerArray()[0].SetPersistentVar("xp", insertXpCount)` this command sets the xp count of the player (meaning, the amount of kills required per level in order to level up. Make sure to set this to less than 472 as to not encounter issues). You want to replace `insertXpCount` with the number you want.
 
 If you experience strange issues after using these, you probably set something too high, and should follow the [resetting levels wiki section.](installing-northstar/troubleshooting.md#i-used-a-command-to-set-my-playergun-xp-level-and-i-set-it-too-high-so-now-my-game-crashes-when-trying-to-join-multiplayer)
 
@@ -59,3 +59,13 @@ This method assumes you're launching Northstar via Titanfall 2 on EA/Steam/Origi
 2. Open your `R2Northstar` folder
 3. Delete `enabledmods.json`
 4. Launch Northstar
+
+## Resetting Master Server
+
+**Only do this if you have changed your master server!**
+
+  * Open `R2Northstar\Northstar.CustomServers\mod\cfg\autoexec_ns_server.cfg`
+  * Change the `ns_masterserver_hostname` line to `ns_masterserver_hostname "https://northstar.tf`
+  * Open `R2Northstar\Northstar.Client\mod\cfg\autoexec_ns_client.cfg
+  * Change the `ns_masterserver_hostname` line to `ns_masterserver_hostname "https://northstar.tf`
+  * Launch Northstar, and your master server should be properly reset
