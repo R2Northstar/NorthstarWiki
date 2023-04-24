@@ -50,7 +50,7 @@ This method assumes you're launching Northstar via Titanfall 2 on EA/Steam/Origi
 2. Click `"Mods"` on the bottom of the menu
 3. Disable **ALL** of your mods
 4. Close Northstar
-5. Add `-norestrictservercommands` as a [launch option](installing-northstar/troubleshooting.md#launch-opts)
+5. Add `-norestrictservercommands` and `-northstar` as a [launch option](installing-northstar/troubleshooting.md#launch-opts)
 6. Launch Titanfall 2 and you should be able to play on vanilla servers using Northstar's security fixes
 
 **TO PLAY ON NORTHSTAR AGAIN**
