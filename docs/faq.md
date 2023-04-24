@@ -85,3 +85,7 @@ A: We are unsure of what causes this, and are trying to figure out a solution fo
 ### Q: Why is my game running so bad? <a href="#faq-performance" id="faq-performance"></a>
 
 A: This usually lies behind your computer's specs not being high enough in order to run the game, but can also be affected by EA App's overlay. You can disable this by going to and following the [disable EA overlay section](installing-northstar/troubleshooting.md#ea-overlay).
+
+### Q: When I launch Northstar, a small command prompt appears for a few seconds then closes as nothing else happens!
+
+A: Delete `R2Northstar/plugins`, which disables any currently installed plugins, the only default plugin being Northstar's Discord Rich Presence. Alternatively, you could insert `-noplugins` in your `ns_startup_args.txt` in the [titanfall2 directory](installing-northstar/troubleshooting.md#game-location), which would simply disable plugins instead of deleting them.
