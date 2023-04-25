@@ -1,22 +1,22 @@
 # Advanced Options
 
 {% hint style="warning" %}
-This is a section detailing the more advanced parts of using Northstar, with some of them having a chance to potentially mess with your game. Setting your level too high, for example, will cause you to need to reset your level back to 1.
+This is a section detailing the more advanced parts of using Northstar, with some of them having a chance to potentially mess with your game. Setting your level too high, for example, will lock you out of the game until you reset your entire player stats, progress, and loadouts.
 {% endhint %}
 
 ## Mod profiles <a href="#profiles" id="profiles"></a>
 
 Profiles are a way to launch a version of Northstar with specific mods enabled, differing per profile. These profiles are seperated by folders that you create yourself, and add your own mods to. This is especially useful if you want to [play vanilla using Northstar](advanced.md#vanilla-on-northstar). When launching using profiles, you should make sure EA/Origin are open before launching as to make sure you encounter less issues.
 
-### Regular Profile
+Currently, the only mod managers supporting profiles are [VTOL](https://github.com/BigSpice/VTOL) and [r2modman](https://thunderstore.io/package/ebkr/r2modman/).
 
-Setting up a profile with a second set of mods has a similar process with the `.bat` creation that a vanilla profile does, but requires more setup.
+### Regular Profile
 
 The first thing you want to do while creating a new profile is have a Northstar release version downloaded and ready to be used. You will only need the `R2Northstar` folder from this second version, as the rest of the `NorthstarRelease.zip` doesn't matter to creating additional profiles
 
 You'll want to rename the `R2Northstar` folder to whatever you prefer it to be called, such as `R2NorthstarNoMods` if you'd like to have a normal Northstar installation without using additional mods. These profiles act entirely independently from the other folders, meaning you can use a mod in a folder without it affecting any others. The only downside to this, however, is that they must all be updated independetly when a Northstar update is released. You can install any mods that you would like to `YourProfileName/mods`, and they will load when launching it, though, just like core mods, additional mods will all also need to be updated independently. 
 
-In order to create the `.bat` to launch this profile, you'll need to first create a `.txt` file inside of your Titanfall2 direcotry, and name it whatever you would like. Inside of this `.txt` file, you'll want to put in `NorthstarLauncher.exe -profile=PROFILE FOLDER NAME HERE`, replacing all of `PROFILE FOLDER NAME HERE` with the name that you gave the folder you installed your mods to. After this, rename the file to `yourFileName.bat`. Double clicking or right clicking on the `.bat` file then hitting `open` will launch Northstar with the assigned profile.
+In order to create the `.bat` to launch this profile, you'll need to first create a `.txt` file inside of your Titanfall2 directory, and name it whatever you would like. Inside of this `.txt` file, you'll want to put in `NorthstarLauncher.exe -profile=PROFILE FOLDER NAME HERE`, replacing all of `PROFILE FOLDER NAME HERE` with the name that you gave the folder you installed your mods to. After this, rename the file to `yourFileName.bat`. Double clicking or right clicking on the `.bat` file then hitting `open` will launch Northstar with the assigned profile.
 
 You can set up profiles in an even more advanced way by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one. This is also covered [here](installing-northstar/basic-setup.mdbasic-setup#adding-alternate-launch-option-for-steam), and can be set up for profiles by simply adding the `-profile=PROFILE FOLDER NAME HERE` to the arguments of the new option for NorthstarLauncher, as seen below
 
