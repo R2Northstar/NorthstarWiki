@@ -24,10 +24,8 @@
   * [Gamemodes](installing-northstar/using-northstar/gamemodes.md)
   * [Commands](installing-northstar/using-northstar/commands.md)
   * [Launch arguments](installing-northstar/using-northstar/launch-arguments.md)
-* [FAQ](faq.md)
-
-***
   * [Advanced](advanced.md)
+* [FAQ](faq.md)
 
 ## Hosting a server with Northstar
 
