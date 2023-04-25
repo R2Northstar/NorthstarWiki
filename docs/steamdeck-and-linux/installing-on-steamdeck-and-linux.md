@@ -43,9 +43,36 @@ This workaround employs the use of [Distrobox](https://github.com/89luca89/distr
 7. Search for `Steam (Runtime) (on Fedora)` in your Applications, and optionally pin it to your taskbar.
 8. If you haven't already, follow the steps above to install NorthstarProton.
 
-{% hint style="info" %}
-We recommend keeping your Fedora instance up to date, which can be done by running `sudo dnf update` inside of your Fedora instance.
-{% endhint %}
+We recommend keeping your Fedora instance up to date, which can be done manually by running `sudo dnf update` inside of your Fedora instance, or creating this script utilizing `systemd`.
+On your host, use your preferred text editor to create `~/.config/systemd/user/distrobox-upgrade-automatic.timer` with the following content:
+```
+[Unit]
+Description=distrobox-upgrade Automatic Update Trigger
+
+[Timer]
+OnBootSec=1h
+OnUnitInactiveSec=1d
+
+[Install]
+WantedBy=timers.target
+```
+
+Then, create `~/.config/systemd/user/distrobox-upgrade-automatic.service` with the following content:
+```
+[Unit]
+Description=distrobox-upgrade Automatic Update
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/distrobox-upgrade --all
+StandardOutput=null
+```
+
+Finally, run the following in a terminal:
+```
+systemctl --user daemon-reload
+systemctl --user enable distrobox-upgrade-automatic.timer
+```
 
 ## Lutris (Wine)
 
