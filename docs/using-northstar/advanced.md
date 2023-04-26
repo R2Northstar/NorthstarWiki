@@ -37,7 +37,7 @@ With everything unlocked, there is no need to set your level to a higher level, 
 
 `script GetPlayerArray()[0].SetPersistentVar("gen", INSERT_GEN_COUNT)` this command sets the Generation level of the player. You want to replace `INSERT_GEN_COUNT` with the number you want. Setting this number too high should work for levling up, however it will display `g103` on your kill card.
 
-`script GetPlayerArray()[0].SetPersistentVar("xp", INSERT_XP_COUNT)` this command sets the xp count of the player (meaning, the amount of kills required per level in order to level up. You want to replace `INSERT_XP_COUNT` with the number you want. Setting this number lower than 472 is recommended, as to not encounter issues.
+`script GetPlayerArray()[0].SetPersistentVar("xp", INSERT_XP_COUNT)` this command sets the xp count of the player (meaning, the amount of kills required per level in order to level up). You want to replace `INSERT_XP_COUNT` with the number you want. Setting this number lower than 472 is recommended, as to not encounter issues.
 
 If you experience strange issues after using these, you probably set something too high, and should follow the [resetting levels wiki section](installing-northstar/troubleshooting.md#i-used-a-command-to-set-my-playergun-xp-level-and-i-set-it-too-high-so-now-my-game-crashes-when-trying-to-join-multiplayer).
 
