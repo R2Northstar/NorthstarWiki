@@ -42,7 +42,7 @@ The `Release Notes` tab shows you the release notes for Northstar versions, whic
 
 ### Viper Menu 
 
-![Viper's main menu](../../images/viper-main-menu.png)
+![Viper's main menu](../../images/viper-menu.png)
 
 This menu of Viper (the top one on the left sidebar) shows you the version of Viper you have installed, and an option to set your game path. Viper _should_ do this automatically, but some users may need to manually set this. Default directories can be found [here](../troubleshooting.md#game-location), or if you own the game on EA and have followed the [EA App directory issue section](../troubleshooting.md#cannot-write-log-file-when-using-northstar-on-ea-app), another common location is `C:\Games\Titanfall2`
 
