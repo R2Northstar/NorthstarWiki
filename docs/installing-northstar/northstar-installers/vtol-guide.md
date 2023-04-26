@@ -61,7 +61,7 @@ To expand the smaller version of the tab list, press the button with 3 bars as s
 
 ![Mods page](../../images/vtol-mods.png)
 
-The first tab of VTOL is the _"Mods"_ tab. This is a list of your currently installed mods, with the ability to disable any of them quickly.
+The first tab of VTOL is the _"Mods"_ tab. This is a list of your currently installed mods, with the ability to disable any of them quickly. Note that core mods (those that come installed with Northstar/those that start with `Northstar`) have a yellow border to differentiate them from normal mods.
 
 You can also right click on a specific mod to get the option to either delete it, or look at the mod's information (Mod Name, Author Name, Description, etc.)
 
