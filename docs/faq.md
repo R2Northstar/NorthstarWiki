@@ -8,7 +8,7 @@ description: Frequently asked questions
 
 ### Q: Where are all my levels and saved loadouts? <a href="#faq-loadouts" id="faq-loadouts"></a>
 
-A: Northstar runs separate from official servers and progress does not carry over, however with all weapons and attachments unlocked at all levels, they aren't a requirement for anything. If you'd still like to set levels you can do so by following [this guide](advanced.md#set-level).
+A: Northstar runs separate from official servers and progress does not carry over, however with all weapons and attachments unlocked at all levels, they aren't a requirement for anything. 
 
 However your progress on official servers is not lost, so running vanilla client after playing on Northstar you should be back to your old level on official servers.
 
