@@ -123,6 +123,7 @@ The third screen is an implementation of Spoon's [Advocate Tool](https://github.
 ### External Tools
 
 ![Tools for Modders](../../images/vtol-external-tools.png)
+
 The fourth screen lists a lot of commonly used tools by modders to help create mods easier. You can get more info about each tool by clicking the information icon in the top right of the image for each respective tool.
 
 ## Profiles
