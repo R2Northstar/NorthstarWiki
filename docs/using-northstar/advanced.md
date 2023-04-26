@@ -1,7 +1,7 @@
 # Advanced Options
 
 {% hint style="warning" %}
-This is a section detailing the more advanced parts of using Northstar, with some of them having a chance to potentially mess with your game. Setting your level too high, for example, will lock you out of the game until you reset your entire player stats, progress, and loadouts.
+This is a section detailing the more advanced parts of using Northstar, with some of them having a chance to potentially mess with your game. Setting your level too high, for example, will lock you out of Northstar's multiplayer until you reset your entire player stats, progress, and loadouts.
 {% endhint %}
 
 ## Mod profiles <a href="#profiles" id="profiles"></a>
@@ -11,7 +11,7 @@ Currently, the only mod managers supporting profiles are [VTOL](https://github.c
 
 ### Regular Profile
 
-The first thing you want to do while creating a new profile is to have a Northstar release version downloaded and ready to be used. You will only need the `R2Northstar` folder from this second version, as the rest of the `NorthstarRelease.vX.Y.Z.zip` doesn't matter to creating additional profiles
+The first thing you want to do while creating a new profile is to have a Northstar release version downloaded and ready to be used. You will only need the `R2Northstar` folder from this second version, as the rest of the `NorthstarRelease.vX.Y.Z.zip` doesn't matter to creating additional profiles.
 
 You'll want to rename the `R2Northstar` folder to whatever you prefer it to be called, such as `R2NorthstarNoMods` if you'd like to have a normal Northstar installation without using additional mods. These profiles act entirely independently from the other folders, meaning you can use a mod in a folder without it affecting any others. The only downside to this, however, is that they must all be updated independently when a Northstar update is released. You can install any mods that you would like to `YourProfileName/mods`, and they will load when launching it, though, just like core mods, additional mods will all also need to be updated independently. 
 
@@ -30,12 +30,12 @@ Double clicking the `.bat` or right clicking on it and hitting `open` will launc
 ## Setting levels using console commands <a href="#set-level" id="set-level"></a>
 
 {% hint style="warning" %}
-This section here can cause you to mess up your persistence (save data) on Northstar if you set your levels too high! Make sure to read carefully!
+This section here can cause you to mess up your persistence (multiplayer user data) on Northstar if you set your levels too high! Make sure to read carefully!
 {% endhint %}
 
-With everything unlocked, there is no need to set your level to a higher level, but some users may stil want to do so. In order to this, you'll need to open the console and type in the relevant commands. Both of these require `sv_cheats 1` to be enabled on the server you're playing on, easily done by using `sv_cheats 1` in the console in a private match. 
+With everything unlocked, there is no need to set your level to a higher level, but some users may still want to do so. In order to this, you'll need to open the in-game console with the `~` button on your keyboard and type in/copy and paste the relevant commands. Both of these require `sv_cheats 1` to be enabled on the server you're playing on, easily done by using `sv_cheats 1` in the console in a private match. 
 
-`script GetPlayerArray()[0].SetPersistentVar("gen", INSERT_GEN_COUNT)` this command sets the Generation level of the player. You want to replace `INSERT_GEN_COUNT` with the number you want. Setting this number too high should work for levling up, however display `g103` on your kill card.
+`script GetPlayerArray()[0].SetPersistentVar("gen", INSERT_GEN_COUNT)` this command sets the Generation level of the player. You want to replace `INSERT_GEN_COUNT` with the number you want. Setting this number too high should work for levling up, however it will display `g103` on your kill card.
 
 `script GetPlayerArray()[0].SetPersistentVar("xp", INSERT_XP_COUNT)` this command sets the xp count of the player (meaning, the amount of kills required per level in order to level up. You want to replace `INSERT_XP_COUNT` with the number you want. Setting this number lower than 472 is recommended, as to not encounter issues.
 
@@ -46,7 +46,7 @@ If you experience strange issues after using these, you probably set something t
 It is recommended that you [set up a vanilla profile](advanced.md#profiles) instead of disabling all of your mods and using `-norestrictservercommands` as a launch option, however if you wish to only play vanilla using this method and would rather not set up a profile, you can do the following.
 
 The reason behind doing this is that Northstar has several security fixes that Vanilla does not have, however these are not *necessary*. The odds you get hacked playing vanilla are close to zero, and there are no reports of people being genuinely hacked by playing Vanilla.\
-This method assumes you're launching Northstar via Titanfall 2 on EA/Steam/Origin using launch options
+This method assumes you're launching Northstar via Titanfall 2 on EA or Steam using launch options.
 
 1. Go to the main menu of Northstar 
 2. Click `"Mods"` on the bottom of the menu
