@@ -2,25 +2,27 @@
 
 Viper is a mod manager/installer for Northstar, a community made mod for Titanfall 2, that automatically updates mods and Northstar versions.
 
-Similar to FlightCore, Viper works on both Windows and Linux and have similar use cases, mostly differing in downloading Viper.
+Similar to FlightCore, Viper works on both Windows and Linux and has similar use cases, mostly differing in downloading Viper.
 
 ## Windows Installation
 
 ![The Windows download button on Viper's GitHub page](../../images/viper-windows-download.png)
 
-Install Viper from the [Northstar website](https://northstar.tf), the newest `.exe` file from [Viper's GitHub releases page](https://github.com/0neGal/viper/releases/), or the Windows download button on [Viper's main GitHub page](https://github.com/0neGal/viper).
+Install Viper from the [Northstar website](https://northstar.tf) or the Windows download button on [Viper's main GitHub page](https://github.com/0neGal/viper).
 
-After this, run the file you downloaded to install and open Viper.
+After this, run the file you downloaded to install Viper, then, if it doesn't automatically, open Viper.
 
 ## Linux Installation
 
-To install Viper on Linux, you want to download the newest `AppImage` file from the [Viper release page](https://github.com/0neGal/viper/releases), store it in a place that you want to, and make sure to right click on it, click on properties and tick `Executable as Program` on the AppImage file as shown below to allow it to be run on your computer. Double clicking the file after doing this will launch Viper.
+To install Viper on Linux, you can either install the flatpak, or the `AppImage`. The flatpak version can be installed simply by using the command `flatpak install viper` in your terminal, which you can then open with your system. This version will update when you run `flatpak update`.
+
+To use the `AppImage` version, you want to download the newest `AppImage` file from the [Viper release page](https://github.com/0neGal/viper/releases), store it in a place that you want to, and make sure to right click on it, click on properties and tick `Executable as Program` on the AppImage file as shown below to allow it to be run on your computer. Note that using Viper like this will NOT automatically update it. Double clicking the file after doing this will launch Viper.
 
 ![Make sure to tick this setting to be ON](../../images/viper-executable-as-program.png)
 
 ## Viper's Menus
 
-Viper has 3 main menus, each with their own function. "Northstar Menu" refers to the Northstar menu on Viper, ___not___ a specific menu visible on all ways to install/launch Northstar.
+Viper has 3 main menus, each with their own function. "Northstar Menu" refers to the Northstar menu on Viper, __not__ a specific menu visible on all ways to install/launch Northstar.
 
 ### Northstar Menu
 
