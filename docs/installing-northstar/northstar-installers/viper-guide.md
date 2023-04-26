@@ -14,7 +14,7 @@ After this, run the file you downloaded to install Viper, then, if it doesn't au
 
 ## Linux Installation
 
-To install Viper on Linux, you can either install the flatpak, or the `AppImage`. The flatpak version can be installed simply by using the command `flatpak install viper` in your terminal, which you can then open with your system. This version will update when you run `flatpak update`.
+To install Viper on Linux, you can either install the flatpak, or the `AppImage`. The flatpak version can be installed simply by using the command `flatpak install viper` in your terminal, which you can then open with your system. Viper's Flathub page can be found [here](https://flathub.org/apps/com.github._0negal.Viper).
 
 To use the `AppImage` version, you want to download the newest `AppImage` file from the [Viper release page](https://github.com/0neGal/viper/releases), store it in a place that you want to, and make sure to right click on it, click on properties and tick `Executable as Program` on the AppImage file as shown below to allow it to be run on your computer. Note that using Viper like this will NOT automatically update it. Double clicking the file after doing this will launch Viper.
 
