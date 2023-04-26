@@ -139,4 +139,4 @@ Hitting `Export Profile` will save your current profile to a `.vbp` file, which 
 
 ![VTOL About section](../../images/vtol-about.png)
 
-The last section of the VTOL client is the 6th tab of VTOL, the _"About"_ section. This screen shows you what VTOL can do, as well as a button to configure updates, and a button to check for updates for the VTOL client.
+The last section of the VTOL client is the seventh tab of VTOL, the _"About"_ section. This screen shows you what VTOL can do, as well as a button to configure updates, and a button to check for updates for the VTOL client.
