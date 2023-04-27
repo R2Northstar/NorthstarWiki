@@ -71,4 +71,5 @@ This menu allows you to Launch vanilla Titanfall 2 (no mods) easily, by simply h
 
 ![The Invalid Config error](../../images/viper-invalid-config.png)
 
-This error should be mostly resolved as of Viper version `1.7.2`, however if clicking `OK` doesn't seem to fix the error, you can manually delete the config file and allow Viper to recreate a functional one. You can do this by pressing `Windows + R`, typing in `%appdata%`, hitting `Enter`, then finding and deleting `viper.json` (if you can't see the `.json`, it's because Windows hides file extensions by default. You can turn them on by hitting `View` in task manager, then ticking the box that says `File name extensions`)
+This error should be mostly resolved as of Viper version `1.7.2`, however if clicking `OK` doesn't seem to fix the error, you can manually delete the config file and allow Viper to recreate a functional one. You can do this on Windows by pressing `Windows + R`, typing in `%appdata%`, hitting `Enter`, then finding and deleting `viper.json` (if you can't see the `.json`, it's because Windows hides file extensions by default. You can turn them on by hitting `View` in task manager, then ticking the box that says `File name extensions`)\
+On Linux, `viper.json` can be found at either `$XDG_CONFIG_HOME/viper.json` or `$HOME/.config/viper.json` (if the XDG variable isn't set)
