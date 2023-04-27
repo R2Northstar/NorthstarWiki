@@ -22,7 +22,7 @@ To use the `AppImage` version, you want to download the newest `AppImage` file f
 
 ## Viper's Menus
 
-Viper has 3 main menus, each with their own function. "Northstar Menu" refers to the Northstar menu on Viper, __not__ a specific menu visible on all ways to install/launch Northstar.
+Viper has 3 main menus, each with their own function. "Northstar Menu" refers to the Northstar menu on Viper, **not** a specific menu visible on all ways to install/launch Northstar.
 
 ### Northstar Menu
 
