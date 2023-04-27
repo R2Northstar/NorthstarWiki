@@ -32,7 +32,11 @@ Viper's Northstar menu is the screen that Viper opens up to by default, with a l
 
 ![Installed mods list](../../images/viper-installed-mods.png)
 
-This menu (when opened) shows you a list of your currently enabled mods, with version numbers, author names, and toggles to disable or remove them individually. `Remove All` would do just that, removing all of your mods. `Toggle All` would also do just that, toggling all of your mods. `Install Mod` is a button you can press and locate a mod folder installed to your computer, and Viper will install it for you.
+This menu (when opened) shows you a list of your currently enabled mods, with version numbers, author names, and toggles to disable or remove them individually.
+
+- `Remove All` would do just that, removing all of your mods.
+- `Toggle All` would also do just that, toggling all of your mods.
+- `Install Mod` is a button you can press and locate a mod folder installed to your computer, and Viper will install it for you.
 
 ![Viper's Thunderstore browser](../../images/viper-find-mods.png)
 
