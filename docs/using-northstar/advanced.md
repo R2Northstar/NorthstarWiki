@@ -19,11 +19,13 @@ In order to create the `.bat` to launch this profile, you'll need to first creat
 
 You can set up profiles in an even more advanced way by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one. This is also covered [here](installing-northstar/basic-setup.mdbasic-setup#adding-alternate-launch-option-for-steam), and can be set up for profiles by simply adding the `-profile=PROFILE FOLDER NAME HERE` to the arguments of the new option for NorthstarLauncher, as seen below
 
-![SteamEdit using Northstar Profiles](images/steamedit-profiles.png)
+![SteamEdit using Northstar Profiles](../images/steamedit-profiles.png)
 
 ### Vanilla Profile
 
-A simple "vanilla" profile can be created using a `.bat` file, without needing to fully make an additional mods folder. You can do this simply by creating a `.txt` file inside of your Titanfall2 directory (you can name it whatever you want), and putting in `NorthstarLauncher.exe -norestrictservercommands -profile=R2Vanilla`. After doing this, you'll want to rename it to `yourFileName.bat`. This tells the NorthstarLauncher to not restrict server commands, which is what normally disables the Vanilla multiplayer servers on Northstar to lower confusion, and tells it to use the `R2Vanilla` profile, which, as it doesn't normally exist, will launch Northstar with no core mods enabled, allowing you to easily play on Vanilla using Northstar's security fixes.
+A simple "vanilla" profile can be created using a `.bat` file, without needing to fully make an additional mods folder. You can do this simply by creating a `.txt` file inside of your Titanfall2 directory (you can name it whatever you want), and putting in `NorthstarLauncher.exe -norestrictservercommands -profile=R2Vanilla`.
+After doing this, you'll want to rename it to `yourFileName.bat`.
+This tells the NorthstarLauncher to not restrict server commands, a feature which is needed to allow the server to tell the client which server to join (but is disabled on Northstar for security reasons), and tells it to use the `R2Vanilla` profile, which, as it doesn't normally exist, will launch Northstar with no core mods enabled, allowing you to easily play on Vanilla using most of Northstar's security fixes.
 
 Double clicking the `.bat` or right clicking on it and hitting `open` will launch the vanilla profile.
 
