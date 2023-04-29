@@ -90,6 +90,6 @@ A: We are unsure of what causes this, and are trying to figure out a solution fo
 
 A: This usually lies behind your computer's specs not being high enough in order to run the game, but can also be affected by EA App's overlay. You can disable this by going to and following the [disable EA overlay section](installing-northstar/troubleshooting.md#ea-overlay).
 
-### Q: Why does my game tell me there's an issue with Origin when I don't have origin? <a href="#ea-replaced-origin" id="faq-ea-replaced-origin"></a>
+### Q: Why does my game tell me there's an issue with Origin when I don't have Origin? <a href="#ea-replaced-origin" id="faq-ea-replaced-origin"></a>
 
-A: As some of our longer term pilots may remember, Titanfall 2 (and other EA games) used to use a program called `Origin` to play games, however this has since been replaced by the EA App. This change, however, did not update the game's errors about Origin to say EA App, so any time you see that there's an issue with Origin, you can replace mention of Origin with the EA App.
+A: Titanfall 2 (and other EA games) used to use a program called [Origin](https://en.wikipedia.org/wiki/Origin_(service) to play games, however this has since been replaced by the EA App. This change, however, did not update the game's errors about Origin to say EA App, so any time you see that there's an issue with Origin, you can replace mention of Origin with the EA App.
