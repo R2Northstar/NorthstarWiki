@@ -18,13 +18,13 @@
 
 ***
 
-* [Using Northstar](installing-northstar/using-northstar/README.md)
-  * [Mods](installing-northstar/using-northstar/mods.md)
-  * [Server Browser](installing-northstar/using-northstar/server-browser.md)
-  * [Direct Connect](installing-northstar/using-northstar/direct-connect.md)
-  * [Gamemodes](installing-northstar/using-northstar/gamemodes.md)
-  * [Commands](installing-northstar/using-northstar/commands.md)
-  * [Launch arguments](installing-northstar/using-northstar/launch-arguments.md)
+* [Using Northstar](using-northstar/README.md)
+  * [Mods](using-northstar/mods.md)
+  * [Server Browser](using-northstar/server-browser.md)
+  * [Direct Connect](using-northstar/direct-connect.md)
+  * [Gamemodes](using-northstar/gamemodes.md)
+  * [Commands](using-northstar/commands.md)
+  * [Launch arguments](using-northstar/launch-arguments.md)
   * [Advanced](using-northstar/advanced.md)
 * [FAQ](faq.md)
 
