@@ -37,7 +37,7 @@ _"PR hell"_ is what contributors refer to when a pull request is stuck as pendin
 
 There can be a variety reasons for this. Whether it's cause the pull request was overlooked, the changes are too big that anyone actually dares looking at it, or simply every reviewer is too busy at the moment, not getting a response on something you put a lot of work into is a terrible experience.
 
-While we are continuously working on improving the expierence and recruiting more reviewers, here's a few tips to avoid _"PR hell"_.
+While we are continuously working on improving the experience and recruiting more reviewers, here's a few tips to avoid _"PR hell"_.
 
 **Make sure your PR is easy to review:**
 
