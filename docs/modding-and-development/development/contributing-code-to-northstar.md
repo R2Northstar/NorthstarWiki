@@ -64,7 +64,7 @@ Just make sure to resolve merge conflicts when the smaller PRs are merged ;)
 
 Especially when you fix a bug in existing code, you usually modify code that was written by someone else. In that case the best person to review that code is the original author. So `@` ping them in the pull request!
 
-You can use tools like [`git blame`](https://www.git-scm.com/docs/git-blame) (on the web via GitHub, in vscode via gitlens, via command-line, ...) to see who previously 
+You can use tools like [`git blame`](https://www.git-scm.com/docs/git-blame) (on the web via GitHub, in vscode via gitlens, via command-line, ...) to see who previously wrote the code.
 
 
 **Ping for updates:**
