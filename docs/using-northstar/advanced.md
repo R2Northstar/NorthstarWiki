@@ -17,7 +17,7 @@ You'll want to rename the `R2Northstar` folder to whatever you prefer it to be c
 
 In order to create the `.bat` to launch this profile, you'll need to first create a `.txt` file inside of your Titanfall2 directory, and name it whatever you would like. Inside of this `.txt` file, you'll want to put in `NorthstarLauncher.exe -profile=PROFILE FOLDER NAME HERE`, replacing all of `PROFILE FOLDER NAME HERE` with the name that you gave the folder you installed your mods to. After this, rename the file to `yourFileName.bat`. Double clicking or right clicking on the `.bat` file then hitting `open` will launch Northstar with the assigned profile.
 
-You can set up profiles in an even more advanced way by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one. This is also covered [here](../installing-northstar/basic-setup.mdbasic-setup#adding-alternate-launch-option-for-steam), and can be set up for profiles by simply adding the `-profile=PROFILE FOLDER NAME HERE` to the arguments of the new option for NorthstarLauncher, as seen below
+You can set up profiles in an even more advanced way by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one. This is also covered [here](../installing-northstar/basic-setup.md#adding-alternate-launch-option-for-steam), and can be set up for profiles by simply adding the `-profile=PROFILE FOLDER NAME HERE` to the arguments of the new option for NorthstarLauncher, as seen below
 
 ![SteamEdit using Northstar Profiles](../images/steamedit-profiles.png)
 
