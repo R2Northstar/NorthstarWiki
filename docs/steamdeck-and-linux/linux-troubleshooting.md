@@ -4,7 +4,7 @@
 
 ## Northstar not launchng with Steam
 
-If you're encountering issues with Northstar launching on Steam, a very quick fix that usually works is deleting the compatadata for titanfall2. You can do this by going to your Steam directory, going to `steamapps/compatadata`, then look for the folder called `1237970`, which is the App ID for titanfall2. Deleting this folder then attempting to launch Northstar again _should_ fix the issue.
+If you're encountering issues with Northstar launching on Steam, a very quick fix that usually works is deleting the compatadata for Titanfall2. You can do this by going to your Steam directory, going to `steamapps/compatdata`, then look for the folder called `1237970` (the App ID for Titanfall2). Deleting this folder then attempting to launch Northstar again _should_ fix the issue.
 
 ## EA App blank window
 
