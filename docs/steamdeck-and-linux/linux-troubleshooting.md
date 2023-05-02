@@ -2,6 +2,10 @@
 
 > Read Lutris troubleshooting of [common issues with Origin](https://github.com/lutris/docs/blob/master/Origin.md) first.
 
+## Northstar not launchng with Steam
+
+If you're encountering issues with Northstar launching on Steam, a very quick fix that usually works is deleting the compatadata for titanfall2. You can do this by going to your Steam directory, going to `steamapps/compatadata`, then look for the folder called `1237970`, which is the App ID for titanfall2. Deleting this folder then attempting to launch Northstar again _should_ fix the issue.
+
 ## EA App blank window
 
 If you have already logged in to EA App with Proton Experimental, the blank EA App should not prevent you from playing Northstar. However, if you find that it does or if you simply wish to use the EA App, the following should resolve these issues.
