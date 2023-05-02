@@ -2,7 +2,7 @@
 
 > Read Lutris troubleshooting of [common issues with Origin](https://github.com/lutris/docs/blob/master/Origin.md) first.
 
-## Northstar not launchng with Steam
+## Northstar not launching with Steam
 
 If you're encountering issues with Northstar launching on Steam, a very quick fix that usually works is deleting the compatadata for Titanfall2. You can do this by going to your Steam directory, going to `steamapps/compatdata`, then look for the folder called `1237970` (the App ID for Titanfall2). Deleting this folder then attempting to launch Northstar again _should_ fix the issue.
 
