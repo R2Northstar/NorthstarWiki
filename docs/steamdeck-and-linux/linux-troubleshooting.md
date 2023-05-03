@@ -8,7 +8,7 @@ If you're encountering issues with Northstar launching on Steam, a very quick fi
 
 You can do this by going to your Steam directory, going to `steamapps/compatdata`, then look for the folder called `1237970` (the App ID for Titanfall2). This folder contains the data used by Steam in order to make games function using Proton (assuming you're using Proton for said game). This folder, however, sometimes has issues with Launching Northstar.
 
-Deleting this folder then attempting to launch Northstar with NorthstarProton again _should_ fix the issue. It is recommmended that you close Steam before deleting the folder, and open it again after deleting it. Steam will generate another `compatdata` folder for Titanfall2 automatically.
+It is recommended you close Steam before this. Deleting this folder then attempting to launch Northstar with NorthstarProton again _should_ fix the issue. Steam will generate another `compatdata` folder for Titanfall2 automatically.
 
 ## EA App blank window
 
