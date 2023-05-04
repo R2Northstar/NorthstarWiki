@@ -33,7 +33,7 @@ If you're using an older version of NorthstarProton, replace the information abo
 
 ## Lutris (Wine)
 
-1. If you don't already have the game downloaded, you can use [this Lutris script](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/EA%20App), or [this one](https://lutris.net/games/titanfall-2/).
+1. If you don't already have the game downloaded, you can use [this Lutris script](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/EA%20App).
 2. Install the latest version of Northstar using [FlightCore](../installing-northstar/northstar-installers#geckoeidechse-flightcore), [Viper](../installing-northstar/northstar-installers#0negal-viper), or do it manually
    1. For manual install, download the latest version of Northstar from the [releases](https://github.com/R2Northstar/Northstar/releases) page
    2. Then extract all contents of the file to your Titanfall 2 folder ( Right click _Titanfall 2_ > Click _Browse files_ )
