@@ -35,7 +35,7 @@ To get the cropped GIFs of a screenrecording:
 
 _"PR hell"_ is what contributors refer to when a pull request is stuck as pending without any indication for progress.
 
-There can be a variety reasons for this. Whether it's cause the pull request was overlooked, the changes are too big that anyone actually dares looking at it, or simply every reviewer is too busy at the moment, not getting a response on something you put a lot of work into is a terrible experience.
+There can be a variety reasons for this. Whether it's because the pull request was overlooked, the changes are too big that anyone actually dares looking at it, or simply every reviewer is too busy at the moment, not getting a response on something you put a lot of work into is a terrible experience.
 
 While we are continuously working on improving the experience and recruiting more reviewers, here's a few tips to avoid _"PR hell"_.
 
@@ -75,6 +75,6 @@ Similarly, you can also check merged pull requests and see who reviewed/merged t
 
 **If all else fails:**
 
-If despite all your attempts you are still not seeing responses, your last resort is always to ask around in `#development` on the Northstar Discord. We really do not want to see anyone become frustrated with the lack of responses on their pull request and close it in frustration. As such please reach out rather earlier than later.
+If despite all your attempts you are still not seeing responses, your last resort is always to ask around in `#development` on the Northstar Discord. We really do not want to see anyone become frustrated with the lack of responses on their pull request and close it in frustration. As such please reach out earlier rather than later.
 
 We will try our best to look at it <3
