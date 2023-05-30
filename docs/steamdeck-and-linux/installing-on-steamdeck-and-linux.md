@@ -6,9 +6,9 @@
 EA App currently displays a blank screen when using NorthstarProton, however Northstar will still launch assuming you have logged in to EA App at least once.
 {% endhint %}
 
-> **Check your GLIBC version.** NorthstarProton currently only supports version 2.33 and higher. Verify your installed version with `ldd --version`. **Ubuntu 20.04 LTS**, **Debian 11**, and **Void Linux** are known to have outdated GLIBC packages, meaning you will have to experiment with finding a Proton version that works for you, or use Lutris. It is therefore strongly recommended to use an up-to-date Linux distro to be able to make use of NorthstarProton. This check does not need to be completed on Steam Deck or Steam OS.
+> **Northstar does not work on Ubuntu and Debian distros.** This issue is being [worked on](https://github.com/R2Northstar/Northstar/issues/469), but until its fixed the workaround to this is using Distrobox, which will be explained further down, or using a known supported distro like Fedora or Arch. You will still need to follow the instructions below to install Northstar with the Steam (Native Package) path.
 
-On Steam Deck, complete the following in desktop mode. You may return to game mode once completed _(A mouse + keyboard plugged into the Deck are recommended for easier navigation of menus)_
+If you are using a Steam Deck, complete the following in desktop mode. You may return to game mode once completed _(A mouse + keyboard plugged into the Deck are recommended for easier navigation of menus)_
 
 1. Make sure you ran the vanilla version of Titanfall2 at least once on Linux!
 2. Install the latest version of Northstar using [FlightCore](../installing-northstar/northstar-installers#geckoeidechse-flightcore), [Viper](../installing-northstar/northstar-installers#0negal-viper), or do it manually
@@ -30,6 +30,52 @@ Note that removing the `%command% -northstar` will cause Steam to launch the van
 This guide assumes you're *up to date with NorthstarProton*, as the method used to launch Northstar changed in NorthstarProton-8.1-1 which was released on 2023-02-22.\
 If you're using an older version of NorthstarProton, replace the information about launch options with a text file called `run_northstar.txt` in your Titanfall2 directory. This text file should have a single character `1` inside.
 {% endhint %}
+
+### Ubuntu / Debian
+This workaround employs the use of [Distrobox](https://github.com/89luca89/distrobox) to create a Fedora instance and install Steam to it. Your Fedora instance created through this method will share the same Steam files that the native package uses, so you won't have to re-download Titanfall 2.
+
+1. Open a terminal and install Distrobox with `sudo apt install distrobox`
+2. Run `distrobox-create --image fedora:latest --name Fedora`
+3. Enter your newly created instance with `distrobox-enter Fedora`
+4. Enable `rpm-fusion` by running `sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm`
+5. Install Steam by running `sudo dnf install steam`
+6. Export Steam out of your instance by running `distrobox-export steam`, this creates a `.desktop` file outside of the instance that allows Steam to be ran in the container from a shortcut, allowing you to run it without needing to enter your Fedora instance every time.
+7. Search for `Steam (Runtime) (on Fedora)` in your Applications, and optionally pin it to your taskbar.
+8. If you haven't already, follow the steps above to install NorthstarProton.
+
+**Updating distrobox container: (optional)**
+
+We recommend keeping your Fedora instance up to date, which can be done manually by running `sudo dnf update` inside of your Fedora instance.
+Optionally, you can also automate this process by creating this automatic update script utilizing `systemd`.
+On your host, use your preferred text editor to create `~/.config/systemd/user/distrobox-upgrade-automatic.timer` with the following content:
+```
+[Unit]
+Description=distrobox-upgrade Automatic Update Trigger
+
+[Timer]
+OnBootSec=1h
+OnUnitInactiveSec=1d
+
+[Install]
+WantedBy=timers.target
+```
+
+Then, create `~/.config/systemd/user/distrobox-upgrade-automatic.service` with the following content:
+```
+[Unit]
+Description=distrobox-upgrade Automatic Update
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/distrobox-upgrade --all
+StandardOutput=null
+```
+
+Finally, run the following in a terminal:
+```
+systemctl --user daemon-reload
+systemctl --user enable distrobox-upgrade-automatic.timer
+```
 
 ## Lutris (Wine)
 
