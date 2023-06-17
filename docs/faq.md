@@ -16,13 +16,17 @@ However your progress on official servers is not lost, so running vanilla client
 
 These two errors can commonly be fixed for the average user by following the guide [here](installing-northstar/troubleshooting.md#player-not-found-invalid-master-server-token). "Invalid Master Server Token" can also be caused by the Northstar master server being offline, however this is normally not the cause of the error.
 
+### Q: I get an error message saying "Failed creating log file! Make sure the profile directory is writable."/ Why won't my mod manager install mods? <a href="#faq-failed-log" id="faq-failed-log"></a>
+
+Most of the time, this is due to the fact that EA App's default install location is read-only, which does not allow for Northstar to write logs in that location, and commonly doesn't allow mod managers to properly install mods. You can fix it by following the [default EA location section](installing-northstar/troubleshooting.md#cannot-write-log-file-when-using-northstar-on-ea-app)
+
 ### Q: How do I open the console? <a href="#faq-devconsole" id="faq-devconsole"></a>
 
-A: Check [_Opening the console_](installing-northstar/using-northstar/commands.md#opening-the-console).
+A: Check [_Opening the console_](using-northstar/commands.md#opening-the-console).
 
 ### Q: How can I check if my server is listed on the server browser? <a href="#faq-is-my-server-listed" id="faq-is-my-server-listed"></a>
-
-You can use community-made server browsers such as: [https://taskinoz.com/northstar/](https://taskinoz.com/northstar/) or [https://cpdt.dev/northstar/](https://cpdt.dev/northstar/)
+You can use the official server browser on [https://northstar.tf/servers/](https://northstar.tf/servers/)\
+Alternatively, you can use a community-made server browser such as: [https://taskinoz.com/northstar/](https://taskinoz.com/northstar/)
 
 ### Q: Will there be a console version? <a href="#faq-console" id="faq-console"></a>
 
@@ -86,6 +90,12 @@ A: We are unsure of what causes this, and are trying to figure out a solution fo
 
 A: This usually lies behind your computer's specs not being high enough in order to run the game, but can also be affected by EA App's overlay. You can disable this by going to and following the [disable EA overlay section](installing-northstar/troubleshooting.md#ea-overlay).
 
+### Q: Why does my game tell me there's an issue with Origin when I don't have Origin? <a href="#ea-replaced-origin" id="faq-ea-replaced-origin"></a>
+
+A: Titanfall2 (and other EA games) used to use a program called [Origin](<https://en.wikipedia.org/wiki/Origin_(service)>) to play games, however this has since been replaced by the EA App. 
+This change, however, did not update the game's error messages to say "EA App" instead of "Origin", so any time you see that there's an issue with Origin, you can replace mention of "Origin" with the "EA App".
+
 ### Q: When I launch Northstar, a small command prompt appears for a few seconds then closes as nothing else happens!
 
 A: Delete `R2Northstar/plugins`, which disables any currently installed plugins, the only default plugin being Northstar's Discord Rich Presence. Alternatively, you could insert `-noplugins` in your `ns_startup_args.txt` in the [titanfall2 directory](installing-northstar/troubleshooting.md#game-location), which would simply disable plugins instead of deleting them.
+

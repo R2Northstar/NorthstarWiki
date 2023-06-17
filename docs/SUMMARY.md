@@ -9,6 +9,7 @@
 * [Northstar Installers](installing-northstar/northstar-installers/README.md)
   * [FlightCore Guide](installing-northstar/northstar-installers/flightcore-guide.md)
   * [VTOL Guide](installing-northstar/northstar-installers/vtol-guide.md)
+  * [Viper Guide](installing-northstar/northstar-installers/viper-guide.md)
 * [Manual installation](installing-northstar/manual-installation.md)
 * [SteamDeck and Linux](steamdeck-and-linux/README.md)
   * [Installing on SteamDeck and Linux](steamdeck-and-linux/installing-on-steamdeck-and-linux.md)
@@ -17,13 +18,14 @@
 
 ***
 
-* [Using Northstar](installing-northstar/using-northstar/README.md)
-  * [Mods](installing-northstar/using-northstar/mods.md)
-  * [Server Browser](installing-northstar/using-northstar/server-browser.md)
-  * [Direct Connect](installing-northstar/using-northstar/direct-connect.md)
-  * [Gamemodes](installing-northstar/using-northstar/gamemodes.md)
-  * [Commands](installing-northstar/using-northstar/commands.md)
-  * [Launch arguments](installing-northstar/using-northstar/launch-arguments.md)
+* [Using Northstar](using-northstar/README.md)
+  * [Mods](using-northstar/mods.md)
+  * [Server Browser](using-northstar/server-browser.md)
+  * [Direct Connect](using-northstar/direct-connect.md)
+  * [Gamemodes](using-northstar/gamemodes.md)
+  * [Commands](using-northstar/commands.md)
+  * [Launch arguments](using-northstar/launch-arguments.md)
+  * [Advanced](using-northstar/advanced.md)
 * [FAQ](faq.md)
 
 ## Hosting a server with Northstar
