@@ -37,10 +37,10 @@ If you're using an older version of NorthstarProton, replace the information abo
 2. Download and install Titanfall 2 from the EA App, run the vanilla version at least once.
 3. Download the latest version of Northstar from the [releases](https://github.com/R2Northstar/Northstar/releases) page.
 4. Extract all contents of the file to your Titanfall 2 folder.
-4. **If you have the game installed on Lutris:** right click _EA App_ > _Duplicate_ > _Yes_. Then right click the new _EA App 2_ > _Configure_ > _Game Options_ > Set _Executable path_ to _NorthstarLauncher.exe_ and add `-northstar` to the _Arguments_. Optionally, change the name of the EA App 2 shortcut to Northstar and change the identifier to `titanfall-2`
-5. **Otherwise:** click the `+` button in the top left > set the name to whatever and _Runner_ to _Wine_ > click on _Game options_ > set _Executable path_ to _NorthstarLauncher.exe_ and add `-northstar` to the _Arguments_ then save.
+4. **If you have the game installed on Lutris:** right click _EA App_ > _Duplicate_ > _Yes_. Then right click the new _EA App 2_ > _Configure_ > _Game Options_ > Set _Executable path_ to _NorthstarLauncher.exe_. Optionally, change the name of the EA App 2 shortcut to Northstar and change the identifier to `titanfall-2`
+5. **Otherwise:** click the `+` button in the top left > set the name to whatever and _Runner_ to _Wine_ > click on _Game options_ > set _Executable path_ to _NorthstarLauncher.exe_ and then save.
 
-In order for the game to launch, you need to launch the EA App first, then launch the Northstar.exe shortcut with the `-northstar` argument.
+In order for the game to launch, you need to launch the EA App first, then launch the Northstar.exe shortcut.
 You should be greeted with a Northstar welcome message upon entering the main menu.
 
 > **Note:** The EA App might prompt you to log in and "set an installation folder for future downloads" on first launch. Just do those, close the EA App, and then launch the game again.
