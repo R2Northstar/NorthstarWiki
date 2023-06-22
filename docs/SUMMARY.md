@@ -55,5 +55,5 @@
   * [Releases](modding-and-development/development/releases.md)
 
 ## Other
-
+* [Helping](helping.md)
 * [Credits](credits.md)
