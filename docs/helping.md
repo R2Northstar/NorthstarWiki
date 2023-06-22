@@ -91,7 +91,7 @@ From here, the user can accept the close request, which in turn closes the ticke
 To _use_ the `/closerequest` command, there are a few "ways" to use it.\
 Note that `close_delay` is a number, meaning the time in hours before the ticket autocloses.\
 `reason` is a box to input the reason for a close request.\
-Using "ac" as described later lets other people know how long until the ticket will close. "ac" meaning **A**uto **C**lose.
+Using "ac" as described later lets other people know how long until the ticket will close ("ac" meaning **A**uto **C**lose). This helps yourself and others when looking at tickets because the tickets bot doesn't show when a ticket is set to auto close.
 
 If the ticket very highly seems resolved/the user has said they have no issues, use `/closerequest` with `close_delay` set to `1` and the `reason` set to "resolved, ac 1hr"\
 If the ticket seems like it _might_ be resolved, try a `close_delay` of `3-8` (use your judgement) with the `reason` "seemingly resolved, ac {HOUR-COUNT}hr". 
