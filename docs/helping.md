@@ -1,14 +1,14 @@
 # Helping
 
-This section is meant mostly for those that will be actively helping others in the Northstar Discord server or otherwise. If you've somehow stumbled upon this page trying to fix an issue for yourself, you should try checking the [troubleshooting page](docs/installing-northstar/troubleshooting.md). If you're a helper, it also isn't a bad idea to look at this page a few times and try to have a rough idea of the things that are on it.
+This section is meant mostly for those that will be actively helping others in the Northstar Discord server or otherwise. If you've somehow stumbled upon this page trying to fix an issue for yourself, you should try checking the [troubleshooting page](installing-northstar/troubleshooting.md). If you're a helper, it also isn't a bad idea to look at this page a few times and try to have a rough idea of the things that are on it.
 
-As of {ENTER DATE HERE WHEN SPECTRE GETS ADDED}, Cyn(cooldudepugs)'s Discord bot [Spectre](https://github.com/CooldudePUGS/Spectre) was added to Northstar's Discord. This bot tries to automatically redirect users to opening a ticket in the `#help` channel, and automatically replies to some messages regarding issues with the game, however it cannot and will not catch all cases, even of basic help. When helping a user, please try to move them to the `#help` channel as well to keep public channels less cluttered. If they really don't want to open a ticket or you don't want to deal with a ticket, ask them to move to `#northstar-chat`. There, not only can they embed things, but it'll be slightly more focused on helping than general would be.
+When helping a user, please try to move them to the `#help` channel to create a ticket as well as to keep public channels less cluttered. If they really don't want to open a ticket or you don't want to deal with a ticket, ask them to move to `#northstar-chat`. There, not only can they embed things, but it'll be slightly more focused on helping than general would be.
 
 Arguably the most important things to know as a helper are the ability to read logs and deal with users that don't read the wiki (90% of tickets are solutions solvable by checking the wiki. There is a pretty high chance that even if the user says yes, they read the wiki, that they didn't or didn't find their issue on there)
 
 Reading logs is a little tougher however, but once you get the basics down you can easily diagnose issues in a few seconds after opening a log. You can use `/tag id:logs` to inform users how to properly send a log in a Discord channel. Generally, when reading a log there are a list of things you want to look for, which will be covered later.
 
-The first section will first go over extremely common issues and their tags, then the basics of using the help bot for commands inside tickets, and then some overview and specific examples for reading logs.
+The first section will first go over extremely common issues and their tags, then the basics of using the ticket bot for commands inside tickets, and then some overview and specific examples for reading logs.
 
 ## Common issues and their tags
 
@@ -43,10 +43,10 @@ These are most of the most common and most used tags for helping people. More ex
 This entire section only applies to users with ticket-staff+ roles who can see the ticket channels in the Discord server
 
 The tickets have a fairly straightforward way of operating. When a user clicks on a button to open a ticket (a staff ticket is only visible by helper+ roles, while a public ticket is visible by ticket-staff+ roles) they're greeted with the following screen:\
-![image](docs/images/ticket-information-popup.png)
+![The information fields for opening a ticket](images/ticket-information-popup.png)
 
 They will fill this out with information which will later be shared in their ticket as a message sent as an embed by the ticket bot. This will be the first message in the channel and will look something similar to this:\
-![image](docs/images/ticket-open-message.png)
+![The embed sent in a ticket with the information filled out by the user](images/ticket-open-message.png)
 
 Note the buttons below the embed.\
 Hitting `Close` will close the ticket without a reason for closing it.\
@@ -63,8 +63,8 @@ There are 3 major slash commands for tickets. These are `/close`, `/closerequest
 
 You may have noticed that `/closerequest` has been skipped. That's because there's sort of a "etiquette" surrounding it.
 
-Generally, you _should_ use `/closerequest` for closing a ticket. There's much less chance the end user gets upset, and it can be denied last minute if another issue comes up. `/closerequest` sends an embed to the user that looks like the following:\
-![image](docs/images/closerequest.png)
+Generally, you _should_ use `/closerequest` for closing a ticket. There's much less chance the end user gets upset, and it can be denied last minute if another issue comes up.\
+![What using the `/closerequest` command looks like](images/closerequest.png)
 
 From here, the user can accept the close request, which in turn closes the ticket, or deny the close request, while results in an edited embed telling you they denied it.
 
@@ -97,18 +97,17 @@ You can view information on the closed tickets, such as open and close date, who
 
    (Note: These log examples ARE out of date. The error messages, however, have stayed the same or relatively similar)
    
-   This is a specific example of the user not having [ClientKillCallback](https://northstar.thunderstore.io/package/S2Mods/ClientKillCallback/) installed.\
-   ![image](docs/images/compile-error-ClientKillCallback.png)
+   ![This is a specific example of the user not having [ClientKillCallback](https://northstar.thunderstore.io/package/S2Mods/ClientKillCallback/)installed.](images/compile-error-ClientKillCallback.png)
 
    For these, have the user install the respective missing dependency if you can tell what it is.
 
    If installing a mod's dependency doesn't make it work, you can always have the user remove the mod. You can piece together what mod it is by looking at the file name that causes the error (for example, the screenshot earlier says `s2_wg_overhaul.nut` which means **W**ar**G**ames Overhaul). The file names will not always line up with the exact mod name, and some are named different things entirely. For cases like these, you can try to check the last loaded folder before the error occurs, such as the following:
    
       Here, we see that a folder named `s2.WarGamesOverhaul` is the last loaded folder before a file is causing issues. This usually makes it quite easy to debug what it is. You should also try to search for these on [Thunderstore](https://northstar.thunderstore.io/package/) to see if you can find any abbreviations/shortened names for mods, and what the mod's actual name is. 9 times out of 10, this method will work, however this isn't always the case.\
-   ![image](docs/images/compile-error-ClientKillCallback-extended.png)
+   ![An example of using the folder names to narrow down what the mod is called](images/compile-error-ClientKillCallback-extended.png)
 
    Sometimes, the issue isn't a dependency and instead says something completely random. Here we can see that [Mastiff Reactive Skin](https://northstar.thunderstore.io/package/S2Mods/MastiffKillReactiveSkin/) causes a weird error not described so far in the guide. For these, the user should first try to update the mod that's causing the issue. If that doesn't work, follow the part about enabling mods to see what causes the issue if this doesn't fix it, or have the user remove/disable the mod.\
-   ![image](docs/images/compile-error-updatemod.png)
+   ![An example of when updating a mod can fix it](images/compile-error-updatemod.png)
 
    Note that a decent amount of the time, even after solving one of these, more can arise that previously didn't! This doesn't mean that the last thing you/the user tried caused more errors, but it's important to note that more can come up after solving one. This happens because, for example, `X` and `Y` mod both have compile errors, but `X` mod loads before `Y` mod. Therefore, `X` mod shows a complie error while `Y` doesn't, even though `Y` also isn't working. Then, once `X` mod is fixed in one way or another, `Y` mod is allowed to load, only for the "new" error to be shown.
 
@@ -118,11 +117,9 @@ You can view information on the closed tickets, such as open and close date, who
 
      Crash dumps are snippets of information given in logs when Northstar "hard crashes". These dumps aren't generally all too useful for giving you an exact error, however they can still hold vital information. Crash dumps tend to look like this:
    
-   This part importantly gives a list of loaded mods and their versions.\
-   ![image](docs/images/crash-dump-part1.png)
+   ![This part importantly gives a list of loaded mods and their versions.](images/crash-dump-part1.png)
    
-   This part is normally much easier to spot (in my opinion, at least) and more recognizable for quickly looking at a log.\
-   ![image](docs/images/crash-dump-part2.png)
+   ![This part is normally much easier to spot (in my opinion, at least) and more recognizable for quickly looking at a log.](images/crash-dump-part2.png)
 
    When seeing a crash dump, many things can cause it. Once again, this is almost always due to one or more installed mods. A lot of the times, however, these are harder to diagnose than a simple compile error. Generally, if the user disables all but core mods their game works (if not, they should manually delete their core mods and reinstall Northstar, either via a mod manager or manually. Be prepared to explain every step of manually reinstalling if you ask them to do so), and it's then recommended that they enable dependency mods first (e.g. `ClientKillCallback` as shown previously. They should be enabled first so that mods using them don't cause compile errors due to missing their dependencies), then enable mods in batches of anywhere from 2-4 (this depends on how many mods they have, try to use your judgement and recommend a number). This is a safe way to debug just about any error with Northstar as well.
    
@@ -132,17 +129,14 @@ You can view information on the closed tickets, such as open and close date, who
 
    A few more decently common causes for this are EXRILL's [Scorch fire Color pack](https://northstar.thunderstore.io/package/EXRILL/Exrills_Scorch_fire_Color_pack/), [Plasma weapons Color pack](https://northstar.thunderstore.io/package/EXRILL/Exrills_color_Plasma_pack/), and [Charge rifle Color pack](https://northstar.thunderstore.io/package/EXRILL/Exrills_Charge_Rifle_Color_Pack/) where they installs various seperate mods that all replace the same thing, with the idea that you only use one at a time. More often than not, it's sound mods conflicting, but if the user doesn't have any/already disabled some, check for these or other mods like them.
 
-   An example of multiple crash messages when launching Northstar:\
-   ![multiple crashes](docs/images/multiple-crash-messages.png)
+   ![An example of multiple crash messages when launching Northstar](images/multiple-crash-messages.png)
 
    Multiple crash dumps in one log are either very easy to find, or very easy to skip over. It's especially given away when this is the cause because the log tends to show a crash dump, then continues to load for a while longer (if it's one crash dump near the end of the file and it only continues to load for a couple lines, that's usually negligible and you should probably focus on normal crash dumps instead)
 
    Examples of multiple crash dumps in a Northstar log:\
-   A crash dump in the middle of loading:\
-   ![image](docs/images/conflicting-sounds-dump-part1.png)
+   ![A crash dump in the middle of loading](images/conflicting-sounds-dump-part1.png)
 
-   A _second_ crash dump practically _inside_ of the previous crash dump:\
-   ![image](docs/images/conflicting-sounds-dump-part2.png)
+   ![A _second_ crash dump practically _inside_ of the previous crash dump](images/conflicting-sounds-dump-part2.png)
 
    A crash dump during loading by itself isn't too likely to be this issue, but in the middle of continued loading, it tends to be.\
    Sometimes these can get so bad that every other line is a new crash dump!
