@@ -159,7 +159,7 @@ You can view information on the closed tickets, such as open and close date, who
    Generally, if the user disables all but core mods their game works (if not, they should manually delete their core mods and reinstall Northstar, either via a mod manager or manually. Be prepared to explain every step of manually reinstalling if you ask them to do so), and it's then recommended that they enable dependency mods first (e.g. `ClientKillCallback` as shown previously.
    They should be enabled first so that mods using them don't cause compile errors due to missing their dependencies), then enable mods in batches of anywhere from 2-4 (this depends on how many mods they have, try to use your judgement and recommend a number). This is a safe way to debug just about any error with Northstar as well.
    
-5. Multiple crash dumps in one log/Multiple crash messages when launching Northstar
+3. Multiple crash dumps in one log/Multiple crash messages when launching Northstar
 
    This is almost always due to the user having multiple mods that replace the same part of the game installed.
    This is especially prevalent with sound mods such as [Goofy Ahh Soundpack](https://northstar.thunderstore.io/package/theNon/Goofy_Ahh_Soundpack/) where a _ton_ of sounds get replaced, however it's never stated which ones are.
