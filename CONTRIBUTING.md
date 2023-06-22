@@ -61,7 +61,23 @@ There are 3 major slash commands for tickets. These are `/close`, `/closerequest
 
 `/add` will add a normal (non ticket-viewing) user to a ticket. This is useful if, for example, someone who created a mod and can't see the tickets has one of their mods create an error for a user and you can't diagnose it. This is also useful for cases where someone opens a ticket for someone else.
 
-You may have noticed that `/closerequest` has been skipped. That's because there's sort of a "etiqutte" surrounding it.
+You may have noticed that `/closerequest` has been skipped. That's because there's sort of a "etiquette" surrounding it.
+
+Generally, you _should_ use `/closerequest` for closing a ticket. There's much less chance the end user gets upset, and it can be denied last minute if another issue comes up. `/closerequest` sends an embed to the user that looks like the following:\
+![image](https://github.com/CooldudePUGS/NorthstarWiki/assets/70904206/0701133e-4b3b-4328-99c3-e75f9912adb5)
+
+From here, the user can accept the close request, which in turn closes the ticket, or deny the close request, while results in an edited embed telling you they denied it.
+
+To _use_ the `/closerequest` command, there are a few "ways" to use it.\
+Note that `close_delay` is a number, meaning the time in hours before the ticket autocloses.\
+`reason` is a box to input the reason for a close request.\
+Using "ac" as described later lets other people know how long until the ticket will close. "ac" meaning **A**uto **C**lose.
+
+If the ticket very highly seems resolved/the user has said they have no issues, use `/closerequest` with `close_delay` set to `1` and the `reason` set to "resolved, ac 1hr"\
+If the ticket seems like it _might_ be resolved, try a `close_delay` of `3-8` (use your judgement) with the `reason` "seemingly resolved, ac {hour count}hr". This gives the user more time to deny the request if the issue isn't actually resolved\
+For inactive tickets (when it's the _user_ not responding) we usually give them a few days (3-5, sometimes longer if we forget) then start pinging them once a day. If they continue to not respond for 2-3 days, we tend to set a close request with `close_delay` set to `24` or `48` (24 is especially nicer for users who _never_ responded to their ticket), and the `reason` set to "no response, ac {hour count}hr" or "inactive ticket, ac {hour count}hr"
+
+You can also use `/closerequest` without giving a `close_delay` or a `reason`, however you should always try to give a reason for closing a ticket, and if you don't give a `close_delay` there's a high chance that the ticket doesn't get closed (quite a few end users don't accept or see the close request)
 
 ### General log reading
 1. Looking for the error
@@ -75,9 +91,9 @@ You may have noticed that `/closerequest` has been skipped. That's because there
 ### Specifics of log reading
 1. Script compilation error
 
-     This error generally arises due to a mod installed breaking, not having a valid dependency, or conflicting with another installed mod (sometimes, even core mods!). For these issues, there are two ways you can go about them. If they're issues with mod dependencies, the log will state something like the following
+     This error generally arises due to a mod installed breaking, not having a valid dependency, or conflicting with another installed mod (sometimes, even core mods!). For these issues, there are two ways you can go about them. If they're issues with mod dependencies, the log will state something like the following:
 
-   (Note: These log examples ARE out of date. The error messages, however, have stayed the same or relatively similar.)
+   (Note: These log examples ARE out of date. The error messages, however, have stayed the same or relatively similar)
    
    This is a specific example of the user not having [Mod Settings](https://northstar.thunderstore.io/package/EladNLG/ModSettings/) installed.\
    ![image](https://github.com/CooldudePUGS/NorthstarWiki/assets/70904206/19e31f35-0289-400f-a7e3-ddeeddcb01e9)
@@ -90,7 +106,7 @@ You may have noticed that `/closerequest` has been skipped. That's because there
   
    Otherwise, you can have them simply remove/disable the mod causing issues (especially important if the mod is out of date or installing a dependency didn't cause it to work). You can piece together what mod it is by looking at the file name that causes the error (for example, the first screenshot earlier says `ui/hud_revamp_settings.nut` meaning HUD Revamp is causing the issue, and the second screenshot says `s2_wg_overhaul.nut` which means WarGames Overhaul). The file names will not always line up with the exact mod name, and some are named different things entirely. For cases like these, try to check the last loaded folder before the error occurs, such as the following:
    
-      Here, we see that a folder named `s2.WarGamesOverhaul` is causing issues. This makes it quite easy to debug what it is. You should also try to search for these on [Thunderstore](https://northstar.thunderstore.io/package/) to see if you can find any abbreviations/shortened names for mods, and what the mod's actual name is.
+      Here, we see that a folder named `s2.WarGamesOverhaul` is the last loading folder before a file is causing issues. This makes it quite easy to debug what it is. You should also try to search for these on [Thunderstore](https://northstar.thunderstore.io/package/) to see if you can find any abbreviations/shortened names for mods, and what the mod's actual name is. 9 times out of 10, this method will work, however this isn't always the case.
    
    ![image](https://github.com/CooldudePUGS/NorthstarWiki/assets/70904206/454aa343-ac09-4ed4-ab0d-9465d04551d2)
 
@@ -99,7 +115,7 @@ You may have noticed that `/closerequest` has been skipped. That's because there
 
    Note that a decent amount of the time, even after solving one of these, more can arise that previously didn't! This doesn't mean that the last thing you/the user tried caused more errors, but it's important to note that more can come up after solving one. This is _especially_ prevalent with manual installers that don't update their mods, then try to install new mods that use newer dependency versions.
 
-3. Crash dumps
+2. Crash dumps
 
      Crash dumps are snippets of information given in logs when Northstar "hard crashes". These dumps aren't generally all too useful for giving you an exact error, however can still hold vital information. Crash dumps tend to look like this:
    
@@ -111,7 +127,7 @@ You may have noticed that `/closerequest` has been skipped. That's because there
 
    When seeing a crash dump, many things can cause it. However, once again, this is almost always due to one or more installed mods. A lot of the times, however, these are harder to diagnose than a simple compilation error. Generally, if the user disables all but core mods their game works (if not, they should manually delete their core mods and reinstall Northstar, either via a mod manager or manually. Be prepared to explain every step of manually reinstalling if you ask them to do so), and it's then recommended that they enable dependency mods first (e.g. Mod Settings and ClientKillCallback as shown previously) then enable mods in batches of anywhere from 2-4 (depends how many mods they have, use your judgement and recommend a number). This is mostly a safe way to debug absolutely any error with the game as well.
    
-4. Multiple crash dumps in one log/Multiple crash messages when launching Northstar
+3. Multiple crash dumps in one log/Multiple crash messages when launching Northstar
 
    This is almost always due to the user having multiple sound mods that replace the same sound installed. This is especially prevalent with mods such as [Goofy Ahh Soundpack](https://northstar.thunderstore.io/package/theNon/Goofy_Ahh_Soundpack/) where a _ton_ of sounds get replaced, however it's never stated which ones are. When debugging this, simply ask the user if they have multiple sound mods that replace the same sound installed. If they say no, ask if they have the before mentioned `Goofy Ahh Soundpack` installed. If they do, tell them to disable ALL other sound mods when using it.
 
