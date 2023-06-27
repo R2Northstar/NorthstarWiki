@@ -5,6 +5,7 @@ If you've somehow stumbled upon this page trying to fix an issue for yourself, y
 If you're a helper, it also isn't a bad idea to look at this page a few times and try to have a rough idea of the things that are on it.
 
 When helping a user, please try to move them to the `#help` channel to create a ticket as well as to keep public channels less cluttered. 
+Cyn (cooldudepugs)'s Discord bot [Spectre](https://github.com/CooldudePUGS/Spectre) is meant to additionally try to direct users to tickets as well when it detects a user might be asking for help in a public channel. It also automatically replies to specific error messages, which you can see a list of [here](https://github.com/CooldudePUGS/Spectre/wiki/Replies).
 If they really don't want to open a ticket or you don't want to deal with a ticket, ask them to move to `#northstar-chat`. 
 There, not only can they embed things, but it'll be slightly more focused on helping than general would be.
 
@@ -15,6 +16,8 @@ Reading logs is a little tougher however, but once you get the basics down you c
 You can use `/tag id:logs` to inform users how to properly send a log in a Discord channel. Generally, when reading a log there are a list of things you want to look for, which will be covered later.
 
 The first section will first go over extremely common issues and their tags, then the basics of using the ticket bot for commands inside tickets, and then some overview and specific examples for reading logs.
+
+Additionally, please don't be afraid to ask for help. The entirety of `#volunteers-chat` in the Discord server is specifically for those that help/sometimns help users and there's no shame it not knowing.
 
 ## Common issues and their tags
 
@@ -93,11 +96,11 @@ Note that `close_delay` is a number, meaning the time in hours before the ticket
 `reason` is a box to input the reason for a close request.\
 Using "ac" as described later lets other people know how long until the ticket will close ("ac" meaning **A**uto **C**lose). This helps yourself and others when looking at tickets because the tickets bot doesn't show when a ticket is set to auto close.
 
-If the ticket very highly seems resolved/the user has said they have no issues, use `/closerequest` with `close_delay` set to `1` and the `reason` set to "resolved, ac 1hr"\
-If the ticket seems like it _might_ be resolved, try a `close_delay` of `3-8` (use your judgement) with the `reason` "seemingly resolved, ac {HOUR-COUNT}hr". 
-This gives the user more time to deny the request if the issue isn't actually resolved\
-For inactive tickets (when it's the _user_ not responding) we usually give them a few days (3-5, sometimes longer if we forget) then start pinging them once a day. 
-If they continue to not respond for 2-3 days, we tend to set a close request with `close_delay` set to `24` or `48` (`24` is especially nicer for users who _never_ responded to their ticket), and the `reason` set to "no response, ac {HOUR-COUNT}hr" or "inactive ticket, ac {hour count}hr"
+If the ticket seems resolved/the user has said they have no issues, use `/closerequest` with `close_delay` set to `8` and the `reason` set to "resolved, ac 8hr"
+
+For tickets where the end user that opened the ticket _never_ responded, we usually wait a couple days, ping them a few times, and if they continue to be inactve, set a close request with `close_delay` set to 24 and the `reason` set to "no response, ac 24hr"
+For inactive tickets (when it's the _user_ not responding, not us!) we usually give them a few days (3-5 days, sometimes longer if we forget_) and then start pinging them once a day. 
+If they continue to not respond for 2-3 days, we tend to set a close request with `close_delay` set to `48` and the `reason` set to  "inactive ticket, ac 48hr"
 
 You can also use `/closerequest` without giving a `close_delay` or a `reason`, however you should always try to give a reason for closing a ticket, and if you don't give a `close_delay` there's a high chance that the ticket doesn't get closed (quite a few end users don't accept or see the close request)
 
