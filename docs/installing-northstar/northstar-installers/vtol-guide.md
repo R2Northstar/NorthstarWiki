@@ -8,24 +8,24 @@ VTOL is a mod manager for installing and managing mods for the Northstar client 
 
 **The _Main Menu_ of VTOL is where you'll probably spend most of your time.**
 
-This menu has a lot of useful information, such as the _"version of VTOL"_ you have, the _"version of Northstar"_ you have, if the Master Server is online, _"whether EA App/Origin are currently open"_, and a _"place to set your game path"_. 
+This menu has a lot of useful information, such as the version of VTOL you have, the version of Northstar you have, if the Master Server is online, whether EA App/Origin are currently open, and a place to set your game path. 
 
 ## Version Numbers
 
-You can see what _"version of VTOL/Northstar"_ you have in the top left corner of the VTOL window.
+You can see what version of VTOL/Northstar you have in the top left corner of the VTOL window.
 
 ![Version Numbers](../../images/vtol-version-numbers.png)
 
 ## Master Server/EA or Origin online
 
-These small tabs near the middle of the VTOL window show you whether the Master Server for Northstar is currently online, and if EA or Origin is running properly on your computer. If the EA/Origin tab is red, solving that will be covered later (See: Settings section later on).\
+These small tabs near the middle of the VTOL window show you whether the Master Server for Northstar is currently online, and if EA or Origin is running properly on your computer. If the EA/Origin tab is red, make sure to open EA/Origin first.\
 If you are unsure if you have EA or Origin, you have EA.
 
 ![Server/EA/Origin Status](../../images/vtol-server-status.png)
 
 ## Northstar Installation/Locate Titanfall 2 Install
 
-The final parts of the Main Menu are at the bottom, showing your game's directory with a button to Locate Titanfall 2 install, a small button next to this, and a button reading _"Update +Northstar"_
+The final parts of the Main Menu are at the bottom, showing your game's directory with a button to Locate Titanfall 2 install, a small button next to this, and a button below both of these reading _"Re-Install Northstar"_.
 
 ![Installation Section](../../images/vtol-northstar-installation-info.png)
 
@@ -37,7 +37,7 @@ VTOL handles most things automatically, but it may still require minimal setup f
 
 Something you might have to do manually is locate your Titanfall 2 install. You can do this by pressing the button of the same name on VTOL, and navigating to your Titanfall 2 directory (If you're unsure of what your game path is, check out the [Default Directories](../troubleshooting.md#game-location) section)
 
-After doing this, Northstar should automatically install. If not, the button at the bottom will read _"Install Northstar"_. Let VTOL install Northstar, and you should be good to go. Once installed, this button will turn into the _"Update +Northstar"_ shown in the screenshot earlier, which you can use to update without having to reinstall.
+After doing this, Northstar should automatically install. If not, the button at the bottom will read _"Install Northstar"_. Let VTOL install Northstar, and you should be good to go. Once installed, this button will turn into the _"Re-Install Northstar"_ button shown in the screenshot earlier, which you can use to forcibly reinstall Northstar in the case something goes wrong with your Northstar install.
 
 ## Launching Northstar via VTOL
 
@@ -49,12 +49,12 @@ Assuming you've followed everything up to this point, you should be set to hit _
 
 ## Tab List
 
-![VTOL Tab List](../../images/vtol-settings.png)
-
 The furthermost left side of VTOL has a list of tabs you can use for several different functions.\
 To expand the smaller version of the tab list, press the button with 3 bars as shown below
 
 ![3 Bars](../../images/vtol-settings-expand.png)
+
+![VTOL Tab List](../../images/vtol-settings.png)
 
 **NOTE: This guide will not be including the _"Home"_ button as a tab when describing this list. When it says the first tab, it means the first tab underneath the home button**
 ## Installed Mods List
@@ -112,13 +112,13 @@ The first screen is an area where you can locate a folder for a mod you've creat
 
 ![VTOL's Skin Tool implementation](../../images/vtol-skintool.png)
 
-The second screen is an area where you can drag and drop images to the different maps of a skin to make your own skin. This is an implementaion of the [skin tool](https://github.com/zxcPandora/Titanfall2-SkinTool).
+The second screen is an area where you can drag and drop images to the different maps of a skin to make your own skin. This is an implementaion of the [Skin Tool](https://github.com/zxcPandora/Titanfall2-SkinTool).
 
 ### Advocate
 
 ![VTOL's Advocate implementation](../../images/vtol-advocate.png)
 
-The third screen is an implementation of Spoon's [Advocate Tool](https://github.com/ASpoonPlaysGames/Advocate), where you can convert an old style skin mod to a mod that can be installed by everyone like a normal mod. Please give credit to the original skin owner while doing this. (If confused, following the earlier link to Github describes how to set up Advocate)
+The third screen is an implementation of Spoon's [Advocate Tool](https://github.com/ASpoonPlaysGames/Advocate), where you can convert a DDS formatted skin to a mod that can be installed by everyone normally without the need for the [Skin Tool](https://github.com/zxcPandora/Titanfall2-SkinTool). Please give credit to the original skin owner while doing this. (If confused on how to use this, follow the earlier link to Github describes how to set up Advocate. Do note, this version of Advocate isn't perfectly up to date)
 
 ### External Tools
 
