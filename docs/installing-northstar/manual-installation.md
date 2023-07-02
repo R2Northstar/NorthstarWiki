@@ -58,4 +58,5 @@ If a mod says it has required dependencies (apart from Northstar), download them
 After this, open the folder that gets downloaded. Inside of here, you should normally see a folder called `mods`, and a few files called `icon.png`, `manifest.json`, and `README.md`.
 From here, open the `mods` folder. Inside of here, you will find the actual folder for the mod. Move this folder to `Titanfall2/R2Northstar/mods`. Make sure to repeat this process for any and all dependencies the mod has.
 
-Note that there are variants of these. Some mods you download from Thunderstore are actually packages of mods stored inside the `mods` folder in the Thunderstore package. Some mods are formatted "improperly" (when following modding guides; though these aren't exactly "wrong") and won't have a `mods` folder, instead just having the mod folder itself in the downloaded Thunderstore package.
+Note that there are variants of these. Some mods you download from Thunderstore are actually packages of mods stored inside the `mods` folder in the Thunderstore package.
+Some mods are formatted "improperly" (when following modding guides; though these aren't exactly "wrong") and won't have a `mods` folder, instead they just have the mod folder itself in the downloaded Thunderstore package.
