@@ -80,5 +80,6 @@ You can view information on the closed tickets, such as open and close date, who
 
 The Northstar Discord server also has a couple custom bots in it. These are:
 
-Birb and Holo's bot [Northstar Servers](https://github.com/hummusbird/northstar-bot), which allows you to run commands like `.status` and see how many people are online on Northstar currently, and things such as `.search region aus`, which would search servers with the region Australia. You can check the repo for more info.
+birb and H0L0's bot [Northstar Servers](https://github.com/hummusbird/northstar-bot), which allows you to run commands like `.status` and see how many people are online on Northstar currently, and things such as `.search region aus`, which would search servers with the region Australia. You can check the repo for more info.
+
 Cyn's bot [Spectre](https://github.com/CooldudePUGS/Spectre) automatically replies to specific error messages, which you can see a list of [here](https://github.com/CooldudePUGS/Spectre/wiki/Replies), as well as SOME automatic log parsing.
