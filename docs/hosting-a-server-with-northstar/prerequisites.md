@@ -2,6 +2,9 @@
 
 **TL;DR:** Port forward `37015` (UDP), and no [CGNAT](prerequisites.md#cgnat)
 
+Note that by default your server will be called ``Unnamed Northstar Server``. You can change the name as described in the next page.
+
+
 Make sure you already installed Northstar [as described here](../installing-northstar/basic-setup.md).
 
 {% hint style="warning" %}
@@ -53,18 +56,3 @@ If you accidentally click the deny button, then follow the step to allow it.
 * Click "Browse"
 * Locate `NorthstarLauncher.exe` and select it
 * Click "Add"
-
-## Final checks
-
-To check whether you set everything up correctly, start the game via Northstar and go into a private match. Another Northstar user should now be able to see your server on the server browser and join it.\
-You can also use a web based server browser like the one made by [Taskinoz](https://taskinoz.com/northstar/) or [cpdt](https://cpdt.dev/northstar/) to see if your server shows up in there.
-
-You can also use a third-party site like [this one](https://www.ipfingerprints.com/portscan.php) to see whether you set up the TCP port forwarding correctly for the authentication port (usually `8081`) by performing a scan while your Northstar server is running.
-
-![Example check](https://raw.githubusercontent.com/R2Northstar/NorthstarWiki/main/docs/images/portforwarding-testing.png)
-
-![Working portforwarding for the TCP port](https://raw.githubusercontent.com/R2Northstar/NorthstarWiki/main/docs/images/portforwarding-working.png)
-
-Testing port forwarding like this only works for the TCP port due to the way UDP and Northstar work.
-
-Note that by default your server is called `Unnamed Northstar Server`. You can change this name as described in the next page.
