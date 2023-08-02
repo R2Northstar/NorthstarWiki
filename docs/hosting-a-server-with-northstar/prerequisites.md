@@ -2,8 +2,6 @@
 
 **TL;DR:** Port forward `37015` (UDP), and no [CGNAT](prerequisites.md#cgnat)
 
-Note that by default your server will be called ``Unnamed Northstar Server``. You can change the name as described in the next page.
-
 Make sure you already installed Northstar [as described here](../installing-northstar/basic-setup.md).
 
 {% hint style="warning" %}
