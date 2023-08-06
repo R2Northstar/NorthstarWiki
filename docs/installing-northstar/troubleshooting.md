@@ -99,6 +99,8 @@ If you get this error you can fix it by [installing vcredist 2015-2022 (`vcredis
 
 Go to Mods at the bottom of your screen on the main menu, then click Authentication Agreement and accept
 
+If this doesn't work, check in your [Titanfall2 directory](troubleshooting.md#game-location) for a file called `ns_startup_args`, open it up, and if you see something like `+ns_has_agreed_to_token 2`, change this `2` to a `0`. Don't touch anything else. This way, you can choose whether or not you want to authenticate with Northstar.
+
 ## I can't open the console <a href="#console" id="console"></a>
 
 * Navigate to your [Titanfall2 directory](troubleshooting.md#game-location)
