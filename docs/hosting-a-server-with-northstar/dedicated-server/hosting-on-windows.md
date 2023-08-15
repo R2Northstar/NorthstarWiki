@@ -45,3 +45,12 @@ When using a dedicated server, arguments are read from `ns_startup_args_dedi.txt
 At the moment, dedicated servers still require DirectX 11 to work, which typically requires a physical GPU, though they use almost no GPU processing power while in use, this can be an issue especially on GPU-less setups, so the launch argument `-softwared3d11` can be used to force DirectX to run in software mode.\
 While this is absolutely not ideal, it's the best solution for truly headless dedicated servers at the moment, and surprisingly hardly uses any CPU time, though it can use roughly up to 1GB of RAM.\
 Regarding RAM usage, dedicated servers also use significant amounts of RAM at the moment, often requiring 1.5-2GB, though I expect this to lower as development continues.
+
+### Video guide
+
+{% hint style="info" %}
+Note that these guides might not fully reflect best practices and can be outdated. However they should be helpful in setting up a server for the first time.\
+If you're planning to get serious about hosting your own server, please check out the ["Hosting a Dedicated Server" section](../dedicated-server/).
+{% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=EZ3w2Nl9SZo" %}
