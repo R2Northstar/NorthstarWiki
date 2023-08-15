@@ -43,7 +43,6 @@
   * [Name in the files](hosting-a-server-with-northstar/server-settings/file-names.md)
 * [RCON](hosting-a-server-with-northstar/rcon.md)
 * [Troubleshooting](hosting-a-server-with-northstar/troubleshooting.md)
-* [Guides](hosting-a-server-with-northstar/guides/README.md)
 
 ## Modding and Development
 
