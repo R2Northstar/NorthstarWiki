@@ -15,7 +15,7 @@ The current minimum requirements are as follows:
 - 8GB free disk space (5GB of the game and 3 for Origin/EA app)
 - 3+ cores (2 might work, though)
 - 3GB+ total memory (RAM or swap will do)
-- Windows 8.1 or better (and built-in WARP [use `-softwared3d11`] or a graphics card)
+- Windows 8.1 or better (and built-in WARP using the [`-software3d11` launch arg](./#dedicated-server-caveats), or a physical graphics card
 
 **Per instance:**
 
