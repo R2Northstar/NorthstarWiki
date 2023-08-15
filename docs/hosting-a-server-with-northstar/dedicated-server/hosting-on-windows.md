@@ -53,4 +53,8 @@ Note that these guides might not fully reflect best practices and can be outdate
 If you're planning to get serious about hosting your own server, please check out the ["Hosting a Dedicated Server" section](../dedicated-server/).
 {% endhint %}
 
+{% hint style="info" %}
+Specifically the information that you need to forward ``8081`` is outdated and doesnt need to be followed
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=EZ3w2Nl9SZo" %}
