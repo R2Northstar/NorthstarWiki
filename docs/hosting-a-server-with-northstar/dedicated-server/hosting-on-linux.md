@@ -82,6 +82,7 @@ services:
         +net_compresspackets 1
         +spewlog_enable 0
         +sv_maxrate 127000
+        +setplaylistvaroverrides 'run_epilogue 0'
     volumes:
       - /home/YOUR_USERNAME_HERE/Titanfall2:/mnt/titanfall:ro
       - /home/YOUR_USERNAME_HERE/Titanfall2/mods:/mnt/mods:ro
@@ -92,7 +93,7 @@ services:
     restart: always
 ```
 
-A list of all the CONVARs are [here](../../hosting-a-server-with-northstar/dedicated-server#convars)
+A list of all the CONVARs are [here](../../hosting-a-server-with-northstar/server-settings/convars.md)
 
 A more complex docker-compose example for hosting a server can be found [here](https://github.com/pg9182/northstar-dedicated#container), along with some extra information.
 
