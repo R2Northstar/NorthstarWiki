@@ -114,7 +114,7 @@ Example: `+setplaylistvaroverrides "run_epilogue 0 featured_mode_amped_tacticals
 | gg_kill_reward                             | float           | 1.0           | Amount of point you get for killing a player                                                   |
 | gg_execution_reward                        | float           | 1.0           | Amount of point you get for executing a player                                                 |
 | gg_assist_reward                           | float           | 0.0           | Amount of point you get for getting an assist on a player                                      |
-| gg_weapon_                                 | string          |               | Allows you to override the guns with the formatting ``+setplaylistvaroverrides scorelimit <weaponCount> gg_weapon_<index> <offhandSlotOr-1>|<weaponClassName>|<weaponMods>``. Syncs with client   |
+| gg_weapon_                                 | string          |               | Allows you to override the guns with the formatting `+setplaylistvaroverrides scorelimit <weaponCount> gg_weapon_<index> <offhandSlotOr-1>|<weaponClassName>|<weaponMods>`. Syncs with client   |
 ## Convars
 
 Convars are located inside the `R2Northstar\mods\Northstar.CustomServers\mod\cfg\autoexec_ns_server.cfg` file.
