@@ -21,7 +21,7 @@ If the usual workarounds of restarting EA/Origin, rebooting your pc, or running 
 
 This error usually happens when EA doesn't properly connect/see the EA App process on your pc. Most of the time this can be fixed by:
 
-1. Making sure you're signed into the EA App and can see Titanfall in your EA Library (only applies to Steam owners. If you can't, check [EA's official guide for linking accounts](https://help.ea.com/en/help/pc/link-ea-and-steam/)
+1. Making sure you're signed into the EA App and can see Titanfall2 in your EA Library (only applies to Steam owners. If you can't, check [EA's official guide for linking accounts](https://help.ea.com/en/help/pc/link-ea-and-steam/)
 2. Using task manager to end the `EA App` and `EA Background service` tasks, opening the EA App, then launching Northstar
 
 If you don't know how to use task manager, press `"ctrl + alt + delete"`, select Task Manager, and hit `"More Info"` on the bottom right. If you can't see more info, then you've already clicked it before and don't need to do it again. After this, when you right click on a process it will open a small pop up with `"End Task"` as an option, which is what you want to use.
