@@ -111,8 +111,6 @@ However, if you want you can still install skins like this for use with Northsta
 ![Launch arguments/dedicated server tab](../../images/vtol-server.png)
 
 The fourth tab on VTOL is the _"Server"_ tab. This section allows you to add Launch Arguments to your client or dedicated server.
-Note that this adds Launch Arguments to change what Northstar does when it launches, not to launch Northstar itself.
-A way you can do this is by adding [Launch Arguments](../troubleshooting.md#launch-opts) via the store you own the game on and launching through there.
 
 For the dedicated server option, you can scroll through this tab to set many different options for a server which can be found on the Northstar Wiki's [Server Hosting Guide](../../hosting-a-server-with-northstar/basic-listen-server.md)
 
