@@ -41,7 +41,6 @@
   * [ConVars](hosting-a-server-with-northstar/server-settings/convars.md)
   * [Playlistvars](hosting-a-server-with-northstar/server-settings/playlistvars.md)
   * [Name in the files](hosting-a-server-with-northstar/server-settings/file-names.md)
-* [RCON](hosting-a-server-with-northstar/rcon.md)
 * [Troubleshooting](hosting-a-server-with-northstar/troubleshooting.md)
 
 ## Modding and Development
