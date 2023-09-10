@@ -21,8 +21,8 @@ If the usual workarounds of restarting EA/Origin, rebooting your pc, or running 
 
 This error usually happens when the EA App fails to connect to EA servers properly. To fix this, you can:
 
-1. Make sure you're signed into the EA App and can see Titanfall2 in your EA Library (only applies to Steam owners. If you can't, check [EA's official guide for linking accounts](https://help.ea.com/en/help/pc/link-ea-and-steam/)
-2. Use task manager to end the `EA App` and `EA Background service` tasks, open the EA App, then launch Northstar
+1. Make sure you're signed into the EA App and can see Titanfall2 in your EA Library (only applies to Steam owners. If you can't, check [EA's official guide for linking accounts](https://help.ea.com/en/help/pc/link-ea-and-steam/).
+2. Use task manager to end the `EA App` and `EA Background service` tasks, open the EA App, then launch Northstar.
 
 ## Tier0.dll Not found <a href="#tier0" id="tier0"></a>
 
