@@ -2,6 +2,7 @@
 
 As of version `1.19.0` Northstar allows you to toggle the progression system.
 This means that you can choose whether to have everything unlocked or not.
+By default progression is disabled and all weapons and skins are unlocked.
 
 ## Enabling/Disabling Progression
 
