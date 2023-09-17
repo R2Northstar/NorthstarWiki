@@ -27,6 +27,7 @@
   * [Commands](using-northstar/commands.md)
   * [Launch arguments](using-northstar/launch-arguments.md)
   * [Advanced](using-northstar/advanced.md)
+  * [Progression System](using-northstar/progression.md)
 * [FAQ](faq.md)
 
 ## Hosting a server with Northstar
