@@ -26,8 +26,8 @@
   * [Gamemodes](using-northstar/gamemodes.md)
   * [Commands](using-northstar/commands.md)
   * [Launch arguments](using-northstar/launch-arguments.md)
-  * [Advanced](using-northstar/advanced.md)
   * [Progression System](using-northstar/progression.md)
+  * [Advanced](using-northstar/advanced.md)
 * [FAQ](faq.md)
 
 ## Hosting a server with Northstar
