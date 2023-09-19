@@ -1,3 +1,10 @@
+# ConVars
+## Monitoring
+
+You can set the Convar `ns_should_log_all_clientcommands` to `1` to log all client commands. This includes both benign things like the command a client sends to server to respawn after death but also nefarious, like a malicious client calling `emit`, a command that before being patched out allowed clients to spam voice lines to other clients.
+
+Due to the increased verbosity `ns_should_log_all_clientcommands` is set to `0` (disabled) by default but should be enabled in cases where you want to investigate suspicious activity on your server.
+
 ## Convars
 
 Convars are located inside the `R2Northstar\mods\Northstar.CustomServers\mod\cfg\autoexec_ns_server.cfg` file.
