@@ -1,6 +1,6 @@
 # Prerequisites
 
-**TL;DR:** Port forward `37015` (UDP), and no [CGNAT](prerequisites.md#cgnat)
+**TL;DR:** Port forward `37015` (UDP), and no [CGNAT](getting-started.md#cgnat)
 
 Make sure you already installed Northstar [as described here](../installing-northstar/basic-setup.md).
 
