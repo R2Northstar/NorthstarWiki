@@ -48,8 +48,8 @@ Check the prerequisites:
 
 and instructions to host a _listen server_:
 
-{% content-ref url="hosting-a-server-with-northstar/basic-listen-server.md" %}
-[basic-listen-server.md](hosting-a-server-with-northstar/basic-listen-server.md)
+{% content-ref url="hosting-a-server-with-northstar/quick-start.md" %}
+[quick-start.md](hosting-a-server-with-northstar/quick-start.md)
 {% endcontent-ref %}
 
 ### Q: Can I use Northstar to play the campaign? <a href="#faq-campaign" id="faq-campaign"></a>

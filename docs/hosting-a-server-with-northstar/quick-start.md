@@ -1,4 +1,13 @@
-# Hosting a Basic Listen Server
+# Quick start - Private match
+
+## Requirements
+ Port forward `37015` (UDP), and no [CGNAT](prerequisites.md#cgnat)
+
+Make sure you already installed Northstar [as described here](../installing-northstar/basic-setup.md).
+
+{% hint style="warning" %}
+This page is for hosting a quick server with friends, if you are looking for a more detailed guide go [here](./dedicated-server/README.md)
+{% endhint %}
 
 ## Instructions
 
@@ -48,8 +57,8 @@ sv_cheats 1; script GameRules_ChangeMap( "mp_forwardbase_kodai", "ctf" ); sv_che
 ```
 
 replace `mp_forwardbase_kodai` and `ctf` with your desired map and gamemode.\
-The list of maps can be found [here](server-settings/file-names.md#maps).\
-The list of gamemodes [here](server-settings/file-names.md#vanilla).
+The list of maps can be found [here](./server-settings/file-names.md#maps).\
+The list of gamemodes [here](./server-settings/file-names.md#vanilla).
 
 If someone keeps messing with the settings, set `ns_private_match_only_host_can_change_settings` to `2`, so that only you can change them.
 
