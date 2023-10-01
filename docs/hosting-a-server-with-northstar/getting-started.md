@@ -1,4 +1,4 @@
-# Prerequisites
+# Getting started
 
 **TL;DR:** Port forward `37015` (UDP), and no [CGNAT](getting-started.md#cgnat)
 
