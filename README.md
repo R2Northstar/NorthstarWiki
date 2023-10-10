@@ -17,3 +17,8 @@ They can also be previewed to some degree on GitHub directly.
 
 When working locally, [`mdBook`](https://rust-lang.github.io/mdBook/) can be used to render previews by simply running `mdbook serve`.
 Note that GitBook has a custom extended markdown syntax that is not supported by mdBook but using mdBook results in a rendered version that is good enough to verify the correctness of most changes.
+
+To install mdBook use the following link if:
+
+- [you have Rust toolchain installed](https://rust-lang.github.io/mdBook/guide/installation.html#build-from-source-using-rust)
+- [you **DON'T** have Rust toolchain installed](https://rust-lang.github.io/mdBook/guide/installation.html#pre-compiled-binaries)
