@@ -13,5 +13,5 @@ Unfortunately, [GitBook](https://www.gitbook.com/) does not offer a way to work 
 However, under the hood GitBook just uses [Markdown](https://www.markdownguide.org/) files that can be edited using any text editor.
 They can also be previewed to some degree on GitHub directly.
 
-When working locally, [`mdBook`](https://www.markdownguide.org/) can be used to render previews by simply running `mdbook serve`.
+When working locally, [`mdBook`](https://rust-lang.github.io/mdBook/) can be used to render previews by simply running `mdbook serve`.
 Note that GitBook has a custom extended markdown syntax that is not supported by mdBook but using mdBook results in a rendered version that is good enough to verify the correctness of most changes.
