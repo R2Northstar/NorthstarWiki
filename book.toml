@@ -10,3 +10,4 @@ title = "Northstar Wiki"
 [output.html]
 
 [output.linkcheck]
+optional = true
