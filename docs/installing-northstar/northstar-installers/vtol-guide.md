@@ -2,9 +2,9 @@
 
 VTOL is a mod manager for installing and managing mods for the Northstar client made for Titanfall 2.
 
-VTOL works on Windows only, and you can find links to download it on [Northstar's website](https://northstar.tf) or [VTOL's GitHub repo](https://github.com/R2NorthstarTools/VTOL).
+VTOL works on Windows only and you can find links to download it on [Northstar's website](https://northstar.tf) or [VTOL's GitHub repo](https://github.com/R2NorthstarTools/VTOL).
 Installing it from the website automatically installs the latest version that will automatically update itself. On the GitHub repo, you can download the newest version by clicking one of two options. 
-Note that the portable is just a `.exe` file, and not the installer, and as such it won't automatically update itself.
+Note that the portable is just a `.exe` file and not the installer, as such it won't automatically update itself.
 
 ![VTOL installer download (on GitHub, automatically updates](../../images/vtol-download-github.png)
 
@@ -46,7 +46,7 @@ VTOL handles most things automatically, but it may still require minimal setup f
 Something you might have to do manually is locate your Titanfall 2 install. You can do this by pressing the button of the same name on VTOL, and navigating to your Titanfall 2 directory (If you're unsure of what your game path is, check out the [Default Directories](../troubleshooting.md#game-location) section)
 
 After doing this, Northstar should automatically install. If not, the button at the bottom will read _"Install Northstar"_. 
-Let VTOL install Northstar, and you should be good to go. Once installed, this button will turn into the _"Re-Install Northstar"_ button shown in the screenshot earlier, which you can use to forcibly reinstall Northstar in the case something goes wrong with your Northstar install.
+Let VTOL install Northstar and you should be good to go. Once installed, this button will turn into the _"Re-Install Northstar"_ button shown in the screenshot earlier, which you can use to forcibly reinstall Northstar in the case something goes wrong with your Northstar install.
 
 ## Launching Northstar via VTOL
 
@@ -102,7 +102,7 @@ It is normal for the _"Restart_As_Admin"_ button to appear untoggled. This is al
 
 The third settings tab on VTOL is the _"Skins"_ tab. VTOL has support for DDS format skins (the skins with the numbered folders in them), which are commonly used for Vanilla Titanfall 2, with Northstar generally opting to convert them to mods.
 
-This format is older, and less consistent than converting them to a mod to be used with Northstar (see [Advocate](./#advocate)), and can still be used on Vanilla by making use of a [vanilla profile](../using-northstar/advanced.md#vanilla-profile).
+This format is older and less consistent than converting them to a mod to be used with Northstar (see [Advocate](./#advocate)). It can still be used on Vanilla by making use of a [vanilla profile](../using-northstar/advanced.md#vanilla-profile).
 
 However, if you want you can still install skins like this for use with Northstar. All you need to do is drag the folder of a DDS format skin onto the Skins screen of VTOL to install it automatically.
 
@@ -150,7 +150,7 @@ The fourth screen lists a lot of commonly used tools by modders to help create m
 ![VTOL's Profiles menu](../../images/vtol-profiles.png)
 
 The sixth tab is the _"Profiles"_ tab, allowing you to create profiles for Northstar. Profiles are seperate Northstar installs, each with their own set of mods and seperated by folders. 
-For example, you can have one profile with your normal set of mods, and another profile for only using core mods (those that common with Northstar/the ones that start with `Northstar.`).
+For example, you can have one profile with your normal set of mods and another profile for only using core mods (those that common with Northstar/the ones that start with `Northstar.`).
 
 ![The Export Profile menu in VTOL](../../images/vtol-export-profile.png)
 
