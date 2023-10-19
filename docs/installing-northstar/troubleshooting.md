@@ -21,7 +21,9 @@ If the usual workarounds of restarting EA/Origin, rebooting your pc, or running 
 
 This error usually happens when the EA App fails to connect to EA servers properly. To fix this, you can:
 
+<!-- markdown-link-check-disable-->
 1. Make sure you're signed into the EA App and can see Titanfall2 in your EA Library (only applies to Steam owners. If you can't, check [EA's official guide for linking accounts](https://help.ea.com/en/help/pc/link-ea-and-steam/).
+<!-- markdown-link-check-enable-->
 2. Use task manager to end the `EA App` and `EA Background service` tasks, open the EA App, then launch Northstar.
 
 ## Tier0.dll Not found <a href="#tier0" id="tier0"></a>
@@ -211,7 +213,9 @@ This is an error commonly caused by EA not properly updating players' names when
 
 The current solution to this is signing out of the EA App, then _without signing back into the EA App_, open **Vanilla** Titanfall 2. This should prompt EA App to pop up and ask you to sign in again, sign in on that prompt. Close Vanilla Titanfall 2 and open **Northstar**, and the error should be fixed.
 
+<!-- markdown-link-check-disable -->
 Another common issue that can cause this error is when Steam and EA accounts aren't properly linked (Note: this only applies if you own Titanfall 2 on Steam). To check if this is the case, you can check if you see Titanfall 2 in your library on the EA App (yes, even if you own it on Steam). If you see it, then try the other solutions again. If you don't see it, follow [EA's official guide on linking Steam and EA accounts](https://help.ea.com/en/help/pc/link-ea-and-steam/).
+<!-- markdown-link-check-enable-->
 
 This error can also appear if you are pirating the game, which we neither condone nor support as stated [here](../faq.md#faq-piracy)
 
