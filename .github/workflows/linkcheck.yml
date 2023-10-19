@@ -8,4 +8,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: md-linkcheck
-        uses: ocular-d/md-linkcheck-action@master
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
