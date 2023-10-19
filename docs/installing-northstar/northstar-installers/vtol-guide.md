@@ -36,7 +36,7 @@ If you are unsure if you have EA or Origin, you have EA.
 
 The final parts of the Main Menu are at the bottom, showing your game's directory with a button to Locate Titanfall 2 install, a small button next to this, and a button below both of these reading _"Re-Install Northstar"_.
 
-![Installation Section](../../images/vtol-sdfsdfsdfsdsdfsfdsdftar-installation-info.png)
+![Installation Section](../../images/vtol-northstar-installation-info.png)
 
 ## Installation Via VTOL
 
