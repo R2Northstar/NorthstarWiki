@@ -3,7 +3,8 @@
 VTOL is a mod manager for installing and managing mods for the Northstar client made for Titanfall 2.
 
 VTOL works on Windows only and you can find links to download it on [Northstar's website](https://northstar.tf) or [VTOL's GitHub repo](https://github.com/R2NorthstarTools/VTOL).
-Installing it from the website automatically installs the latest version that will automatically update itself. On the GitHub repo, you can download the newest version by clicking one of two options. 
+Installing it from the website automatically installs the latest version that will automatically update itself.
+On the GitHub repo, you can download the newest version by clicking one of two options. 
 Note that the portable is just a `.exe` file and not the installer, as such it won't automatically update itself.
 
 ![VTOL installer download (on GitHub, automatically updates](../../images/vtol-download-github.png)
@@ -102,9 +103,11 @@ It is normal for the _"Restart_As_Admin"_ button to appear untoggled. This is al
 
 The third settings tab on VTOL is the _"Skins"_ tab. VTOL has support for DDS format skins (the skins with the numbered folders in them), which are commonly used for Vanilla Titanfall 2, with Northstar generally opting to convert them to mods.
 
-This format is older and less consistent than converting them to a mod to be used with Northstar (see [Advocate](./#advocate)). It can still be used on Vanilla by making use of a [vanilla profile](../using-northstar/advanced.md#vanilla-profile).
+This format is older and less consistent than converting them to a mod to be used with Northstar (see [Advocate](./#advocate)).
+It can still be used on Vanilla by making use of a [vanilla profile](../using-northstar/advanced.md#vanilla-profile).
 
-However, if you want you can still install skins like this for use with Northstar. All you need to do is drag the folder of a DDS format skin onto the Skins screen of VTOL to install it automatically.
+However, if you want you can still install skins like this for use with Northstar.
+All you need to do is drag the folder of a DDS format skin onto the Skins screen of VTOL to install it automatically.
 
 ## Server
 
@@ -137,7 +140,9 @@ The second screen is an area where you can drag and drop images to the different
 ![VTOL's Advocate implementation](../../images/vtol-advocate.png)
 
 The third screen is an implementation of Spoon's [Advocate Tool](https://github.com/ASpoonPlaysGames/Advocate), where you can convert a DDS formatted skin to a mod that can be installed by everyone normally without the need for the [Skin Tool](https://github.com/zxcPandora/Titanfall2-SkinTool).
-If you're going to be sharing a converted skin that isn't yours, please give credit to the original creator. (If confused on how to use this, follow the earlier link to Github that describes how to set up Advocate. Do note, this version of Advocate isn't perfectly up to date)
+If you're going to be sharing a converted skin that isn't yours, please give credit to the original creator.
+(If confused on how to use this, follow the earlier link to Github that describes how to set up Advocate.
+Do note, this version of Advocate isn't perfectly up to date)
 
 ### External Tools
 
