@@ -36,7 +36,7 @@ If you are not experienced with x64dbg it its recommended to use [Visual Studio]
 Debugging Northstar under Linux is not trivial due to the direct dependency on Origin, unless you know your way around wine its recommended to debug on Windows.
 {% endhint %}
 
-To simplify the use of x64dbg and automate running Origin a community member has created a script https://github.com/R2NorthstarTools/ns-linux-dbg
+To simplify the use of x64dbg and automate running Origin a community member has created a script: [ns-linux-dbg](https://github.com/R2NorthstarTools/ns-linux-dbg)
 
-To run it simply invoke it: `./nsdbg.py`
+To run it simply invoke it: `./nsdbg.py`    
 It supports a variety of options as well as vanilla wine and Proton, use the help flag to see all possible options: `./nsdbg.py --help`
