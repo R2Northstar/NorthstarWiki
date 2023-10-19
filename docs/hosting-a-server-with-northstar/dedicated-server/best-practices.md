@@ -17,7 +17,7 @@ The current minimum requirements are as follows:
 - 5GB free disk space (+3 GB if you're on windows due to origin and deps)
 - 3+ cores (2 might work, though)
 - 3GB+ total memory (RAM or swap will do)
-- Windows 8.1 (and built-in WARP [use `-softwared3d11`] or a graphics card) + or wine 6.0.0+ (and dxvk+lavapipe+x11, wined3d+llvmpipe+x11, or a working graphics setup with dxvk or llvmpipe) (see [this](https://github.com/pg9182/northstar-dedicated) for more)
+- Windows 8.1 (and built-in WARP \[use `-softwared3d11`\] or a graphics card) + or wine 6.0.0+ (and dxvk+lavapipe+x11, wined3d+llvmpipe+x11, or a working graphics setup with dxvk or llvmpipe) (see [this](https://github.com/pg9182/northstar-dedicated) for more)
 
 **Per instance:**
 
@@ -25,12 +25,6 @@ The current minimum requirements are as follows:
 - 15 Mbps network upload, but 10 is workable, 25 if you want to avoid players getting disconnected when going back to the lobby after a match
 
 **Note:** It is recommended to surpass the listed requirements. Currently the number of available servers covers the daily playerbase more than enough. If you're planning to host public servers for the community it is therefore recommended to either fill a niche (like a gamemode that is so popular that all existing servers are full) or provide a better service than existing hosts (less lag, more stable, etc.).
-
-## Monitoring
-
-You can set the Convar `ns_should_log_all_clientcommands` to `1` to log all client commands. This includes both benign things like the command a client sends to server to respawn after death but also nefarious, like a malicious client calling `emit`, a command that before being patched out allowed clients to spam voice lines to other clients.
-
-Due to the increased verbosity `ns_should_log_all_clientcommands` is set to `0` (disabled) by default but should be enabled in cases where you want to investigate suspicious activity on your server.
 
 ## Optimization Commands (Optional)
 
