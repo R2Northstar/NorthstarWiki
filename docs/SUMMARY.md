@@ -64,4 +64,5 @@
 
 ## Other
 
+* [Discord moderation](other/moderation.md)
 * [Credits](other/credits.md)
