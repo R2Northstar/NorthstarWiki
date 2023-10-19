@@ -33,14 +33,10 @@ If you are not experienced with x64dbg it its recommended to use [Visual Studio]
 ## Linux
 
 {% hint style="warning" %}
-Debugging Northstar under Linux is not trivial due to the direct dependency on
+Debugging Northstar under Linux is not trivial due to the direct dependency on Origin, unless you know your way around wine its recommended to debug on Windows.
 {% endhint %}
 
-Debugging Northstar under Linux is not trivial due to the direct dependency on Origin.
+To simplify the use of x64dbg and automate running Origin a community member has created a script https://github.com/R2NorthstarTools/ns-linux-dbg
 
-To simplify the use of x64dbg and automate running Origin a community member has created a script.
-
-* clone `https://git.jandroegehoff.de/sentry/ns-gdb`
-* run `./nsdbg x64dbg`
-  * by default it looks for the steam install for Titanfall 2, you can override that by setting the `TF2_GAME_DIR` environment variabel to the game path
-  * Due to compatibility issues with most wine builds, it attempts to run it in proton. If this is undesired append `--compat=wine`
+To run it simply invoke it: `./nsdbg.py`
+It supports a variety of options as well as vanilla wine and Proton, use the help flag to see all possible options: `./nsdbg.py --help`
