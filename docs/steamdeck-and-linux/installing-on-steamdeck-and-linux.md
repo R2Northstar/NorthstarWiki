@@ -19,15 +19,15 @@ On Steam Deck, complete the following in desktop mode. You may return to game mo
 2. Install the latest version of Northstar using [FlightCore](../installing-northstar/northstar-installers#geckoeidechse-flightcore), [Viper](../installing-northstar/northstar-installers#0negal-viper), or do it manually
    1. For manual install download the latest version of Northstar from the [releases](https://github.com/R2Northstar/Northstar/releases) page
    2. Then extract all contents of the file to your Titanfall 2 folder ( Right click _Titanfall 2_ > Open _Properties_ > Click _Local Files_ > Click _Browse_ )
-3. Install NorthstarProton
-   1. **Protonup-QT**: Click _About_, then tick the box to enable _advanced mode_. You should be able to select and install NorthstarProton from the _Add version_ menu.
-   2. **ProtonPlus**: NorthstarProton can also be installed via ProtonPlus.
-   3. **Manual**: Download the latest release of [NorthstarProton](https://github.com/cyrv6737/NorthstarProton/releases/), extract it, and place the folder in one of the following directories:
+3. Install Proton-GE
+   1. **Manual**: Download the latest release of [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases), extract it, and place the folder in one of the following directories:
       * **Steam (Native Package) & Steam Deck:** `~/.local/share/Steam/compatibilitytools.d`
       * **Steam (Flatpak):** `~/.var/app/com.valvesoftware.Steam/data/Steam/compatibilitytools.d/`
-4. Restart Steam. Head to `Properties -> Compatibility` under Titanfall2. Check `Force the use of a specific Steam Play compatibility tool` checkbox, then set the Steam Play compatibility tool to NorthstarProton.
-5. Add `%command% -northstar` as a [launch option](../installing-northstar/troubleshooting.md#launch-opts) to Titanfall2
-6. Launch Titanfall2, it should now launch Northstar
+   2. **ProtonPlus**: Proton-GE can also be installed via ProtonPlus.
+   
+5. Restart Steam. Head to `Properties -> Compatibility` under Titanfall2. Check `Force the use of a specific Steam Play compatibility tool` checkbox, then set the Steam Play compatibility tool to Proton-GE.
+6. Add `%command% -northstar` as a [launch option](../installing-northstar/troubleshooting.md#launch-opts) to Titanfall2
+7. Launch Titanfall2, it should now launch Northstar
 
 Note that removing the `%command% -northstar` will cause Steam to launch the vanilla game again.
 
