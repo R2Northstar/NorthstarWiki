@@ -26,13 +26,15 @@ After doing this, you'll want to rename it to `yourFileName.bat`.
 This tells the NorthstarLauncher to not restrict server commands, a feature which is needed to allow the server to tell the client which server to join (but is disabled on Northstar for security reasons), and tells it to use the `R2Vanilla` profile.
 
 By default, this profile doesn't exist, meaning you won't load _any_ mods when using it.\
-However, you can still add mods to the profile while doing this. To do this, simply create a folder called `R2Vanilla`, then create a `mods` folder in there, and move the mods you want to use on vanilla into that mods folder. Note that not all mods will work this way, especially ones that change the game drastically, or that use the mod settings feature found in Northstar.
+However, you can still add mods to the profile while doing this. To do this, simply create a folder called `R2Vanilla`, then create a `mods` folder in there, and move the mods you want to use on vanilla into that mods folder.
+Note that not all mods will work this way, especially ones that change the game drastically, or that use the mod settings feature found in Northstar.
 
 Double clicking the `.bat` or right clicking on it and hitting `open` will launch the vanilla profile. Alternatively, you can follow the [Steamedit section](advanced.md#setting-up-different-launch-methods-with-steamedit) to have a "launch menu" when launching Titanfall 2 on Steam.
 
 ### Setting up different launch methods with Steamedit
 
-You can set up profiles in an even more advanced way by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one. Follow the steps already listed [here](../installing-northstar/basic-setup.md#adding-alternate-launch-option-for-steam), then add `-profile=PROFILE FOLDER NAME HERE` to the arguments of the new option for NorthstarLauncher, the example below showing the profile `R2NorthstarCoreMods`.
+You can set up profiles in an even more advanced way by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one.
+Follow the steps already listed [here](../installing-northstar/basic-setup.md#adding-alternate-launch-option-for-steam), then add `-profile=PROFILE FOLDER NAME HERE` to the arguments of the new option for NorthstarLauncher, the example below showing the profile `R2NorthstarCoreMods`.
 
 ![SteamEdit using Northstar Profiles](../images/steamedit-profiles.png)
 
