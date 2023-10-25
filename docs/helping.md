@@ -12,11 +12,7 @@ There, not only can they embed things, but it'll be slightly more focused on hel
 Arguably the most important things to know as a helper are the ability to read logs and deal with users that don't read the wiki (90% of tickets are solutions solvable by checking the wiki.
 There is a pretty high chance that even if the user claims they read the wiki they didn't actually do so or didn't find their issue on there)
 
-Reading logs is a little tougher however, but once you get the basics down you can easily diagnose issues in a few seconds after opening a log. 
-You can use `/tag id:logs` to inform users how to properly send a log in a Discord channel. 
-Generally, when reading a log there are a list of things you want to look for, which will be covered later.
-
-The first section will first go over extremely common issues and their tags, then the basics of using the ticket bot for commands inside tickets, and then some overview and specific examples for reading logs.
+The first section will go over extremely common issues and their tags, then the basics of using the ticket bot for commands inside tickets
 
 Additionally, please don't be afraid to ask for help. The entirety of `#volunteers-chat` in the Discord server is specifically for those that help/sometimes help users and there's no shame it not knowing.
 
@@ -32,11 +28,12 @@ You can find a list of these tags on the [tag dashboard for the help bot](https:
 
 This entire section only applies to users with `ticket-staff`+ roles who can see the ticket channels in the Discord server
 
-The tickets have a fairly straightforward way of operating. When a user clicks on a button to open a ticket 
-(a staff ticket is only visible by helper+ roles, while a public ticket is visible by ticket-staff+ roles) they're greeted with the following screen:\
+The tickets have a fairly straightforward way of operating. When a user clicks on a button to open a ticket they're greeted with the following screen:\
 ![The information fields for opening a ticket](images/ticket-information-popup.png)
 
-They will fill this out with information which will later be shared in their ticket as a message sent as an embed by the ticket bot. 
+If you or the end user are curious about the difference, a staff ticket can be viewed by anyone with the helper role or above, while a public ticket can be viewed by anyone with the ticket-staff role or above
+
+Once they hit a button to open a ticket, they will fill out the popup with information which will later be shared in their ticket as a message sent as an embed by the ticket bot. 
 This will be the first message in the channel and will look something similar to this:\
 ![The embed sent in a ticket with the information filled out by the user](images/ticket-open-message.png)
 
@@ -44,15 +41,15 @@ Note the buttons below the embed.\
 Hitting `Close` will close the ticket without a reason for closing it.\
 `Close with reason` will let you give a reason as to why you closed the ticket.\
 `Claim` allows you to "claim" a ticket and lets other helpers know that you'll be solving the ticket. 
-This doesn't usually get used for Northstar, however people can still message in the channel even after it's claimed so don't worry if you accidentally claim a ticket/end up not being able to solve it.
+This doesn't usually get used for Northstar, however other helpers can still message in the channel even after it's claimed so don't worry if you accidentally claim a ticket/end up not being able to solve it.
 
 These buttons, however, are not always easy to scroll back up to, especially if the ticket has been open for a while. This is where slash commands come in.
 
-There are 3 major slash commands for tickets. These are `/close`, `/closerequest`, and `/add`.
+There are 3 major slash commands used for tickets. These are `/close`, `/closerequest`, and `/add`.
 
-`/close` by itself will close the ticket immediately, without a reason. Using a slash command however, you can give a reason for closing using the `reason` option for the slash command. 
+`/close` by itself will close the ticket immediately, without a reason. Because it's a slash command however, you can give a reason for closing using the `reason` option when typing the slash command.
 
-`/add` will add a normal (non ticket-viewing) user to a ticket. This is useful if, for example, someone who created a mod and can't see the tickets has one of their mods create an error for a user and you can't diagnose it. This is also useful for cases where someone opens a ticket for someone else.
+`/add` will add a normal (non ticket-viewing) user to a ticket. This is useful if, for example, someone who created a mod and can't see the tickets has one of their mods cause an error for a user and you can't diagnose it. This is also useful for cases where someone opens a ticket for someone else.
 
 You may have noticed that `/closerequest` has been skipped. That's because there's sort of a "etiquette" surrounding it.
 
@@ -69,7 +66,7 @@ Using "ac" as described later lets other people know how long until the ticket w
 If the ticket seems resolved/the user has said they have no issues, use `/closerequest` with `close_delay` set to `8` and the `reason` set to "resolved, ac 8hr"
 
 For tickets where the end user that opened the ticket _never_ responded, we usually wait a couple days, ping them a few times, and if they continue to be inactve, set a close request with `close_delay` set to 24 and the `reason` set to "no response, ac 24hr"
-For inactive tickets (when it's the _user_ not responding, not us!) we usually give them a few days (3-5 days, sometimes longer if we forget_) and then start pinging them once a day. 
+For inactive tickets (when it's the _user_ not responding, not us!) we usually give them a few days and then start pinging them once a day. 
 If they continue to not respond for 2-3 days, we tend to set a close request with `close_delay` set to `48` and the `reason` set to  "inactive ticket, ac 48hr"
 
 You can also use `/closerequest` without giving a `close_delay` or a `reason`, however you should always try to give a reason for closing a ticket, and if you don't give a `close_delay` there's a high chance that the ticket doesn't get closed (quite a few end users don't accept or see the close request)
@@ -82,4 +79,4 @@ The Northstar Discord server also has a couple custom bots in it. These are:
 
 birb and H0L0's bot [Northstar Servers](https://github.com/hummusbird/northstar-bot), which allows you to run commands like `.status` and see how many people are online on Northstar currently, and things such as `.search region aus`, which would search servers with the region Australia. You can check the repo for more info.
 
-Cyn's bot [Spectre](https://github.com/CooldudePUGS/Spectre) automatically replies to specific error messages, which you can see a list of [here](https://github.com/CooldudePUGS/Spectre/wiki/Replies), as well as SOME automatic log parsing.
+Cyn's bot [Spectre](https://github.com/itscynxx/Spectre) automatically replies to specific error messages, which you can see a list of [here](https://github.com/itscynxx/Spectre/wiki/Replies)
