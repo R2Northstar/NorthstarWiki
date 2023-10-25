@@ -10,12 +10,19 @@ Also note that some solutions described below can also apply to the base game, l
 
 ![LSX Authentication Challenge failed](https://user-images.githubusercontent.com/97235072/148391447-300e1b47-6148-43f7-8854-b0882e150d12.png)
 
-If the usual workaround of restarting Origin/rebooting or running the vanilla game first and then Northstar don’t work, try the following:
+If the usual workarounds of restarting EA/Origin, rebooting your pc, or running the vanilla game first and then Northstar don’t work, try the following:
 
 * First and foremost, double check that you are _logged in_ on EA/Origin. Titanfall will _not_ run if you are not connected to EA servers first (and neither will Titanfall + Northstar).
-* Run the game with EA/Origin/Steam by adding [launch options](troubleshooting.md#launch-opts) instead of starting NorthstarLauncher.exe (important)
+* Run the game with Steam/EA/Origin by adding [launch options](troubleshooting.md#launch-opts) instead of starting NorthstarLauncher.exe (important)
 * Sign out and exit EA/Origin, then start Northstar. It will prompt you for a login, _hopefully_ fixing it if nothing else worked
 * Start normal Titanfall 2 and then Northstar (_ONLY WORKS SOMETIMES_)
+
+## Origin Offline/ORIGIN_LOGGED_OUT <a href="#origin-offline" id="origin-offline"></a>
+
+This error usually happens when the EA App fails to connect to EA servers properly. To fix this, you can:
+
+1. Make sure you're signed into the EA App and can see Titanfall2 in your EA Library (only applies to Steam owners. If you can't, check [EA's official guide for linking accounts](https://help.ea.com/en/help/pc/link-ea-and-steam/).
+2. Use task manager to end the `EA App` and `EA Background service` tasks, open the EA App, then launch Northstar.
 
 ## Tier0.dll Not found <a href="#tier0" id="tier0"></a>
 
@@ -35,13 +42,13 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 
 ![Engine Error: File corruption detected. Please repair or re-install the game.](https://user-images.githubusercontent.com/39478251/147338706-74797220-7d7f-4c81-9ba0-d88e29a2a1e2.png)
 
-Don't panic! This warning isn't as serious as it seems. It's simply an incorrect error message caused by Origin/EA App. If you get this warning after launching the game, try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was mostly resolved in version `v1.4.0`.
+Don't panic! This warning isn't as serious as it seems. It's simply an incorrect error message caused by EA/Origin. If you get this warning after launching the game, try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was mostly resolved in version `v1.4.0`.
 
 If that doesn't work, you should verify your Titanfall2 files. If you're confused on how to verify files, follow [this](troubleshooting.md#verify-files) guide.
 
 ## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
-You are probably using EA Desktop app and it sets up game installations with no write permissions contrary to Origin.
+You are probably using the EA Desktop app and it sets up game installations with no write permissions contrary to EA/Origin.
 
 ### Solution 1
 
@@ -135,7 +142,7 @@ Adding `-vanilla` or removing the `-northstar` will start the normal game when y
 This is a small guide to help you understand how to verify the files of your game
 
 * For Steam
-  * `Your library > Right click TF|2 > Properties > Local Files > Verify integrity of game files...`
+  * `Your library > Right click TF|2 > Properties > Installed Files > Verify integrity of game files...`
 * For EA app
   * `My collection > Click the three dots on TF|2 > Repair`
 * For Origin
@@ -166,9 +173,9 @@ Alternative to that fix:
 
 1. Close the game
 2. Open task manager
-3. End Origin (everything origin related)
-4. Launch Origin as admin
-5. Start the game through Origin with `-northstar` in [launch options](troubleshooting.md#launch-opts)
+3. End EA/Origin (everything EA/Origin related)
+4. Launch EA/Origin as admin
+5. Start the game through Steam/EA/Origin with `-northstar` in [launch options](troubleshooting.md#launch-opts)
 6. See if that fixed it
 
 ## Could't Initialize Sound / DEVICE\_IN\_USE <a href="#initsound" id="initsound"></a>
@@ -198,7 +205,7 @@ The following command will reset all your loadouts and levels!
 
 Open console in-game in main menu, type in `ns_resetpersistence` and press enter. Close console again and click on "Launch Northstar". All your stuff should now be reset.
 
-## Couldn't find player account/Invalid Master Server Token <a href="#playeraccount" id="playeraccount"></a>
+## Couldn't find player account/Invalid Master Server Token <a href="#PLAYER_NOT_FOUND" id="PLAYER_NOT_FOUND"></a>
 
 This is an error commonly caused by EA not properly updating players' names when launching Northstar, especially prevalent for people who have changed their EA username before.
 
