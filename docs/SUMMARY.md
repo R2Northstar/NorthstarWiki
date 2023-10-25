@@ -32,7 +32,7 @@
 
 ## Hosting a server with Northstar
 
-* [Prerequisites](hosting-a-server-with-northstar/prerequisites.md)
+* [Getting started](hosting-a-server-with-northstar/getting-started.md)
 * [Hosting a Basic Listen Server](hosting-a-server-with-northstar/basic-listen-server.md)
 * [Hosting a Dedicated Server](hosting-a-server-with-northstar/dedicated-server/README.md)
   * [Best practices](hosting-a-server-with-northstar/dedicated-server/best-practices.md)
@@ -48,18 +48,22 @@
 ## Modding and Development
 
 * [Modding](modding/README.md)
-* [Development](modding-and-development/development/README.md)
-  * [Repositories](modding-and-development/development/repositories/README.md)
-    * [Atlas](modding-and-development/development/repositories/atlas.md)
-    * [NorthstarMods](modding-and-development/development/repositories/northstarmods.md)
-    * [NorthstarLauncher](modding-and-development/development/northstarlauncher.md)
-    * [NorthstarMasterServer (old)](modding-and-development/development/northstarmasterserver/README.md)
-      * [Deploy](modding-and-development/development/northstarmasterserver/deploy.md)
-  * [Contributing code to Northstar](modding-and-development/development/contributing-code-to-northstar.md)
-  * [Testing](modding-and-development/testing.md)
-  * [Reviewing](modding-and-development/development/reviewing.md)
-  * [Releases](modding-and-development/development/releases.md)
+* [Development](development/README.md)
+  * [Repositories](development/repositories/README.md)
+    * [Atlas](development/repositories/atlas.md)
+    * [NorthstarMods](development/repositories/northstarmods.md)
+    * [NorthstarLauncher](development/northstarlauncher.md)
+    * [NorthstarMasterServer (old)](development/northstarmasterserver/README.md)
+      * [Deploy](development/northstarmasterserver/deploy.md)
+  * [Contributing code to Northstar](development/contributing-code-to-northstar.md)
+  * [Testing](development/testing.md)
+  * [Reviewing](development/reviewing.md)
+  * [Releases](development/releases.md)
+  * [Debugging](development/debugging/README.md)
+    * [Visual Studio](development/debugging/visualstudio.md)
+    * [x64dbg](development/debugging/x64dbg.md)
 
 ## Other
 
+* [Discord moderation](other/moderation.md)
 * [Credits](other/credits.md)
