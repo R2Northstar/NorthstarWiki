@@ -4,13 +4,13 @@ This section is meant mostly for those that will be actively helping others in t
 If you've somehow stumbled upon this page trying to fix an issue for yourself, you should try checking the [troubleshooting page](installing-northstar/troubleshooting.md) instead. 
 If you're a helper, it also isn't a bad idea to look at this page a few times and try to have a rough idea of the things that are on it.
 
-When helping a user, please try to move them to the `#help` channel to create a ticket as well as to keep public channels less cluttered. 
+When helping a user, please try to move them to the `#help` channel to create a ticket in order to keep public channels less cluttered. 
 
 If they really don't want to open a ticket or you don't want to deal with a ticket, ask them to move to `#northstar-chat`. 
 There, not only can they embed things, but it'll be slightly more focused on helping than other channels would be.
 
 Arguably the most important things to know as a helper are the ability to read logs and deal with users that don't read the wiki (90% of tickets are solutions solvable by checking the wiki.
-There is a pretty high chance that even if the user claims they read the wiki they didn't actually do so or didn't find their issue on there)
+There is a pretty high chance that even if the user claims they read the wiki they didn't actually do so or didn't manage to find their issue on there)
 
 The first section will go over extremely common issues and their tags, then the basics of using the ticket bot for commands inside tickets
 
