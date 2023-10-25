@@ -36,7 +36,7 @@ Double clicking the `.bat` or right clicking on it and hitting `open` will launc
 You can set up profiles in an even more advanced way by setting up a way to use Steam to launch multiple different profiles from their newer launch menu that appears when you can launch a game in more ways than one.
 Follow the steps already listed [here](../installing-northstar/basic-setup.md#adding-alternate-launch-option-for-steam), then add `-profile=PROFILE FOLDER NAME HERE` to the arguments of the new option for NorthstarLauncher, the example below showing the profile `R2NorthstarCoreMods`.
 
-![SteamEdit using Northstar Profiles](../images/steamedit-profiles.png)
+![SteamEdit using Northstar Profiles](../images/steamedit-vanilla-profiles.png)
 
 ## Setting levels using console commands <a href="#set-level" id="set-level"></a>
 
