@@ -19,6 +19,9 @@ Additionally, please don't be afraid to ask for help. The entirety of `#voluntee
 ## Common issues and their tags
 
 In the Northstar Discord server, a massively used device to help end users is the tickets bot. A lot of the common issues and questions that come up have tags for them on the Discord server. 
+
+Tags are bits of information that you can easily access by using a slash command. We use them mostly for common questions (such as the tag explaining how you can spawn the double barrel, and that you can't spawn it in most servers) and for linking directly to specific pages on the wiki (such as the section about [Intel gen 10+ cpus](https://r2northstar.gitbook.io/r2northstar-wiki/installing-northstar/troubleshooting#intel)).
+
 The tag command for the tickets bot is `/tag`, and you can either type `/tag id:{TAG ID HERE}` or let the bot autofill the tag for you after typing `/tag` and selecting the tag id from the list (make sure you select the ticket bot, and not Dyno!). 
 Note, you can't reply to a user while using a slash command, so try to reply to the bot's message after sending the tag command while pinging the person it's directed at and informing them that they should follow the provided solution.
 
