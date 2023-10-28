@@ -36,6 +36,7 @@
 * [Hosting a Basic Listen Server](hosting-a-server-with-northstar/basic-listen-server.md)
 * [Hosting a Dedicated Server](hosting-a-server-with-northstar/dedicated-server/README.md)
   * [Best practices](hosting-a-server-with-northstar/dedicated-server/best-practices.md)
+  * [Hosting on Windows](hosting-a-server-with-northstar/dedicated-server/hosting-on-windows.md)
   * [Hosting on Linux](hosting-a-server-with-northstar/dedicated-server/hosting-on-linux.md)
 * [Server settings](hosting-a-server-with-northstar/server-settings/README.md)
   * [Startup arguments](hosting-a-server-with-northstar/server-settings/startup-args.md)
@@ -58,7 +59,12 @@
   * [Testing](development/testing.md)
   * [Reviewing](development/reviewing.md)
   * [Releases](development/releases.md)
+  * [Debugging](development/debugging/README.md)
+    * [Visual Studio](development/debugging/visualstudio.md)
+    * [x64dbg](development/debugging/x64dbg.md)
 
 ## Other
 
+* [Helping](helping.md)
+* [Discord moderation](other/moderation.md)
 * [Credits](other/credits.md)
