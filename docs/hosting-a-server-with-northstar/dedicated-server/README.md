@@ -16,6 +16,10 @@ Regarding RAM usage, dedicated servers also use significant amounts of RAM at th
 
 ### RCON
 
+{% hint style="warning" %}
+This section is still very much work in progress
+{% endhint %}
+
 Use the plugin from https://github.com/catornot/r2rcon-rs
 
 For RCON client use https://github.com/cblanken/rustcon
