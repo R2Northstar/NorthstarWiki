@@ -150,4 +150,4 @@ Repos like navmeshes and DiscordRPC get their release unrelated to main Northsta
 
 Push new tag which in turn will generate a release. Tags are formatted as `vN` where `N` is an always increasing integer, i.e. `v4`, `v5`, `v6`, etc.
 
-Once a new DiscordRPC has been made, the version number needs to be bumped in the release repo to pull the new release.
+Once a new DiscordRPC release has been made, the version number needs to be bumped in the release repo to pull the new release.
