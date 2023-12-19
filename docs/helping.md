@@ -20,7 +20,8 @@ Additionally, please don't be afraid to ask for help. The entirety of `#voluntee
 
 In the Northstar Discord server, a massively used device to help end users is the tickets bot. A lot of the common issues and questions that come up have tags for them on the Discord server. 
 
-Tags are bits of information that you can easily access by using a slash command. We use them mostly for common questions (such as the tag explaining how you can spawn the double barrel, and that you can't spawn it in most servers) and for linking directly to specific pages on the wiki (such as the section about [Intel gen 10+ cpus](https://r2northstar.gitbook.io/r2northstar-wiki/installing-northstar/troubleshooting#intel)).
+Tags are bits of information that you can easily access by using a slash command.
+We use them mostly for common questions (such as the tag explaining how you can spawn the double barrel shotgun and that you can't spawn it in most servers), and for linking directly to specific pages on the wiki (such as the section about [Intel gen 10+ cpus](https://r2northstar.gitbook.io/r2northstar-wiki/installing-northstar/troubleshooting#intel)).
 
 The tag command for the tickets bot is `/tag`, and you can either type `/tag id:{TAG ID HERE}` or let the bot autofill the tag for you after typing `/tag` and selecting the tag id from the list (make sure you select the ticket bot, and not Dyno!). 
 Note, you can't reply to a user while using a slash command, so try to reply to the bot's message after sending the tag command while pinging the person it's directed at and informing them that they should follow the provided solution.
@@ -31,7 +32,8 @@ You can find a list of these tags on the [tag dashboard for the help bot](https:
 
 This entire section only applies to users with `ticket-staff`+ roles who can see the ticket channels in the Discord server
 
-The tickets have a fairly straightforward way of operating. When a user clicks on a button to open a ticket they're greeted with the following screen:\
+The tickets have a fairly straightforward way of operating.
+When a user clicks on a button to open a ticket they're greeted with the following screen:\
 ![The information fields for opening a ticket](images/ticket-information-popup.png)
 
 If you or the end user are curious about the difference, a staff ticket can be viewed by anyone with the helper role or above, while a public ticket can be viewed by anyone with the ticket-staff role or above
@@ -66,7 +68,7 @@ Note that `close_delay` is a number, meaning the time in hours before the ticket
 `reason` is a box to input the reason for a close request.\
 Using "ac" as described later lets other people know how long until the ticket will close ("ac" meaning **A**uto **C**lose). This helps yourself and others when looking at tickets because the tickets bot doesn't show when a ticket is set to auto close.
 
-If the ticket seems resolved/the user has said they have no issues, use `/closerequest` with `close_delay` set to `8` and the `reason` set to "resolved, ac 8hr"
+If the ticket seems resolved/the user has said they have no issues, use `/closerequest` with `close_delay` set to `12` and the `reason` set to "resolved, ac 12hr"
 
 For tickets where the end user that opened the ticket _never_ responded, we usually wait a couple days, ping them a few times, and if they continue to be inactve, set a close request with `close_delay` set to 24 and the `reason` set to "no response, ac 24hr"
 For inactive tickets (when it's the _user_ not responding, not us!) we usually give them a few days and then start pinging them once a day. 
@@ -74,7 +76,8 @@ If they continue to not respond for 2-3 days, we tend to set a close request wit
 
 You can also use `/closerequest` without giving a `close_delay` or a `reason`, however you should always try to give a reason for closing a ticket, and if you don't give a `close_delay` there's a high chance that the ticket doesn't get closed (quite a few end users don't accept or see the close request)
 
-You can view information on the closed tickets, such as open and close date, who opened the ticket, who closed the ticket, and the reason for closing the ticket in the `#transcripts` channel. The bot also provides an online log of the entire ticket connected to the embed when a ticket is closed.
+You can view information on the closed tickets, such as open and close date, who opened the ticket, who closed the ticket, and the reason for closing the ticket in the `#transcripts` channel.
+The bot also provides an online log of the entire ticket connected to the embed when a ticket is closed.
 
 ## Miscellaneous 
 
