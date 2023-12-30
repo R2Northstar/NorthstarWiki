@@ -119,8 +119,13 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 * Try deleting `enabledmods.json` inside the R2Northstar folder as well.
 * Otherwise pay attention in console for your errors if you know what you're doing.
 
-## Default Game Locations <a href="#game-location" id="game-location"></a>
+## Finding Game Location <a href="#game-location" id="game-location"></a>
 
+On Steam or EA, the easiest way to find where the game is installed is as follows:
+* Steam: Right click Titanfall 2 in your library, hover over `Manage`, click `Browse local files`. This will open the `Titanfall2` folder
+* EA: Click the 3 dots in the top right of the Titanfall 2 icon, click `View Properties`, and it will be listed under `Install location`. You can click `BROWSE` to open the `Titanfall2` folder
+
+Otherwise, the default install locations are listed below:
 * Default Steam Location: `%ProgramFiles(x86)%\Steam\steamapps\common\Titanfall2\`
 * Default EA Location: `%ProgramFiles%\EA Games\Titanfall2\`
 * Default Origin Location: `%ProgramFiles(x86)%\Origin Games\Titanfall2\`
@@ -128,14 +133,14 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 ## Adding Launch Options <a href="#launch-opts" id="launch-opts"></a>
 
 Adding `-northstar` will start Northstar when launching from your library\
-Adding `-vanilla` or removing the `-northstar` will start the normal game when you have Northstar installed
+Adding `-nonorthstardll` or removing the `-northstar` will start the normal game when you have Northstar installed
 
 * For Steam
-  * `Your library > Right click TF|2 > Properties > General > Launch Options > -northstar or -vanilla`
+  * `Your library > Right click TF|2 > Properties > General > Launch Options > -northstar or -nonorthstardll`
 * For EA app
-  * `My collection > Click the three dots on TF|2 > Properties > Advanced launch options > -northstar or -vanilla`
+  * `My collection > Click the three dots on TF|2 > Properties > Advanced launch options > -northstar or -nonorthstardll`
 * For Origin
-  * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -vanilla`
+  * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -nonorthstardll`
 
 ## Verifying Game Files <a href="#verify-files" id="verify-files"></a>
 

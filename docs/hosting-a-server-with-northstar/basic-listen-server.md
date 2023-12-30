@@ -1,5 +1,11 @@
 # Hosting a Basic Listen Server
 
+## Requirements
+
+Make sure to check that your server is reachable as [described here](./getting-started.md)
+
+Make sure you already installed Northstar [as described here](../installing-northstar/basic-setup.md).
+
 ## Instructions
 
 To host a listen server on Northstar, go to the lobby and press the `Private Match` button to begin a private match. While this does allow you to host a server, other people won't be able to join it, so you'll need to port forward UDP port `37015` to allow other people to join.\
@@ -48,8 +54,8 @@ sv_cheats 1; script GameRules_ChangeMap( "mp_forwardbase_kodai", "ctf" ); sv_che
 ```
 
 replace `mp_forwardbase_kodai` and `ctf` with your desired map and gamemode.\
-The list of maps can be found [here](dedicated-server/#maps).\
-The list of gamemodes [here](dedicated-server/#gamemodes).
+The list of maps can be found [here](server-settings/file-names.md#maps).\
+The list of gamemodes [here](server-settings/file-names.md#vanilla).
 
 If someone keeps messing with the settings, set `ns_private_match_only_host_can_change_settings` to `2`, so that only you can change them.
 
