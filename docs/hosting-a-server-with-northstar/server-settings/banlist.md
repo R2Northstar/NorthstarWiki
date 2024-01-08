@@ -18,20 +18,6 @@ This file also supports the use of comments with the `#` symbol:
 4444444444
 ```
 
-While you can manually make changes to this file, there are commands in game to do it for you.
-
-This file is also not particularily picky when it comes to formatting. 
-For example, the following is a valid banlist:
-
-```
-# This is a comment
-1111111111
-    2222222222
-
- 3333333333 # Wow a second comment!
-4444444444
-```
-
 ## Banning
 
 When banning a player in game using the `ban` command in console, their UID will be added to the list in `banlist.txt`.
