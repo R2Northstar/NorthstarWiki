@@ -1,6 +1,6 @@
 # Banlist
 
-The `banlist.txt` file found in `PUT FILE PATH HERE LATER` is a list of players that you have either banned or unbanned from your server.
+The `banlist.txt` file found at `R2Northstar\banlist.txt` is a list of players that you have either banned or unbanned from your server.
 
 The UIDs can be formatted as shown below:
 ```
