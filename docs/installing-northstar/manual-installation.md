@@ -3,8 +3,11 @@
 ## Installing Northstar:
 {% embed url="https://www.youtube.com/watch?v=bK4pV-AHOHM" %}
 
-Firstly, note that the Northstar client is only available on PC and requires you to **both own the game and have it installed**.\
-**If you're looking to update Northstar, read [this](./manual-installation.md#updating-northstar) first.**
+Firstly, note that the Northstar client is only available on PC and requires you to **both own the game and have it installed**.
+
+{% hint style="info" %}
+If you're looking to update Northstar, read [this](./manual-installation.md#updating-northstar) instead.
+{% endhint %}
 
 1. Download the latest version of Northstar from the [releases](https://github.com/R2Northstar/Northstar/releases) page
 2. Copy all the files in the newly downloaded zip folder to your `Titanfall2` folder.\
