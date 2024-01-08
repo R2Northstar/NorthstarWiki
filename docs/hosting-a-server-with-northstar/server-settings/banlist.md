@@ -15,7 +15,7 @@ This file also supports the use of comments with the `#` symbol:
 # This is a comment
 1111111111
 
-4444444444
+4444444444 # Banned for being uncool
 ```
 
 ## Banning
