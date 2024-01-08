@@ -43,7 +43,3 @@ The `ban` command is used alongside the name of the player you want to ban (e.g.
 When unbanning a player in game using the `unban` command in console, their UID will be commented out in the file, as well as a comment next to their UID displaying the unban date.
 
 The `unban` command is used alongisde the UID of the player you want to unban (e.g. `unban 1111111111`).
-
-## Banlist reloading
-
-The banlist automatically reloads when a player joins, so there's no need to worry about if the list will be up to date, or if you need to manually reload it.
