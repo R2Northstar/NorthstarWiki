@@ -23,6 +23,11 @@ To install mdBook use the following link if:
 - [you have Rust toolchain installed](https://rust-lang.github.io/mdBook/guide/installation.html#build-from-source-using-rust)
 - [you **DON'T** have Rust toolchain installed](https://rust-lang.github.io/mdBook/guide/installation.html#pre-compiled-binaries)
 
+#### mdBook-gitbook
+
+GitBook uses some non-standard syntax to render certain widgets like embedded YouTube videos.
+mdBook does not support these out of the box but there is a WIP extension that can render some of those similar to how GitBook does it.
+
 #### mdBook-linkcheck
 Additionally there's a community-made package that you can use alongside mdBook to show you some potentially broken links in markdown files called [`mdBook-linkcheck`](https://github.com/Michael-F-Bryan/mdbook-linkcheck)
 
