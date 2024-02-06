@@ -28,6 +28,10 @@ To install mdBook use the following link if:
 GitBook uses some non-standard syntax to render certain widgets like embedded YouTube videos.
 mdBook does not support these out of the box but there is a WIP extension that can render some of those similar to how GitBook does it.
 
+To install mdBook-gitbook do the following link if:
+- you have Rust toolchain installed: `cargo install mdbook-gitbook`
+- you **DON'T** have Rust toolchain installed (TODO update me) (add `mdBook-gitbook.exe` to the same folder `mdBook.exe` is located)
+
 #### mdBook-linkcheck
 Additionally there's a community-made package that you can use alongside mdBook to show you some potentially broken links in markdown files called [`mdBook-linkcheck`](https://github.com/Michael-F-Bryan/mdbook-linkcheck)
 
