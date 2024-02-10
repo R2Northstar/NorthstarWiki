@@ -36,7 +36,6 @@ To get the cropped GIFs of a screenrecording:
 - [How to write a commit message](https://cbea.ms/git-commit/)
 - [Atomic commits](https://www.freshconsulting.com/insights/blog/atomic-commits/)
 
-
 ### Avoiding "PR hell"
 
 _"PR hell"_ is what contributors refer to when a pull request is stuck as pending without any indication for progress.
