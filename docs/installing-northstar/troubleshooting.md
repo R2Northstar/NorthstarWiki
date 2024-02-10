@@ -119,8 +119,13 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 * Try deleting `enabledmods.json` inside the R2Northstar folder as well.
 * Otherwise pay attention in console for your errors if you know what you're doing.
 
-## Default Game Locations <a href="#game-location" id="game-location"></a>
+## Finding Game Location <a href="#game-location" id="game-location"></a>
 
+On Steam or EA, the easiest way to find where the game is installed is as follows:
+* Steam: Right click Titanfall 2 in your library, hover over `Manage`, click `Browse local files`. This will open the `Titanfall2` folder
+* EA: Click the 3 dots in the top right of the Titanfall 2 icon, click `View Properties`, and it will be listed under `Install location`. You can click `BROWSE` to open the `Titanfall2` folder
+
+Otherwise, the default install locations are listed below:
 * Default Steam Location: `%ProgramFiles(x86)%\Steam\steamapps\common\Titanfall2\`
 * Default EA Location: `%ProgramFiles%\EA Games\Titanfall2\`
 * Default Origin Location: `%ProgramFiles(x86)%\Origin Games\Titanfall2\`
@@ -128,14 +133,14 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 ## Adding Launch Options <a href="#launch-opts" id="launch-opts"></a>
 
 Adding `-northstar` will start Northstar when launching from your library\
-Adding `-vanilla` or removing the `-northstar` will start the normal game when you have Northstar installed
+Adding `-nonorthstardll` or removing the `-northstar` will start the normal game when you have Northstar installed
 
 * For Steam
-  * `Your library > Right click TF|2 > Properties > General > Launch Options > -northstar or -vanilla`
+  * `Your library > Right click TF|2 > Properties > General > Launch Options > -northstar or -nonorthstardll`
 * For EA app
-  * `My collection > Click the three dots on TF|2 > Properties > Advanced launch options > -northstar or -vanilla`
+  * `My collection > Click the three dots on TF|2 > Properties > Advanced launch options > -northstar or -nonorthstardll`
 * For Origin
-  * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -vanilla`
+  * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -nonorthstardll`
 
 ## Verifying Game Files <a href="#verify-files" id="verify-files"></a>
 
@@ -164,7 +169,10 @@ The real error is most likely slightly higher. Please post that in issues or the
 
 ## I can't play the Campaign <a href="#campaign" id="campaign"></a>
 
-If you're having trouble playing the campaign, update your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases) as this issue was resolved in `v1.11.2` of Northstar.
+Northstar does allow you to play campaign since version `1.11.2`, however it should be noted that certain mods will attempt to run while playing the campaign, leading to it breaking.
+If you experience a compile error when trying to play the campaign, try to see if the error mentions a file related to a mod that you can recognize. Otherwise, join the Northstar Discord server and create a ticket in the `#help` channel.
+
+An alternative solution is simply playing Vanilla Titanfall 2 for the campaign.
 
 ## Authentication Failed when clicking Launch Northstar <a href="#lsx2" id="lsx2"></a>
 

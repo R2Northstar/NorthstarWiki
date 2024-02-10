@@ -39,7 +39,7 @@ The current process of making release (includinging release candidate) is:
    Push tags ending in `-rcX` where `X` is integer for
     1. Launcher
     2. Mods
-    3. Release (wait until launcher has finished building)
+    3. Release
 
 4. Make draft notes\
    You can use FlightCore to generate them and then format them manually.\
@@ -61,7 +61,7 @@ The current process of making release (includinging release candidate) is:
    Push tags for
     1. Launcher
     2. Mods
-    3. Release (wait until launcher has finished building)
+    3. Release
 
 10. Once release has finished building
     1. Go to GitHub release and select the new unpublished release
@@ -69,15 +69,8 @@ The current process of making release (includinging release candidate) is:
     3. Click checkbox for creating discussion and select _Release_ as category
     4. Publish
 
-11. Post announcements on Discord
-    1. Post message in `#server-hosting-announcements` channel.\
-       Make sure to highlight server hosting specific changes.\
-       Make thread for bug reports.
-    2. Post message in `#modding-announcements`.\
-       Make sure to highlight modding specific changes (API changes etc).
-    3. Post message in `#announcements`.\
-       Make sure to highlight end-user specific changes (new features, certainn fixes, etc).
-
+11. Post release announcement on Discord in `#releases` channel.
+    Make sure to highlight aspects relevant for server hosters, modders, and end-users.
 
 12. Update main menu promos version on Atlas
 
@@ -139,3 +132,15 @@ Once `2.0` has been released, expectations for `3.0` tend to be lower as the num
 
 - Make at least one release candidate and test it before actual release.
 - Release should also only ever be latest release candidate but tagged as release to avoid introducing new bugs.
+
+
+## Other repos
+
+Repos like navmeshes and DiscordRPC get their release unrelated to main Northstar release numbering as they usually only see a few release per year due to 
+
+
+### DiscordRPC
+
+Push new tag which in turn will generate a release. Tags are formatted as `vN` where `N` is an always increasing integer, i.e. `v4`, `v5`, `v6`, etc.
+
+Once a new DiscordRPC release has been made, the version number needs to be bumped in the [release repo](https://github.com/R2Northstar/Northstar) to pull the new release.

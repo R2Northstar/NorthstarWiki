@@ -27,6 +27,7 @@
   * [Commands](using-northstar/commands.md)
   * [Launch arguments](using-northstar/launch-arguments.md)
   * [Progression System](using-northstar/progression.md)
+  * [Vanilla via Northstar](using-northstar/vanilla.md)
   * [Advanced](using-northstar/advanced.md)
 * [FAQ](faq.md)
 
@@ -43,6 +44,7 @@
   * [ConVars](hosting-a-server-with-northstar/server-settings/convars.md)
   * [Playlistvars](hosting-a-server-with-northstar/server-settings/playlistvar.md)
   * [Name in the files](hosting-a-server-with-northstar/server-settings/file-names.md)
+  * [Banlist](hosting-a-server-with-northstar/server-settings/banlist.md)
 * [Troubleshooting](hosting-a-server-with-northstar/troubleshooting.md)
 
 ## Modding and Development
@@ -52,7 +54,7 @@
   * [Repositories](development/repositories/README.md)
     * [Atlas](development/repositories/atlas.md)
     * [NorthstarMods](development/repositories/northstarmods.md)
-    * [NorthstarLauncher](development/northstarlauncher.md)
+    * [NorthstarLauncher](development/repositories/northstarlauncher.md)
     * [NorthstarMasterServer (old)](development/northstarmasterserver/README.md)
       * [Deploy](development/northstarmasterserver/deploy.md)
   * [Contributing code to Northstar](development/contributing-code-to-northstar.md)
