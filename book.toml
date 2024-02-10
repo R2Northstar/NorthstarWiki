@@ -11,3 +11,5 @@ title = "Northstar Wiki"
 
 [output.linkcheck]
 optional = true
+
+[preprocessor.gitbook]
