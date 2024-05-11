@@ -46,7 +46,8 @@ The tool is still being improved upon but already more than usable. Check its RE
 
 Before starting, make sure you have a **working and up-to-date Northstar install** and you're **logged into GitHub with your GitHub account** (downloading files from CI only works while logged into any GitHub account)!
 
-1. Head to the bottom of the page of the PR and click on "_Show all checks_" ![rcon1](https://user-images.githubusercontent.com/40122905/179726100-48945eb6-3ebe-467f-acef-1c7d56f3e4bd.png)
+1. Head to the bottom of the page of the PR and click on "_Show all checks_"\
+   &#x20;![rcon1](https://user-images.githubusercontent.com/40122905/179726100-48945eb6-3ebe-467f-acef-1c7d56f3e4bd.png)
 2. For "_CI / build (pull\_request)_" click on "_Details_"\
    &#x20;![rcon2](https://user-images.githubusercontent.com/40122905/179726993-d1cb7849-a2fc-4d0d-9379-cf4e279469a1.png)
 3. From here click on "_Summary_"\
@@ -55,7 +56,7 @@ Before starting, make sure you have a **working and up-to-date Northstar install
    &#x20;![rcon4](https://user-images.githubusercontent.com/40122905/179727511-877641f8-e5fc-4a34-bcf1-29bafefc1ad2.png)
 5. Once downloaded, open the zip and copy `Northstar.dll` and `NorthstarLauncher.exe` to your Titanfall2 folder, overwriting the existing DLL and EXE in there.
 
-Alternatively, compiling the PR'd code from source is also an option. For this, refer to [northstarlauncher.md](northstarlauncher.md "mention")
+Alternatively, compiling the PR'd code from source is also an option. For this, refer to [northstarlauncher.md](repositories/northstarlauncher.md)
 
 #### NorthstarMods
 
@@ -67,7 +68,7 @@ Click on _"Code"_ and then on _"Download ZIP"_
 
 ![](../.gitbook/assets/download-mods-pr2.png)
 
-From there copy over all the `Northstar.XXXXX` folders into your mods folder in your TItnafall2 install the same way you would manually install mods.
+From there copy over all the `Northstar.XXXXX` folders into your mods folder in your Titanfall2 install the same way you would manually install mods.
 
 ## Tips and toolkits
 
@@ -105,9 +106,15 @@ By default duplicate accounts are blocked by server. Use `-allowdupeaccounts` wh
 Use `map <map name>` to quickly switch map.\
 Example: `map mp_glitch`
 
-List of maps can be found [here](../hosting-a-server-with-northstar/dedicated-server/#maps)
+List of maps can be found [here](../hosting-a-server-with-northstar/server-settings/file-names.md#maps)
 
 **Speed-up/slow-down game**
 
 Use `host_timescale <factor>` to speed-up or slow-down the game.\
 For example `host_timescale 10` speeds up game by factor of `10`. Set to `1` to go back to default.
+
+**Viewing Navmeshes**
+
+Requires `sv_cheats 1` and `enable_debug_overlays 1`.
+
+Use `navmesh_debug_hull 1` to view navmeshes.
