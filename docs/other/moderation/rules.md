@@ -45,12 +45,12 @@ This is a public server that anyone is welcome to join. As such, we expect every
 Please note:
 
 > **These rules are not comprehensive.** Moderators and staff may remove content, administer reprimands, or warn users for violations not codified here at their discretion. If a moderator or staff member asks you to stop doing something, please respect their request.
-**Staff and Other VIPs may be exempt** (to some extent) from any of these rules due to their reputation in the community, if you feel like they should be warned for a violation you should report to staff
+> **Staff and Other VIPs may be exempt** (to some extent) from any of these rules due to their reputation in the community, if you feel like they should be warned for a violation you should report to staff
 
 For questions regarding Discord's Privacy Policy or Terms of Use, please refer to the documents here (<https://discord.com/terms>)
 `Last Updated` 6 July 2022 17:52`, All rights reserved`
 <https://discord.gg/northstar>
 
-New users, **you can go to #installation to find out how to install Northstar** as well as read the FAQ if you have any questions
+New users, **__you can go to #installation to find out how to install Northstar__** as well as read the FAQ if you have any questions
 **If you get an issue whilst installing/playing please open a ticket in #help** (Do not go to #general to fix it)
 ```
