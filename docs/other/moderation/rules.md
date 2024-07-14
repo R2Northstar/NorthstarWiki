@@ -48,7 +48,7 @@ Please note:
 **Staff and Other VIPs may be exempt** (to some extent) from any of these rules due to their reputation in the community, if you feel like they should be warned for a violation you should report to staff
 
 For questions regarding Discord's Privacy Policy or Terms of Use, please refer to the documents here (<https://discord.com/terms>)
-`Last Updated` 6 July 2022 17:52`, All rights reserved`
+`Last Updated: 2024-07-14`
 <https://discord.gg/northstar>
 
 New users, **you can go to #installation to find out how to install Northstar** as well as read the FAQ if you have any questions
