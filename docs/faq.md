@@ -12,9 +12,9 @@ A: Northstar runs separate from official servers and progress does not carry ove
 
 However your progress on official servers is not lost, so running vanilla client after playing on Northstar you should be back to your old level on official servers.
 
-### Q: I get an error message saying "Player Not Found" or "Invalid Master Server Token" <a href="#faq-playernotfound" id="faq-playernotfound"></a>
+### Q: I get an error message saying "Couldn't find player account" or "Invalid Master Server Token" <a href="#INVALID_MASTERSERVER_TOKEN" id="INVALID_MASTERSERVER_TOKEN"></a>
 
-These two errors can commonly be fixed for the average user by following the guide [here](installing-northstar/troubleshooting.md#player-not-found-invalid-master-server-token). "Invalid Master Server Token" can also be caused by the Northstar master server being offline, however this is normally not the cause of the error.
+These two errors can commonly be fixed for the average user by following the guide [here](installing-northstar/troubleshooting.md#PLAYER_NOT_FOUND). "Invalid Master Server Token" can also be caused by the Northstar master server being offline, however this is normally not the cause of the error.
 
 ### Q: I get an error message saying "Failed creating log file! Make sure the profile directory is writable."/ Why won't my mod manager install mods? <a href="#faq-failed-log" id="faq-failed-log"></a>
 
@@ -25,8 +25,8 @@ Most of the time, this is due to the fact that EA App's default install location
 A: Check [_Opening the console_](using-northstar/commands.md#opening-the-console).
 
 ### Q: How can I check if my server is listed on the server browser? <a href="#faq-is-my-server-listed" id="faq-is-my-server-listed"></a>
-
-You can use community-made server browsers such as: [https://taskinoz.com/northstar/](https://taskinoz.com/northstar/) or [https://cpdt.dev/northstar/](https://cpdt.dev/northstar/)
+You can use the official server browser on [https://northstar.tf/servers/](https://northstar.tf/servers/)\
+Alternatively, you can use a community-made server browser such as: [https://taskinoz.com/northstar/](https://taskinoz.com/northstar/)
 
 ### Q: Will there be a console version? <a href="#faq-console" id="faq-console"></a>
 
@@ -42,8 +42,8 @@ A: Due to the way Northstar works, you sadly cannot just create a private match 
 
 Check the prerequisites:
 
-{% content-ref url="hosting-a-server-with-northstar/prerequisites.md" %}
-[prerequisites.md](hosting-a-server-with-northstar/prerequisites.md)
+{% content-ref url="hosting-a-server-with-northstar/getting-started.md" %}
+[getting-started.md](hosting-a-server-with-northstar/getting-started.md)
 {% endcontent-ref %}
 
 and instructions to host a _listen server_:
@@ -94,3 +94,11 @@ A: This usually lies behind your computer's specs not being high enough in order
 
 A: Titanfall2 (and other EA games) used to use a program called [Origin](<https://en.wikipedia.org/wiki/Origin_(service)>) to play games, however this has since been replaced by the EA App. 
 This change, however, did not update the game's error messages to say "EA App" instead of "Origin", so any time you see that there's an issue with Origin, you can replace mention of "Origin" with the "EA App".
+
+### Q: When I launch Northstar, a small command prompt appears for a few seconds then closes as nothing else happens!
+
+A: Delete `R2Northstar/plugins`, which disables any currently installed plugins, the only default plugin being Northstar's Discord Rich Presence. Alternatively, you could insert `-noplugins` in your `ns_startup_args.txt` in the [titanfall2 directory](installing-northstar/troubleshooting.md#game-location), which would simply disable plugins instead of deleting them.
+
+### Q: Does Northstar work via EA Play or Xbox Gamepass (PC)? <a href="#faq-eaplay" id="faq-eaplay"></a>
+
+A: Yes, it does! It works by these because EA Play just installs the game on the EA App, and installing Titanfall 2 via Xbox Gamepass (PC) is done via EA Play. Simply install Titanfall 2, and install Northstar. Note that you'll need to do [this fix to move the game location](installing-northstar/troubleshooting.md#cannot-write-log-file-when-using-northstar-on-ea-app) (make sure you carefully read and follow the ENTIRE section) as the default EA install causes issues with Northstar, notably with the log writing process and mod manager installing Northstar and mods properly.

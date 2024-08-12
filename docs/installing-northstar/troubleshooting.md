@@ -10,12 +10,19 @@ Also note that some solutions described below can also apply to the base game, l
 
 ![LSX Authentication Challenge failed](https://user-images.githubusercontent.com/97235072/148391447-300e1b47-6148-43f7-8854-b0882e150d12.png)
 
-If the usual workaround of restarting Origin/rebooting or running the vanilla game first and then Northstar don’t work, try the following:
+If the usual workarounds of restarting EA/Origin, rebooting your pc, or running the vanilla game first and then Northstar don’t work, try the following:
 
 * First and foremost, double check that you are _logged in_ on EA/Origin. Titanfall will _not_ run if you are not connected to EA servers first (and neither will Titanfall + Northstar).
-* Run the game with EA/Origin/Steam by adding [launch options](troubleshooting.md#launch-opts) instead of starting NorthstarLauncher.exe (important)
+* Run the game with Steam/EA/Origin by adding [launch options](troubleshooting.md#launch-opts) instead of starting NorthstarLauncher.exe (important)
 * Sign out and exit EA/Origin, then start Northstar. It will prompt you for a login, _hopefully_ fixing it if nothing else worked
 * Start normal Titanfall 2 and then Northstar (_ONLY WORKS SOMETIMES_)
+
+## Origin Offline/ORIGIN_LOGGED_OUT <a href="#origin-offline" id="origin-offline"></a>
+
+This error usually happens when the EA App fails to connect to EA servers properly. To fix this, you can:
+
+1. Make sure you're signed into the EA App and can see Titanfall2 in your EA Library (only applies to Steam owners. If you can't, check [EA's official guide for linking accounts](https://help.ea.com/en/help/pc/link-ea-and-steam/).
+2. Use task manager to end the `EA App` and `EA Background service` tasks, open the EA App, then launch Northstar.
 
 ## Tier0.dll Not found <a href="#tier0" id="tier0"></a>
 
@@ -35,13 +42,13 @@ This error is usually caused by running the `NorthstarLauncher.exe` in the wrong
 
 ![Engine Error: File corruption detected. Please repair or re-install the game.](https://user-images.githubusercontent.com/39478251/147338706-74797220-7d7f-4c81-9ba0-d88e29a2a1e2.png)
 
-Don't panic! This warning isn't as serious as it seems. It's simply an incorrect error message caused by Origin/EA App. If you get this warning after launching the game, try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was mostly resolved in version `v1.4.0`.
+Don't panic! This warning isn't as serious as it seems. It's simply an incorrect error message caused by EA/Origin. If you get this warning after launching the game, try updating your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases), as this error was mostly resolved in version `v1.4.0`.
 
 If that doesn't work, you should verify your Titanfall2 files. If you're confused on how to verify files, follow [this](troubleshooting.md#verify-files) guide.
 
 ## Failed copying wsock32.dll <a href="#wsock" id="wsock"></a>
 
-You are probably using EA Desktop app and it sets up game installations with no write permissions contrary to Origin.
+You are probably using the EA Desktop app and it sets up game installations with no write permissions contrary to EA/Origin.
 
 ### Solution 1
 
@@ -51,7 +58,7 @@ You are probably using EA Desktop app and it sets up game installations with no 
 
 1. Copy `C:\WINDOWS\system32\wsock32.dll` to your Desktop / Temporary folder.
 2. Rename the copied file to `wsock32.org.dll`.
-3. Move `wsock32.org.dll` into `Titanfall2/bin/x64_retail/`.
+3. Move `wsock32.org.dll` into `Titanfall2\bin\x64_retail\`.
 4. Delete the copied `wsock32.org.dll` from your Desktop / Temporary folder.
 
 Do NOT make any changes in `system32`, just copy the file.
@@ -70,12 +77,12 @@ On newer Intel CPUs you might see a message like this
 
 > "Contacting Respawn servers.../Data Center: Searching..."
 
-If you are seeing this in the main menu of TF|2 and have a 10th or 11th generation Intel CPU this is a bug which has a simple fix:
+If you are seeing this in the main menu of TF|2 and have a 10th generation or newer Intel CPU this is a bug which has a simple fix:
 
 In the Windows Start menu on the bottom left search for "Edit the system environment variables" and open the program. In the "advanced" tab click on "Environment Variables..." near the bottom.\
-In System Variables (not user variables) click "New..." and add a new system variable where the variable name is `OPENSSL_ia32cap` and the value is `~0x200000200000000`. Make sure to click OK to apply the changes. Finally restart your device and you should be good to go.
+In System Variables (not user variables) click "New..." and add a new system variable where the variable name is `OPENSSL_ia32cap` and the value is `0x200000200000000`. Make sure to click OK to apply the changes. Finally restart your device and you should be good to go.
 
-If you're on Linux, you can set the appropriate environment variable via `env OPENSSL_ia32cap=~0x20000000 %command%`.
+If you're on Linux, you can set the appropriate environment variable via `env OPENSSL_ia32cap=0x20000000 %command%`.
 
 **Note:** This issue is not exclusive to Northstar client but also affects the vanilla version, so if you only get it on Northstar there might be a different problem at hand as well. In fact it's not even unique to Titanfall 2 either.
 
@@ -112,30 +119,35 @@ Go to Mods at the bottom of your screen on the main menu, then click Authenticat
 * Try deleting `enabledmods.json` inside the R2Northstar folder as well.
 * Otherwise pay attention in console for your errors if you know what you're doing.
 
-## Default Game Locations <a href="#game-location" id="game-location"></a>
+## Finding Game Location <a href="#game-location" id="game-location"></a>
 
+On Steam or EA, the easiest way to find where the game is installed is as follows:
+* Steam: Right click Titanfall 2 in your library, hover over `Manage`, click `Browse local files`. This will open the `Titanfall2` folder
+* EA: Click the 3 dots in the top right of the Titanfall 2 icon, click `View Properties`, and it will be listed under `Install location`. You can click `BROWSE` to open the `Titanfall2` folder
+
+Otherwise, the default install locations are listed below:
 * Default Steam Location: `%ProgramFiles(x86)%\Steam\steamapps\common\Titanfall2\`
-* Default EA Location: `%ProgramFiles%\EA Games\Titanfall2`
+* Default EA Location: `%ProgramFiles%\EA Games\Titanfall2\`
 * Default Origin Location: `%ProgramFiles(x86)%\Origin Games\Titanfall2\`
 
 ## Adding Launch Options <a href="#launch-opts" id="launch-opts"></a>
 
 Adding `-northstar` will start Northstar when launching from your library\
-Adding `-vanilla` or removing the `-northstar` will start the normal game when you have Northstar installed
+Adding `-nonorthstardll` or removing the `-northstar` will start the normal game when you have Northstar installed
 
 * For Steam
-  * `Your library > Right click TF|2 > Properties > General > Launch Options > -northstar or -vanilla`
+  * `Your library > Right click TF|2 > Properties > General > Launch Options > -northstar or -nonorthstardll`
 * For EA app
-  * `My collection > Click the three dots on TF|2 > Properties > Advanced launch options > -northstar or -vanilla`
+  * `My collection > Click the three dots on TF|2 > Properties > Advanced launch options > -northstar or -nonorthstardll`
 * For Origin
-  * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -vanilla`
+  * `Your library > Right click TF|2 > Game Properties > Advanced Launch Options > Command Line Arguments > -northstar or -nonorthstardll`
 
 ## Verifying Game Files <a href="#verify-files" id="verify-files"></a>
 
 This is a small guide to help you understand how to verify the files of your game
 
 * For Steam
-  * `Your library > Right click TF|2 > Properties > Local Files > Verify integrity of game files...`
+  * `Your library > Right click TF|2 > Properties > Installed Files > Verify integrity of game files...`
 * For EA app
   * `My collection > Click the three dots on TF|2 > Repair`
 * For Origin
@@ -157,7 +169,10 @@ The real error is most likely slightly higher. Please post that in issues or the
 
 ## I can't play the Campaign <a href="#campaign" id="campaign"></a>
 
-If you're having trouble playing the campaign, update your Northstar install to the [newest release](https://github.com/R2Northstar/Northstar/releases) as this issue was resolved in `v1.11.2` of Northstar.
+Northstar does allow you to play campaign since version `1.11.2`, however it should be noted that certain mods will attempt to run while playing the campaign, leading to it breaking.
+If you experience a compile error when trying to play the campaign, try to see if the error mentions a file related to a mod that you can recognize. Otherwise, join the Northstar Discord server and create a ticket in the `#help` channel.
+
+An alternative solution is simply playing Vanilla Titanfall 2 for the campaign.
 
 ## Authentication Failed when clicking Launch Northstar <a href="#lsx2" id="lsx2"></a>
 
@@ -166,9 +181,9 @@ Alternative to that fix:
 
 1. Close the game
 2. Open task manager
-3. End Origin (everything origin related)
-4. Launch Origin as admin
-5. Start the game through Origin with `-northstar` in [launch options](troubleshooting.md#launch-opts)
+3. End EA/Origin (everything EA/Origin related)
+4. Launch EA/Origin as admin
+5. Start the game through Steam/EA/Origin with `-northstar` in [launch options](troubleshooting.md#launch-opts)
 6. See if that fixed it
 
 ## Could't Initialize Sound / DEVICE\_IN\_USE <a href="#initsound" id="initsound"></a>
@@ -198,15 +213,17 @@ The following command will reset all your loadouts and levels!
 
 Open console in-game in main menu, type in `ns_resetpersistence` and press enter. Close console again and click on "Launch Northstar". All your stuff should now be reset.
 
-## Player Not Found/Invalid Master Server Token
+## Couldn't find player account/Invalid Master Server Token <a href="#PLAYER_NOT_FOUND" id="PLAYER_NOT_FOUND"></a>
 
 This is an error commonly caused by EA not properly updating players' names when launching Northstar, especially prevalent for people who have changed their EA username before.
 
-The current solution to this is signing out of the EA App, then _without signing back into the EA App_,open **Vanilla** Titanfall 2. This should prompt EA App to pop up and ask you to sign in again, sign in on that prompt. Close Vanilla Titanfall 2 and open **Northstar**, and the error should be fixed.
+The current solution to this is signing out of the EA App, then _without signing back into the EA App_, open **Vanilla** Titanfall 2. This should prompt EA App to pop up and ask you to sign in again, sign in on that prompt. Close Vanilla Titanfall 2 and open **Northstar**, and the error should be fixed.
 
-If that solution doesn't work, you can try logging out of the EA App, closing all EA related proccesses (including background ones) using task manager. After this, manually reopen the EA App, log in, and try to launch Northstar again. (If you don't know how to use task manager, press `"ctrl + alt + delete"`, select Task Manager, and hit `"More Info"` on the bottom right. If you can't see more info, then you've already clicked it before and don't need to do it again. After this, when you right click on a process it will open a small pop up with`"End Task"`as an option, which is what you want to use).
+Another common issue that can cause this error is when Steam and EA accounts aren't properly linked (Note: this only applies if you own Titanfall 2 on Steam). To check if this is the case, you can check if you see Titanfall 2 in your library on the EA App (yes, even if you own it on Steam). If you see it, then try the other solutions again. If you don't see it, follow [EA's official guide on linking Steam and EA accounts](https://help.ea.com/en/help/pc/link-ea-and-steam/).
 
 This error can also appear if you are pirating the game, which we neither condone nor support as stated [here](../faq.md#faq-piracy)
+
+If none of the previous solutions apply, you can try logging out of the EA App, closing all EA related proccesses (including background ones) using task manager. After this, manually reopen the EA App, log in, and try to launch Northstar again. (If you don't know how to use task manager, press `"ctrl + alt + delete"`, select Task Manager, and hit `"More Info"` on the bottom right. If you can't see more info, then you've already clicked it before and don't need to do it again. After this, when you right click on a process it will open a small pop up with`"End Task"`as an option, which is what you want to use).
 
 ## Disable EA App overlay <a href="#ea-overlay" id="ea-overlay"></a>
 
@@ -218,11 +235,12 @@ This will also disable invites, however [Northstar does not use these](../faq.md
 
 ## Cannot write log file when using Northstar on EA App
 
-The default install location for EA App `C:\Program Files\EA Games\Titanfall2` is not writeable by non-admin processes. This messes with Northstar trying to write log files as well as mod-managers trying to install mods.
+The default install location for EA App `C:\Program Files\EA Games\Titanfall2\` is not writeable by non-admin processes. This messes with Northstar trying to write log files as well as mod-managers trying to install mods.
 
 Therefore the recommended solution is to move the install to another location (can even be on the same drive). This prevents the non-admin issue and as such should solve the issue of Northstar being unable to write logs and failing.
 
-The recommended solution can be done by moving the Titanfall 2 folder from the default location to something like `C:\Games\Titanfall2`. After doing this, you will need to open the EA App, go to Settings, go to Downloads and change the install directory in the settings. Click _"Edit"_ next to _"Install Location"_ and navigate to your new directory that you put Titanfall 2 into.
+The recommended solution can be done by moving the Titanfall 2 folder from the default location to something like `C:\Games\Titanfall2\`. Create this folder if it does not exist (it can be named whatever you want but `Games` makes it simple to know what's in the folder. The folder can be on any drive whether `C`, `D`, or other).\
+After doing this, you will need to open the EA App, go to _Settings_, go to _Downloads_ and change the install directory in the settings. Click _"Edit"_ next to _"Install Location"_ and navigate to your new directory that you put Titanfall 2 into.
 
 ![EA App Settings](../images/ea-app.png)
 

@@ -1,7 +1,5 @@
 # Troubleshooting
 
-> Read Lutris troubleshooting of [common issues with Origin](https://github.com/lutris/docs/blob/master/Origin.md) first.
-
 ## Northstar not launching with Steam
 
 If you're encountering issues with Northstar launching on Steam, a very quick fix that usually works is deleting the compatdata for Titanfall2.
@@ -26,10 +24,6 @@ If you have already logged in to EA App with Proton Experimental, the blank EA A
 ### Lutris
 
 Install both `d3dcompiler_43` and `d3dcompiler_47` through Winetricks.
-
-## Blank console
-
-This issue has been resolved as of [Northstar 1.9.2 and newer.](https://github.com/R2Northstar/Northstar/releases/latest)
 
 ## Crackling sound
 
@@ -89,9 +83,9 @@ For more info and proposed fixes, refer to [this issue thread on Github](https:/
 
 ## Game crashes on launch with Cause: Access Violation Data Execution Prevention (DEP) at: 0x00000000
 
-**Steam/Steam Deck:** Ensure your installation matches the latest [install guide](playing-on-linux.md#steam-and-steam-deck-northstarproton).
+**Steam/Steam Deck:** Ensure your installation matches the latest [install guide](installing-on-steamdeck-and-linux.md#steam-and-steam-deck-northstarproton).
 
-**Lutris**: Ensure your installation matches the latest [install guide](playing-on-linux.md#lutris-wine). If that fails, you may optionally try the latest release of [Wine-TKG](https://github.com/Frogging-Family/wine-tkg-git/releases/latest).
+**Lutris**: Ensure your installation matches the latest [install guide](installing-on-steamdeck-and-linux.md#lutris-wine). If that fails, you may optionally try the latest release of [Wine-TKG](https://github.com/Frogging-Family/wine-tkg-git/releases/latest).
 
 ## Reducing stuttering
 
@@ -99,7 +93,7 @@ For more info and proposed fixes, refer to [this issue thread on Github](https:/
 
 You may feel that the game stutters frequently during the first hour of play. This is normal, it's just DXVK having to compile shaders at draw time due not having a ready state cache. The more you play, the less stuttering there will be in the future.
 
-However if you don't want to wait you can try precompiled DXVK [_state cache_](https://github.com/doitsujin/dxvk#state-cache): [**Titanfall2.dxvk-cache**](https://github.com/begin-theadventure/dxvk-caches/blob/main/dxvk-caches/Titanfall/Titanfall%202/Titanfall2.dxvk-cache.md)
+However if you don't want to wait you can try precompiled DXVK [_state cache_](https://github.com/doitsujin/dxvk#state-cache): [**Titanfall2.dxvk-cache**](https://github.com/begin-theadventure/dxvk-caches/blob/v10/dxvk-caches/Titanfall/Titanfall%202/Titanfall2.dxvk-cache.md)
 
 Proton: extract and put it in `/path/to/steamapps/shadercache/1237970/DXVK_state_cache` default is `~/.local/share/..` or next to .exe if shader pre-caching is turned off.
 
@@ -137,7 +131,7 @@ It's also possible to create command aliases to type something short, such as tf
 
 ## Reshade adding incompatible DXVK version for Northstar
 
-If you ever used ReShade together with Titanfall2 in the past it will have created a bunch of DXVK DLLs that are incompatible with Northstar. If Northstar fails to fully initialize with an exeption and you have previously installed ReShade on Windows delete the following files from `Titanfall2/bin/x64_retail/`:
+If you ever used ReShade together with Titanfall2 in the past it will have created a bunch of DXVK DLLs that are incompatible with Northstar. If Northstar fails to fully initialize with an exception and you have previously installed ReShade on Windows delete the following files from `Titanfall2/bin/x64_retail/`:
 
 * D3D8.DLL
 * D3D9.DLL
@@ -145,3 +139,14 @@ If you ever used ReShade together with Titanfall2 in the past it will have creat
 * D3D11.DLL
 * OPENGL.DLL
 * DXGI.DLL
+
+## Archive
+
+{% hint style="info" %}
+The following issues should no longer occur in the latest Northstar releases.
+{% endhint %}
+
+### Blank console
+
+This issue has been resolved as of Northstar 1.9.2 and newer.
+
