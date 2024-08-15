@@ -25,6 +25,7 @@ This is a public server that anyone is welcome to join. As such, we expect every
 **14. Good manners.** This means strictly no topics that would divert or derail the current conversation being held, especially those of sexual innuendos.
 **15. No hating/flaming about moderation decisions**. If you want to discuss moderation decisions (bans, mutes, changes, ...) please open a staff only ticket in #help . Harassing a mod will get you banned.
 **16. Follow Discord ToS**. If Discord doesn't allow it, we won't allow it either.
+**17. No alts**. Alt accounts are not allowed. Note that as we cannot track everyone and their accounts we might miss some so we rely on your help for reporting.
 ──────────────────────────────────────────────────────────────────────────────────────────────────────
 
 **Ban Guidelines**
