@@ -52,5 +52,5 @@ For questions regarding Discord's Privacy Policy or Terms of Use, please refer t
 `Last Updated: 2024-08-15`
 <https://discord.gg/northstar>
 
-**If you have any issues regarding Northstar during your time playing or installing**, please open a support ticket in #⁠get-support-here. This channel is dedicated to helping users and should be used for this purpose instead of #⁠general and other similar chats.
+**If you have any issues regarding Northstar during your time playing or installing**, please open a support ticket in <#922663326994018366>. This channel is dedicated to helping users and should be used for this purpose instead of `#⁠general` and other similar chats.
 ```
