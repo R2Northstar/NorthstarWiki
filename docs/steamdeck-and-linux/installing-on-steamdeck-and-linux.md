@@ -14,7 +14,7 @@ NorthstarProton has some problems and may stop working at any point, if this hap
 
 On Steam Deck, complete the following in desktop mode. You may return to game mode once completed _(A mouse + keyboard plugged into the Deck are recommended for easier navigation of menus)_
 
-1. Make sure you ran the vanilla version of Titanfall 2 at least once on Linux!
+1. Make sure you ran the vanilla version of Titanfall2 at least once on Linux!
    * If Titanfall 2 fails to launch, you may have to delete the game's Proton prefix and reinstall using another version of Proton.
    1. To do this, head to `~/.local/share/Steam/steamapps/compatdata` if you installed Steam via a native package, or the Flatpak equivalent.
    2. Delete the folder named `1237970`
@@ -32,9 +32,9 @@ On Steam Deck, complete the following in desktop mode. You may return to game mo
    3. **Manual**: Download the latest release of [NorthstarProton](https://github.com/cyrv6737/NorthstarProton/releases/), extract it, and place the folder in one of the following directories:
       * **Steam (Native Package) & Steam Deck:** `~/.local/share/Steam/compatibilitytools.d`
       * **Steam (Flatpak):** `~/.var/app/com.valvesoftware.Steam/data/Steam/compatibilitytools.d/`
-5. Restart Steam. Head to `Properties -> Compatibility` under Titanfall2. Check `Force the use of a specific Steam Play compatibility tool` checkbox, then set the Steam Play compatibility tool to NorthstarProton.
-6. Add `%command% -northstar` as a [launch option](../installing-northstar/troubleshooting.md#launch-opts) to Titanfall2
-7. Launch Titanfall2, it should now launch Northstar
+4. Restart Steam. Head to `Properties -> Compatibility` under Titanfall2. Check `Force the use of a specific Steam Play compatibility tool` checkbox, then set the Steam Play compatibility tool to NorthstarProton.
+5. Add `%command% -northstar` as a [launch option](../installing-northstar/troubleshooting.md#launch-opts) to Titanfall2
+6. Launch Titanfall2, it should now launch Northstar
 
 Note that removing the `%command% -northstar` will cause Steam to launch the vanilla game again.
 
