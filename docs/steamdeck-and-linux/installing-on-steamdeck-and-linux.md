@@ -18,7 +18,7 @@ On Steam Deck, complete the following in desktop mode. You may return to game mo
    * If Titanfall 2 fails to launch, you may have to delete the game's Proton prefix and reinstall using another version of Proton.
    1. To do this, head to `~/.local/share/Steam/steamapps/compatdata` if you installed Steam via a native package, or the Flatpak equivalent.
    2. Delete the folder named `1237970`
-   3. Set Titanfall 2 to launch with Proton 6.3-8 or 7.0-6 in the _Properties_ -> _Compatibility_ section.
+   3. Set Titanfall 2 to launch with `Proton 6.3-8` or `Proton 7.0-6` in the _Properties_ -> _Compatibility_ section.
    4. Launch the game and allow the install to completely finish.
    5. Set Titanfall 2 to launch with a more current version of Proton, NorthstarProton, or Proton GE.
    6. If Titanfall 2 still fails to launch, delete the prefix again and try installing with the other version of Proton.
