@@ -5,7 +5,7 @@ The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDoc
 
 Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
 
-The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/development/repositories/northstarlauncher
+The same page on the new wiki should be located here: [https://docs.northstar.tf/Wiki/development/repositories/northstarlauncher](https://docs.northstar.tf/Wiki/development/repositories/northstarlauncher)
 
 {% endhint %}
 
