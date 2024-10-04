@@ -1,5 +1,14 @@
 # Troubleshooting
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/steamdeck-and-linux/linux-troubleshooting
+
+{% endhint %}
+
 ## Northstar not launching with Steam
 
 If you're encountering issues with Northstar launching on Steam, a very quick fix that usually works is deleting the compatdata for Titanfall2.

@@ -1,5 +1,14 @@
 # FlightCore Guide
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/installing-northstar/northstar-installers/flightcore-guide
+
+{% endhint %}
+
 FlightCore is a Northstar installer and mod manager which allows for installing, updating, and managing mods for the Northstar client made for Titanfall 2.
 
 Something to note is that FlightCore works on both Windows and Linux. The setup process is similar for both, except for the installation folder, and how you install FlightCore. 

@@ -1,5 +1,14 @@
 # Mods
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/using-northstar/mods
+
+{% endhint %}
+
 ![Northstar Mods](https://user-images.githubusercontent.com/7439692/146625579-20586c9e-2e23-4c5d-ba56-27b6eb1ffff4.jpg)
 
 ## Pre-installed mods

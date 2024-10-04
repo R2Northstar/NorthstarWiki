@@ -1,5 +1,14 @@
 # Rules
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/other/moderation/rules
+
+{% endhint %}
+
 This is a copy of the current list of rules on the Northstar Discord server.
 They are copied here for transparency reasons so any change to them can be tracked and easily observed.
 

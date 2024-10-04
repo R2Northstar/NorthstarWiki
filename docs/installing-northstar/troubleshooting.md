@@ -1,5 +1,14 @@
 # Troubleshooting
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/installing-northstar/troubleshooting
+
+{% endhint %}
+
 Generally try to first launch the vanilla game (i.e. not Northstar) if you encounter any issue and see if it also occurs there as well. Some problems can occur when the vanilla game was never launched before using Northstar.
 
 A lot of problems around the game failing to communicate with EA/Origin can also be prevented by launching EA/Origin before Northstar should you encounter any issues in that regard.

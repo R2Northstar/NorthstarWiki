@@ -1,5 +1,14 @@
 # Convars
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/hosting-a-server-with-northstar/server-settings/convars
+
+{% endhint %}
+
 Convars are located inside the `R2Northstar\mods\Northstar.CustomServers\mod\cfg\autoexec_ns_server.cfg` file.
 
 They allow the server admin to set server's properties like the name, port, and description.

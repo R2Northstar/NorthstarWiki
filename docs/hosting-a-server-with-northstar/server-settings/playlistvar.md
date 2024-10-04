@@ -1,6 +1,15 @@
 ### Playlist overrides
 
 {% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/hosting-a-server-with-northstar/server-settings/playlistvar
+
+{% endhint %}
+
+{% hint style="warning" %}
 Playlist overrides determines the behaviour of the server. PlaylistOverrides can be added using the `+setplaylistvaroverrides` argument in the `ns_startup_args_dedi.txt` file.
 
 The list of playlist overrides needs to be quoted and separated by spaces.\

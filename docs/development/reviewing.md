@@ -5,6 +5,15 @@ description: >-
   review in general.
 ---
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/development/reviewing
+
+{% endhint %}
+
 # Reviewing
 
 For new pull requests to be merged into any of the Northstar repos, they need to reviewed to reduce the changes of introducing bugs as well as ensuring that in case of a feature it's something the community actually wants.
