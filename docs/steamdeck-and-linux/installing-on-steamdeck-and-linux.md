@@ -54,15 +54,20 @@ If you're using an older version of NorthstarProton, replace the information abo
 
 ## Lutris (Wine)
 
-1. If you don't already have the game downloaded, install the game [from here.](https://lutris.net/games/titanfall-2/)
-2. Download the latest version of Northstar from the [releases](https://github.com/R2Northstar/Northstar/releases) page
-3. Extract all contents of the file to your Titanfall 2 folder
-4. **If you have the game installed on Lutris:** right click _Titanfall 2_ > _Configure_ > _Game Options_ > Set _Executable path_ to _NorthstarLauncher.exe_
-5. **Otherwise:** click the `+` button in the top left > set the name to whatever and _Runner_ to _Wine_ > click on _Game options_ > set _Executable path_ to _NorthstarLauncher.exe_ then save.
+1. If you don't already have the game downloaded, you can use [this Lutris script](https://github.com/begin-theadventure/lutris-scripts/tree/main/lutris-scripts/Northstar/EA%20App).
+2. Install the latest version of Northstar using [FlightCore](../installing-northstar/northstar-installers#geckoeidechse-flightcore), [Viper](../installing-northstar/northstar-installers#0negal-viper), or do it manually
+   1. For manual install, download the latest version of Northstar from the [releases](https://github.com/R2Northstar/Northstar/releases) page
+   2. Then extract all contents of the file to your Titanfall 2 folder ( Right click _Titanfall 2_ > Click _Browse files_ )
+3. Add `-northstar` as a [launch option](../installing-northstar/troubleshooting.md#launch-opts) to Titanfall2
+4. Disable in-game overlay: In EA App, click on the hamburger menu on the top left > Click _Settings_ > Click _Application_ > Toggle _in-game overlay_ to OFF. In Origin, it's not necessary to turn off overlay, but doing so improves performance.
 
-Now just launch the game through Lutris and you should be greeted with a Northstar welcome message upon entering the main menu.
+{% hint style="info" %}
+Alternatively, you can open the EA App and launch _NorthstarLauncher.exe_ via _Run EXE inside Wine prefix_ and the in-game overlay will work, after several errors. However, the playtime won't be logged in the EA App.
+{% endhint %}
 
-> **Note:** Origin might prompt you to log in and "set an installation folder for future downloads" on first launch. Just do those, close Origin, then launch the game again.
+Now just launch the EA App/Origin through Lutris, open the game and you should be greeted with a Northstar welcome message upon entering the main menu.
+
+> **Note:** If using Origin, it might prompt you to log in and "set an installation folder for future downloads" on first launch. Just do those, close Origin, then launch the game again.
 
 ## LatencyFleX
 
