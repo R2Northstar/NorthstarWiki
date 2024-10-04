@@ -1,5 +1,11 @@
 # Northstar Wiki Repo
 
+> [!WARNING]  
+> The GitBook based NorthstarWiki has been deprecated in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+> 
+> Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+> The source for the NorthstarDocs can be found here: [https://github.com/R2Northstar/NorthstarDocs](https://github.com/R2Northstar/NorthstarDocs)
+
 This repo contains documentation around the [Northstar mod](https://github.com/R2Northstar), a Titanfall 2 mod to join and host custom community servers.
 
 The `docs/` directory contains the content synchronised to the [GitBook Wiki page](https://r2northstar.gitbook.io/).
