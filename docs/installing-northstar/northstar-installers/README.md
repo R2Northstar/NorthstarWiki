@@ -1,5 +1,14 @@
 # Northstar Installers
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/installing-northstar/northstar-installers/
+
+{% endhint %}
+
 Since the public release of Northstar, the wider community has created tools to automate mod installation, as well as adding additional features such as auto-updating the current Northstar install and mod management.
 
 Each of these installers covers a different use case. Use the table below to find out which one suits you best:

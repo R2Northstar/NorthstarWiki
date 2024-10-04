@@ -1,5 +1,14 @@
 # Playing vanilla Titanfall 2 via Northstar
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/using-northstar/vanilla
+
+{% endhint %}
+
 While Northstar comes pre-packaged with mods to support community servers and custom content, some users may not want all of this.
 Northstar can also be used to load mods on vanilla more easily and with more stability than vpk modding, and can sometimes help when the game doesn't want to launch at all.
 

@@ -1,5 +1,14 @@
 ## Startup Arguments
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/hosting-a-server-with-northstar/server-settings/startup-args
+
+{% endhint %}
+
 Startup arguments can be added in the `ns_startup_args_dedi.txt` file.\
 Example: `+setplaylist private_match +mp_gamemode ps`
 

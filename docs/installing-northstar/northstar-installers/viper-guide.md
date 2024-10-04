@@ -1,5 +1,14 @@
 # Viper Guide
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/installing-northstar/northstar-installers/viper-guide
+
+{% endhint %}
+
 Viper is a mod manager/installer for Northstar, a community made mod for Titanfall 2, that automatically updates mods and Northstar versions.
 
 Similar to FlightCore, Viper works on both Windows and Linux and has similar use cases, mostly differing in downloading Viper.

@@ -1,6 +1,15 @@
 # Advanced Options
 
 {% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/using-northstar/advanced
+
+{% endhint %}
+
+{% hint style="warning" %}
 This is a section detailing the more advanced parts of using Northstar, with some of them having a chance to potentially mess with your game. Setting your level too high, for example, will lock you out of Northstar's multiplayer until you reset your entire player stats, progress, and loadouts.
 {% endhint %}
 

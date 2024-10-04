@@ -1,5 +1,14 @@
 # Direct Connect
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/using-northstar/direct-connect
+
+{% endhint %}
+
 If a server is set to private and doesn't show up in the server browser, you can directly connect to it from the console by:
 
 1. [Opening the console](commands.md#opening-the-console).

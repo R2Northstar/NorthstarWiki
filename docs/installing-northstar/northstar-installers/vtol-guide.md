@@ -1,5 +1,14 @@
 # VTOL Guide
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/installing-northstar/northstar-installers/vtol-guide
+
+{% endhint %}
+
 VTOL is a mod manager for installing and managing mods for the Northstar client made for Titanfall 2.
 
 VTOL works on Windows only and you can find links to download it on [Northstar's website](https://northstar.tf) or [VTOL's GitHub repo](https://github.com/R2NorthstarTools/VTOL).

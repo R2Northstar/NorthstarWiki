@@ -1,5 +1,14 @@
 # Basic Setup
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/installing-northstar/basic-setup
+
+{% endhint %}
+
 ## Installing Northstar using an installer (recommended):
 
 Head over to the installer page and pick one of the existing installers. All of these take care of both installing and updating Northstar.

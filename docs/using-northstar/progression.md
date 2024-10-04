@@ -1,5 +1,14 @@
 # Progression
 
+{% hint style="warning" %}
+The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDocs](https://docs.northstar.tf/) where this wiki has been integrated.
+
+Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
+
+The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/using-northstar/progression
+
+{% endhint %}
+
 As of version `1.19.0` Northstar allows you to toggle the progression system.
 This means that you can choose whether to have everything unlocked or not.
 By default progression is disabled and all weapons and skins are unlocked.
