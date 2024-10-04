@@ -5,7 +5,7 @@ The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDoc
 
 Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
 
-The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/other/moderation/
+The same page on the new wiki should be located here: [https://docs.northstar.tf/Wiki/other/moderation/](https://docs.northstar.tf/Wiki/other/moderation/)
 
 {% endhint %}
 

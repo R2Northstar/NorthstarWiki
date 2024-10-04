@@ -10,7 +10,7 @@ The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDoc
 
 Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
 
-The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/development/reviewing
+The same page on the new wiki should be located here: [https://docs.northstar.tf/Wiki/development/reviewing](https://docs.northstar.tf/Wiki/development/reviewing)
 
 {% endhint %}
 

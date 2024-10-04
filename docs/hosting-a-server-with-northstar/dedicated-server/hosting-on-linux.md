@@ -5,7 +5,7 @@ The GitBook based NorthstarWiki has been replaced in favour of the [NorthstarDoc
 
 Check it out here: [https://docs.northstar.tf/Wiki/](https://docs.northstar.tf/Wiki/)
 
-The same page on the new wiki should be located here: https://docs.northstar.tf/Wiki/hosting-a-server-with-northstar/dedicated-server/hosting-on-linux
+The same page on the new wiki should be located here: [https://docs.northstar.tf/Wiki/hosting-a-server-with-northstar/dedicated-server/hosting-on-linux](https://docs.northstar.tf/Wiki/hosting-a-server-with-northstar/dedicated-server/hosting-on-linux)
 
 {% endhint %}
 
